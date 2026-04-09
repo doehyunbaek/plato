@@ -139,6 +139,39 @@ function scrollToPage(pageId) {
   }
 }
 
+function currentPageFromScroll() {
+  if (state.query.trim()) return state.currentPage;
+
+  const threshold = 140;
+  let currentSectionId = null;
+
+  for (const section of data.sections) {
+    const element = document.getElementById(`section-${section.id}`);
+    if (!element) continue;
+    if (element.getBoundingClientRect().top <= threshold) {
+      currentSectionId = section.id;
+    } else {
+      break;
+    }
+  }
+
+  if (!currentSectionId) {
+    return data.sections[0]?.page ?? state.currentPage;
+  }
+
+  return sectionById.get(currentSectionId)?.page ?? state.currentPage;
+}
+
+function syncPageSelectionFromScroll() {
+  const scrolledPage = currentPageFromScroll();
+  if (scrolledPage === state.currentPage) return;
+
+  state.currentPage = scrolledPage;
+  persistState();
+  renderPageList();
+  updatePageButtons();
+}
+
 function clearHighlightClasses() {
   sectionsEl
     .querySelectorAll(".phrase.is-active, .phrase.is-linked")
@@ -371,6 +404,17 @@ function render() {
   updatePageButtons();
 }
 
+let scrollSyncScheduled = false;
+
+function scheduleScrollSync() {
+  if (scrollSyncScheduled) return;
+  scrollSyncScheduled = true;
+  window.requestAnimationFrame(() => {
+    scrollSyncScheduled = false;
+    syncPageSelectionFromScroll();
+  });
+}
+
 searchInputEl.addEventListener("input", (event) => {
   state.query = event.target.value;
   clearHighlightState();
@@ -490,6 +534,12 @@ window.addEventListener("storage", (event) => {
   }
 });
 
+window.addEventListener("scroll", scheduleScrollSync, { passive: true });
+window.addEventListener("resize", scheduleScrollSync);
+
 persistState();
 render();
-requestAnimationFrame(() => scrollToPage(state.currentPage));
+requestAnimationFrame(() => {
+  scrollToPage(state.currentPage);
+  scheduleScrollSync();
+});
