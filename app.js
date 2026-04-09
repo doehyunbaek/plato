@@ -62,8 +62,21 @@ function currentSections() {
     return data.sections.filter((section) => matchesQuery(section, state.query));
   }
 
-  const ids = sectionsByPage.get(state.currentPage) ?? [];
-  return ids.map((id) => sectionById.get(id)).filter(Boolean);
+  return data.sections;
+}
+
+function firstSectionIdForPage(pageId) {
+  return sectionsByPage.get(pageId)?.[0] ?? null;
+}
+
+function scrollToPage(pageId) {
+  const firstSectionId = firstSectionIdForPage(pageId);
+  if (!firstSectionId) return;
+
+  const target = document.getElementById(`section-${firstSectionId}`);
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }
 
 function clearHighlightClasses() {
@@ -182,15 +195,20 @@ function renderPageList() {
   pageIds.forEach((pageId) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = `page-button${pageId === state.currentPage && !state.query.trim() ? " active" : ""}`;
+    button.className = `page-button${pageId === state.currentPage ? " active" : ""}`;
     button.textContent = pageId;
     button.dataset.page = pageId;
     button.addEventListener("click", () => {
       state.currentPage = pageId;
-      state.query = "";
-      searchInputEl.value = "";
       clearHighlightState();
-      render();
+      renderPageList();
+      if (state.query.trim()) {
+        state.query = "";
+        searchInputEl.value = "";
+        renderSections();
+      }
+      updatePageButtons();
+      requestAnimationFrame(() => scrollToPage(pageId));
     });
     pageListEl.appendChild(button);
   });
@@ -205,11 +223,8 @@ function renderSummary(sections) {
     viewSubtitleEl.textContent = `${sections.length} matching section${sections.length === 1 ? "" : "s"} across Greek and all translations.`;
     searchSummaryEl.textContent = `${sections.length} result${sections.length === 1 ? "" : "s"}`;
   } else {
-    const ids = sections.map((section) => section.id);
-    viewTitleEl.textContent = `Stephanus ${state.currentPage}`;
-    viewSubtitleEl.textContent = ids.length
-      ? `Showing ${ids.join(", ")} in Greek + ${selectedLanguage.label}. Hover phrases for approximate cross-language alignment.`
-      : "No sections available for this page.";
+    viewTitleEl.textContent = "Entire dialogue";
+    viewSubtitleEl.textContent = `Showing all Stephanus sections in Greek + ${selectedLanguage.label}. Use the page buttons to jump within the text.`;
     searchSummaryEl.textContent = data.meta.alignmentNote;
   }
 
@@ -261,7 +276,14 @@ prevPageEl.addEventListener("click", () => {
   if (index > 0) {
     state.currentPage = pageIds[index - 1];
     clearHighlightState();
-    render();
+    renderPageList();
+    updatePageButtons();
+    if (state.query.trim()) {
+      state.query = "";
+      searchInputEl.value = "";
+      renderSections();
+    }
+    requestAnimationFrame(() => scrollToPage(state.currentPage));
   }
 });
 
@@ -270,7 +292,14 @@ nextPageEl.addEventListener("click", () => {
   if (index >= 0 && index < pageIds.length - 1) {
     state.currentPage = pageIds[index + 1];
     clearHighlightState();
-    render();
+    renderPageList();
+    updatePageButtons();
+    if (state.query.trim()) {
+      state.query = "";
+      searchInputEl.value = "";
+      renderSections();
+    }
+    requestAnimationFrame(() => scrollToPage(state.currentPage));
   }
 });
 
@@ -278,6 +307,7 @@ clearSearchEl.addEventListener("click", () => {
   state.query = "";
   searchInputEl.value = "";
   render();
+  requestAnimationFrame(() => scrollToPage(state.currentPage));
 });
 
 clearHighlightEl.addEventListener("click", () => {
