@@ -1,6 +1,6 @@
 # Multilingual Plato reading
 
-A client-side web app for reading Plato's *Symposium* in Greek and English.
+A client-side web app for reading Plato's *Symposium* in Greek with machine-generated translations.
 
 ## Features
 
@@ -8,7 +8,7 @@ A client-side web app for reading Plato's *Symposium* in Greek and English.
 - Entire dialogue rendered at once by default
 - Stephanus page jump navigation
 - Approximate phrase-level hover alignment
-- Client-side search across Greek and all loaded translations
+- Client-side search across the currently displayed languages
 - Static files only
 
 ## Run locally
@@ -27,5 +27,6 @@ See `COPYRIGHT.md`.
 
 ## Translation note
 
-- English uses the public-domain W. R. M. Lamb translation.
-- German, Korean, and Japanese are machine-generated from the English source during `scripts/build_data.py` and should be treated as convenience translations.
+- Greek is the single source of truth.
+- English, German, Korean, and Japanese are machine-generated directly from the Greek source during `scripts/build_data.py`.
+- These translations are convenience translations and should not be treated as scholarly editions.

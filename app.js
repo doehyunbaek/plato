@@ -283,12 +283,12 @@ function renderSummary(sections) {
     searchSummaryEl.textContent = data.meta.alignmentNote;
   }
 
-  const base = "Greek text from Greek Wikisource. English translation from W. R. M. Lamb (1925).";
+  const base = "Greek text from Greek Wikisource.";
   if (!machineLanguages.length) {
     infoBannerCopyEl.textContent = `${base} Phrase alignment is approximate and intended as a reading aid.`;
   } else {
     const machineNames = machineLanguages.map((lang) => lang.label).join(", ");
-    infoBannerCopyEl.textContent = `${base} ${machineNames} ${machineLanguages.length === 1 ? "is" : "are"} machine-generated from the English source. Phrase alignment is approximate and intended as a reading aid.`;
+    infoBannerCopyEl.textContent = `${base} ${machineNames} ${machineLanguages.length === 1 ? "is" : "are"} machine-generated directly from the Greek source. Phrase alignment is approximate and intended as a reading aid.`;
   }
 }
 

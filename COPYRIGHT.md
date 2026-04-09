@@ -5,7 +5,7 @@ This repository mixes original app code with reused source texts.
 ## File-level overview
 
 - `index.html`, `styles.css`, `app.js`, `scripts/build_data.py`: MIT-licensed original code.
-- `data/symposium.json`, `data/symposium-data.js`: mixed-content data files built from third-party texts plus new normalization/alignment metadata and generated German/Korean/Japanese translations.
+- `data/symposium.json`, `data/symposium-data.js`: mixed-content data files built from the Greek source text plus new normalization/alignment metadata and generated English/German/Korean/Japanese translations.
 - `data/translation-cache.json`: build cache for generated translations.
 
 ## Greek text
@@ -25,28 +25,12 @@ Conservative reuse approach used here:
 
 License URL: https://creativecommons.org/licenses/by-sa/4.0/
 
-## English translation
-
-English translation source:
-
-- TEI source: https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0059/tlg011/tlg0059.tlg011.perseus-eng2.xml
-- Raw XML: https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0059/tlg011/tlg0059.tlg011.perseus-eng2.xml
-- Translator: Walter Rangeley Maitland Lamb
-- Edition: *Plato in Twelve Volumes*, Vol. 3 (1925)
-
-This project uses the Lamb translation because the TEI markup preserves Stephanus section boundaries, which makes client-side Greek/English alignment possible.
-
-Copyright note used here:
-
-- The 1925 translation is treated as public domain in the United States.
-- If you deploy or redistribute outside the United States, verify local copyright status before reuse.
-
 ## Machine-generated translations
 
-This repository also includes German, Korean, and Japanese translations generated during the build step.
+This repository also includes English, German, Korean, and Japanese translations generated during the build step.
 
-- Source for generation: the Lamb English translation described above.
-- Build method: phrase-by-phrase machine translation using an online translation service endpoint from within `scripts/build_data.py`.
+- Single source of truth: the Greek Wikisource text described above.
+- Build method: phrase-by-phrase machine translation directly from the Greek source using an online translation service endpoint from within `scripts/build_data.py`.
 - These translations are provided as convenience reading aids only.
 - They may contain inaccuracies, awkward phrasing, or interpretation errors.
 - If you regenerate them yourself, you are responsible for checking any service terms that apply at build time.
@@ -59,12 +43,12 @@ New material includes:
 - build scripts,
 - source cleanup/normalization,
 - sectioning metadata,
-- approximate phrase-level Greek↔English alignment metadata,
-- generated German/Korean/Japanese phrase-level translations derived from the English source.
+- approximate phrase-level Greek↔translation alignment metadata,
+- generated English/German/Korean/Japanese phrase-level translations derived directly from the Greek source.
 
 Because the alignment metadata is distributed together with and derived in part from the CC BY-SA Greek text, the generated data files should be reused conservatively under CC BY-SA 4.0 or later.
 
 ## Practical summary
 
 - **Code**: MIT
-- **Generated bilingual data**: conservatively treat as **CC BY-SA 4.0** (plus the jurisdiction note above for the Lamb translation)
+- **Generated multilingual data**: conservatively treat as **CC BY-SA 4.0**
