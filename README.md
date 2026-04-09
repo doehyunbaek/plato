@@ -30,3 +30,7 @@ See `COPYRIGHT.md`.
 - Greek is the single source of truth.
 - English, German, Korean, and Japanese are machine-generated directly from the Greek source during `scripts/build_data.py`.
 - These translations are convenience translations and should not be treated as scholarly editions.
+
+## Development history
+
+Unless noted otherwise, all development was done by [pi-agent](https://github.com/badlogic/pi-mono) with [GPT-5.4 xhigh](https://openai.com/index/introducing-gpt-5-4/) with commit message as the prompt.
