@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plato — Symposium Reader</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <p class="eyebrow">Bilingual Plato</p>
+          <h1>Symposium</h1>
+          <p class="sidebar-copy">
+            Read Plato side by side in Greek and English, organized by Stephanus reference.
+          </p>
+        </div>
+
+        <div class="sidebar-controls">
+          <label class="search-label" for="search-input">Search Greek, English, or Stephanus</label>
+          <input id="search-input" type="search" placeholder="e.g. 210a, ἔρως, love" />
+          <p id="search-summary" class="search-summary"></p>
+        </div>
+
+        <nav class="page-nav" aria-label="Stephanus pages">
+          <div class="page-nav-header">
+            <h2>Pages</h2>
+            <div class="page-actions">
+              <button id="prev-page" type="button">←</button>
+              <button id="next-page" type="button">→</button>
+            </div>
+          </div>
+          <div id="page-list" class="page-list"></div>
+        </nav>
+
+        <details class="sidebar-details" open>
+          <summary>How to use</summary>
+          <ul>
+            <li>Choose a Stephanus page from the left.</li>
+            <li>Hover a phrase to highlight the approximate matching phrase on the other side.</li>
+            <li>Click a phrase to lock the highlight; click again to clear it.</li>
+            <li>Use search to find passages across the whole dialogue.</li>
+          </ul>
+        </details>
+      </aside>
+
+      <main class="main-content">
+        <header class="main-header">
+          <div>
+            <p class="eyebrow">Plato · Symposium</p>
+            <h2 id="view-title">Stephanus 172</h2>
+            <p id="view-subtitle" class="view-subtitle"></p>
+          </div>
+          <div class="header-actions">
+            <button id="clear-search" type="button" class="secondary">Clear search</button>
+            <button id="clear-highlight" type="button" class="secondary">Clear highlight</button>
+          </div>
+        </header>
+
+        <section class="info-banner">
+          <p>
+            Greek text from Greek Wikisource. English translation from W. R. M. Lamb (1925). Phrase alignment is approximate and intended as a reading aid.
+          </p>
+        </section>
+
+        <section id="sections" class="sections" aria-live="polite"></section>
+
+        <footer class="site-footer">
+          <details>
+            <summary>Sources and copyright</summary>
+            <div class="footer-copy">
+              <p>
+                Greek source: <a href="https://el.wikisource.org/wiki/%CE%A3%CF%85%CE%BC%CF%80%CF%8C%CF%83%CE%B9%CE%BF%CE%BD_(%CE%A0%CE%BB%CE%AC%CF%84%CF%89%CE%BD)" target="_blank" rel="noreferrer">Greek Wikisource, Συμπόσιον (Πλάτων)</a>
+                and its
+                <a href="https://el.wikisource.org/w/index.php?title=%CE%A3%CF%85%CE%BC%CF%80%CF%8C%CF%83%CE%B9%CE%BF%CE%BD_(%CE%A0%CE%BB%CE%AC%CF%84%CF%89%CE%BD)&action=history" target="_blank" rel="noreferrer">page history</a>;
+                reused under CC BY-SA 4.0.
+              </p>
+              <p>
+                English source: <a href="https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0059/tlg011/tlg0059.tlg011.perseus-eng2.xml" target="_blank" rel="noreferrer">PerseusDL TEI</a>,
+                Plato, <em>Symposium</em>, trans. W. R. M. Lamb (1925). Treated here as public domain in the United States; verify local copyright status before wider redistribution outside the U.S.
+              </p>
+              <p>
+                This app normalizes whitespace, splits the texts into Stephanus sections, and adds approximate phrase-level alignment metadata. See <a href="COPYRIGHT.md">COPYRIGHT.md</a> for details.
+              </p>
+            </div>
+          </details>
+        </footer>
+      </main>
+    </div>
+
+    <script src="data/symposium-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

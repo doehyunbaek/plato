@@ -1,0 +1,20733 @@
+window.SYMPOSIUM_DATA = {
+  "meta": {
+    "title": "Plato — Symposium",
+    "subtitle": "Greek from Greek Wikisource; English translation from W. R. M. Lamb (1925)",
+    "builtAt": "2026-04-09",
+    "alignmentNote": "Phrase alignment is approximate and order-preserving. It is intended as a reading aid, not as a formal interlinear translation.",
+    "modifications": [
+      "Normalized whitespace and removed source markup.",
+      "Split both texts into Stephanus sections (172a–223d).",
+      "Added approximate phrase-level alignment metadata for hover highlighting."
+    ],
+    "greekSource": {
+      "label": "Greek Wikisource — Συμπόσιον (Πλάτων)",
+      "url": "https://el.wikisource.org/wiki/%CE%A3%CF%85%CE%BC%CF%80%CF%8C%CF%83%CE%B9%CE%BF%CE%BD_(%CE%A0%CE%BB%CE%AC%CF%84%CF%89%CE%BD)",
+      "historyUrl": "https://el.wikisource.org/w/index.php?title=%CE%A3%CF%85%CE%BC%CF%80%CF%8C%CF%83%CE%B9%CE%BF%CE%BD_(%CE%A0%CE%BB%CE%AC%CF%84%CF%89%CE%BD)&action=history",
+      "rawUrl": "https://el.wikisource.org/w/index.php?title=%CE%A3%CF%85%CE%BC%CF%80%CF%8C%CF%83%CE%B9%CE%BF%CE%BD_(%CE%A0%CE%BB%CE%AC%CF%84%CF%89%CE%BD)&action=raw",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "englishSource": {
+      "label": "PerseusDL TEI — Plato, Symposium, trans. W. R. M. Lamb",
+      "url": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0059/tlg011/tlg0059.tlg011.perseus-eng2.xml",
+      "rawUrl": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0059/tlg011/tlg0059.tlg011.perseus-eng2.xml",
+      "translator": "Walter Rangeley Maitland Lamb",
+      "edition": "Plato in Twelve Volumes, Vol. 3 (1925)",
+      "rightsNote": "Treated here as a public-domain English translation in the United States. Check local copyright law before wider redistribution outside the U.S."
+    }
+  },
+  "pages": [
+    {
+      "id": "172",
+      "sectionIds": [
+        "172a",
+        "172b",
+        "172c"
+      ]
+    },
+    {
+      "id": "173",
+      "sectionIds": [
+        "173a",
+        "173b",
+        "173c",
+        "173d",
+        "173e"
+      ]
+    },
+    {
+      "id": "174",
+      "sectionIds": [
+        "174a",
+        "174b",
+        "174c",
+        "174d",
+        "174e"
+      ]
+    },
+    {
+      "id": "175",
+      "sectionIds": [
+        "175a",
+        "175b",
+        "175c",
+        "175d",
+        "175e"
+      ]
+    },
+    {
+      "id": "176",
+      "sectionIds": [
+        "176a",
+        "176b",
+        "176c",
+        "176d",
+        "176e"
+      ]
+    },
+    {
+      "id": "177",
+      "sectionIds": [
+        "177a",
+        "177b",
+        "177c",
+        "177d",
+        "177e"
+      ]
+    },
+    {
+      "id": "178",
+      "sectionIds": [
+        "178a",
+        "178b",
+        "178c",
+        "178d",
+        "178e"
+      ]
+    },
+    {
+      "id": "179",
+      "sectionIds": [
+        "179a",
+        "179b",
+        "179c",
+        "179d",
+        "179e"
+      ]
+    },
+    {
+      "id": "180",
+      "sectionIds": [
+        "180a",
+        "180b",
+        "180c",
+        "180d",
+        "180e"
+      ]
+    },
+    {
+      "id": "181",
+      "sectionIds": [
+        "181a",
+        "181b",
+        "181c",
+        "181d",
+        "181e"
+      ]
+    },
+    {
+      "id": "182",
+      "sectionIds": [
+        "182a",
+        "182b",
+        "182c",
+        "182d",
+        "182e"
+      ]
+    },
+    {
+      "id": "183",
+      "sectionIds": [
+        "183a",
+        "183b",
+        "183c",
+        "183d",
+        "183e"
+      ]
+    },
+    {
+      "id": "184",
+      "sectionIds": [
+        "184a",
+        "184b",
+        "184c",
+        "184d",
+        "184e"
+      ]
+    },
+    {
+      "id": "185",
+      "sectionIds": [
+        "185a",
+        "185b",
+        "185c",
+        "185d",
+        "185e"
+      ]
+    },
+    {
+      "id": "186",
+      "sectionIds": [
+        "186a",
+        "186b",
+        "186c",
+        "186d",
+        "186e"
+      ]
+    },
+    {
+      "id": "187",
+      "sectionIds": [
+        "187a",
+        "187b",
+        "187c",
+        "187d",
+        "187e"
+      ]
+    },
+    {
+      "id": "188",
+      "sectionIds": [
+        "188a",
+        "188b",
+        "188c",
+        "188d",
+        "188e"
+      ]
+    },
+    {
+      "id": "189",
+      "sectionIds": [
+        "189a",
+        "189b",
+        "189c",
+        "189d",
+        "189e"
+      ]
+    },
+    {
+      "id": "190",
+      "sectionIds": [
+        "190a",
+        "190b",
+        "190c",
+        "190d",
+        "190e"
+      ]
+    },
+    {
+      "id": "191",
+      "sectionIds": [
+        "191a",
+        "191b",
+        "191c",
+        "191d",
+        "191e"
+      ]
+    },
+    {
+      "id": "192",
+      "sectionIds": [
+        "192a",
+        "192b",
+        "192c",
+        "192d",
+        "192e"
+      ]
+    },
+    {
+      "id": "193",
+      "sectionIds": [
+        "193a",
+        "193b",
+        "193c",
+        "193d",
+        "193e"
+      ]
+    },
+    {
+      "id": "194",
+      "sectionIds": [
+        "194a",
+        "194b",
+        "194c",
+        "194d",
+        "194e"
+      ]
+    },
+    {
+      "id": "195",
+      "sectionIds": [
+        "195a",
+        "195b",
+        "195c",
+        "195d",
+        "195e"
+      ]
+    },
+    {
+      "id": "196",
+      "sectionIds": [
+        "196a",
+        "196b",
+        "196c",
+        "196d",
+        "196e"
+      ]
+    },
+    {
+      "id": "197",
+      "sectionIds": [
+        "197a",
+        "197b",
+        "197c",
+        "197d",
+        "197e"
+      ]
+    },
+    {
+      "id": "198",
+      "sectionIds": [
+        "198a",
+        "198b",
+        "198c",
+        "198d",
+        "198e"
+      ]
+    },
+    {
+      "id": "199",
+      "sectionIds": [
+        "199a",
+        "199b",
+        "199c",
+        "199d",
+        "199e"
+      ]
+    },
+    {
+      "id": "200",
+      "sectionIds": [
+        "200a",
+        "200b",
+        "200c",
+        "200d",
+        "200e"
+      ]
+    },
+    {
+      "id": "201",
+      "sectionIds": [
+        "201a",
+        "201b",
+        "201c",
+        "201d",
+        "201e"
+      ]
+    },
+    {
+      "id": "202",
+      "sectionIds": [
+        "202a",
+        "202b",
+        "202c",
+        "202d",
+        "202e"
+      ]
+    },
+    {
+      "id": "203",
+      "sectionIds": [
+        "203a",
+        "203b",
+        "203c",
+        "203d",
+        "203e"
+      ]
+    },
+    {
+      "id": "204",
+      "sectionIds": [
+        "204a",
+        "204b",
+        "204c",
+        "204d",
+        "204e"
+      ]
+    },
+    {
+      "id": "205",
+      "sectionIds": [
+        "205a",
+        "205b",
+        "205c",
+        "205d",
+        "205e"
+      ]
+    },
+    {
+      "id": "206",
+      "sectionIds": [
+        "206a",
+        "206b",
+        "206c",
+        "206d",
+        "206e"
+      ]
+    },
+    {
+      "id": "207",
+      "sectionIds": [
+        "207a",
+        "207b",
+        "207c",
+        "207d",
+        "207e"
+      ]
+    },
+    {
+      "id": "208",
+      "sectionIds": [
+        "208a",
+        "208b",
+        "208c",
+        "208d",
+        "208e"
+      ]
+    },
+    {
+      "id": "209",
+      "sectionIds": [
+        "209a",
+        "209b",
+        "209c",
+        "209d",
+        "209e"
+      ]
+    },
+    {
+      "id": "210",
+      "sectionIds": [
+        "210a",
+        "210b",
+        "210c",
+        "210d",
+        "210e"
+      ]
+    },
+    {
+      "id": "211",
+      "sectionIds": [
+        "211a",
+        "211b",
+        "211c",
+        "211d",
+        "211e"
+      ]
+    },
+    {
+      "id": "212",
+      "sectionIds": [
+        "212a",
+        "212b",
+        "212c",
+        "212d",
+        "212e"
+      ]
+    },
+    {
+      "id": "213",
+      "sectionIds": [
+        "213a",
+        "213b",
+        "213c",
+        "213d",
+        "213e"
+      ]
+    },
+    {
+      "id": "214",
+      "sectionIds": [
+        "214a",
+        "214b",
+        "214c",
+        "214d",
+        "214e"
+      ]
+    },
+    {
+      "id": "215",
+      "sectionIds": [
+        "215a",
+        "215b",
+        "215c",
+        "215d",
+        "215e"
+      ]
+    },
+    {
+      "id": "216",
+      "sectionIds": [
+        "216a",
+        "216b",
+        "216c",
+        "216d",
+        "216e"
+      ]
+    },
+    {
+      "id": "217",
+      "sectionIds": [
+        "217a",
+        "217b",
+        "217c",
+        "217d",
+        "217e"
+      ]
+    },
+    {
+      "id": "218",
+      "sectionIds": [
+        "218a",
+        "218b",
+        "218c",
+        "218d",
+        "218e"
+      ]
+    },
+    {
+      "id": "219",
+      "sectionIds": [
+        "219a",
+        "219b",
+        "219c",
+        "219d",
+        "219e"
+      ]
+    },
+    {
+      "id": "220",
+      "sectionIds": [
+        "220a",
+        "220b",
+        "220c",
+        "220d",
+        "220e"
+      ]
+    },
+    {
+      "id": "221",
+      "sectionIds": [
+        "221a",
+        "221b",
+        "221c",
+        "221d",
+        "221e"
+      ]
+    },
+    {
+      "id": "222",
+      "sectionIds": [
+        "222a",
+        "222b",
+        "222c",
+        "222d",
+        "222e"
+      ]
+    },
+    {
+      "id": "223",
+      "sectionIds": [
+        "223a",
+        "223b",
+        "223c",
+        "223d"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "172a",
+      "page": "172",
+      "order": 0,
+      "greek": "Δοκῶ μοι περὶ ὧν πυνθάνεσθε οὐκ ἀμελέτητος εἶναι· καὶ γὰρ ἐτύγχανον πρώην εἰς ἄστυ οἴκοθεν ἀνιὼν Φαληρόθεν· τῶν οὖν γνωρίμων τις ὄπισθεν κατιδών με πόῤῥωθεν ἐκάλεσε, καὶ παίζων ἅμα τῇ κλήσει· Ὦ Φαληρεύς, ἔφη, οὗτος Ἀπολλόδωρος, οὐ περιμένεις; κἀγὼ ἐπιστὰς περιέμεινα· καὶ ὅς· Ἀπολλόδωρε, ἔφη, καὶ μὴν καὶ ἔναγχός σε ἐζήτουν βουλόμενος διαπυθέσθαι τὴν Ἀγάθωνος συνουσίαν",
+      "english": "I believe I have got the story you inquire of pretty well by heart. The day before yesterday I chanced to be going up to town from my house in Phalerum, when one of my acquaintance caught sight of me from behind, some way off, and called in a bantering tone Hullo, Phalerian! I say, Apollodorus, wait a moment. So I stopped and waited. Then, Apollodorus, he said, do you know, I have just been looking for you, as I want to hear all about the banquet that brought together Agathon",
+      "greekPhrases": [
+        {
+          "text": "Δοκῶ μοι περὶ ὧν πυνθάνεσθε οὐκ ἀμελέτητος εἶναι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ γὰρ ἐτύγχανον πρώην εἰς ἄστυ οἴκοθεν ἀνιὼν Φαληρόθεν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τῶν οὖν γνωρίμων τις ὄπισθεν κατιδών με πόῤῥωθεν ἐκάλεσε, καὶ παίζων ἅμα τῇ κλήσει·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Ὦ Φαληρεύς, ἔφη, οὗτος Ἀπολλόδωρος, οὐ περιμένεις; κἀγὼ ἐπιστὰς περιέμεινα· καὶ ὅς·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ἀπολλόδωρε, ἔφη, καὶ μὴν καὶ ἔναγχός σε ἐζήτουν βουλόμενος διαπυθέσθαι τὴν Ἀγάθωνος συνουσίαν",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "I believe I have got the story you inquire of pretty well by heart.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "The day before yesterday I chanced to be going up to town from my house in Phalerum, when one",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "of my acquaintance caught sight of me from behind, some way off, and called in a bantering tone Hullo, Phalerian!",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "I say, Apollodorus, wait a moment.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "So I stopped and waited.",
+          "mapsTo": []
+        },
+        {
+          "text": "Then, Apollodorus, he said, do you know, I have just been looking for you, as I want to hear all about the banquet that brought together Agathon",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "172b",
+      "page": "172",
+      "order": 1,
+      "greek": "καὶ Σωκράτους καὶ Ἀλκιβιάδου καὶ τῶν ἄλλων τῶν τότε ἐν τῷ συνδείπνῳ παραγενομένων, περὶ τῶν ἐρωτικῶν λόγων τίνες ἦσαν· ἄλλος γάρ τίς μοι διηγεῖτο ἀκηκοὼς Φοίνικος τοῦ Φιλίππου· ἔφη δὲ καὶ σὲ εἰδέναι. ἀλλὰ γὰρ οὐδὲν εἶχε σαφὲς λέγειν· σὺ οὖν μοι διήγησαι· δικαιότατος γὰρ εἶ τοὺς τοῦ ἑταίρου λόγους ἀπαγγέλλειν· πρότερον δέ μοι, ἦ δ᾽ ὅς, εἰπέ· σὺ αὐτὸς παρεγένου τῇ συνουσίᾳ ταύτῃ ἢ οὔ; κἀγὼ εἶπον ὅτι· Παντάπασιν ἔοικέ σοι οὐδὲν διηγεῖσθαι",
+      "english": "and Socrates and Alcibiades and the rest of that party, and what were the speeches they delivered upon love. For somebody else was relating to me the account he had from Phoenix, son of Philip, and he mentioned that you knew it too. But he could not tell it at all clearly so you must give me the whole story, for you are the most proper reporter of your dear friend’s discourses. But first tell me this, he went on; were you at that party yourself, or not? To which my answer was: You have had anything but",
+      "greekPhrases": [
+        {
+          "text": "καὶ Σωκράτους καὶ Ἀλκιβιάδου καὶ τῶν ἄλλων τῶν τότε ἐν τῷ συνδείπνῳ παραγενομένων, περὶ τῶν ἐρωτικῶν λόγων τίνες ἦσαν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἄλλος γάρ τίς μοι διηγεῖτο ἀκηκοὼς Φοίνικος τοῦ Φιλίππου·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἔφη δὲ καὶ σὲ εἰδέναι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀλλὰ γὰρ οὐδὲν εἶχε σαφὲς λέγειν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "σὺ οὖν μοι διήγησαι·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "δικαιότατος γὰρ εἶ τοὺς τοῦ ἑταίρου λόγους ἀπαγγέλλειν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "πρότερον δέ μοι, ἦ δ᾽ ὅς, εἰπέ·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "σὺ αὐτὸς παρεγένου τῇ συνουσίᾳ ταύτῃ ἢ οὔ; κἀγὼ εἶπον ὅτι·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Παντάπασιν ἔοικέ σοι οὐδὲν διηγεῖσθαι",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and Socrates and Alcibiades and the rest of that party, and what were the speeches they delivered upon love.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For somebody else was relating to me the account he had from Phoenix, son of Philip, and he mentioned that you knew it too.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "But he could not tell it at all clearly so you must give me",
+          "mapsTo": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "text": "the whole story, for you are the most proper reporter of your dear friend’s discourses.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "But first tell me this, he went on;",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "were you at that party yourself, or not?",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "To which my answer was:",
+          "mapsTo": []
+        },
+        {
+          "text": "You have had anything but",
+          "mapsTo": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "172c",
+      "page": "172",
+      "order": 2,
+      "greek": "σαφὲς ὁ διηγούμενος, εἰ νεωστὶ ἡγεῖ τὴν συνουσίαν γεγονέναι ταύτην ἣν ἐρωτᾷς, ὥστε καὶ ἐμὲ παραγενέσθαι. Ἔγωγε δή . Πόθεν, ἦν δ᾽ ἐγώ, ὦ Γλαύκων; οὐκ οἶσθ᾽ ὅτι πολλῶν ἐτῶν Ἀγάθων ἐνθάδε οὐκ ἐπιδεδήμηκεν; ἀφ᾽ οὗ δ᾽ ἐγὼ Σωκράτει συνδιατρίβω καὶ ἐπιμελὲς πεποίημαι ἑκάστης ἡμέρας εἰδέναι ὅτι ἂν λέγῃ ἢ πράττῃ οὐδέπω τρία ἔτη ἐστίν;",
+      "english": "a clear account from your informant, if you suppose the party you are asking about to have been such a recent affair that I could be included. So I did suppose, he said. How so, Glaucon ? said I. You must know it is many a year that Agathon has been away from home and country, and not yet three years that I have been consorting with Socrates and making it my daily care to know whatever he says or does. Before that time,",
+      "greekPhrases": [
+        {
+          "text": "σαφὲς ὁ διηγούμενος, εἰ νεωστὶ ἡγεῖ τὴν συνουσίαν γεγονέναι ταύτην ἣν ἐρωτᾷς, ὥστε καὶ ἐμὲ παραγενέσθαι. Ἔγωγε δή .",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Πόθεν, ἦν δ᾽ ἐγώ, ὦ Γλαύκων;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οὐκ οἶσθ᾽ ὅτι πολλῶν ἐτῶν Ἀγάθων ἐνθάδε οὐκ ἐπιδεδήμηκεν;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἀφ᾽ οὗ δ᾽ ἐγὼ Σωκράτει συνδιατρίβω καὶ ἐπιμελὲς πεποίημαι ἑκάστης ἡμέρας εἰδέναι ὅτι ἂν λέγῃ ἢ πράττῃ οὐδέπω τρία ἔτη ἐστίν;",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "a clear account from your informant, if you suppose the party you are asking about to have been such a recent affair that I could be included.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "So I did suppose, he said.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "How so, Glaucon ? said I.",
+          "mapsTo": []
+        },
+        {
+          "text": "You must know it is many a year that Agathon has been away from home and country, and not yet three",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "years that I have been consorting with Socrates and making it my daily care to know whatever he says or does. Before that time,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "173a",
+      "page": "173",
+      "order": 3,
+      "greek": "πρὸ τοῦ δὲ περιτρέχων ὅπῃ τύχοιμι καὶ οἰόμενος τὶ ποιεῖν ἀθλιώτερος ἦ ὁτουοῦν, οὐχ ἧττον ἢ σὺ νυνί, οἰόμενος δεῖν πάντα μᾶλλον πράττειν ἢ φιλοσοφεῖν. καὶ ὅς· Μὴ σκῶπτ᾽, ἔφη, ἀλλ᾽ εἰπέ μοι πότε ἐγένετο ἡ συνουσία αὕτη. κἀγὼ εἶπον ὅτι· Παίδων ὄντων ἡμῶν ἔτι, ὅτε τῇ πρώτῃ τραγῳδίᾳ ἐνίκησεν Ἀγάθων, τῇ ὑστεραίᾳ ἢ ᾗ τὰ ἐπινίκια ἔθυεν αὐτός τε καὶ οἱ χορευταί. Πάνυ, ἔφη, ἄρα πάλαι, ὡς ἔοικεν. ἀλλὰ τίς σοι διηγεῖτο; ἢ αὐτὸς Σωκράτης;",
+      "english": "what with running about at random and thinking I did things, I was the wretchedest man alive; just as you are at present, thinking philosophy is none of your business. Instead of jeering at me, he said, tell me when it was that this party took place. When you and I were only children, I told him; on the occasion of Agathon’s victory with his first tragedy: the day after that of the dedicatory feast which he and his players held for its celebration. Ah, quite a long while ago, it would seem, said he; but who gave you the account of it? Socrates himself? Goodness, no! I answered. It was the person who told Phoenix—",
+      "greekPhrases": [
+        {
+          "text": "πρὸ τοῦ δὲ περιτρέχων ὅπῃ τύχοιμι καὶ οἰόμενος τὶ ποιεῖν ἀθλιώτερος ἦ ὁτουοῦν, οὐχ ἧττον ἢ σὺ νυνί, οἰόμενος δεῖν πάντα μᾶλλον πράττειν ἢ φιλοσοφεῖν. καὶ ὅς·",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Μὴ σκῶπτ᾽, ἔφη, ἀλλ᾽ εἰπέ μοι πότε ἐγένετο ἡ συνουσία αὕτη. κἀγὼ εἶπον ὅτι·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Παίδων ὄντων ἡμῶν ἔτι, ὅτε τῇ πρώτῃ τραγῳδίᾳ ἐνίκησεν Ἀγάθων, τῇ ὑστεραίᾳ ἢ ᾗ τὰ ἐπινίκια ἔθυεν αὐτός τε καὶ οἱ χορευταί.",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "Πάνυ, ἔφη, ἄρα πάλαι, ὡς ἔοικεν.",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "ἀλλὰ τίς σοι διηγεῖτο; ἢ αὐτὸς Σωκράτης;",
+          "mapsTo": [
+            8
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "what with running about at random and thinking I did things, I was the wretchedest man alive;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "just as you are at present, thinking philosophy is none of your business.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Instead of jeering at me, he said, tell me when it was that this party took place.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "When you and I were only children, I told him;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "on the occasion of Agathon’s victory with his first tragedy:",
+          "mapsTo": []
+        },
+        {
+          "text": "the day after that of the dedicatory feast which he and his players held for its celebration.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Ah, quite a long while ago, it would seem, said he;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but who gave you the account of it? Socrates himself? Goodness, no! I answered.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "It was the person who told Phoenix—",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "173b",
+      "page": "173",
+      "order": 4,
+      "greek": "Οὐ μὰ τὸν Δία, ἦν δ᾽ ἐγώ, ἀλλ᾽ ὅσπερ Φοίνικι· Ἀριστόδημος ἦν τις, Κυδαθηναιεύς, σμικρός, ἀνυπόδητος ἀεί· παρεγεγόνει δ᾽ ἐν τῇ συνουσίᾳ, Σωκράτους ἐραστὴς ὢν ἐν τοῖς μάλιστα τῶν τότε, ὡς ἐμοὶ δοκεῖ. οὐ μέντοι ἀλλὰ καὶ Σωκράτη γε ἔνια ἤδη ἀνηρόμην ὧν ἐκείνου ἤκουσα, καί μοι ὡμολόγει καθάπερ ἐκεῖνος διηγεῖτο. Τί οὖν, ἔφη, οὐ διηγήσω μοι; πάντως δὲ ἡ ὁδὸς ἡ εἰς ἄστυ ἐπιτηδεία πορευομένοις καὶ λέγειν καὶ ἀκούειν. οὕτω δὴ ἰόντες ἅμα τοὺς λόγους περὶ αὐτῶν ἐποιούμεθα,",
+      "english": "Aristodemus of Cydathenaeum, a little man, who went always barefoot. He was of the company there, being one of the chief among Socrates’ lovers at that time, I believe. But all the same, I have since questioned Socrates on some details of the story I had from his friend, and he acknowledged them to be in accordance with his account. Come then, he said, let me have it now; and in fact the road up to town is well suited for telling and hearing as we go along. So on we went, discoursing the while of this affair;",
+      "greekPhrases": [
+        {
+          "text": "Οὐ μὰ τὸν Δία, ἦν δ᾽ ἐγώ, ἀλλ᾽ ὅσπερ Φοίνικι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Ἀριστόδημος ἦν τις, Κυδαθηναιεύς, σμικρός, ἀνυπόδητος ἀεί·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "παρεγεγόνει δ᾽ ἐν τῇ συνουσίᾳ, Σωκράτους ἐραστὴς ὢν ἐν τοῖς μάλιστα τῶν τότε, ὡς ἐμοὶ δοκεῖ.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "οὐ μέντοι ἀλλὰ καὶ Σωκράτη γε ἔνια ἤδη ἀνηρόμην ὧν ἐκείνου ἤκουσα, καί μοι ὡμολόγει καθάπερ ἐκεῖνος διηγεῖτο.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Τί οὖν, ἔφη, οὐ διηγήσω μοι;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "πάντως δὲ ἡ ὁδὸς ἡ εἰς ἄστυ ἐπιτηδεία πορευομένοις καὶ λέγειν καὶ ἀκούειν.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "οὕτω δὴ ἰόντες ἅμα τοὺς λόγους περὶ αὐτῶν ἐποιούμεθα,",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Aristodemus of Cydathenaeum, a little man, who went always barefoot.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "He was of the company there, being one of the chief among Socrates’ lovers at that time, I believe.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "But all the same, I have since questioned Socrates on some details of the story",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "I had from his friend, and he acknowledged them to be in accordance with his account.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Come then, he said, let me have it now;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "and in fact the road up to town is well suited for telling and hearing as we go along.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "So on we went, discoursing the while of this affair;",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "173c",
+      "page": "173",
+      "order": 5,
+      "greek": "ὥστε, ὅπερ ἀρχόμενος εἶπον, οὐκ ἀμελετήτως ἔχω. εἰ οὖν δεῖ καὶ ὑμῖν διηγήσασθαι, ταῦτα χρὴ ποιεῖν. καὶ γὰρ ἔγωγε καὶ ἄλλως, ὅταν μέν τινας περὶ φιλοσοφίας λόγους ἢ αὐτὸς ποιῶμαι ἢ ἄλλων ἀκούω, χωρὶς τοῦ οἴεσθαι ὠφελεῖσθαι ὑπερφυῶς ὡς χαίρω· ὅταν δὲ ἄλλους τινάς, ἄλλως τε καὶ τοὺς ὑμετέρους τοὺς τῶν πλουσίων καὶ χρηματιστικῶν, αὐτός τε ἄχθομαι ὑμᾶς τε τοὺς ἑταίρους ἐλεῶ, ὅτι οἴεσθε τὶ ποιεῖν",
+      "english": "and hence, as I began by saying, I have it pretty well by heart. So, friends, if you too must hear the whole story, I had better tell it. For my own part, indeed, I commonly find that, setting aside the benefit I conceive they do me, I take an immense delight in philosophic discourses, whether I speak them myself or hear them from others: whereas in the case of other sorts of talk—especially that of your wealthy, money-bag friends—I am not only annoyed myself but sorry for dear intimates like you, who think you are doing a great deal when you really do nothing at all.",
+      "greekPhrases": [
+        {
+          "text": "ὥστε, ὅπερ ἀρχόμενος εἶπον, οὐκ ἀμελετήτως ἔχω.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἰ οὖν δεῖ καὶ ὑμῖν διηγήσασθαι, ταῦτα χρὴ ποιεῖν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ γὰρ ἔγωγε καὶ ἄλλως, ὅταν μέν τινας περὶ φιλοσοφίας λόγους ἢ αὐτὸς ποιῶμαι ἢ ἄλλων ἀκούω, χωρὶς τοῦ οἴεσθαι ὠφελεῖσθαι ὑπερφυῶς ὡς χαίρω·",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ὅταν δὲ ἄλλους τινάς, ἄλλως τε καὶ τοὺς ὑμετέρους τοὺς τῶν πλουσίων καὶ χρηματιστικῶν, αὐτός τε ἄχθομαι ὑμᾶς τε τοὺς ἑταίρους ἐλεῶ, ὅτι οἴεσθε τὶ ποιεῖν",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and hence, as I began by saying, I have it pretty well by heart.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "So, friends, if you too must hear the whole story, I had better tell it.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "For my own part, indeed, I commonly find that, setting aside the benefit I conceive they do me,",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "I take an immense delight in philosophic discourses, whether I speak them myself or hear them from others:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "whereas in the case of other sorts of talk—especially that of your wealthy, money-bag friends—I am not only annoyed myself but",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "sorry for dear intimates like you, who think you are doing a great deal when you really do nothing at all.",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "173d",
+      "page": "173",
+      "order": 6,
+      "greek": "οὐδὲν ποιοῦντες. καὶ ἴσως αὖ ὑμεῖς ἐμὲ ἡγεῖσθε κακοδαίμονα εἶναι, καὶ οἴομαι ὑμᾶς ἀληθῆ οἴεσθαι· ἐγὼ μέντοι ὑμᾶς οὐκ οἴομαι ἀλλ᾽ εὖ οἶδα. Ἑταῖρος Ἀεὶ ὅμοιος εἶ, ὦ Ἀπολλόδωρε· ἀεὶ γὰρ σαυτόν τε κακηγορεῖς καὶ τοὺς ἄλλους, καὶ δοκεῖς μοι ἀτεχνῶς πάντας ἀθλίους ἡγεῖσθαι πλὴν Σωκράτους, ἀπὸ σαυτοῦ ἀρξάμενος. καὶ ὁπόθεν ποτὲ ταύτην τὴν ἐπωνυμίαν ἔλαβες τὸ μαλακὸς καλεῖσθαι, οὐκ οἶδα ἔγωγε· ἐν μὲν γὰρ τοῖς λόγοις ἀεὶ τοιοῦτος εἶ· σαυτῷ τε καὶ τοῖς ἄλλοις ἀγριαίνεις πλὴν Σωκράτους. Ἀπολλόδωρος",
+      "english": "From your point of view, I daresay, I seem a hapless creature, and I think your thought is true. I, however, do not think it of you: I know it for sure. You are the same as ever, Apollodorus,—always defaming your self and every one else! Your view, I take it, is that all men alike are miserable, save Socrates, and that your own plight is the worst. How you may have come by your title of crazy, I do not know: though, of course, you are always like that in your way of speech—raging against yourself and everybody except Socrates.",
+      "greekPhrases": [
+        {
+          "text": "οὐδὲν ποιοῦντες. καὶ ἴσως αὖ ὑμεῖς ἐμὲ ἡγεῖσθε κακοδαίμονα εἶναι, καὶ οἴομαι ὑμᾶς ἀληθῆ οἴεσθαι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐγὼ μέντοι ὑμᾶς οὐκ οἴομαι ἀλλ᾽ εὖ οἶδα.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ἑταῖρος Ἀεὶ ὅμοιος εἶ, ὦ Ἀπολλόδωρε·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἀεὶ γὰρ σαυτόν τε κακηγορεῖς καὶ τοὺς ἄλλους, καὶ δοκεῖς μοι ἀτεχνῶς πάντας ἀθλίους ἡγεῖσθαι πλὴν Σωκράτους, ἀπὸ σαυτοῦ ἀρξάμενος.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "καὶ ὁπόθεν ποτὲ ταύτην τὴν ἐπωνυμίαν ἔλαβες τὸ μαλακὸς καλεῖσθαι, οὐκ οἶδα ἔγωγε·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἐν μὲν γὰρ τοῖς λόγοις ἀεὶ τοιοῦτος εἶ·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "σαυτῷ τε καὶ τοῖς ἄλλοις ἀγριαίνεις πλὴν Σωκράτους. Ἀπολλόδωρος",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "From your point of view, I daresay, I seem a hapless creature, and I think your thought is true.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "I, however, do not think it of you:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I know it for sure.",
+          "mapsTo": []
+        },
+        {
+          "text": "You are the same as ever, Apollodorus,—always defaming your self and every one else!",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Your view, I take it, is that all men alike are miserable, save Socrates, and that your own plight is the worst.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "How you may have come by your title of crazy, I do not know:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "though, of course, you are always like that in your way of speech—raging against yourself and everybody except Socrates.",
+          "mapsTo": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "173e",
+      "page": "173",
+      "order": 7,
+      "greek": "Ὦ φίλτατε, καὶ δῆλόν γε δὴ ὅτι οὕτω διανοούμενος καὶ περὶ ἐμαυτοῦ καὶ περὶ ὑμῶν μαίνομαι καὶ παραπαίω. Ἑταῖρος Οὐκ ἄξιον περὶ τούτων, Ἀπολλόδωρε, νῦν ἐρίζειν· ἀλλ᾽ ὅπερ ἐδεόμεθά σου, μὴ ἄλλως ποιήσῃς, ἀλλὰ διήγησαι τίνες ἦσαν οἱ λόγοι. Ἀπολλόδωρος Ἦ σαν τοίνυν ἐκεῖνοι τοιοίδε τινές· μᾶλλον δ᾽",
+      "english": "My dear sir, obviously it must be a mere crazy aberration in me, to hold this opinion of myself and of you all! It is waste of time, Apollodorus, to wrangle about such matters now. Come, without more ado, comply with our request and relate how the speeches went. Well then, they were somewhat as follows,—but stay, I must try and tell you all in order from the beginning,",
+      "greekPhrases": [
+        {
+          "text": "Ὦ φίλτατε, καὶ δῆλόν γε δὴ ὅτι οὕτω διανοούμενος καὶ περὶ ἐμαυτοῦ καὶ περὶ ὑμῶν μαίνομαι καὶ παραπαίω.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Ἑταῖρος Οὐκ ἄξιον περὶ τούτων, Ἀπολλόδωρε, νῦν ἐρίζειν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ὅπερ ἐδεόμεθά σου, μὴ ἄλλως ποιήσῃς, ἀλλὰ διήγησαι τίνες ἦσαν οἱ λόγοι.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Ἀπολλόδωρος Ἦ σαν τοίνυν ἐκεῖνοι τοιοίδε τινές· μᾶλλον δ᾽",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "My dear sir, obviously it must be a mere crazy aberration in me, to hold this opinion of myself and of you all!",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "It is waste of time, Apollodorus, to wrangle about such matters now.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Come, without more ado, comply with our request and relate how the speeches went.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Well then, they were somewhat as follows,—but stay, I must try and tell you all in order from the beginning,",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "174a",
+      "page": "174",
+      "order": 8,
+      "greek": "ἐξ ἀρχῆς ὑμῖν ὡς ἐκεῖνος διηγεῖτο καὶ ἐγὼ πειράσομαι διηγήσασθαι. Ἔφη γάρ οἱ Σωκράτη ἐντυχεῖν λελουμένον τε καὶ τὰς βλαύτας ὑποδεδεμένον, ἃ ἐκεῖνος ὀλιγάκις ἐποίει· καὶ ἐρέσθαι αὐτὸν ὅποι ἴοι οὕτω καλὸς γεγενημένος. καὶ τὸν εἰπεῖν ὅτι· Ἐπὶ δεῖπνον εἰς Ἀγάθωνος. χθὲς γὰρ αὐτὸν διέφυγον τοῖς ἐπινικίοις, φοβηθεὶς τὸν ὄχλον· ὡμολόγησα δ᾽ εἰς τήμερον παρέσεσθαι. ταῦτα δὴ ἐκαλλωπισάμην, ἵνα καλὸς παρὰ καλὸν ἴω. ἀλλὰ σύ, ἦ δ᾽ ὅς, πῶς",
+      "english": "just as my friend told it to me. He said that he met with Socrates fresh from the bath and wearing his best pair of slippers—quite rare events with him—and asked him whither he was bound in such fine trim. To dinner at Agathon’s, he answered. I evaded him and his celebrations yesterday, fearing the crowd; but I agreed to be present today. So I got myself up in this handsome style in order to be a match for my handsome host. Now tell me, said he, do you feel in the mood",
+      "greekPhrases": [
+        {
+          "text": "ἐξ ἀρχῆς ὑμῖν ὡς ἐκεῖνος διηγεῖτο καὶ ἐγὼ πειράσομαι διηγήσασθαι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ἔφη γάρ οἱ Σωκράτη ἐντυχεῖν λελουμένον τε καὶ τὰς βλαύτας ὑποδεδεμένον, ἃ ἐκεῖνος ὀλιγάκις ἐποίει·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "καὶ ἐρέσθαι αὐτὸν ὅποι ἴοι οὕτω καλὸς γεγενημένος.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ τὸν εἰπεῖν ὅτι·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ἐπὶ δεῖπνον εἰς Ἀγάθωνος.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "χθὲς γὰρ αὐτὸν διέφυγον τοῖς ἐπινικίοις, φοβηθεὶς τὸν ὄχλον·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ὡμολόγησα δ᾽ εἰς τήμερον παρέσεσθαι.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ταῦτα δὴ ἐκαλλωπισάμην, ἵνα καλὸς παρὰ καλὸν ἴω.",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "ἀλλὰ σύ, ἦ δ᾽ ὅς, πῶς",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "just as my friend told it to me.",
+          "mapsTo": []
+        },
+        {
+          "text": "He said that he met with Socrates fresh from the bath and wearing his best pair",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "of slippers—quite rare events with him—and asked him whither he was bound in such fine trim.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "To dinner at Agathon’s, he answered.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "I evaded him and his celebrations yesterday, fearing the crowd;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "but I agreed to be present today.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "So I got myself up in this handsome style in order to be a match for my handsome host.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "Now tell me, said he, do you feel in the mood",
+          "mapsTo": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "174b",
+      "page": "174",
+      "order": 9,
+      "greek": "ἔχεις πρὸς τὸ ἐθέλειν ἂν ἰέναι ἄκλητος ἐπὶ δεῖπνον; κἀγώ, ἔφη, εἶπον ὅτι Οὕτως ὅπως ἂν σὺ κελεύῃς. Ἕπου τοίνυν, ἔφη, ἵνα καὶ τὴν παροιμίαν διαφθείρωμεν μεταβάλλοντες, ὡς ἄρα καὶ ἀγαθῶν ἐπὶ δαῖτας ἴασιν αὐτόματοι ἀγαθοί. Ὅμηρος μὲν γὰρ κινδυνεύει οὐ μόνον διαφθεῖραι ἀλλὰ καὶ ὑβρίσαι εἰς ταύτην τὴν παροιμίαν· ποιήσας γὰρ τὸν Ἀγαμέμνονα διαφερόντως ἀγαθὸν ἄνδρα",
+      "english": "for going unasked to dinner? For anything, he said he replied, that you may bid me do. Come along then, he said; let us corrupt the proverb with a new version: What if they go of their own accord, The good men to our Goodman’s board? Though indeed Homer may be said to have not merely corrupted the adage, but debauched it: for after setting forth Agamemnon as a man eminently good at warfare,",
+      "greekPhrases": [
+        {
+          "text": "ἔχεις πρὸς τὸ ἐθέλειν ἂν ἰέναι ἄκλητος ἐπὶ δεῖπνον;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "κἀγώ, ἔφη, εἶπον ὅτι Οὕτως ὅπως ἂν σὺ κελεύῃς.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Ἕπου τοίνυν, ἔφη, ἵνα καὶ τὴν παροιμίαν διαφθείρωμεν μεταβάλλοντες, ὡς ἄρα καὶ ἀγαθῶν ἐπὶ δαῖτας ἴασιν αὐτόματοι ἀγαθοί.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Ὅμηρος μὲν γὰρ κινδυνεύει οὐ μόνον διαφθεῖραι ἀλλὰ καὶ ὑβρίσαι εἰς ταύτην τὴν παροιμίαν·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ποιήσας γὰρ τὸν Ἀγαμέμνονα διαφερόντως ἀγαθὸν ἄνδρα",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "for going unasked to dinner?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For anything, he said he replied, that you may bid me do.",
+          "mapsTo": []
+        },
+        {
+          "text": "Come along then, he said;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "let us corrupt the proverb with a new version:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "What if they go of their own accord, The good men to our Goodman’s board?",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Though indeed Homer may be said to have not merely corrupted the adage, but debauched it:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "for after setting forth Agamemnon as a man eminently good at warfare,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "174c",
+      "page": "174",
+      "order": 10,
+      "greek": "τὰ πολεμικά, τὸν δὲ Μενέλεων μαλθακὸν αἰχμητήν, θυσίαν ποιουμένου καὶ ἑστιῶντος τοῦ Ἀγαμέμνονος ἄκλητον ἐποίησεν ἐλθόντα τὸν Μενέλεων ἐπὶ τὴν θοίνην, χείρω ὄντα ἐπὶ τὴν τοῦ ἀμείνονος. ταῦτ᾽ ἀκούσας εἰπεῖν ἔφη· Ἴσως μέντοι κινδυνεύσω καὶ ἐγὼ οὐχ ὡς σὺ λέγεις, ὦ Σώκρατες, ἀλλὰ καθ᾽ Ὅμηρον φαῦλος ὢν ἐπὶ σοφοῦ ἀνδρὸς ἰέναι θοίνην ἄκλητος. ἆρ ᾽ οὖν ἄγων μέ τι ἀπολογήσει; ὡς ἐγὼ μὲν οὐχ ὁμολογήσω ἄκλητος",
+      "english": "and Menelaus as only a spearman spiritless, he makes the latter come unbidden to the banquet of the former, who was offering sacrifice and holding a feast; so the worse man was the guest of the better. To this my friend’s answer, as he told me, was: I am afraid mine, most likely, is a case that fits not your version, Socrates, but Homer’s—a dolt coming unbidden to the banquet of a scholar. Be sure, then, to have your excuse quite ready when you bring me; for I shall not own to coming unasked,",
+      "greekPhrases": [
+        {
+          "text": "τὰ πολεμικά, τὸν δὲ Μενέλεων μαλθακὸν αἰχμητήν, θυσίαν ποιουμένου καὶ ἑστιῶντος τοῦ Ἀγαμέμνονος ἄκλητον ἐποίησεν ἐλθόντα τὸν Μενέλεων ἐπὶ τὴν θοίνην, χείρω ὄντα ἐπὶ τὴν τοῦ ἀμείνονος.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ταῦτ᾽ ἀκούσας εἰπεῖν ἔφη·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Ἴσως μέντοι κινδυνεύσω καὶ ἐγὼ οὐχ ὡς σὺ λέγεις, ὦ Σώκρατες, ἀλλὰ καθ᾽ Ὅμηρον φαῦλος ὢν ἐπὶ σοφοῦ ἀνδρὸς ἰέναι θοίνην ἄκλητος.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἆρ ᾽ οὖν ἄγων μέ τι ἀπολογήσει;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ὡς ἐγὼ μὲν οὐχ ὁμολογήσω ἄκλητος",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and Menelaus as only a spearman spiritless, he makes the latter come unbidden to the banquet of the former, who was offering sacrifice and holding a feast;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "so the worse man was the guest of the better.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "To this my friend’s answer, as he told me, was:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I am afraid mine, most likely, is a case that fits not your version, Socrates, but Homer’s—a dolt coming unbidden to the banquet of a scholar.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Be sure, then, to have your excuse quite ready when you bring me;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "for I shall not own to coming unasked,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "174d",
+      "page": "174",
+      "order": 11,
+      "greek": "ἥκειν, ἀλλ᾽ ὑπὸ σοῦ κεκλημένος. Σύν τε δύ᾽, ἔφη, ἐρχομένω πρὸ ὁ τοῦ βουλευσόμεθα ὅ τι ἐροῦμεν. ἀλλ᾽ ἴωμεν. — Τοιαῦτ᾽ ἄττα σφᾶς ἔφη διαλεχθέντας ἰέναι. τὸν οὖν Σωκράτη ἑαυτῷ πως προσέχοντα τὸν νοῦν κατὰ τὴν ὁδὸν πορεύεσθαι ὑπολειπόμενον, καὶ περιμένοντος οὗ κελεύειν προϊέναι εἰς τὸ πρόσθεν. ἐπειδὴ δὲ γενέσθαι ἐπὶ τῇ οἰκίᾳ",
+      "english": "but only on your invitation. If two go along together, he remarked, there’s one before another in devising what we are to say. Well, off we go. After some such conversation, he told me, they started off. Then Socrates, becoming absorbed in his own thoughts by the way, fell behind him as they went; and when my friend began to wait for him he bade him go on ahead.",
+      "greekPhrases": [
+        {
+          "text": "ἥκειν, ἀλλ᾽ ὑπὸ σοῦ κεκλημένος.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Σύν τε δύ᾽, ἔφη, ἐρχομένω πρὸ ὁ τοῦ βουλευσόμεθα ὅ τι ἐροῦμεν. ἀλλ᾽ ἴωμεν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "— Τοιαῦτ᾽ ἄττα σφᾶς ἔφη διαλεχθέντας ἰέναι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "τὸν οὖν Σωκράτη ἑαυτῷ πως προσέχοντα τὸν νοῦν κατὰ τὴν ὁδὸν πορεύεσθαι ὑπολειπόμενον, καὶ περιμένοντος οὗ κελεύειν προϊέναι εἰς τὸ πρόσθεν.",
+          "mapsTo": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "ἐπειδὴ δὲ γενέσθαι ἐπὶ τῇ οἰκίᾳ",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "but only on your invitation.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "If two go along together, he remarked, there’s one before another in devising what we are to say.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Well, off we go.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "After some such conversation, he told me, they started off.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Then Socrates, becoming absorbed in his own thoughts by the way, fell behind him as they went;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "and when my friend began to wait for him he bade him go on ahead.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "174e",
+      "page": "174",
+      "order": 12,
+      "greek": "τῇ Ἀγάθωνος, ἀνεῳγμένην καταλαμβάνειν τὴν θύραν, καί τι ἔφη αὐτόθι γελοῖον παθεῖν. οἷ μὲν γὰρ εὐθὺς παῖδά τινα τῶν ἔνδοθεν ἀπαντήσαντα ἄγειν οὗ κατέκειντο οἱ ἄλλοι, καὶ καταλαμβάνειν ἤδη μέλλοντας δειπνεῖν· εὐθὺς δ᾽ οὖν ὡς ἰδεῖν τὸν Ἀγάθωνα· Ὦ φάναι, Ἀριστόδημε, εἰς καλὸν ἥκεις ὅπως συνδειπνήσῃς· εἰ δ᾽ ἄλλου τινὸς ἕνεκα ἦλθες, εἰς αὖθις ἀναβαλοῦ, ὡς καὶ χθὲς ζητῶν σε , ἵνα καλέσαιμι, οὐχ οἷός τ᾽ ἦ ἰδεῖν. ἀλλὰ Σωκράτη ἡμῖν πῶς οὐκ ἄγεις; καὶ ἐγώ, ἔφη, μεταστρεφόμενος οὐδαμοῦ ὁρῶ Σωκράτη ἑπόμενον· εἶπον οὖν ὅτι καὶ αὐτὸς μετὰ Σωκράτους ἥκοιμι, κληθεὶς ὑπ᾽ ἐκείνου δεῦρ᾽ ἐπὶ δεῖπνον. Καλῶς γ᾽, ἔφη, ποιῶν σύ· ἀλλὰ ποῦ ἔστιν οὗτος;",
+      "english": "So he came to Agathon’s house, and found the door open; where he found himself in a rather ridiculous position. For he was met immediately by a servant from within, who took him where the company was reclining, and he found them just about to dine. However, as soon as Agathon saw him Ha, Aristodemus, he cried, right welcome to a place at table with us! If you came on some other errand, put it off to another time: only yesterday I went round to invite you, but failed to see you. But how is it you do not bring us Socrates? At that I turned back for Socrates, he said, but saw no sign of him coming after me: so I told them how I myself had come along with Socrates, since he had asked me to dine with them. Very good of you to come, he said, but where is the man?",
+      "greekPhrases": [
+        {
+          "text": "τῇ Ἀγάθωνος, ἀνεῳγμένην καταλαμβάνειν τὴν θύραν, καί τι ἔφη αὐτόθι γελοῖον παθεῖν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οἷ μὲν γὰρ εὐθὺς παῖδά τινα τῶν ἔνδοθεν ἀπαντήσαντα ἄγειν οὗ κατέκειντο οἱ ἄλλοι, καὶ καταλαμβάνειν ἤδη μέλλοντας δειπνεῖν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "εὐθὺς δ᾽ οὖν ὡς ἰδεῖν τὸν Ἀγάθωνα·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ὦ φάναι, Ἀριστόδημε, εἰς καλὸν ἥκεις ὅπως συνδειπνήσῃς·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "εἰ δ᾽ ἄλλου τινὸς ἕνεκα ἦλθες, εἰς αὖθις ἀναβαλοῦ, ὡς καὶ χθὲς ζητῶν σε , ἵνα καλέσαιμι, οὐχ οἷός τ᾽ ἦ ἰδεῖν.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἀλλὰ Σωκράτη ἡμῖν πῶς οὐκ ἄγεις;",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "καὶ ἐγώ, ἔφη, μεταστρεφόμενος οὐδαμοῦ ὁρῶ Σωκράτη ἑπόμενον·",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "εἶπον οὖν ὅτι καὶ αὐτὸς μετὰ Σωκράτους ἥκοιμι, κληθεὶς ὑπ᾽ ἐκείνου δεῦρ᾽ ἐπὶ δεῖπνον.",
+          "mapsTo": [
+            8
+          ]
+        },
+        {
+          "text": "Καλῶς γ᾽, ἔφη, ποιῶν σύ·",
+          "mapsTo": [
+            9
+          ]
+        },
+        {
+          "text": "ἀλλὰ ποῦ ἔστιν οὗτος;",
+          "mapsTo": [
+            9
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "So he came to Agathon’s house, and found the door open;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "where he found himself in a rather ridiculous position.",
+          "mapsTo": []
+        },
+        {
+          "text": "For he was met immediately by a servant from within, who took him where the company was reclining, and he found them just about to dine.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "However, as soon as Agathon saw him Ha, Aristodemus, he cried, right welcome to a place at table with us!",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "If you came on some other errand, put it off to another time:",
+          "mapsTo": []
+        },
+        {
+          "text": "only yesterday I went round to invite you, but failed to see you.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "But how is it you do not bring us Socrates?",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "At that I turned back for Socrates, he said, but saw no sign of him coming after me:",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "so I told them how I myself had come along with Socrates, since he had asked me to dine with them.",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "Very good of you to come, he said, but where is the man?",
+          "mapsTo": [
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "175a",
+      "page": "175",
+      "order": 13,
+      "greek": "Ὄπισθεν ἐμοῦ ἄρτι εἰσῄει· ἀλλὰ θαυμάζω καὶ αὐτὸς ποῦ ἂν εἴη. Οὐ σκέψῃ, ἔφη, παῖ, φάναι τὸν Ἀγάθωνα, καὶ εἰσάξεις Σωκράτη; σὺ δ᾽, ἦ δ᾽ ὅς, Ἀριστόδημε, παρ᾽ Ἐρυξίμαχον κατακλίνου. Καὶ ἓ μὲν ἔφη ἀπονίζειν τὸν παῖδα ἵνα κατακέοιτο· ἄλλον δέ τινα τῶν παίδων ἥκειν ἀγγέλλοντα ὅτι· Σωκράτης οὗτος ἀναχωρήσας ἐν τῷ τῶν γειτόνων προθύρῳ ἕστηκεν, κἀμοῦ καλοῦντος οὐκ ἐθέλει εἰσιέναι. Ἄτοπόν γ᾽, ἔφη, λέγεις· οὔκουν καλεῖς αὐτὸν καὶ μὴ ἀφήσεις;",
+      "english": "He was coming in just now behind me: I am wondering myself where he can be. Go at once, said Agathon to the servant, and see if you can fetch in Socrates. You, Aristodemus, take a place by Eryximachus. So the attendant washed him and made him ready for reclining, when another of the servants came in with the news that our good Socrates had retreated into their neighbors’ porch; there he was standing, and when bidden to come in, he refused. How strange! said Agathon, you must go on bidding him, and by no means let him go.",
+      "greekPhrases": [
+        {
+          "text": "Ὄπισθεν ἐμοῦ ἄρτι εἰσῄει·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀλλὰ θαυμάζω καὶ αὐτὸς ποῦ ἂν εἴη.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Οὐ σκέψῃ, ἔφη, παῖ, φάναι τὸν Ἀγάθωνα, καὶ εἰσάξεις Σωκράτη;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "σὺ δ᾽, ἦ δ᾽ ὅς, Ἀριστόδημε, παρ᾽ Ἐρυξίμαχον κατακλίνου.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Καὶ ἓ μὲν ἔφη ἀπονίζειν τὸν παῖδα ἵνα κατακέοιτο·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἄλλον δέ τινα τῶν παίδων ἥκειν ἀγγέλλοντα ὅτι·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Σωκράτης οὗτος ἀναχωρήσας ἐν τῷ τῶν γειτόνων προθύρῳ ἕστηκεν, κἀμοῦ καλοῦντος οὐκ ἐθέλει εἰσιέναι.",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "Ἄτοπόν γ᾽, ἔφη, λέγεις·",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "οὔκουν καλεῖς αὐτὸν καὶ μὴ ἀφήσεις;",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "He was coming in just now behind me:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "I am wondering myself where he can be.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Go at once, said Agathon to the servant, and see if you can fetch in Socrates.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "You, Aristodemus, take a place by Eryximachus.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "So the attendant washed him and made him ready for reclining, when another of the",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "servants came in with the news that our good Socrates had retreated into their neighbors’ porch;",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "there he was standing, and when bidden to come in, he refused. How strange!",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "said Agathon, you must go on bidding him, and by no means let him go.",
+          "mapsTo": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "175b",
+      "page": "175",
+      "order": 14,
+      "greek": "καὶ ὃς ἔφη εἰπεῖν Μηδαμῶς, ἀλλ᾽ ἐᾶτε αὐτόν. ἔθος γάρ τι τοῦτ᾽ ἔχει· ἐνίοτε ἀποστὰς ὅποι ἂν τύχῃ ἕστηκεν. ἥξει δ᾽ αὐτίκα, ὡς ἐγὼ οἶμαι. μὴ οὖν κινεῖτε, ἀλλ᾽ ἐᾶτε. Ἀλλ᾽ οὕτω χρὴ ποιεῖν, εἰ σοὶ δοκεῖ, ἔφη φάναι τὸν Ἀγάθωνα. ἀλλ᾽ ἡμᾶς, ὦ παῖδες, τοὺς ἄλλους ἑστιᾶτε. πάντως παρατίθετε ὅτι ἂν βούλησθε, ἐπειδάν τις ὑμῖν μὴ ἐφεστήκῃ· ὃ ἐγὼ οὐδεπώποτε ἐποίησα· νῦν οὖν, νομίζοντες καὶ ἐμὲ ὑφ᾽ ὑμῶν κεκλῆσθαι ἐπὶ δεῖπνον καὶ τούσδε τοὺς",
+      "english": "But this Aristodemus forbade: No, said he, let him alone; it is a habit he has. Occasionally he turns aside, anywhere at random, and there he stands. He will be here presently, I expect. So do not disturb him; let him be. Very well then, said Agathon, as you judge best. Come, boys, he called to the servants, serve the feast for the rest of us. You are to set on just whatever you please, now that you have no one to direct you (a method I have never tried before). Today you are to imagine that I and all the company here have come on your invitation so look after us, and earn our compliments.",
+      "greekPhrases": [
+        {
+          "text": "καὶ ὃς ἔφη εἰπεῖν Μηδαμῶς, ἀλλ᾽ ἐᾶτε αὐτόν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἔθος γάρ τι τοῦτ᾽ ἔχει·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐνίοτε ἀποστὰς ὅποι ἂν τύχῃ ἕστηκεν.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἥξει δ᾽ αὐτίκα, ὡς ἐγὼ οἶμαι.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "μὴ οὖν κινεῖτε, ἀλλ᾽ ἐᾶτε.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Ἀλλ᾽ οὕτω χρὴ ποιεῖν, εἰ σοὶ δοκεῖ, ἔφη φάναι τὸν Ἀγάθωνα.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ἡμᾶς, ὦ παῖδες, τοὺς ἄλλους ἑστιᾶτε.",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "πάντως παρατίθετε ὅτι ἂν βούλησθε, ἐπειδάν τις ὑμῖν μὴ ἐφεστήκῃ·",
+          "mapsTo": [
+            8
+          ]
+        },
+        {
+          "text": "ὃ ἐγὼ οὐδεπώποτε ἐποίησα·",
+          "mapsTo": [
+            9
+          ]
+        },
+        {
+          "text": "νῦν οὖν, νομίζοντες καὶ ἐμὲ ὑφ᾽ ὑμῶν κεκλῆσθαι ἐπὶ δεῖπνον καὶ τούσδε τοὺς",
+          "mapsTo": [
+            9
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "But this Aristodemus forbade:",
+          "mapsTo": []
+        },
+        {
+          "text": "No, said he, let him alone;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "it is a habit he has.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Occasionally he turns aside, anywhere at random, and there he stands.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "He will be here presently, I expect.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "So do not disturb him; let him be.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Very well then, said Agathon, as you judge best.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Come, boys, he called to the servants, serve the feast for the rest of us.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "You are to set on just whatever you please, now that you have no one to direct you (a method I have never tried before).",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "Today you are to imagine that I and all the company here have come on your invitation so look after us, and earn our compliments.",
+          "mapsTo": [
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "175c",
+      "page": "175",
+      "order": 15,
+      "greek": "ἄλλους, θεραπεύετε, ἵν᾽ ὑμᾶς ἐπαινῶμεν. — Μετὰ ταῦτα ἔφη σφᾶς μὲν δειπνεῖν, τὸν δὲ Σωκράτη οὐκ εἰσιέναι. τὸν οὖν Ἀγάθωνα πολλάκις κελεύειν μεταπέμψασθαι τὸν Σωκράτη, ἓ δὲ οὐκ ἐᾶν. ἥκειν οὖν αὐτὸν οὐ πολὺν χρόνον ὡς εἰώθει διατρίψαντα, ἀλλὰ μάλιστα σφᾶς μεσοῦν δειπνοῦντας. τὸν οὖν Ἀγάθωνα , τυγχάνειν γὰρ ἔσχατον κατακείμενον μόνον· Δεῦρ᾽, ἔφη φάναι, Σώκρατες, παρ᾽ ἐμὲ κατάκεισο, ἵνα καὶ τοῦ σοφοῦ ἁπτόμενός σου",
+      "english": "Thereupon, he said, they all began dinner, but Socrates did not arrive; and though Agathon ever and anon gave orders that they should go and fetch him, my friend would not allow it. When he did come, it was after what, for him, was no great delay, as they were only about halfway through dinner. Then Agathon, who happened to be sitting alone in the lowest place, said: Here, Socrates, come sit by me, so that by contact with you",
+      "greekPhrases": [
+        {
+          "text": "ἄλλους, θεραπεύετε, ἵν᾽ ὑμᾶς ἐπαινῶμεν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "— Μετὰ ταῦτα ἔφη σφᾶς μὲν δειπνεῖν, τὸν δὲ Σωκράτη οὐκ εἰσιέναι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τὸν οὖν Ἀγάθωνα πολλάκις κελεύειν μεταπέμψασθαι τὸν Σωκράτη, ἓ δὲ οὐκ ἐᾶν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἥκειν οὖν αὐτὸν οὐ πολὺν χρόνον ὡς εἰώθει διατρίψαντα, ἀλλὰ μάλιστα σφᾶς μεσοῦν δειπνοῦντας.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "τὸν οὖν Ἀγάθωνα , τυγχάνειν γὰρ ἔσχατον κατακείμενον μόνον·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Δεῦρ᾽, ἔφη φάναι, Σώκρατες, παρ᾽ ἐμὲ κατάκεισο, ἵνα καὶ τοῦ σοφοῦ ἁπτόμενός σου",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Thereupon, he said, they all began dinner, but Socrates did not arrive;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and though Agathon ever and anon gave orders that they should go and fetch him, my friend would not allow it.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "When he did come, it was after what, for him, was no great delay, as they were only about halfway through dinner.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Then Agathon, who happened to be sitting alone in the lowest place, said:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Here, Socrates, come sit by me, so that by contact with you",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "175d",
+      "page": "175",
+      "order": 16,
+      "greek": "ἀπολαύσω, ὅ σοι προσέστη ἐν τοῖς προθύροις. δῆλον γὰρ ὅτι εὗρες αὐτὸ καὶ ἔχεις· οὐ γὰρ ἂν προαπέστης. καὶ τὸν Σωκράτη καθίζεσθαι καὶ εἰπεῖν ὅτι· Εὖ ἂν ἔχοι, φάναι, ὦ Ἀγάθων, εἰ τοιοῦτον εἴη ἡ σοφία ὥστ᾽ ἐκ τοῦ πληρεστέρου εἰς τὸ κενώτερον ῥεῖν ἡμῶν, ἐὰν ἁπτώμεθα ἀλλήλων, ὥσπερ τὸ ἐν ταῖς κύλιξιν ὕδωρ τὸ διὰ τοῦ ἐρίου ῥέον ἐκ τῆς πληρεστέρας εἰς τὴν κενωτέραν. εἰ γὰρ οὕτως ἔχει καὶ ἡ",
+      "english": "I may have some benefit from that piece of wisdom that occurred to you there in the porch. Clearly you have made the discovery and got hold of it for you would not have come away before. Then Socrates sat down, and How fine it would be, Agathon, he said, if wisdom were a sort of thing that could flow out of the one of us who is fuller into him who is emptier, by our mere contact with each other, as water will flow through wool from the fuller cup into the emptier. If such is indeed the case with wisdom, I set a great value on my sitting next to you:",
+      "greekPhrases": [
+        {
+          "text": "ἀπολαύσω, ὅ σοι προσέστη ἐν τοῖς προθύροις.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "δῆλον γὰρ ὅτι εὗρες αὐτὸ καὶ ἔχεις·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἂν προαπέστης.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ τὸν Σωκράτη καθίζεσθαι καὶ εἰπεῖν ὅτι·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Εὖ ἂν ἔχοι, φάναι, ὦ Ἀγάθων, εἰ τοιοῦτον εἴη ἡ σοφία ὥστ᾽ ἐκ τοῦ πληρεστέρου εἰς τὸ κενώτερον ῥεῖν ἡμῶν,",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐὰν ἁπτώμεθα ἀλλήλων, ὥσπερ τὸ ἐν ταῖς κύλιξιν ὕδωρ τὸ διὰ τοῦ ἐρίου ῥέον ἐκ τῆς πληρεστέρας εἰς τὴν κενωτέραν.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "εἰ γὰρ οὕτως ἔχει καὶ ἡ",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "I may have some benefit from that piece of wisdom that occurred to you there in the porch.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Clearly you have made the discovery and got hold of it for you would not have come away before.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Then Socrates sat down, and How fine it would be, Agathon, he said, if wisdom were a sort of thing that could flow out of the one of",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "us who is fuller into him who is emptier, by our mere contact with each other, as water will flow through wool from the fuller cup into the emptier.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "If such is indeed the case with wisdom, I set a great value on my sitting next to you:",
+          "mapsTo": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "175e",
+      "page": "175",
+      "order": 17,
+      "greek": "σοφία, πολλοῦ τιμῶμαι τὴν παρὰ σοὶ κατάκλισιν· οἶμαι γάρ με παρὰ σοῦ πολλῆς καὶ καλῆς σοφίας πληρωθήσεσθαι. ἡ μὲν γὰρ ἐμὴ φαύλη τις ἂν εἴη, ἢ καὶ ἀμφισβητήσιμος , ὥσπερ ὄναρ οὖσα, ἡ δὲ σὴ λαμπρά τε καὶ πολλὴν ἐπίδοσιν ἔχουσα, ἥ γε παρὰ σοῦ νέου ὄντος οὕτω σφόδρα ἐξέλαμψεν καὶ ἐκφανὴς ἐγένετο πρῴην ἐν μάρτυσι τῶν Ἑλλήνων πλέον ἢ τρισμυρίοις. Ὑβριστὴς εἶ, ἔφη, ὦ Σώκρατες, ὁ Ἀγάθων. καὶ ταῦτα μὲν καὶ ὀλίγον ὕστερον διαδικασόμεθα ἐγώ τε καὶ σὺ περὶ τῆς σοφίας, δικαστῇ χρώμενοι τῷ Διονύσῳ· νῦν δὲ πρὸς τὸ δεῖπνον πρῶτα τρέπου.",
+      "english": "I look to be filled with excellent wisdom drawn in abundance out of you. My own is but meagre, as disputable as a dream; but yours is bright and expansive, as the other day we saw it shining forth from your youth, strong and splendid, in the eyes of more than thirty thousand Greeks. You rude mocker, Socrates! said Agathon. A little later on you and I shall go to law on this matter of our wisdom, and Dionysus shall be our judge. For the present, let the dinner be your first concern.",
+      "greekPhrases": [
+        {
+          "text": "σοφία, πολλοῦ τιμῶμαι τὴν παρὰ σοὶ κατάκλισιν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οἶμαι γάρ με παρὰ σοῦ πολλῆς καὶ καλῆς σοφίας πληρωθήσεσθαι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἡ μὲν γὰρ ἐμὴ φαύλη τις ἂν εἴη, ἢ καὶ ἀμφισβητήσιμος , ὥσπερ ὄναρ οὖσα, ἡ δὲ σὴ λαμπρά τε καὶ πολλὴν",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐπίδοσιν ἔχουσα, ἥ γε παρὰ σοῦ νέου ὄντος οὕτω σφόδρα ἐξέλαμψεν καὶ ἐκφανὴς ἐγένετο πρῴην ἐν μάρτυσι τῶν Ἑλλήνων πλέον ἢ τρισμυρίοις.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ὑβριστὴς εἶ, ἔφη, ὦ Σώκρατες, ὁ Ἀγάθων.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "καὶ ταῦτα μὲν καὶ ὀλίγον ὕστερον διαδικασόμεθα ἐγώ τε καὶ σὺ περὶ τῆς σοφίας, δικαστῇ χρώμενοι τῷ Διονύσῳ·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "νῦν δὲ πρὸς τὸ δεῖπνον πρῶτα τρέπου.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "I look to be filled with excellent wisdom drawn in abundance out of you.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "My own is but meagre, as disputable as a dream;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "but yours is bright and expansive, as the other day we saw it shining forth",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "from your youth, strong and splendid, in the eyes of more than thirty thousand Greeks.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "You rude mocker, Socrates! said Agathon.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "A little later on you and I shall go to law on this matter of our wisdom, and Dionysus shall be our judge.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "For the present, let the dinner be your first concern.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "176a",
+      "page": "176",
+      "order": 18,
+      "greek": "Μετὰ ταῦτα, ἔφη, κατακλινέντος τοῦ Σωκράτους καὶ δειπνήσαντος καὶ τῶν ἄλλων, σπονδάς τε σφᾶς ποιήσασθαι, καὶ ᾄσαντας τὸν θεὸν καὶ τἆλλα τὰ νομιζόμενα, τρέπεσθαι πρὸς τὸν πότον· τὸν οὖν Παυσανίαν ἔφη λόγου τοιούτου τινὸς κατάρχειν. Εἶεν, ἄνδρες, φάναι, τίνα τρόπον ῥᾷστα πιόμεθα; ἐγὼ μὲν οὖν λέγω ὑμῖν ὅτι τῷ ὄντι πάνυ χαλεπῶς ἔχω ὑπὸ τοῦ χθὲς πότου καὶ δέομαι ἀναψυχῆς τινός , οἶμαι δὲ καὶ ὑμῶν τοὺς πολλούς· παρῆστε γὰρ χθές--σκοπεῖσθε",
+      "english": "After this, it seems, when Socrates had taken his place and had dined with the rest, they made libation and sang a chant to the god and so forth, as custom bids, till they betook them to drinking. Then Pausanias opened a conversation after this manner: Well, gentlemen, what mode of drinking will suit us best? For my part, to tell the truth, I am in very poor form as a result of yesterday’s bout, and I claim a little relief; it is so, I believe, with most of you, for you were at yesterday’s party: so consider what method",
+      "greekPhrases": [
+        {
+          "text": "Μετὰ ταῦτα, ἔφη, κατακλινέντος τοῦ Σωκράτους καὶ δειπνήσαντος καὶ τῶν ἄλλων, σπονδάς τε σφᾶς ποιήσασθαι, καὶ ᾄσαντας τὸν θεὸν καὶ τἆλλα τὰ νομιζόμενα, τρέπεσθαι πρὸς τὸν πότον·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "τὸν οὖν Παυσανίαν ἔφη λόγου τοιούτου τινὸς κατάρχειν.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Εἶεν, ἄνδρες, φάναι, τίνα τρόπον ῥᾷστα πιόμεθα;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἐγὼ μὲν οὖν λέγω ὑμῖν ὅτι τῷ ὄντι πάνυ χαλεπῶς ἔχω ὑπὸ τοῦ χθὲς πότου καὶ δέομαι ἀναψυχῆς τινός , οἶμαι δὲ καὶ ὑμῶν τοὺς πολλούς· παρῆστε γὰρ χθές--σκοπεῖσθε",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "After this, it seems, when Socrates had taken his place and had dined with the rest, they made libation",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and sang a chant to the god and so forth, as custom bids, till they betook them to drinking.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Then Pausanias opened a conversation after this manner:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Well, gentlemen, what mode of drinking will suit us best?",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "For my part, to tell the truth, I am in very poor form as a result of yesterday’s bout, and I claim a little relief;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "it is so, I believe, with most of you, for you were at yesterday’s party:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "so consider what method",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "176b",
+      "page": "176",
+      "order": 19,
+      "greek": "οὖν τίνι τρόπῳ ἂν ὡς ῥᾷστα πίνοιμεν· τὸν οὖν Ἀριστοφάνη εἰπεῖν . Τοῦτο μέντοι εὖ λέγεις, ὦ Παυσανία, τὸ παντὶ τρόπῳ παρασκευάσασθαι ῥᾳστώνην τινὰ τῆς πόσεως· καὶ γὰρ αὐτός εἰμι τῶν χθὲς βεβαπτισμένων. ἀκούσαντα οὖν αὐτῶν ἔφη Ἐρυξίμαχον τὸν Ἀκουμενοῦ· Ἦ καλῶς, φάναι, λέγετε. καὶ ἔτι ἑνὸς δέομαι ὑμῶν ἀκοῦσαι· πῶς ἔχει πρὸς τὸ ἐῤῥῶσθαι πίνειν, Ἀγάθων; Οὐδαμῶς, φάναι, οὐδ᾽ αὐτὸς ἔῤῥωμαι.",
+      "english": "of drinking would suit us best. On this Aristophanes observed: Now that, Pausanias, is a good suggestion of yours, that we make a point of consulting our comfort in our cups: for I myself am one of those who got such a soaking yesterday. When Eryximachus, son of Acumenus, heard this; You are quite right, sirs, he said; and there is yet one other question on which I request your opinion, as to what sort of condition Agathon finds himself in for drinking. No, no, said Agathon, I am not in good condition for it either.",
+      "greekPhrases": [
+        {
+          "text": "οὖν τίνι τρόπῳ ἂν ὡς ῥᾷστα πίνοιμεν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τὸν οὖν Ἀριστοφάνη εἰπεῖν .",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Τοῦτο μέντοι εὖ λέγεις, ὦ Παυσανία, τὸ παντὶ τρόπῳ παρασκευάσασθαι ῥᾳστώνην τινὰ τῆς πόσεως·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ γὰρ αὐτός εἰμι τῶν χθὲς βεβαπτισμένων.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἀκούσαντα οὖν αὐτῶν ἔφη Ἐρυξίμαχον τὸν Ἀκουμενοῦ·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Ἦ καλῶς, φάναι, λέγετε.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "καὶ ἔτι ἑνὸς δέομαι ὑμῶν ἀκοῦσαι·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "πῶς ἔχει πρὸς τὸ ἐῤῥῶσθαι πίνειν, Ἀγάθων;",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "Οὐδαμῶς, φάναι, οὐδ᾽ αὐτὸς ἔῤῥωμαι.",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "of drinking would suit us best.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "On this Aristophanes observed:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Now that, Pausanias, is a good suggestion of yours, that we make a point of consulting our comfort in our cups:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for I myself am one of those who got such a soaking yesterday.",
+          "mapsTo": []
+        },
+        {
+          "text": "When Eryximachus, son of Acumenus, heard this;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "You are quite right, sirs, he said;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "and there is yet one other question on which I request your opinion, as to what sort of condition Agathon finds himself in for drinking.",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "No, no, said Agathon, I am not in good condition for it either.",
+          "mapsTo": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "176c",
+      "page": "176",
+      "order": 20,
+      "greek": "Ἕρμαιον ἂν εἴη ἡμῖν, ἦ δ᾽ ὅς, ὡς ἔοικεν, ἐμοί τε καὶ Ἀριστοδήμῳ καὶ Φαίδρῳ καὶ τοῖσδε, εἰ ὑμεῖς οἱ δυνατώτατοι πίνειν νῦν ἀπειρήκατε· ἡμεῖς μὲν γὰρ ἀεὶ ἀδύνατοι. Σωκράτη δ᾽ ἐξαιρῶ λόγου· ἱκανὸς γὰρ καὶ ἀμφότερα, ὥστ᾽ ἐξαρκέσει αὐτῷ ὁπότερ᾽ ἂν ποιῶμεν. ἐπειδὴ οὖν μοι δοκεῖ οὐδεὶς τῶν παρόντων προθύμως ἔχειν πρὸς τὸ πολὺν πίνειν οἶνον, ἴσως ἂν ἐγὼ περὶ τοῦ μεθύσκεσθαι , οἷόν ἐστι , τἀληθῆ λέγων ἧττον ἂν εἴην ἀηδής. ἐμοὶ γὰρ δὴ τοῦτό γε οἶμαι",
+      "english": "It would be a piece of luck for us, I take it, the other went on, that is, for me, Aristodemus, Phaedrus, and our friends here, if you who are the stoutest drinkers are now feeling exhausted. We, of course, are known weaklings. Socrates I do not count in the matter: he is fit either way, and will be content with whichever choice we make. Now as it appears that nobody here present is eager for copious draughts, perhaps it will be the less irksome to you if I speak of intoxication, and tell you truly what it is. The practice of medicine, I find, has made this clear to me—",
+      "greekPhrases": [
+        {
+          "text": "Ἕρμαιον ἂν εἴη ἡμῖν, ἦ δ᾽ ὅς, ὡς ἔοικεν, ἐμοί τε καὶ Ἀριστοδήμῳ καὶ Φαίδρῳ καὶ τοῖσδε, εἰ ὑμεῖς οἱ δυνατώτατοι πίνειν νῦν ἀπειρήκατε·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἡμεῖς μὲν γὰρ ἀεὶ ἀδύνατοι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Σωκράτη δ᾽ ἐξαιρῶ λόγου·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἱκανὸς γὰρ καὶ ἀμφότερα, ὥστ᾽ ἐξαρκέσει αὐτῷ ὁπότερ᾽ ἂν ποιῶμεν.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἐπειδὴ οὖν μοι δοκεῖ οὐδεὶς τῶν παρόντων προθύμως ἔχειν πρὸς τὸ πολὺν πίνειν οἶνον, ἴσως",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἂν ἐγὼ περὶ τοῦ μεθύσκεσθαι , οἷόν ἐστι , τἀληθῆ λέγων ἧττον ἂν εἴην ἀηδής.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ἐμοὶ γὰρ δὴ τοῦτό γε οἶμαι",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "It would be a piece of luck for us, I take it, the other went on, that is,",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for me, Aristodemus, Phaedrus, and our friends here, if you who are the stoutest drinkers are now feeling exhausted.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "We, of course, are known weaklings.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Socrates I do not count in the matter:",
+          "mapsTo": []
+        },
+        {
+          "text": "he is fit either way, and will be content with whichever choice we make.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Now as it appears that nobody here present is eager for copious draughts, perhaps it will be",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "the less irksome to you if I speak of intoxication, and tell you truly what it is.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "The practice of medicine, I find, has made this clear to me—",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "176d",
+      "page": "176",
+      "order": 21,
+      "greek": "κατάδηλον γεγονέναι ἐκ τῆς ἰατρικῆς, ὅτι χαλεπὸν τοῖς ἀνθρώποις ἡ μέθη ἐστί· καὶ οὔτε αὐτὸς ἑκὼν εἶναι πόῤῥω ἐθελήσαιμι ἂν πιεῖν οὔτε ἄλλῳ συμβουλεύσαιμι, ἄλλως τε καὶ κραιπαλῶντα ἔτι ἐκ τῆς προτεραίας. Ἀλλὰ μήν, ἔφη φάναι ὑπολαβόντα Φαῖδρον τὸν Μυῤῥινούσιον, ἔγωγέ σοι εἴωθα πείθεσθαι ἄλλως τε καὶ ἅττ᾽ ἂν περὶ ἰατρικῆς λέγῃς· νῦν δ᾽, ἂν εὖ βουλεύωνται, καὶ οἱ λοιποί.",
+      "english": "that drunkenness is harmful to mankind; and neither would I myself agree, if I could help it, to an excess of drinking, nor would I recommend it to another, especially when his head is still heavy from a bout of the day before. Here Phaedrus of Myrrhinus interrupted him, saying: Why, you know I always obey you, above all in medical matters; and so now will the rest of us, if they are well advised. Then all of them, on hearing this,",
+      "greekPhrases": [
+        {
+          "text": "κατάδηλον γεγονέναι ἐκ τῆς ἰατρικῆς, ὅτι χαλεπὸν τοῖς ἀνθρώποις ἡ μέθη ἐστί·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "καὶ οὔτε αὐτὸς ἑκὼν εἶναι πόῤῥω ἐθελήσαιμι ἂν πιεῖν οὔτε ἄλλῳ συμβουλεύσαιμι, ἄλλως τε καὶ κραιπαλῶντα ἔτι ἐκ τῆς προτεραίας.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Ἀλλὰ μήν, ἔφη φάναι ὑπολαβόντα Φαῖδρον τὸν Μυῤῥινούσιον, ἔγωγέ σοι εἴωθα πείθεσθαι ἄλλως τε καὶ ἅττ᾽ ἂν περὶ ἰατρικῆς λέγῃς·",
+          "mapsTo": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "νῦν δ᾽, ἂν εὖ βουλεύωνται, καὶ οἱ λοιποί.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "that drunkenness is harmful to mankind;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and neither would I myself agree, if I could help it, to an excess of drinking, nor would",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "I recommend it to another, especially when his head is still heavy from a bout of the day before.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Here Phaedrus of Myrrhinus interrupted him, saying:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Why, you know I always obey you, above all in medical matters;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and so now will the rest of us, if they are well advised.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Then all of them, on hearing this,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "176e",
+      "page": "176",
+      "order": 22,
+      "greek": "ταῦτα δὴ ἀκούσαντας συγχωρεῖν πάντας μὴ διὰ μέθης ποιήσασθαι τὴν ἐν τῷ παρόντι συνουσίαν, ἀλλ᾽ οὕτω πίνοντας πρὸς ἡδονήν. Ἐπειδὴ τοίνυν, φάναι τὸν Ἐρυξίμαχον, τοῦτο μὲν δέδοκται, πίνειν ὅσον ἂν ἕκαστος βούληται, ἐπάναγκες δὲ μηδὲν εἶναι, τὸ μετὰ τοῦτο εἰσηγοῦμαι τὴν μὲν ἄρτι εἰσελθοῦσαν αὐλητρίδα χαίρειν ἐᾷν, αὐλοῦσαν ἑαυτῇ ἢ ἂν βούληται ταῖς γυναιξὶ ταῖς ἔνδον, ἡμᾶς δὲ διὰ λόγων ἀλλήλοις συνεῖναι τὸ τήμερον· καὶ δι᾽ οἵων λόγων, εἰ βούλεσθε, ἐθέλω ὑμῖν εἰσηγήσασθαι.",
+      "english": "consented not to make their present meeting a tipsy affair, but to drink just as it might serve their pleasure. Since it has been resolved, then, said Eryximachus, that we are to drink only so much as each desires, with no constraint on any, I next propose that the flute-girl who came in just now be dismissed: let her pipe to herself or, if she likes, to the women-folk within, but let us seek our entertainment today in conversation. I am ready, if you so desire, to suggest what sort of discussion it should be.",
+      "greekPhrases": [
+        {
+          "text": "ταῦτα δὴ ἀκούσαντας συγχωρεῖν πάντας μὴ διὰ μέθης ποιήσασθαι τὴν ἐν τῷ παρόντι συνουσίαν, ἀλλ᾽ οὕτω πίνοντας πρὸς ἡδονήν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Ἐπειδὴ τοίνυν, φάναι τὸν Ἐρυξίμαχον, τοῦτο μὲν δέδοκται, πίνειν ὅσον ἂν ἕκαστος βούληται, ἐπάναγκες δὲ μηδὲν εἶναι, τὸ μετὰ τοῦτο εἰσηγοῦμαι τὴν",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "μὲν ἄρτι εἰσελθοῦσαν αὐλητρίδα χαίρειν ἐᾷν, αὐλοῦσαν ἑαυτῇ ἢ ἂν βούληται ταῖς γυναιξὶ ταῖς ἔνδον, ἡμᾶς δὲ διὰ λόγων ἀλλήλοις συνεῖναι τὸ τήμερον·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ δι᾽ οἵων λόγων, εἰ βούλεσθε, ἐθέλω ὑμῖν εἰσηγήσασθαι.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "consented not to make their present meeting a tipsy affair, but to drink just as it might serve their pleasure.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Since it has been resolved, then, said Eryximachus, that we are to drink only so much as each",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "desires, with no constraint on any, I next propose that the flute-girl who came in just now be dismissed:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "let her pipe to herself or, if she likes, to the women-folk within, but let us seek our entertainment today in conversation.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "I am ready, if you so desire, to suggest what sort of discussion it should be.",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "177a",
+      "page": "177",
+      "order": 23,
+      "greek": "Φάναι δὴ πάντας καὶ βούλεσθαι καὶ κελεύειν αὐτὸν εἰσηγεῖσθαι. εἰπεῖν οὖν τὸν Ἐρυξίμαχον ὅτι· Ἡ μέν μοι ἀρχὴ τοῦ λόγου ἐστὶ κατὰ τὴν Εὐριπίδου Μελανίππην· οὐ γὰρ ἐμὸς ὁ μῦθος, ἀλλὰ Φαίδρου τοῦδε, ὃν μέλλω λέγειν. Φαῖδρος γὰρ ἑκάστοτε πρός με ἀγανακτῶν λέγει· Οὐ δεινόν, φησίν, ὦ Ἐρυξίμαχε, ἄλλοις μέν τισι θεῶν ὕμνους καὶ παίωνας εἶναι ὑπὸ τῶν ποιητῶν πεποιημένους, τῷ δὲ Ἔρωτι, τηλικούτῳ ὄντι καὶ τοσούτῳ θεῷ, μηδὲ ἕνα πώποτε τοσούτων",
+      "english": "They all said they did so desire, and bade him make his proposal. So Eryximachus proceeded: The beginning of what I have to say is in the words of Euripides’ Melanippe, for not mine the tale that I intend to tell; it comes from Phaedrus here. He is constantly complaining to me and saying,—Is it not a curious thing, Eryximachus, that while other gods have hymns and psalms indited in their honor by the poets, the god of Love, so ancient and so great,",
+      "greekPhrases": [
+        {
+          "text": "Φάναι δὴ πάντας καὶ βούλεσθαι καὶ κελεύειν αὐτὸν εἰσηγεῖσθαι.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἰπεῖν οὖν τὸν Ἐρυξίμαχον ὅτι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Ἡ μέν μοι ἀρχὴ τοῦ λόγου ἐστὶ κατὰ τὴν Εὐριπίδου Μελανίππην·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἐμὸς ὁ μῦθος, ἀλλὰ Φαίδρου τοῦδε, ὃν μέλλω λέγειν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Φαῖδρος γὰρ ἑκάστοτε πρός με ἀγανακτῶν λέγει·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Οὐ δεινόν, φησίν, ὦ Ἐρυξίμαχε, ἄλλοις μέν τισι θεῶν ὕμνους καὶ παίωνας εἶναι ὑπὸ",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "τῶν ποιητῶν πεποιημένους, τῷ δὲ Ἔρωτι, τηλικούτῳ ὄντι καὶ τοσούτῳ θεῷ, μηδὲ ἕνα πώποτε τοσούτων",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "They all said they did so desire, and bade him make his proposal. So Eryximachus proceeded:",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "The beginning of what I have to say is in the words of Euripides’ Melanippe, for not mine the tale that I intend to tell;",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "it comes from Phaedrus here.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "He is constantly complaining to me and saying,—Is it not a curious thing, Eryximachus, that while other gods have",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "hymns and psalms indited in their honor by the poets, the god of Love, so ancient and so great,",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "177b",
+      "page": "177",
+      "order": 24,
+      "greek": "γεγονότων ποιητῶν πεποιηκέναι μηδὲν ἐγκώμιον· εἰ δὲ βούλει αὖ σκέψασθαι τοὺς χρηστοὺς σοφιστάς, Ἡρακλέους μὲν καὶ ἄλλων ἐπαίνους καταλογάδην ξυγγράφειν, ὥσπερ ὁ βέλτιστος Πρόδικος· καὶ τοῦτο μὲν ἧττον καὶ θαυμαστόν, ἀλλ᾽ ἔγωγε ἤδη τινὶ ἐνέτυχον βιβλίῳ ἀνδρὸς σοφοῦ, ἐν ᾧ ἐνῆσαν ἅλες ἔπαινον θαυμάσιον ἔχοντες πρὸς ὠφέλειαν · καὶ ἄλλα τοιαῦτα",
+      "english": "has had no song of praise composed for him by a single one of all the many poets that ever have been? And again, pray consider our worthy professors, and the eulogies they frame of Hercules and others in prose,—for example, the excellent Prodicus. This indeed is not so surprising but I recollect coming across a book by somebody, in which I found Salt superbly lauded for its usefulness, and many more such matters",
+      "greekPhrases": [
+        {
+          "text": "γεγονότων ποιητῶν πεποιηκέναι μηδὲν ἐγκώμιον·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἰ δὲ βούλει αὖ σκέψασθαι τοὺς χρηστοὺς σοφιστάς, Ἡρακλέους μὲν καὶ ἄλλων ἐπαίνους καταλογάδην ξυγγράφειν, ὥσπερ ὁ βέλτιστος Πρόδικος·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "καὶ τοῦτο μὲν ἧττον καὶ θαυμαστόν, ἀλλ᾽ ἔγωγε ἤδη τινὶ ἐνέτυχον βιβλίῳ ἀνδρὸς σοφοῦ, ἐν ᾧ ἐνῆσαν ἅλες ἔπαινον θαυμάσιον ἔχοντες πρὸς ὠφέλειαν · καὶ ἄλλα τοιαῦτα",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "has had no song of praise composed for him by a single one of all the many poets that ever have been?",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "And again, pray consider our worthy professors, and the eulogies they frame of Hercules and others in prose,—for example, the excellent Prodicus.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "This indeed is not so surprising but I recollect coming across a book by somebody,",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "in which I found Salt superbly lauded for its usefulness, and many more such matters",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "177c",
+      "page": "177",
+      "order": 25,
+      "greek": "συχνὰ ἴδοις ἂν ἐγκεκωμιασμένα . τὸ οὖν τοιούτων μὲν πέρι πολλὴν σπουδὴν ποιήσασθαι, Ἔρωτα δὲ μηδένα πω ἀνθρώπων τετολμηκέναι εἰς ταυτηνὶ τὴν ἡμέραν ἀξίως ὑμνῆσαι , ἀλλ᾽ οὕτως ἠμέληται τοσοῦτος θεός; ταῦτα δή μοι δοκεῖ εὖ λέγειν Φαῖδρος. ἐγὼ οὖν ἐπιθυμῶ ἅμα μὲν τούτῳ ἔρανον εἰσενεγκεῖν καὶ χαρίσασθαι, ἅμα δ᾽ ἐν τῷ παρόντι πρέπον μοι δοκεῖ εἶναι ἡμῖν τοῖς παροῦσι κοσμῆσαι τὸν θεόν. Εἰ οὖν",
+      "english": "I could show you celebrated there. To think of all this bustle about such trifles, and not a single man ever essaying till this day to make a fitting hymn to Love! So great a god, and so neglected! Now I think Phaedrus’s protest a very proper one. Accordingly I am not only desirous of obliging him with a contribution of my own, but I also pronounce the present to be a fitting occasion for us here assembled to honor the god.",
+      "greekPhrases": [
+        {
+          "text": "συχνὰ ἴδοις ἂν ἐγκεκωμιασμένα .",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τὸ οὖν τοιούτων μὲν πέρι πολλὴν σπουδὴν ποιήσασθαι, Ἔρωτα δὲ μηδένα πω ἀνθρώπων τετολμηκέναι εἰς ταυτηνὶ τὴν ἡμέραν ἀξίως ὑμνῆσαι , ἀλλ᾽ οὕτως ἠμέληται τοσοῦτος θεός;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ταῦτα δή μοι δοκεῖ εὖ λέγειν Φαῖδρος.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἐγὼ οὖν ἐπιθυμῶ ἅμα μὲν τούτῳ ἔρανον εἰσενεγκεῖν καὶ χαρίσασθαι, ἅμα δ᾽ ἐν τῷ παρόντι πρέπον μοι δοκεῖ εἶναι ἡμῖν τοῖς παροῦσι κοσμῆσαι τὸν θεόν. Εἰ οὖν",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "I could show you celebrated there.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "To think of all this bustle about such trifles, and not a single man ever essaying till this day to make a fitting hymn to Love!",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "So great a god, and so neglected!",
+          "mapsTo": []
+        },
+        {
+          "text": "Now I think Phaedrus’s protest a very proper one.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Accordingly I am not only desirous of obliging him with a contribution of my own, but I",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "also pronounce the present to be a fitting occasion for us here assembled to honor the god.",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "177d",
+      "page": "177",
+      "order": 26,
+      "greek": "ξυνδοκεῖ καὶ ὑμῖν, γένοιτ᾽ ἂν ἡμῖν ἐν λόγοις ἱκανὴ διατριβή· δοκεῖ γάρ μοι χρῆναι ἕκαστον ἡμῶν λόγον εἰπεῖν ἔπαινον Ἔρωτος ἐπὶ δεξιὰ ὡς ἂν δύνηται κάλλιστον, ἄρχειν δὲ Φαῖδρον πρῶτον, ἐπειδὴ καὶ πρῶτος κατάκειται καὶ ἔστιν ἅμα πατὴρ τοῦ λόγου. Οὐδείς σοι, ὦ Ἐρυξίμαχε, φάναι τὸν Σωκράτη, ἐναντία ψηφιεῖται. οὔτε γὰρ ἄν που ἐγὼ ἀποφήσαιμι, ὃς οὐδέν φημι ἄλλο ἐπίστασθαι ἢ τὰ ἐρωτικά, οὔτε που Ἀγάθων καὶ",
+      "english": "So if you on your part approve, we might pass the time well enough in discourses; for my opinion is that we ought each of us to make a speech in turn, from left to right, praising Love as beautifully as he can. Phaedrus shall open first; for he has the topmost place at table, and besides is father of our debate. No one, Eryximachus, said Socrates, will vote against you: I do not see how I could myself decline,",
+      "greekPhrases": [
+        {
+          "text": "ξυνδοκεῖ καὶ ὑμῖν, γένοιτ᾽ ἂν ἡμῖν ἐν λόγοις ἱκανὴ διατριβή·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "δοκεῖ γάρ μοι χρῆναι ἕκαστον ἡμῶν λόγον εἰπεῖν ἔπαινον Ἔρωτος ἐπὶ δεξιὰ ὡς ἂν δύνηται",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "κάλλιστον, ἄρχειν δὲ Φαῖδρον πρῶτον, ἐπειδὴ καὶ πρῶτος κατάκειται καὶ ἔστιν ἅμα πατὴρ τοῦ λόγου.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Οὐδείς σοι, ὦ Ἐρυξίμαχε, φάναι τὸν Σωκράτη, ἐναντία ψηφιεῖται.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "οὔτε γὰρ ἄν που ἐγὼ ἀποφήσαιμι, ὃς οὐδέν φημι ἄλλο ἐπίστασθαι ἢ τὰ ἐρωτικά, οὔτε που Ἀγάθων καὶ",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "So if you on your part approve, we might pass the time well enough in discourses;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for my opinion is that we ought each of us to make a speech in turn, from left to right, praising Love as beautifully as he can.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Phaedrus shall open first;",
+          "mapsTo": []
+        },
+        {
+          "text": "for he has the topmost place at table, and besides is father of our debate.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "No one, Eryximachus, said Socrates, will vote against you:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "I do not see how I could myself decline,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "177e",
+      "page": "177",
+      "order": 27,
+      "greek": "Παυσανίας, οὐδὲ μὴν Ἀριστοφάνης, ᾧ περὶ Διόνυσον καὶ Ἀφροδίτην πᾶσα ἡ διατριβή, οὐδὲ ἄλλος οὐδεὶς τουτωνὶ ὧν ἐγὼ ὁρῶ. καίτοι οὐκ ἐξ ἴσου γίγνεται ἡμῖν τοῖς ὑστάτοις κατακειμένοις· ἀλλ᾽ ἐὰν οἱ πρόσθεν ἱκανῶς καὶ καλῶς εἴπωσιν, ἐξαρκέσει ἡμῖν. ἀλλὰ τύχῃ ἀγαθῇ καταρχέτω Φαῖδρος καὶ ἐγκωμιαζέτω τὸν Ἔρωτα. ταῦτα δὴ καὶ οἱ ἄλλοι πάντες ἄρα ξυνέφασάν τε καὶ",
+      "english": "when I set up to understand nothing but love-matters; nor could Agathon and Pausanias either, nor yet Aristophanes, who divides his time between Dionysus and Aphrodite; nor could any other of the persons I see before me. To be sure, we who sit at the bottom do not get a fair chance: but if the earlier speakers rise nobly to the occasion, we shall be quite content. So now let Phaedrus, with our best wishes, make a beginning and give us a eulogy of Love. To this they assented one and all,",
+      "greekPhrases": [
+        {
+          "text": "Παυσανίας, οὐδὲ μὴν Ἀριστοφάνης, ᾧ περὶ Διόνυσον καὶ Ἀφροδίτην πᾶσα ἡ διατριβή, οὐδὲ ἄλλος οὐδεὶς τουτωνὶ ὧν ἐγὼ ὁρῶ.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "καίτοι οὐκ ἐξ ἴσου γίγνεται ἡμῖν τοῖς ὑστάτοις κατακειμένοις·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ἐὰν οἱ πρόσθεν ἱκανῶς καὶ καλῶς εἴπωσιν, ἐξαρκέσει ἡμῖν.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἀλλὰ τύχῃ ἀγαθῇ καταρχέτω Φαῖδρος καὶ ἐγκωμιαζέτω τὸν Ἔρωτα.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ταῦτα δὴ καὶ οἱ ἄλλοι πάντες ἄρα ξυνέφασάν τε καὶ",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "when I set up to understand nothing but love-matters;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "nor could Agathon and Pausanias either, nor yet Aristophanes, who divides his time between Dionysus and Aphrodite;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "nor could any other of the persons I see before me.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "To be sure, we who sit at the bottom do not get a fair chance:",
+          "mapsTo": []
+        },
+        {
+          "text": "but if the earlier speakers rise nobly to the occasion, we shall be quite content.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So now let Phaedrus, with our best wishes, make a beginning and give us a eulogy of Love.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "To this they assented one and all,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "178a",
+      "page": "178",
+      "order": 28,
+      "greek": "ἐκέλευον ἅπερ ὁ Σωκράτης. πάντων μὲν οὖν ἃ ἕκαστος εἶπεν, οὔτε πάνυ ὁ Ἀριστόδημος ἐμέμνητο οὔτ᾽ αὖ ἐγὼ ἃ ἐκεῖνος ἔλεγε πάντα· ἃ δὲ μάλιστα καὶ ὧν ἔδοξέ μοι ἀξιομνημόνευτον, τούτων ὑμῖν ἐρῶ ἑκάστου τὸν λόγον. πρῶτον μὲν γάρ, ὥσπερ λέγω, ἔφη Φαῖδρον ἀρξάμενον ἐνθένδε ποθὲν λέγειν, ὅτι μέγας θεὸς εἴη ὁ Ἔρως καὶ θαυμαστὸς ἐν ἀνθρώποις τε καὶ θεοῖς, πολλαχῇ μὲν καὶ ἄλλῃ, οὐχ ἥκιστα δὲ κατὰ τὴν γένεσιν. τὸ γὰρ ἐν τοῖς πρεσβύτατον",
+      "english": "bidding him do as Socrates said. Now the entire speech in each case was beyond Aristodemus’s recollection, and so too the whole of what he told me is beyond mine: but those parts which, on account also of the speakers, I deemed most memorable, I will tell you successively as they were delivered. First then, as I said, he told me that the speech of Phaedrus began with points of this sort—that Love was a great god, among men and gods a marvel; and this appeared in many ways, but notably in his birth.",
+      "greekPhrases": [
+        {
+          "text": "ἐκέλευον ἅπερ ὁ Σωκράτης.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "πάντων μὲν οὖν ἃ ἕκαστος εἶπεν, οὔτε πάνυ ὁ Ἀριστόδημος ἐμέμνητο οὔτ᾽ αὖ ἐγὼ ἃ ἐκεῖνος ἔλεγε πάντα·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἃ δὲ μάλιστα καὶ ὧν ἔδοξέ μοι ἀξιομνημόνευτον, τούτων ὑμῖν ἐρῶ ἑκάστου τὸν λόγον.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "πρῶτον μὲν γάρ, ὥσπερ λέγω, ἔφη Φαῖδρον ἀρξάμενον ἐνθένδε ποθὲν λέγειν, ὅτι μέγας θεὸς εἴη ὁ Ἔρως",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "καὶ θαυμαστὸς ἐν ἀνθρώποις τε καὶ θεοῖς, πολλαχῇ μὲν καὶ ἄλλῃ, οὐχ ἥκιστα δὲ κατὰ τὴν γένεσιν.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "τὸ γὰρ ἐν τοῖς πρεσβύτατον",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "bidding him do as Socrates said.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Now the entire speech in each case was beyond Aristodemus’s recollection, and so too the whole of what he told me is beyond mine:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "but those parts which, on account also of the speakers, I deemed most memorable, I will tell you successively as they were delivered.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "First then, as I said, he told me that the speech of Phaedrus began with",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "points of this sort—that Love was a great god, among men and gods a marvel;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "and this appeared in many ways, but notably in his birth.",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "178b",
+      "page": "178",
+      "order": 29,
+      "greek": "εἶναι τῶν θεῶν, τίμιον, ἦ δ᾽ ὅς· τεκμήριον δὲ τούτου· γονῆς γὰρ Ἔρωτος οὔτ᾽ εἰσὶν οὔτε λέγονται ὑπ᾽ οὐδενὸς οὔτε ἰδιώτου οὔτε ποιητοῦ, ἀλλ᾽ Ἡσίοδος πρῶτον μὲν Χάος φησὶ γενέσθαι, ''. . . αὐτὰρ ἔπειτα'' ''Γαῖ᾽ εὐρύστερνος, πάντων ἕδος ἀσφαλὲς αἰεί, ἠδ᾽ Ἔρος . . .'' φησὶ μετὰ τὸ Χάος δύο τούτω γενέσθαι, Γῆν τε καὶ Ἔρωτα. Παρμενίδης δὲ τὴν γένεσιν λέγει ''πρώτιστον μὲν Ἔρωτα θεῶν μητίσατο πάντων.''",
+      "english": "Of the most venerable are the honors of this god, and the proof of it is this: parents of Love there are none, nor are any recorded in either prose or verse. Hesiod says that Chaos came first into being— and thereafter rose Broad-breasted Earth, sure seat of all for aye, And Love. Acusilaus also agrees with Hesiod, saying that after Chaos were born these two, Earth and Love. Parmenides says of Birth that she invented Love before all other gods.",
+      "greekPhrases": [
+        {
+          "text": "εἶναι τῶν θεῶν, τίμιον, ἦ δ᾽ ὅς· τεκμήριον δὲ τούτου·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "γονῆς γὰρ Ἔρωτος οὔτ᾽ εἰσὶν οὔτε λέγονται ὑπ᾽ οὐδενὸς οὔτε ἰδιώτου οὔτε ποιητοῦ, ἀλλ᾽ Ἡσίοδος πρῶτον μὲν Χάος φησὶ γενέσθαι, ''. . .",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "αὐτὰρ ἔπειτα'' ''Γαῖ᾽ εὐρύστερνος, πάντων ἕδος ἀσφαλὲς αἰεί, ἠδ᾽ Ἔρος . .",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": ".'' φησὶ μετὰ τὸ Χάος δύο τούτω γενέσθαι, Γῆν τε καὶ Ἔρωτα.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Παρμενίδης δὲ τὴν γένεσιν λέγει ''πρώτιστον μὲν Ἔρωτα θεῶν μητίσατο πάντων.''",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Of the most venerable are the honors of this god, and the proof of it is this:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "parents of Love there are none, nor are any recorded in either prose or verse.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Hesiod says that Chaos came first into being— and thereafter rose Broad-breasted Earth, sure seat of all for aye, And Love.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Acusilaus also agrees with Hesiod, saying that after Chaos were born these two, Earth and Love.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Parmenides says of Birth that she invented Love before all other gods.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "178c",
+      "page": "178",
+      "order": 30,
+      "greek": "Ἡσιόδῳ δὲ καὶ Ἀκουσίλεως ὁμολογεῖ. οὕτω πολλαχόθεν ὁμολογεῖται ὁ Ἔρως ἐν τοῖς πρεσβύτατος εἶναι. πρεσβύτατος δὲ ὢν μεγίστων ἀγαθῶν ἡμῖν αἴτιός ἐστιν. οὐ γὰρ ἔγωγ᾽ ἔχω εἰπεῖν ὅτι μεῖζόν ἐστιν ἀγαθὸν εὐθὺς νέῳ ὄντι ἢ ἐραστὴς χρηστὸς καὶ ἐραστῇ παιδικά. ὃ γὰρ χρὴ ἀνθρώποις ἡγεῖσθαι παντὸς τοῦ βίου τοῖς μέλλουσι καλῶς βιώσεσθαι, τοῦτο οὔτε συγγένεια οἵα τε ἐμποιεῖν οὕτω καλῶς οὔτε τιμαὶ οὔτε πλοῦτος οὔτ᾽ ἄλλο",
+      "english": "Thus Love is by various authorities allowed to be of most venerable standing; and as most venerable, he is the cause of all our highest blessings. I for my part am at a loss to say what greater blessing a man can have in earliest youth than an honorable lover, or a lover than an honorable favorite. For the guiding principle we should choose for all our days, if we are minded to live a comely life, cannot be acquired either by kinship or office or wealth",
+      "greekPhrases": [
+        {
+          "text": "Ἡσιόδῳ δὲ καὶ Ἀκουσίλεως ὁμολογεῖ.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὕτω πολλαχόθεν ὁμολογεῖται ὁ Ἔρως ἐν τοῖς πρεσβύτατος εἶναι.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "πρεσβύτατος δὲ ὢν μεγίστων ἀγαθῶν ἡμῖν αἴτιός ἐστιν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἔγωγ᾽ ἔχω εἰπεῖν ὅτι μεῖζόν ἐστιν ἀγαθὸν εὐθὺς νέῳ ὄντι ἢ ἐραστὴς χρηστὸς καὶ ἐραστῇ παιδικά.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ὃ γὰρ χρὴ ἀνθρώποις ἡγεῖσθαι παντὸς τοῦ βίου τοῖς μέλλουσι καλῶς βιώσεσθαι, τοῦτο οὔτε συγγένεια οἵα τε ἐμποιεῖν οὕτω καλῶς οὔτε τιμαὶ οὔτε πλοῦτος οὔτ᾽ ἄλλο",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Thus Love is by various authorities allowed to be of most venerable standing;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "and as most venerable, he is the cause of all our highest blessings.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "I for my part am at a loss to say what greater blessing a man",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "can have in earliest youth than an honorable lover, or a lover than an honorable favorite.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "For the guiding principle we should choose for all our days, if we are minded",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "to live a comely life, cannot be acquired either by kinship or office or wealth",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "178d",
+      "page": "178",
+      "order": 31,
+      "greek": "οὐδὲν ὡς ἔρως. λέγω δὲ δὴ τί τοῦτο; τὴν ἐπὶ μὲν τοῖς αἰσχροῖς αἰσχύνην, ἐπὶ δὲ τοῖς καλοῖς φιλοτιμίαν· οὐ γὰρ ἔστιν ἄνευ τούτων οὔτε πόλιν οὔτε ἰδιώτην μεγάλα καὶ καλὰ ἔργα ἐξεργάζεσθαι. φημὶ τοίνυν ἐγὼ ἄνδρα ὅστις ἐρᾷ, εἴ τι αἰσχρὸν ποιῶν κατάδηλος γίγνοιτο ἢ πάσχων ὑπό του δι᾽ ἀνανδρίαν μὴ ἀμυνόμενος, οὔτ᾽ ἂν ὑπὸ πατρὸς ὀφθέντα οὕτως ἀλγῆσαι οὔτε ὑπὸ ἑταίρων οὔτε ὑπ᾽ ἄλλου",
+      "english": "or anything so well as by Love. What shall I call this power? The shame that we feel for shameful things, and ambition for what is noble; without which it is impossible for city or person to perform any high and noble deeds. Let me then say that a man in love, should he be detected in some shameful act or in a cowardly submission to shameful treatment at another’s hands, would not feel half so much distress at anyone observing it, whether father or comrade or anyone in the world, as when his favorite did;",
+      "greekPhrases": [
+        {
+          "text": "οὐδὲν ὡς ἔρως. λέγω δὲ δὴ τί τοῦτο;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τὴν ἐπὶ μὲν τοῖς αἰσχροῖς αἰσχύνην, ἐπὶ δὲ τοῖς καλοῖς φιλοτιμίαν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἔστιν ἄνευ τούτων οὔτε πόλιν οὔτε ἰδιώτην μεγάλα καὶ καλὰ ἔργα ἐξεργάζεσθαι.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "φημὶ τοίνυν ἐγὼ ἄνδρα ὅστις ἐρᾷ, εἴ τι αἰσχρὸν ποιῶν κατάδηλος γίγνοιτο ἢ πάσχων ὑπό του",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "δι᾽ ἀνανδρίαν μὴ ἀμυνόμενος, οὔτ᾽ ἂν ὑπὸ πατρὸς ὀφθέντα οὕτως ἀλγῆσαι οὔτε ὑπὸ ἑταίρων οὔτε ὑπ᾽ ἄλλου",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "or anything so well as by Love.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "What shall I call this power?",
+          "mapsTo": []
+        },
+        {
+          "text": "The shame that we feel for shameful things, and ambition for what is noble;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "without which it is impossible for city or person to perform any high and noble deeds.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Let me then say that a man in love, should he be detected in some shameful act or in a cowardly submission to shameful treatment at",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "another’s hands, would not feel half so much distress at anyone observing it, whether father or comrade or anyone in the world, as when his favorite did;",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "178e",
+      "page": "178",
+      "order": 32,
+      "greek": "οὐδενὸς ὡς ὑπὸ παιδικῶν. ταὐτὸν δὲ τοῦτο καὶ τὸν ἐρώμενον ὁρῶμεν, ὅτι διαφερόντως τοὺς ἐραστὰς αἰσχύνεται, ὅταν ὀφθῇ ἐν αἰσχρῷ τινι ὤν. εἰ οὖν μηχανή τις γένοιτο ὥστε πόλιν γενέσθαι ἢ στρατόπεδον ἐραστῶν τε καὶ παιδικῶν, οὐκ ἔστιν ὅπως ἂν ἄμεινον οἰκήσειαν τὴν ἑαυτῶν ἢ ἀπεχόμενοι πάντων τῶν αἰσχρῶν καὶ φιλοτιμούμενοι πρὸς",
+      "english": "and in the selfsame way we see how the beloved is especially ashamed before his lovers when he is observed to be about some shameful business. So that if we could somewise contrive to have a city or an army composed of lovers and their favorites, they could not be better citizens of their country than by thus refraining from all that is base",
+      "greekPhrases": [
+        {
+          "text": "οὐδενὸς ὡς ὑπὸ παιδικῶν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ταὐτὸν δὲ τοῦτο καὶ τὸν ἐρώμενον ὁρῶμεν, ὅτι διαφερόντως τοὺς ἐραστὰς αἰσχύνεται, ὅταν ὀφθῇ ἐν αἰσχρῷ τινι ὤν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἰ οὖν μηχανή τις γένοιτο ὥστε πόλιν γενέσθαι ἢ στρατόπεδον ἐραστῶν τε καὶ παιδικῶν, οὐκ",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἔστιν ὅπως ἂν ἄμεινον οἰκήσειαν τὴν ἑαυτῶν ἢ ἀπεχόμενοι πάντων τῶν αἰσχρῶν καὶ φιλοτιμούμενοι πρὸς",
+          "mapsTo": [
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and in the selfsame way we see how the beloved is especially ashamed before his lovers when he is observed to be about some shameful business.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "So that if we could somewise contrive to have a city or an army composed of lovers and their",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "favorites, they could not be better citizens of their country than by thus refraining from all that is base",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "179a",
+      "page": "179",
+      "order": 33,
+      "greek": "ἀλλήλους· καὶ μαχόμενοί γ᾽ ἂν μετ᾽ ἀλλήλων οἱ τοιοῦτοι νικῷεν ἂν ὀλίγοι ὄντες ὡς ἔπος εἰπεῖν πάντας ἀνθρώπους. ἐρῶν γὰρ ἀνὴρ ὑπὸ παιδικῶν ὀφθῆναι ἢ λιπὼν τάξιν ἢ ὅπλα ἀποβαλὼν ἧττον ἂν δή που δέξαιτο ἢ ὑπὸ πάντων τῶν ἄλλων, καὶ πρὸ τούτου τεθνάναι ἂν πολλάκις ἕλοιτο. καὶ μὴν ἐγκαταλιπεῖν γε τὰ παιδικὰ ἢ μὴ βοηθῆσαι κινδυνεύοντι-- οὐδεὶς οὕτω κακὸς, ὅντινα οὐκ ἂν αὐτὸς ὁ Ἔρως ἔνθεον ποιήσειε πρὸς ἀρετήν, ὥστε ὅμοιον εἶναι τῷ ἀρίστῳ φύσει.",
+      "english": "in a mutual rivalry for honor; and such men as these, when fighting side by side, one might almost consider able to make even a little band victorious over all the world. For a man in love would surely choose to have all the rest of the host rather than his favorite see him forsaking his station or flinging away his arms; sooner than this, he would prefer to die many deaths: while, as for leaving his favorite in the lurch, or not succoring him in his peril, no man is such a craven that Love’s own influence cannot inspire him with a valor that makes him equal to the bravest born;",
+      "greekPhrases": [
+        {
+          "text": "ἀλλήλους· καὶ μαχόμενοί γ᾽ ἂν μετ᾽ ἀλλήλων οἱ τοιοῦτοι νικῷεν ἂν ὀλίγοι ὄντες ὡς ἔπος εἰπεῖν πάντας ἀνθρώπους.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐρῶν γὰρ ἀνὴρ ὑπὸ παιδικῶν ὀφθῆναι ἢ λιπὼν τάξιν ἢ ὅπλα ἀποβαλὼν ἧττον ἂν",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "δή που δέξαιτο ἢ ὑπὸ πάντων τῶν ἄλλων, καὶ πρὸ τούτου τεθνάναι ἂν πολλάκις ἕλοιτο.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ μὴν ἐγκαταλιπεῖν γε τὰ παιδικὰ ἢ μὴ βοηθῆσαι κινδυνεύοντι-- οὐδεὶς οὕτω κακὸς, ὅντινα",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "οὐκ ἂν αὐτὸς ὁ Ἔρως ἔνθεον ποιήσειε πρὸς ἀρετήν, ὥστε ὅμοιον εἶναι τῷ ἀρίστῳ φύσει.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "in a mutual rivalry for honor;",
+          "mapsTo": []
+        },
+        {
+          "text": "and such men as these, when fighting side by side, one might almost consider able to make even a little band victorious over all the world.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For a man in love would surely choose to have all the rest of the",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "host rather than his favorite see him forsaking his station or flinging away his arms;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "sooner than this, he would prefer to die many deaths:",
+          "mapsTo": []
+        },
+        {
+          "text": "while, as for leaving his favorite in the lurch, or not succoring him in his peril, no man is such",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "a craven that Love’s own influence cannot inspire him with a valor that makes him equal to the bravest born;",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "179b",
+      "page": "179",
+      "order": 34,
+      "greek": "καὶ ἀτεχνῶς, ὃ ἔφη Ὅμηρος, μένος ἐμπνεῦσαι ἐνίοις τῶν ἡρώων τὸν θεόν, τοῦτο ὁ Ἔρως τοῖς ἐρῶσι παρέχει γιγνόμενον παρ᾽ αὑτοῦ. Καὶ μὴν ὑπεραποθνῄσκειν γε μόνοι ἐθέλουσιν οἱ ἐρῶντες, οὐ μόνον ὅτι ἄνδρες, ἀλλὰ καὶ αἱ γυναῖκες. τούτου δὲ καὶ ἡ Πελίου θυγάτηρ Ἄλκηστις ἱκανὴν μαρτυρίαν παρέχεται ὑπὲρ τοῦδε τοῦ λόγου εἰς τοὺς Ἕλληνας, ἐθελήσασα μόνη ὑπὲρ τοῦ αὑτῆς ἀνδρὸς ἀποθανεῖν, ὄντων αὐτῷ πατρός τε",
+      "english": "and without doubt what Homer calls a fury inspired by a god in certain heroes is the effect produced on lovers by Love’s peculiar power. Furthermore, only such as are in love will consent to die for others; not merely men will do it, but women too. Sufficient witness is borne to this statement before the people of Greece by Alcestis, daughter of Pelias, who alone was willing to die for her husband, though he had both father",
+      "greekPhrases": [
+        {
+          "text": "καὶ ἀτεχνῶς, ὃ ἔφη Ὅμηρος, μένος ἐμπνεῦσαι ἐνίοις τῶν ἡρώων τὸν θεόν, τοῦτο ὁ Ἔρως τοῖς ἐρῶσι παρέχει γιγνόμενον παρ᾽ αὑτοῦ.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Καὶ μὴν ὑπεραποθνῄσκειν γε μόνοι ἐθέλουσιν οἱ ἐρῶντες, οὐ μόνον ὅτι ἄνδρες, ἀλλὰ καὶ αἱ γυναῖκες.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τούτου δὲ καὶ ἡ Πελίου θυγάτηρ Ἄλκηστις ἱκανὴν μαρτυρίαν παρέχεται ὑπὲρ τοῦδε τοῦ λόγου εἰς τοὺς Ἕλληνας, ἐθελήσασα μόνη ὑπὲρ τοῦ αὑτῆς ἀνδρὸς ἀποθανεῖν, ὄντων αὐτῷ πατρός τε",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and without doubt what Homer calls a fury inspired by a god in certain heroes is the effect produced on lovers by Love’s peculiar power.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Furthermore, only such as are in love will consent to die for others;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "not merely men will do it, but women too.",
+          "mapsTo": []
+        },
+        {
+          "text": "Sufficient witness is borne to this statement before the people of Greece by Alcestis, daughter",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "of Pelias, who alone was willing to die for her husband, though he had both father",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "179c",
+      "page": "179",
+      "order": 35,
+      "greek": "καὶ μητρός· οὓς ἐκείνη τοσοῦτον ὑπερεβάλετο τῇ φιλίᾳ διὰ τὸν ἔρωτα, ὥστε ἀποδεῖξαι αὐτοὺς ἀλλοτρίους ὄντας τῷ ὑεῖ καὶ ὀνόματι μόνον προσήκοντας, καὶ τοῦτ᾽ ἐργασαμένη τὸ ἔργον οὕτω καλὸν ἔδοξεν ἐργάσασθαι οὐ μόνον ἀνθρώποις ἀλλὰ καὶ θεοῖς, ὥστε πολλῶν πολλὰ καὶ καλὰ ἐργασαμένων εὐαριθμήτοις δή τισιν ἔδοσαν τοῦτο γέρας οἱ θεοί, ἐξ Ἅιδου ἀνεῖναι πάλιν τὴν ψυχήν, ἀλλὰ τὴν ἐκείνης ἀνεῖσαν ἀγασθέντες",
+      "english": "and mother. So high did her love exalt her over them in kindness, that they were proved alien to their son and but nominal relations; and when she achieved this deed, it was judged so noble by gods as well as men that, although among all the many doers of noble deeds they are few and soon counted to whom the gods have granted the privilege of having their souls sent up again from Hades, hers they thus restored in admiration of her act.",
+      "greekPhrases": [
+        {
+          "text": "καὶ μητρός· οὓς ἐκείνη τοσοῦτον ὑπερεβάλετο τῇ φιλίᾳ διὰ τὸν ἔρωτα, ὥστε ἀποδεῖξαι αὐτοὺς ἀλλοτρίους ὄντας τῷ ὑεῖ καὶ ὀνόματι μόνον προσήκοντας, καὶ τοῦτ᾽ ἐργασαμένη τὸ ἔργον οὕτω καλὸν ἔδοξεν ἐργάσασθαι οὐ",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "μόνον ἀνθρώποις ἀλλὰ καὶ θεοῖς, ὥστε πολλῶν πολλὰ καὶ καλὰ ἐργασαμένων εὐαριθμήτοις δή τισιν ἔδοσαν τοῦτο γέρας οἱ θεοί, ἐξ Ἅιδου ἀνεῖναι πάλιν τὴν ψυχήν, ἀλλὰ τὴν ἐκείνης ἀνεῖσαν ἀγασθέντες",
+          "mapsTo": [
+            1,
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and mother. So high did her love exalt her over them in kindness, that they were proved alien to their son and but nominal relations;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and when she achieved this deed, it was judged so noble by gods as well as men that, although among all the many doers of noble deeds they are",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "few and soon counted to whom the gods have granted the privilege of having their souls sent up again from Hades, hers they thus restored in admiration of her act.",
+          "mapsTo": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "179d",
+      "page": "179",
+      "order": 36,
+      "greek": "τῷ ἔργῳ· οὕτω καὶ θεοὶ τὴν περὶ τὸν ἔρωτα σπουδήν τε καὶ ἀρετὴν μάλιστα τιμῶσιν. Ὀρφέα δὲ τὸν Οἰάγρου ἀτελῆ ἀπέπεμψαν ἐξ Ἅιδου . φάσμα δείξαντες τῆς γυναικὸς ἐφ᾽ ἣν ἧκεν, αὐτὴν δὲ οὐ δόντες, ὅτι μαλθακίζεσθαι ἐδόκει, ἅτε ὢν κιθαρῳδός, καὶ οὐ τολμᾶν ἕνεκα τοῦ ἔρωτος ἀποθνῄσκειν ὥσπερ Ἄλκηστις, ἀλλὰ διαμηχανᾶσθαι ζῶν εἰσιέναι εἰς Ἅιδου , τοιγάρτοι διὰ ταῦτα δίκην αὐτῷ ἐπέθεσαν, καὶ ἐποίησαν τὸν θάνατον αὐτοῦ ὑπὸ γυναικῶν",
+      "english": "In this manner even the gods give special honor to zeal and courage in concerns of love. But Orpheus, son of Oeagrus, they sent back with failure from Hades, showing him only a wraith of the woman for whom he came; her real self they would not bestow, for he was accounted to have gone upon a coward’s quest, too like the minstrel that he was, and to have lacked the spirit to die as Alcestis did for the sake of love, when he contrived the means of entering Hades alive. Wherefore they laid upon him the penalty he deserved, and caused him to meet his death",
+      "greekPhrases": [
+        {
+          "text": "τῷ ἔργῳ· οὕτω καὶ θεοὶ τὴν περὶ τὸν ἔρωτα σπουδήν τε καὶ ἀρετὴν μάλιστα τιμῶσιν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Ὀρφέα δὲ τὸν Οἰάγρου ἀτελῆ ἀπέπεμψαν ἐξ Ἅιδου .",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "φάσμα δείξαντες τῆς γυναικὸς ἐφ᾽ ἣν ἧκεν, αὐτὴν δὲ οὐ δόντες, ὅτι μαλθακίζεσθαι ἐδόκει, ἅτε ὢν κιθαρῳδός, καὶ οὐ τολμᾶν ἕνεκα τοῦ ἔρωτος",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἀποθνῄσκειν ὥσπερ Ἄλκηστις, ἀλλὰ διαμηχανᾶσθαι ζῶν εἰσιέναι εἰς Ἅιδου , τοιγάρτοι διὰ ταῦτα δίκην αὐτῷ ἐπέθεσαν, καὶ ἐποίησαν τὸν θάνατον αὐτοῦ ὑπὸ γυναικῶν",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "In this manner even the gods give special honor to zeal and courage in concerns of love.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "But Orpheus, son of Oeagrus, they sent back with failure from Hades, showing him only a wraith of the woman for whom he came;",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "her real self they would not bestow, for he was accounted to have gone upon a coward’s quest, too like the minstrel that he was,",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and to have lacked the spirit to die as Alcestis did for the sake of love, when he contrived the means of entering Hades alive.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Wherefore they laid upon him the penalty he deserved, and caused him to meet his death",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "179e",
+      "page": "179",
+      "order": 37,
+      "greek": "γενέσθαι, οὐχ ὥσπερ Ἀχιλλέα τὸν τῆς Θέτιδος υἱὸν ἐτίμησαν καὶ εἰς μακάρων νήσους ἀπέπεμψαν, ὅτι πεπυσμένος παρὰ τῆς μητρὸς ὡς ἀποθανοῖτο ἀποκτείνας Ἕκτορα, μὴ ἀποκτείνας δὲ τοῦτον οἴκαδ ᾽ ἐλθὼν γηραιὸς τελευτήσοι, ἐτόλμησεν ἑλέσθαι βοηθήσας τῷ ἐραστῇ Πατρόκλῳ καὶ",
+      "english": "at the hands of women: whereas Achilles, son of Thetis, they honored and sent to his place in the Isles of the Blest, because having learnt from his mother that he would die as surely as he slew Hector, but if he slew him not, would return home and end his days an aged man, he bravely chose to go and rescue his lover Patroclus,",
+      "greekPhrases": [
+        {
+          "text": "γενέσθαι, οὐχ ὥσπερ Ἀχιλλέα τὸν τῆς Θέτιδος υἱὸν ἐτίμησαν καὶ εἰς μακάρων νήσους ἀπέπεμψαν, ὅτι πεπυσμένος παρὰ τῆς μητρὸς",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ὡς ἀποθανοῖτο ἀποκτείνας Ἕκτορα, μὴ ἀποκτείνας δὲ τοῦτον οἴκαδ ᾽ ἐλθὼν γηραιὸς τελευτήσοι, ἐτόλμησεν ἑλέσθαι βοηθήσας τῷ ἐραστῇ Πατρόκλῳ καὶ",
+          "mapsTo": [
+            1,
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "at the hands of women:",
+          "mapsTo": []
+        },
+        {
+          "text": "whereas Achilles, son of Thetis, they honored and sent to his place in the Isles of the Blest, because having learnt from his mother that he would die as surely",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "as he slew Hector, but if he slew him not, would return home and end his days an aged man, he bravely chose to go and rescue his lover Patroclus,",
+          "mapsTo": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "180a",
+      "page": "180",
+      "order": 38,
+      "greek": "τιμωρήσας οὐ μόνον ὑπεραποθανεῖν ἀλλὰ καὶ ἐπαποθανεῖν τετελευτηκότι· ὅθεν δὴ καὶ ὑπεραγασθέντες οἱ θεοὶ διαφερόντως αὐτὸν ἐτίμησαν, ὅτι τὸν ἐραστὴν οὕτω περὶ πολλοῦ ἐποιεῖτο. Αἰσχύλος δὲ φλυαρεῖ φάσκων Ἀχιλλέα Πατρόκλου ἐρᾶν, ὃς ἦν καλλίων οὐ μόνον Πατρόκλου ἀλλ᾽ καὶ τῶν ἡρώων ἁπάντων, καὶ ἔτι ἀγένειος, ἔπειτα νεώτερος πολύ, ὥς φησιν Ὅμηρος. ἀλλὰ γὰρ τῷ ὄντι μάλιστα μὲν ταύτην τὴν ἀρετὴν οἱ θεοὶ τιμῶσιν τὴν περὶ",
+      "english": "avenged him, and sought death not merely in his behalf but in haste to be joined with him whom death had taken. For this the gods so highly admired him that they gave him distinguished honor, since he set so great a value on his lover. And Aeschylus talks nonsense when he says that it was Achilles who was in love with Patroclus; for he excelled in beauty not Patroclus alone but assuredly all the other heroes, being still beardless and, moreover, much the younger, by Homer’s account. For in truth",
+      "greekPhrases": [
+        {
+          "text": "τιμωρήσας οὐ μόνον ὑπεραποθανεῖν ἀλλὰ καὶ ἐπαποθανεῖν τετελευτηκότι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ὅθεν δὴ καὶ ὑπεραγασθέντες οἱ θεοὶ διαφερόντως αὐτὸν ἐτίμησαν, ὅτι τὸν ἐραστὴν οὕτω περὶ πολλοῦ ἐποιεῖτο.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Αἰσχύλος δὲ φλυαρεῖ φάσκων Ἀχιλλέα Πατρόκλου ἐρᾶν, ὃς ἦν καλλίων οὐ μόνον Πατρόκλου ἀλλ᾽ καὶ τῶν ἡρώων ἁπάντων, καὶ ἔτι ἀγένειος, ἔπειτα νεώτερος πολύ, ὥς φησιν Ὅμηρος.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ἀλλὰ γὰρ τῷ ὄντι μάλιστα μὲν ταύτην τὴν ἀρετὴν οἱ θεοὶ τιμῶσιν τὴν περὶ",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "avenged him, and sought death not merely in his behalf but in haste to be joined with him whom death had taken.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For this the gods so highly admired him that they gave him distinguished honor, since he set so great a value on his lover.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "And Aeschylus talks nonsense when he says that it was Achilles who was in love with Patroclus;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for he excelled in beauty not Patroclus alone but assuredly all the other heroes, being still beardless and, moreover, much the younger, by Homer’s account. For in truth",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "180b",
+      "page": "180",
+      "order": 39,
+      "greek": "τὸν ἔρωτα, μᾶλλον μέντοι θαυμάζουσιν καὶ ἄγανται καὶ εὖ ποιοῦσιν ὅταν ὁ ἐρώμενος τὸν ἐραστὴν ἀγαπᾷ, ἢ ὅταν ὁ ἐραστὴς τὰ παιδικά. θειότερον γὰρ ἐραστὴς παιδικῶν· ἔνθεος γάρ ἐστι. διὰ ταῦτα καὶ τὸν Ἀχιλλέα τῆς Ἀλκήστιδος μᾶλλον ἐτίμησαν, εἰς μακάρων νήσους ἀποπέμψαντες. οὕτω δὴ ἔγωγέ φημι Ἔρωτα θεῶν καὶ πρεσβύτατον καὶ τιμιώτατον καὶ κυριώτατον εἶναι εἰς ἀρετῆς καὶ εὐδαιμονίας κτῆσιν ἀνθρώποις καὶ ζῶσι καὶ τελευτήσασιν.",
+      "english": "there is no sort of valor more respected by the gods than this which comes of love; yet they are even more admiring and delighted and beneficent when the beloved is fond of his lover than when the lover is fond of his favorite; since a lover, filled as he is with a god, surpasses his favorite in divinity. This is the reason why they honored Achilles above Alcestis, giving him his abode in the Isles of the Blest. So there is my description of Love—that he is the most venerable and valuable of the gods, and that he has sovereign power to provide all virtue and happiness for men whether living or departed.",
+      "greekPhrases": [
+        {
+          "text": "τὸν ἔρωτα, μᾶλλον μέντοι θαυμάζουσιν καὶ ἄγανται καὶ εὖ ποιοῦσιν ὅταν ὁ ἐρώμενος τὸν ἐραστὴν ἀγαπᾷ, ἢ ὅταν ὁ ἐραστὴς τὰ παιδικά.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "θειότερον γὰρ ἐραστὴς παιδικῶν· ἔνθεος γάρ ἐστι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "διὰ ταῦτα καὶ τὸν Ἀχιλλέα τῆς Ἀλκήστιδος μᾶλλον ἐτίμησαν, εἰς μακάρων νήσους ἀποπέμψαντες.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "οὕτω δὴ ἔγωγέ φημι Ἔρωτα θεῶν καὶ πρεσβύτατον καὶ τιμιώτατον καὶ κυριώτατον εἶναι εἰς ἀρετῆς καὶ εὐδαιμονίας κτῆσιν ἀνθρώποις καὶ ζῶσι καὶ τελευτήσασιν.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "there is no sort of valor more respected by the gods than this which comes of love;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "yet they are even more admiring and delighted and beneficent when the beloved is fond of his lover than when the lover is fond of his favorite;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "since a lover, filled as he is with a god, surpasses his favorite in divinity.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "This is the reason why they honored Achilles above Alcestis, giving him his abode in the Isles of the Blest.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So there is my description of Love—that he is the most venerable and valuable of the gods,",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "and that he has sovereign power to provide all virtue and happiness for men whether living or departed.",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "180c",
+      "page": "180",
+      "order": 40,
+      "greek": "Φαῖδρον μὲν τοιοῦτόν τινα λόγον ἔφη εἰπεῖν, μετὰ δὲ Φαῖδρον ἄλλους τινὰς εἶναι , ὧν οὐ πάνυ διεμνημόνευε ν · οὓς παρεὶς τὸν Παυσανίου λόγον διηγεῖτο. εἰπεῖν δ᾽ αὐτὸν ὅτι· οὐ καλῶς μοι δοκεῖ, ὦ Φαῖδρε, προβεβλῆσθαι ἡμῖν ὁ λόγος, τὸ ἁπλῶς οὕτως παρηγγέλθαι ἐγκωμιάζειν Ἔρωτα. εἰ μὲν γὰρ εἷς ἦν ὁ Ἔρως, καλῶς ἂν εἶχε· νῦν δὲ οὐ γάρ ἐστιν εἷς· μὴ ὄντος δὲ ἑνὸς ὀρθότερόν ἐστι πρότερον προῤῥηθῆναι",
+      "english": "Such in the main was Phaedrus’ speech as reported to me. It was followed by several others, which my friend could not recollect at all clearly; so he passed them over and related that of Pausanias, which ran as follows: I do not consider, Phaedrus, our plan of speaking a good one, if the rule is simply that we are to make eulogies of Love. If Love were only one, it would be right; but, you see, he is not one, and this being the case, it would be more correct to have it previously announced",
+      "greekPhrases": [
+        {
+          "text": "Φαῖδρον μὲν τοιοῦτόν τινα λόγον ἔφη εἰπεῖν, μετὰ δὲ Φαῖδρον ἄλλους τινὰς εἶναι , ὧν οὐ πάνυ διεμνημόνευε ν ·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "οὓς παρεὶς τὸν Παυσανίου λόγον διηγεῖτο.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "εἰπεῖν δ᾽ αὐτὸν ὅτι·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "οὐ καλῶς μοι δοκεῖ, ὦ Φαῖδρε, προβεβλῆσθαι ἡμῖν ὁ λόγος, τὸ ἁπλῶς οὕτως παρηγγέλθαι ἐγκωμιάζειν Ἔρωτα.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "εἰ μὲν γὰρ εἷς ἦν ὁ Ἔρως, καλῶς ἂν εἶχε·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "νῦν δὲ οὐ γάρ ἐστιν εἷς·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "μὴ ὄντος δὲ ἑνὸς ὀρθότερόν ἐστι πρότερον προῤῥηθῆναι",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Such in the main was Phaedrus’ speech as reported to me.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "It was followed by several others, which my friend could not recollect at all clearly;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "so he passed them over and related that of Pausanias, which ran as follows:",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "I do not consider, Phaedrus, our plan of speaking a good one, if the rule is simply that we are to make eulogies of Love.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "If Love were only one, it would be right;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "but, you see, he is not one, and this being the case, it would be more correct to have it previously announced",
+          "mapsTo": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "180d",
+      "page": "180",
+      "order": 41,
+      "greek": "ὁπότερον δεῖ ἐπαινεῖν. ἐγὼ οὖν πειράσομαι τοῦτο ἐπανορθώσασθαι, πρῶτον μὲν Ἔρωτα φράσαι ὃν δεῖ ἐπαινεῖν, ἔπειτα ἐπαινέσαι ἀξίως τοῦ θεοῦ. πάντες γὰρ ἴσμεν ὅτι οὐκ ἔστιν ἄνευ Ἔρωτος Ἀφροδίτη. μιᾶς μὲν οὖν οὔσης εἷς ἂν ἦν Ἔρως· ἐπεὶ δὲ δὴ δύο ἐστόν, δύο ἀνάγκη καὶ Ἔρωτε εἶναι. πῶς δ᾽ οὐ δύο τὼ θεά; ἡ μέν γέ που πρεσβυτέρα καὶ ἀμήτωρ Οὐρανοῦ θυγάτηρ, ἣν δὴ καὶ Οὐρανίαν ἐπονομάζομεν· ἡ δὲ νεωτέρα Διὸς καὶ Διώνης,",
+      "english": "what sort we ought to praise. Now this defect I will endeavor to amend, and will first decide on a Love who deserves our praise, and then will praise him in terms worthy of his godhead. We are all aware that there is no Aphrodite or Love-passion without a Love. True, if that goddess were one, then Love would be one: but since there are two of her, there must needs be two Loves also. Does anyone doubt that she is double? Surely there is the elder, of no mother born, but daughter of Heaven, whence we name her Heavenly; while the younger was the child of Zeus and Dione, and her we call Popular.",
+      "greekPhrases": [
+        {
+          "text": "ὁπότερον δεῖ ἐπαινεῖν. ἐγὼ οὖν πειράσομαι τοῦτο ἐπανορθώσασθαι, πρῶτον μὲν Ἔρωτα φράσαι ὃν δεῖ ἐπαινεῖν, ἔπειτα ἐπαινέσαι ἀξίως τοῦ θεοῦ.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "πάντες γὰρ ἴσμεν ὅτι οὐκ ἔστιν ἄνευ Ἔρωτος Ἀφροδίτη.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "μιᾶς μὲν οὖν οὔσης εἷς ἂν ἦν Ἔρως·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἐπεὶ δὲ δὴ δύο ἐστόν, δύο ἀνάγκη καὶ Ἔρωτε εἶναι.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "πῶς δ᾽ οὐ δύο τὼ θεά;",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ἡ μέν γέ που πρεσβυτέρα καὶ ἀμήτωρ Οὐρανοῦ θυγάτηρ, ἣν δὴ καὶ Οὐρανίαν ἐπονομάζομεν·",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "ἡ δὲ νεωτέρα Διὸς καὶ Διώνης,",
+          "mapsTo": [
+            8
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "what sort we ought to praise.",
+          "mapsTo": []
+        },
+        {
+          "text": "Now this defect I will endeavor to amend, and will first decide on a Love",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "who deserves our praise, and then will praise him in terms worthy of his godhead.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "We are all aware that there is no Aphrodite or Love-passion without a Love.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "True, if that goddess were one, then Love would be one:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but since there are two of her, there must needs be two Loves also.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Does anyone doubt that she is double?",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Surely there is the elder, of no mother born, but daughter of Heaven, whence we name her Heavenly;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "while the younger was the child of Zeus and Dione, and her we call Popular.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "180e",
+      "page": "180",
+      "order": 42,
+      "greek": "ἣν δὴ Πάνδημον καλοῦμεν. ἀναγκαῖον δὴ καὶ ἔρωτα τὸν μὲν τῇ ἑτέρᾳ συνεργὸν Πάνδημον ὀρθῶς καλεῖσθαι, τὸν δὲ Οὐράνιον. ἐπαινεῖν μὲν οὖν δεῖ πάντας θεούς, ἃ δ᾽ οὖν ἑκάτερος εἴληχε πειρατέον εἰπεῖν. πᾶσα γὰρ πρᾶξις ὧδ᾽ ἔχει· αὐτὴ ἐφ᾽ ἑαυτῆς πραττομένη οὔτε καλὴ οὔτε αἰσχρά.",
+      "english": "It follows then that of the two Loves also the one ought to be called Popular, as fellow-worker with the one of those goddesses, and the other Heavenly. All gods, of course, ought to be praised: but none the less I must try to describe the faculties of each of these two. For of every action",
+      "greekPhrases": [
+        {
+          "text": "ἣν δὴ Πάνδημον καλοῦμεν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀναγκαῖον δὴ καὶ ἔρωτα τὸν μὲν τῇ ἑτέρᾳ συνεργὸν Πάνδημον ὀρθῶς καλεῖσθαι, τὸν δὲ Οὐράνιον.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐπαινεῖν μὲν οὖν δεῖ πάντας θεούς, ἃ δ᾽ οὖν ἑκάτερος εἴληχε πειρατέον εἰπεῖν.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "πᾶσα γὰρ πρᾶξις ὧδ᾽ ἔχει·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "αὐτὴ ἐφ᾽ ἑαυτῆς πραττομένη οὔτε καλὴ οὔτε αἰσχρά.",
+          "mapsTo": [
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "It follows then that of the two Loves also the one ought to be called Popular, as fellow-worker with the one of those goddesses, and the other Heavenly.",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "All gods, of course, ought to be praised:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but none the less I must try to describe the faculties of each of these two.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "For of every action",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "181a",
+      "page": "181",
+      "order": 43,
+      "greek": "οἷον ὃ νῦν ἡμεῖς ποιοῦμεν, ἢ πίνειν ἢ ᾄδειν ἢ διαλέγεσθαι, οὐκ ἔστι τούτων αὐτὸ καλὸν οὐδέν, ἀλλ᾽ ἐν τῇ πράξει, ὡς ἂν πραχθῇ, τοιοῦτον ἀπέβη· καλῶς μὲν γὰρ πραττόμενον καὶ ὀρθῶς καλὸν γίγνεται, μὴ ὀρθῶς δὲ αἰσχρόν. Οὕτω δὴ καὶ τὸ ἐρᾷν καὶ ὁ Ἔρως οὐ πᾶς ἐστὶ καλὸς οὐδὲ ἄξιος ἐγκωμιάζεσθαι, ἀλλὰ ὁ καλῶς προτρέπων ἐρᾷν. Ὁ μὲν οὖν τῆς Πανδήμου Ἀφροδίτης ὡς ἀληθῶς πάνδημός",
+      "english": "it may be observed that as acted by itself it is neither noble nor base. For instance, in our conduct at this moment, whether we drink or sing or converse, none of these things is noble in itself; each only turns out to be such in the doing, as the manner of doing it may be. For when the doing of it is noble and right, the thing itself becomes noble; when wrong, it becomes base. So also it is with loving, and Love is not in every case noble or worthy of celebration, but only when he impels us to love in a noble manner.",
+      "greekPhrases": [
+        {
+          "text": "οἷον ὃ νῦν ἡμεῖς ποιοῦμεν, ἢ πίνειν ἢ ᾄδειν ἢ διαλέγεσθαι, οὐκ ἔστι τούτων αὐτὸ καλὸν οὐδέν, ἀλλ᾽ ἐν τῇ πράξει, ὡς ἂν πραχθῇ, τοιοῦτον ἀπέβη·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "καλῶς μὲν γὰρ πραττόμενον καὶ ὀρθῶς καλὸν γίγνεται, μὴ ὀρθῶς δὲ αἰσχρόν.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Οὕτω δὴ καὶ τὸ ἐρᾷν καὶ ὁ Ἔρως οὐ πᾶς ἐστὶ καλὸς οὐδὲ ἄξιος ἐγκωμιάζεσθαι, ἀλλὰ ὁ καλῶς προτρέπων ἐρᾷν.",
+          "mapsTo": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "Ὁ μὲν οὖν τῆς Πανδήμου Ἀφροδίτης ὡς ἀληθῶς πάνδημός",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "it may be observed that as acted by itself it is neither noble nor base.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For instance, in our conduct at this moment, whether we drink or sing or converse, none of these things is noble in itself;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "each only turns out to be such in the doing, as the manner of doing it may be.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "For when the doing of it is noble and right, the thing itself becomes noble;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "when wrong, it becomes base.",
+          "mapsTo": []
+        },
+        {
+          "text": "So also it is with loving, and Love is not in every case noble or",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "worthy of celebration, but only when he impels us to love in a noble manner.",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "181b",
+      "page": "181",
+      "order": 44,
+      "greek": "ἐστι καὶ ἐξεργάζεται ὅ τι ἂν τύχῃ· καὶ οὗτός ἐστιν ὃν οἱ φαῦλοι τῶν ἀνθρώπων ἐρῶσιν. ἐρῶσι δὲ οἱ τοιοῦτοι πρῶτον μὲν οὐχ ἧττον γυναικῶν ἢ παίδων, ἔπειτα ὧν καὶ ἐρῶσι τῶν σωμάτων μᾶλλον ἢ τῶν ψυχῶν, ἔπειτα ὡς ἂν δύνωνται ἀνοητοτάτων, πρὸς τὸ διαπράξασθαι μόνον βλέποντες, ἀμελοῦντες δὲ τοῦ καλῶς ἢ μή· ὅθεν δὴ ξυμβαίνει αὐτοῖς ὅ τι ἂν τύχωσι τοῦτο πράττειν, ὁμοίως μὲν ἀγαθόν, ὁμοίως δὲ τοὐναντίον. ἔστι γὰρ καὶ ἀπὸ τῆς θεοῦ νεωτέρας",
+      "english": "Now the Love that belongs to the Popular Aphrodite is in very truth popular and does his work at haphazard: this is the Love we see in the meaner sort of men; who, in the first place, love women as well as boys; secondly, where they love, they are set on the body more than the soul; and thirdly, they choose the most witless people they can find, since they look merely to the accomplishment and care not if the manner be noble or no. Hence they find themselves doing everything at haphazard, good or its opposite, without distinction:",
+      "greekPhrases": [
+        {
+          "text": "ἐστι καὶ ἐξεργάζεται ὅ τι ἂν τύχῃ·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ οὗτός ἐστιν ὃν οἱ φαῦλοι τῶν ἀνθρώπων ἐρῶσιν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐρῶσι δὲ οἱ τοιοῦτοι πρῶτον μὲν οὐχ ἧττον γυναικῶν ἢ παίδων, ἔπειτα ὧν καὶ ἐρῶσι τῶν σωμάτων μᾶλλον",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἢ τῶν ψυχῶν, ἔπειτα ὡς ἂν δύνωνται ἀνοητοτάτων, πρὸς τὸ διαπράξασθαι μόνον βλέποντες, ἀμελοῦντες δὲ τοῦ καλῶς ἢ μή·",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "ὅθεν δὴ ξυμβαίνει αὐτοῖς ὅ τι ἂν τύχωσι τοῦτο πράττειν, ὁμοίως μὲν ἀγαθόν, ὁμοίως δὲ τοὐναντίον.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "ἔστι γὰρ καὶ ἀπὸ τῆς θεοῦ νεωτέρας",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Now the Love that belongs to the Popular Aphrodite is in very truth popular and does his work at haphazard:",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "this is the Love we see in the meaner sort of men;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "who, in the first place, love women as well as boys;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "secondly, where they love, they are set on the body more than the soul;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "and thirdly, they choose the most witless people they can find, since they look merely to the accomplishment and care not if the manner be noble or no.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Hence they find themselves doing everything at haphazard, good or its opposite, without distinction:",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "181c",
+      "page": "181",
+      "order": 45,
+      "greek": "τε οὔσης πολὺ ἢ τῆς ἑτέρας, καὶ μετεχούσης ἐν τῇ γενέσει καὶ θήλεος καὶ ἄῤῥενος. ὁ δὲ τῆς Οὐρανίας πρῶτον μὲν οὐ μετεχούσης θήλεος ἀλλ᾽ ἄῤῥενος μόνον [ καὶ ἔστιν οὗτος ὁ τῶν παίδων ἔρως ] ἔπειτα πρεσβυτέρας, ὕβρεως ἀμοίρου· ὅθεν δὴ ἐπὶ τὸ ἄῤῥεν τρέπονται οἱ ἐκ τούτου τοῦ ἔρωτος ἔπιπνοι, τὸ φύσει ἐῤῥωμενέστερον καὶ νοῦν μᾶλλον ἔχον ἀγαπῶντες. καί τις ἂν γνοίη καὶ ἐν αὐτῇ τῇ παιδεραστίᾳ τοὺς εἰλικρινῶς",
+      "english": "for this Love proceeds from the goddess who is far the younger of the two, and who in her origin partakes of both female and male. But the other Love springs from the Heavenly goddess who, firstly, partakes not of the female but only of the male; and secondly, is the elder, untinged with wantonness: wherefore those who are inspired by this Love betake them to the male, in fondness for what has the robuster nature and a larger share of mind. Even in the passion for boys you may note the way of those who are under the single incitement of this Love:",
+      "greekPhrases": [
+        {
+          "text": "τε οὔσης πολὺ ἢ τῆς ἑτέρας, καὶ μετεχούσης ἐν τῇ γενέσει καὶ θήλεος καὶ ἄῤῥενος.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ὁ δὲ τῆς Οὐρανίας πρῶτον μὲν οὐ μετεχούσης θήλεος ἀλλ᾽ ἄῤῥενος μόνον [ καὶ ἔστιν οὗτος ὁ τῶν παίδων ἔρως ] ἔπειτα πρεσβυτέρας, ὕβρεως ἀμοίρου·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ὅθεν δὴ ἐπὶ τὸ ἄῤῥεν τρέπονται οἱ ἐκ τούτου τοῦ ἔρωτος ἔπιπνοι, τὸ φύσει ἐῤῥωμενέστερον καὶ νοῦν μᾶλλον ἔχον ἀγαπῶντες.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καί τις ἂν γνοίη καὶ ἐν αὐτῇ τῇ παιδεραστίᾳ τοὺς εἰλικρινῶς",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "for this Love proceeds from the goddess who is far the younger of the two, and who in her origin partakes of both female and male.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "But the other Love springs from the Heavenly goddess who, firstly, partakes not of the female but only of the male;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and secondly, is the elder, untinged with wantonness:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "wherefore those who are inspired by this Love betake them to the male, in fondness for what has the robuster nature and a larger share of mind.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Even in the passion for boys you may note the way of those who are under the single incitement of this Love:",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "181d",
+      "page": "181",
+      "order": 46,
+      "greek": "ὑπὸ τούτου τοῦ ἔρωτος ὡρμημένους· οὐ γὰρ ἐρῶσι παίδων, ἀλλ᾽ ἐπειδὰν ἤδη ἄρχωνται νοῦν ἴσχειν, τοῦτο δὲ πλησιάζει τῷ γενειάσκειν. παρεσκευασμένοι γὰρ , οἶμαί εἰσιν οἱ ἐντεῦθεν ἀρχόμενοι ἐρᾷν ὡς τὸν βίον ἅπαντα ξυνεσόμενοι καὶ κοινῇ συμβιωσόμενοι, ἀλλ᾽ οὐκ ἐξαπατήσαντες, ἐν ἀφροσύνῃ λαβόντες ὡς νέον, καταγελάσαντες οἰχήσεσθαι ἐπ᾽ ἄλλον ἀποτρέχοντες. χρῆν δὲ καὶ νόμον εἶναι μὴ ἐρᾷν",
+      "english": "they love boys only when they begin to acquire some mind—a growth associated with that of down on their chins. For I conceive that those who begin to love them at this age are prepared to be always with them and share all with them as long as life shall last: they will not take advantage of a boy’s green thoughtlessness to deceive him and make a mock of him by running straight off to another. Against this love of boys a law should have been enacted,",
+      "greekPhrases": [
+        {
+          "text": "ὑπὸ τούτου τοῦ ἔρωτος ὡρμημένους·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἐρῶσι παίδων, ἀλλ᾽ ἐπειδὰν ἤδη ἄρχωνται νοῦν ἴσχειν, τοῦτο δὲ πλησιάζει τῷ γενειάσκειν.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "παρεσκευασμένοι γὰρ , οἶμαί εἰσιν οἱ ἐντεῦθεν ἀρχόμενοι ἐρᾷν ὡς τὸν βίον ἅπαντα ξυνεσόμενοι καὶ",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "κοινῇ συμβιωσόμενοι, ἀλλ᾽ οὐκ ἐξαπατήσαντες, ἐν ἀφροσύνῃ λαβόντες ὡς νέον, καταγελάσαντες οἰχήσεσθαι ἐπ᾽ ἄλλον ἀποτρέχοντες.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "χρῆν δὲ καὶ νόμον εἶναι μὴ ἐρᾷν",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "they love boys only when they begin to acquire some mind—a growth associated with that of down on their chins.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "For I conceive that those who begin to love them at this age are prepared",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "to be always with them and share all with them as long as life shall last:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "they will not take advantage of a boy’s green thoughtlessness to deceive him and make a mock of him by running straight off to another.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Against this love of boys a law should have been enacted,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "181e",
+      "page": "181",
+      "order": 47,
+      "greek": "παίδων, ἵνα μὴ εἰς ἄδηλον πολλὴ σπουδὴ ἀνηλίσκετο· τὸ γὰρ τῶν παίδων τέλος ἄδηλον οἷ τελευτᾷ κακίας καὶ ἀρετῆς ψυχῆς τε πέρι καὶ σώματος. οἱ μὲν οὖν ἀγαθοὶ τὸν νόμον τοῦτον αὐτοὶ αὑτοῖς ἑκόντες τίθενται, χρῆν δὲ καὶ τούτους τοὺς πανδήμους ἐραστὰς προσαναγκάζειν τὸ τοιοῦτον, ὥσπερ καὶ τῶν ἐλευθέρων γυναικῶν προσαναγκάζομεν αὐτοὺς καθ᾽",
+      "english": "to prevent the sad waste of attentions paid to an object so uncertain: for who can tell where a boy will end at last, vicious or virtuous in body and soul? Good men, however, voluntarily make this law for themselves, and it is a rule which those popular lovers ought to be forced to obey,",
+      "greekPhrases": [
+        {
+          "text": "παίδων, ἵνα μὴ εἰς ἄδηλον πολλὴ σπουδὴ ἀνηλίσκετο·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τὸ γὰρ τῶν παίδων τέλος ἄδηλον οἷ τελευτᾷ κακίας καὶ ἀρετῆς ψυχῆς τε πέρι καὶ σώματος.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "οἱ μὲν οὖν ἀγαθοὶ τὸν νόμον τοῦτον αὐτοὶ αὑτοῖς ἑκόντες τίθενται, χρῆν δὲ καὶ",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "τούτους τοὺς πανδήμους ἐραστὰς προσαναγκάζειν τὸ τοιοῦτον, ὥσπερ καὶ τῶν ἐλευθέρων γυναικῶν προσαναγκάζομεν αὐτοὺς καθ᾽",
+          "mapsTo": [
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "to prevent the sad waste of attentions paid to an object so uncertain:",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "for who can tell where a boy will end at last, vicious or virtuous in body and soul?",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Good men, however, voluntarily make this law for themselves, and it is a rule which those popular lovers ought to be forced to obey,",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "182a",
+      "page": "182",
+      "order": 48,
+      "greek": "ὅσον δυνάμεθα μὴ ἐρᾶν. οὗτοι γάρ εἰσιν οἱ καὶ τὸ ὄνειδος πεποιηκότες, ὥστε τινὰς τολμᾷν λέγειν ὡς αἰσχρὸν χαρίζεσθαι ἐρασταῖς· λέγουσι δὲ εἰς τούτους ἀποβλέποντες, ὁρῶντες αὐτῶν τὴν ἀκαιρίαν καὶ ἀδικίαν, ἐπεὶ οὐ δή που κοσμίως γε καὶ νομίμως ὁτιοῦν πραττόμενον ψόγον ἂν δικαίως φέροι. καὶ δὴ καὶ ὁ περὶ τὸν ἔρωτα νόμος ἐν μὲν ταῖς ἄλλαις πόλεσι νοῆσαι ῥᾴδιος, ἁπλῶς γὰρ ὥρισται· ὁ δ᾽ ἐνθάδε",
+      "english": "just as we force them, so far as we can, to refrain from loving our freeborn women. These are the persons responsible for the scandal which prompts some to say it is a shame to gratify one’s lover: such are the cases they have in view, for they observe all their reckless and wrongful doings; and surely, whatsoever is done in an orderly and lawful manner can never justly bring reproach. Further, it is easy to note the rule with regard to love in other cities: there it is laid down in simple terms, while ours here is complicated. For in Elis",
+      "greekPhrases": [
+        {
+          "text": "ὅσον δυνάμεθα μὴ ἐρᾶν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὗτοι γάρ εἰσιν οἱ καὶ τὸ ὄνειδος πεποιηκότες, ὥστε τινὰς τολμᾷν λέγειν ὡς αἰσχρὸν χαρίζεσθαι ἐρασταῖς·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "λέγουσι δὲ εἰς τούτους ἀποβλέποντες, ὁρῶντες αὐτῶν τὴν ἀκαιρίαν καὶ ἀδικίαν, ἐπεὶ οὐ δή που κοσμίως γε καὶ νομίμως ὁτιοῦν πραττόμενον ψόγον ἂν δικαίως φέροι.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "καὶ δὴ καὶ ὁ περὶ τὸν ἔρωτα νόμος ἐν μὲν ταῖς ἄλλαις πόλεσι νοῆσαι ῥᾴδιος, ἁπλῶς γὰρ ὥρισται· ὁ δ᾽ ἐνθάδε",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "just as we force them, so far as we can, to refrain from loving our freeborn women.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "These are the persons responsible for the scandal which prompts some to say it is a shame to gratify one’s lover:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "such are the cases they have in view, for they observe all their reckless and wrongful doings;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and surely, whatsoever is done in an orderly and lawful manner can never justly bring reproach.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Further, it is easy to note the rule with regard to love in other cities:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "there it is laid down in simple terms, while ours here is complicated. For in Elis",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "182b",
+      "page": "182",
+      "order": 49,
+      "greek": "καὶ ἐν Λακεδαίμονι ποικίλος. ἐν Ἤλιδι μὲν γὰρ καὶ ἐν Βοιωτοῖς, καὶ οὗ μὴ σοφοὶ λέγειν, ἁπλῶς νενομοθέτηται καλὸν τὸ χαρίζεσθαι ἐρασταῖς, καὶ οὐκ ἄν τις εἴποι οὔτε νέος οὔτε παλαιὸς ὡς αἰσχρόν, ἵνα , οἶμαι , μὴ πράγματ᾽ ἔχωσιν λόγῳ πειρώμενοι πείθειν τοὺς νέους, ἅτε ἀδύνατοι λέγειν· τῆς δὲ Ἰωνίας καὶ ἄλλοθι πολλαχοῦ αἰσχρὸν νενόμισται, ὅποι ὑπὸ βαρβάροις οἰκοῦσιν. τοῖς γὰρ βαρβάροις διὰ τὰς τυραννίδας αἰσχρὸν τοῦτό γε καὶ ἥ γε",
+      "english": "and Boeotia and where there is no skill in speech they have simply an ordinance that it is seemly to gratify lovers, and no one whether young or old will call it shameful, in order, I suppose, to save themselves the trouble of trying what speech can do to persuade the youths; for they have no ability for speaking. But in Ionia and many other regions where they live under foreign sway, it is counted a disgrace. Foreigners hold this thing,",
+      "greekPhrases": [
+        {
+          "text": "καὶ ἐν Λακεδαίμονι ποικίλος.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐν Ἤλιδι μὲν γὰρ καὶ ἐν Βοιωτοῖς, καὶ οὗ μὴ σοφοὶ λέγειν, ἁπλῶς νενομοθέτηται καλὸν τὸ χαρίζεσθαι ἐρασταῖς, καὶ οὐκ ἄν τις",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἴποι οὔτε νέος οὔτε παλαιὸς ὡς αἰσχρόν, ἵνα , οἶμαι , μὴ πράγματ᾽ ἔχωσιν λόγῳ πειρώμενοι πείθειν τοὺς νέους, ἅτε ἀδύνατοι λέγειν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τῆς δὲ Ἰωνίας καὶ ἄλλοθι πολλαχοῦ αἰσχρὸν νενόμισται, ὅποι ὑπὸ βαρβάροις οἰκοῦσιν.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "τοῖς γὰρ βαρβάροις διὰ τὰς τυραννίδας αἰσχρὸν τοῦτό γε καὶ ἥ γε",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and Boeotia and where there is no skill in speech they have simply an ordinance that it is seemly to gratify lovers, and no one whether",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "young or old will call it shameful, in order, I suppose, to save themselves the trouble of trying what speech can do to persuade the youths;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for they have no ability for speaking.",
+          "mapsTo": []
+        },
+        {
+          "text": "But in Ionia and many other regions where they live under foreign sway, it is counted a disgrace.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Foreigners hold this thing,",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "182c",
+      "page": "182",
+      "order": 50,
+      "greek": "φιλοσοφία καὶ ἡ φιλογυμναστία· οὐ γὰρ οἶμαι συμφέρει τοῖς ἄρχουσι φρονήματα μεγάλα ἐγγίγνεσθαι τῶν ἀρχομένων, οὐδὲ φιλίας ἰσχυρὰς καὶ κοινωνίας, ὃ δὴ μάλιστα φιλεῖ τά τε ἄλλα πάντα καὶ ὁ ἔρως ἐμποιεῖν. ἔργῳ δὲ τοῦτῳ ἔμαθον καὶ οἱ ἐνθάδε τύραννοι· ὁ γὰρ Ἀριστογείτονος ἔρως καὶ ἡ Ἁρμοδίου φιλία βέβαιος γενομένη κατέλυσεν αὐτῶν τὴν ἀρχήν. οὕτως οὗ μὲν αἰσχρὸν ἐτέθη",
+      "english": "and all training in philosophy and sports, to be disgraceful, because of their despotic government; since, I presume, it is not to the interest of their princes to have lofty notions engendered in their subjects, or any strong friendships and communions; all of which Love is pre-eminently apt to create. It is a lesson that our despots learnt by experience; for Aristogeiton’s love and Harmodius’s friendship grew to be so steadfast that it wrecked their power. Thus where it was held a disgrace to gratify one’s lover, the tradition is due to the evil ways of those who made such a law—",
+      "greekPhrases": [
+        {
+          "text": "φιλοσοφία καὶ ἡ φιλογυμναστία·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὐ γὰρ οἶμαι συμφέρει τοῖς ἄρχουσι φρονήματα μεγάλα ἐγγίγνεσθαι τῶν ἀρχομένων, οὐδὲ φιλίας ἰσχυρὰς καὶ κοινωνίας, ὃ δὴ μάλιστα φιλεῖ τά τε ἄλλα πάντα καὶ ὁ ἔρως ἐμποιεῖν.",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἔργῳ δὲ τοῦτῳ ἔμαθον καὶ οἱ ἐνθάδε τύραννοι·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ὁ γὰρ Ἀριστογείτονος ἔρως καὶ ἡ Ἁρμοδίου φιλία βέβαιος γενομένη κατέλυσεν αὐτῶν τὴν ἀρχήν.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "οὕτως οὗ μὲν αἰσχρὸν ἐτέθη",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and all training in philosophy and sports, to be disgraceful, because of their despotic government;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "since, I presume, it is not to the interest of their princes to have lofty notions engendered in their subjects, or any strong friendships and communions;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "all of which Love is pre-eminently apt to create.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "It is a lesson that our despots learnt by experience;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for Aristogeiton’s love and Harmodius’s friendship grew to be so steadfast that it wrecked their power.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Thus where it was held a disgrace to gratify one’s lover, the tradition is due to the evil ways of those who made such a law—",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "182d",
+      "page": "182",
+      "order": 51,
+      "greek": "χαρίζεσθαι ἐρασταῖς, κακίᾳ τῶν θεμένων κεῖται, τῶν μὲν ἀρχόντων πλεονεξίᾳ, τῶν δὲ ἀρχομένων ἀνανδρίᾳ· οὗ δὲ καλὸν ἁπλῶς ἐνομίσθη, διὰ τὴν τῶν θεμένων τῆς ψυχῆς ἀργίαν. ἐνθάδε δὲ πολὺ τούτων κάλλιον νενομοθέτηται, καὶ ὅπερ εἶπον, οὐ ῥᾴδιον κατανοῆσαι. Ἐνθυμηθέντι γὰρ ὅτι λέγεται κάλλιον τὸ φανερῶς ἐρᾷν τοῦ λάθρᾳ, καὶ μάλιστα τῶν γενναιοτάτων καὶ ἀρίστων, κἂν αἰσχίους ἄλλων ὦσι, καὶ ὅτι αὖ ἡ παρακέλευσις τῷ ἐρῶντι παρὰ πάντων θαυμαστή, οὐχ ὥς τι αἰσχρὸν ποιοῦντι, καὶ ἑλόντι τε καλὸν δοκεῖ εἶναι",
+      "english": "that is, to the encroachments of the rulers and to the cowardice of the ruled. But where it was accepted as honorable without any reserve, this was due to a sluggishness of mind in the law-makers. In our city we have far better regulations, which, as I said, are not so easily grasped. Consider, for instance, our saying that it is more honorable to love openly than in secret, especially when the beloved excels not so much in beauty as in nobility and virtue; and again, what a wonderful encouragement a lover gets from us all:",
+      "greekPhrases": [
+        {
+          "text": "χαρίζεσθαι ἐρασταῖς, κακίᾳ τῶν θεμένων κεῖται, τῶν μὲν ἀρχόντων πλεονεξίᾳ, τῶν δὲ ἀρχομένων ἀνανδρίᾳ·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὗ δὲ καλὸν ἁπλῶς ἐνομίσθη, διὰ τὴν τῶν θεμένων τῆς ψυχῆς ἀργίαν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐνθάδε δὲ πολὺ τούτων κάλλιον νενομοθέτηται, καὶ ὅπερ εἶπον, οὐ ῥᾴδιον κατανοῆσαι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Ἐνθυμηθέντι γὰρ ὅτι λέγεται κάλλιον τὸ φανερῶς ἐρᾷν τοῦ λάθρᾳ, καὶ μάλιστα τῶν γενναιοτάτων καὶ ἀρίστων, κἂν αἰσχίους ἄλλων ὦσι,",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ ὅτι αὖ ἡ παρακέλευσις τῷ ἐρῶντι παρὰ πάντων θαυμαστή, οὐχ ὥς τι αἰσχρὸν ποιοῦντι, καὶ ἑλόντι τε καλὸν δοκεῖ εἶναι",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "that is, to the encroachments of the rulers and to the cowardice of the ruled.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "But where it was accepted as honorable without any reserve, this was due to a sluggishness of mind in the law-makers.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "In our city we have far better regulations, which, as I said, are not so easily grasped.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Consider, for instance, our saying that it is more honorable to love openly than in",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "secret, especially when the beloved excels not so much in beauty as in nobility and virtue;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "and again, what a wonderful encouragement a lover gets from us all:",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "182e",
+      "page": "182",
+      "order": 52,
+      "greek": "καὶ μὴ ἑλόντι αἰσχρόν, καὶ πρὸς τὸ ἐπιχειρεῖν ἑλεῖν ἐξουσίαν ὁ νόμος δέδωκε τῷ ἐραστῇ θαυμαστὰ ἔργα ἐργαζομένῳ ἐπαινεῖσθαι, ἃ εἴ τις τολμῴη ποιεῖν ἄλλ᾽ ὁτιοῦν διώκων καὶ",
+      "english": "we have no thought of his doing anything unseemly, and success in his pursuit is counted honorable and failure disgraceful; and how in his endeavors for success our law leaves him a free hand for performing such admirable acts as may win him praise; while the same acts, if attempted for any other purpose",
+      "greekPhrases": [
+        {
+          "text": "καὶ μὴ ἑλόντι αἰσχρόν, καὶ πρὸς τὸ ἐπιχειρεῖν ἑλεῖν ἐξουσίαν ὁ νόμος δέδωκε τῷ ἐραστῇ θαυμαστὰ ἔργα ἐργαζομένῳ ἐπαινεῖσθαι, ἃ εἴ τις τολμῴη ποιεῖν ἄλλ᾽ ὁτιοῦν διώκων καὶ",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "we have no thought of his doing anything unseemly, and success in his pursuit is counted honorable and failure disgraceful;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and how in his endeavors for success our law leaves him a free hand for performing such admirable acts as may win him praise;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "while the same acts, if attempted for any other purpose",
+          "mapsTo": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "183a",
+      "page": "183",
+      "order": 53,
+      "greek": "βουλόμενος διαπράξασθαι πλὴν τοῦτο, πλὴν φιλοσοφίας , τὰ μέγιστα καρποῖτ᾽ ἂν ὀνείδη· εἰ γὰρ ἢ χρήματα βουλόμενος παρά του λαβεῖν ἢ ἀρχὴν ἄρξαι ἤ τινα ἄλλην δύναμιν ἐθέλοι ποιεῖν οἷάπερ οἱ ἐρασταὶ πρὸς τὰ παιδικά, ἱκετείας τε καὶ ἀντιβολήσεις ἐν ταῖς δεήσεσιν ποιούμενοι, καὶ ὅρκους ὀμνύντες, καὶ κοιμήσεις ἐπὶ θύραις, καὶ ἐθέλοντες δουλείας δουλεύειν οἵας οὐδ᾽ ἂν δοῦλος οὐδείς, ἐμποδίζοιτο ἂν μὴ πράττειν οὕτω τὴν πρᾶξιν καὶ ὑπὸ φίλων καὶ ὑπὸ ἐχθρῶν,",
+      "english": "or effect to which one might be inclined, would bring one nothing in return but the sharpest reproach. For suppose that with the view of gaining money from another, or some office, or any sort of influence, a man should allow himself to behave as lovers commonly do to their favorites—pressing their suit with supplications and entreaties, binding themselves with vows, sleeping on doorsteps, and submitting to such slavery as no slave would ever endure—both the friends and the enemies of such a man would hinder his behaving in such fashion;",
+      "greekPhrases": [
+        {
+          "text": "βουλόμενος διαπράξασθαι πλὴν τοῦτο, πλὴν φιλοσοφίας , τὰ μέγιστα καρποῖτ᾽ ἂν ὀνείδη·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἰ γὰρ ἢ χρήματα βουλόμενος παρά του λαβεῖν ἢ ἀρχὴν ἄρξαι ἤ τινα ἄλλην δύναμιν ἐθέλοι ποιεῖν οἷάπερ οἱ ἐρασταὶ πρὸς τὰ παιδικά, ἱκετείας τε καὶ ἀντιβολήσεις ἐν ταῖς δεήσεσιν",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ποιούμενοι, καὶ ὅρκους ὀμνύντες, καὶ κοιμήσεις ἐπὶ θύραις, καὶ ἐθέλοντες δουλείας δουλεύειν οἵας οὐδ᾽ ἂν δοῦλος οὐδείς, ἐμποδίζοιτο ἂν μὴ πράττειν οὕτω τὴν πρᾶξιν καὶ ὑπὸ φίλων καὶ ὑπὸ ἐχθρῶν,",
+          "mapsTo": [
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "or effect to which one might be inclined, would bring one nothing in return but the sharpest reproach.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For suppose that with the view of gaining money from another, or some office, or any sort of influence, a man should allow himself to behave as lovers commonly do to their favorites—pressing their suit with",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "supplications and entreaties, binding themselves with vows, sleeping on doorsteps, and submitting to such slavery as no slave would ever endure—both the friends and the enemies of such a man would hinder his behaving in such fashion;",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "183b",
+      "page": "183",
+      "order": 54,
+      "greek": "τῶν μὲν ὀνειδιζόντων κολακείας καὶ ἀνελευθερίας, τῶν δὲ νουθετούντων καὶ αἰσχυνομένων ὑπὲρ αὐτοῦ· τῷ δ᾽ ἐρῶντι πάντα ταῦτα ποιοῦντι χάρις ἕπεται, καὶ δέδοται ὑπὸ τοῦ νόμου ἄνευ ὀνείδους πράττειν, ὡς πάγκαλόν τι πρᾶγμα διαπραττομένου· ὃ δὲ δεινότατον, ὥς γε λέγουσιν οἱ πολλοί, ὅτι καὶ ὀμνύντι μόνῳ συγγνώμη παρὰ θεῶν ἐκβάντι τῶν ὅρκων· ἀφροδίσιον γὰρ ὅρκον οὔ φασιν εἶναι· οὕτω",
+      "english": "for while the latter would reproach him with adulation and ill-breeding, the former would admonish him and feel ashamed of his conduct. But in a lover all such doings only win him favor: by free grant of our law he may behave thus without reproach, as compassing a most honorable end. Strangest of all, he alone in the vulgar opinion has indulgence from the gods when he forsakes the vow he has sworn; for the vow of love-passion, they say, is no vow. So true it is that both gods",
+      "greekPhrases": [
+        {
+          "text": "τῶν μὲν ὀνειδιζόντων κολακείας καὶ ἀνελευθερίας, τῶν δὲ νουθετούντων καὶ αἰσχυνομένων ὑπὲρ αὐτοῦ·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τῷ δ᾽ ἐρῶντι πάντα ταῦτα ποιοῦντι χάρις ἕπεται, καὶ δέδοται ὑπὸ τοῦ νόμου ἄνευ ὀνείδους πράττειν, ὡς πάγκαλόν τι πρᾶγμα διαπραττομένου·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ὃ δὲ δεινότατον, ὥς γε λέγουσιν οἱ πολλοί, ὅτι καὶ ὀμνύντι μόνῳ συγγνώμη παρὰ θεῶν ἐκβάντι τῶν ὅρκων·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἀφροδίσιον γὰρ ὅρκον οὔ φασιν εἶναι· οὕτω",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "for while the latter would reproach him with adulation and ill-breeding, the former would admonish him and feel ashamed of his conduct.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "But in a lover all such doings only win him favor:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "by free grant of our law he may behave thus without reproach, as compassing a most honorable end.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Strangest of all, he alone in the vulgar opinion has indulgence from the gods when he forsakes the vow he has sworn;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for the vow of love-passion, they say, is no vow.",
+          "mapsTo": []
+        },
+        {
+          "text": "So true it is that both gods",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "183c",
+      "page": "183",
+      "order": 55,
+      "greek": "καὶ οἱ θεοὶ καὶ οἱ ἄνθρωποι πᾶσαν ἐξουσίαν πεποιήκασι τῷ ἐρῶντι, ὡς ὁ νόμος φησὶν ὁ ἐνθάδε· ταύτῃ μὲν οὖν οἰηθείη ἄν τις πάγκαλον νομίζεσθαι ἐν τῇδε τῇ πόλει καὶ τὸ ἐρᾶν καὶ τὸ φίλους γίγνεσθαι τοῖς ἐρασταῖς. ἐπειδὰν δὲ παιδαγωγοὺς ἐπιστήσαντες οἱ πατέρες τοῖς ἐρωμένοις μὴ ἐῶσι διαλέγεσθαι τοῖς ἐρασταῖς, καὶ τῷ παιδαγωγῷ ταῦτα προστεταγμένα ᾖ, ἡλικιῶται δὲ καὶ ἑταῖροι ὀνειδίζωσιν ἐάν τι ὁρῶσιν τοιοῦτον γιγνόμενον, καὶ τοὺς ὀνειδίζοντας αὖ οἱ",
+      "english": "and men have given absolute licence to the lover, as our Athenian law provides. Thus far, then, we have ground for supposing that here in our city both loving some one and showing affection to one’s lover are held in highest honor. But it happens that fathers put tutors in charge of their boys when they are beloved, to prevent them from conversing with their lovers: the tutor has strict injunctions on the matter, and when they observe a boy to be guilty of such a thing his playmates and fellows reproach him,",
+      "greekPhrases": [
+        {
+          "text": "καὶ οἱ θεοὶ καὶ οἱ ἄνθρωποι πᾶσαν ἐξουσίαν πεποιήκασι τῷ ἐρῶντι, ὡς ὁ νόμος φησὶν ὁ ἐνθάδε·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ταύτῃ μὲν οὖν οἰηθείη ἄν τις πάγκαλον νομίζεσθαι ἐν τῇδε τῇ πόλει καὶ τὸ ἐρᾶν καὶ τὸ φίλους γίγνεσθαι τοῖς ἐρασταῖς.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐπειδὰν δὲ παιδαγωγοὺς ἐπιστήσαντες οἱ πατέρες τοῖς ἐρωμένοις μὴ ἐῶσι διαλέγεσθαι τοῖς ἐρασταῖς, καὶ τῷ παιδαγωγῷ ταῦτα",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "προστεταγμένα ᾖ, ἡλικιῶται δὲ καὶ ἑταῖροι ὀνειδίζωσιν ἐάν τι ὁρῶσιν τοιοῦτον γιγνόμενον, καὶ τοὺς ὀνειδίζοντας αὖ οἱ",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and men have given absolute licence to the lover, as our Athenian law provides.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Thus far, then, we have ground for supposing that here in our city both loving some one and showing affection to one’s lover are held in highest honor.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "But it happens that fathers put tutors in charge of their boys when they are beloved, to prevent them from conversing with their lovers:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "the tutor has strict injunctions on the matter, and when they observe a boy to be guilty of such a thing his playmates and fellows reproach him,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "183d",
+      "page": "183",
+      "order": 56,
+      "greek": "πρεσβύτεροι μὴ διακωλύωσι μηδὲ λοιδορῶσιν ὡς οὐκ ὀρθῶς λέγοντας, εἰς δὲ ταῦτά τις αὖ βλέψας ἡγήσαιτ᾽ ἂν πάλιν αἴσχιστον τὸ τοιοῦτον ἐνθάδε νομίζεσθαι. τὸ δὲ , οἶμαι , ὧδ᾽ ἔχει· οὐχ ἁπλοῦν ἐστιν, ὅπερ ἐξ ἀρχῆς ἐλέχθη , οὔτε καλὸν εἶναι αὐτὸ καθ᾽ αὑτὸ οὔτε αἰσχρόν, ἀλλὰ καλῶς μὲν πραττόμενον καλόν, αἰσχρῶς δὲ αἰσχρόν. αἰσχρῶς μὲν οὖν ἐστὶ πονηρῷ τε καὶ πονηρῶς χαρίζεσθαι, καλῶς δὲ χρηστῷ τε καὶ καλῶς. πονηρὸς δ᾽ ἐστὶν ἐκεῖνος ὁ ἐραστὴς ὁ πάνδημος,",
+      "english": "while his reproachers are not in their turn withheld or upbraided by their elders as speaking amiss; and from this it might rather be inferred that his behavior is held to be a great disgrace in Athens . Yet the truth of it, I think, is this: the affair is no simple thing; you remember we said that by itself it was neither noble nor base, but that it was noble if nobly conducted, and base if basely. To do the thing basely is to gratify a wicked man in a wicked manner: nobly means having to do with a good man in a noble manner. By wicked we mean that popular lover, who craves the body rather than the soul:",
+      "greekPhrases": [
+        {
+          "text": "πρεσβύτεροι μὴ διακωλύωσι μηδὲ λοιδορῶσιν ὡς οὐκ ὀρθῶς λέγοντας, εἰς δὲ ταῦτά τις αὖ βλέψας ἡγήσαιτ᾽ ἂν πάλιν αἴσχιστον τὸ τοιοῦτον ἐνθάδε νομίζεσθαι.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "τὸ δὲ , οἶμαι , ὧδ᾽ ἔχει·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "οὐχ ἁπλοῦν ἐστιν, ὅπερ ἐξ ἀρχῆς ἐλέχθη , οὔτε καλὸν εἶναι αὐτὸ καθ᾽ αὑτὸ οὔτε αἰσχρόν, ἀλλὰ καλῶς μὲν πραττόμενον καλόν, αἰσχρῶς δὲ αἰσχρόν.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "αἰσχρῶς μὲν οὖν ἐστὶ πονηρῷ τε καὶ πονηρῶς χαρίζεσθαι, καλῶς δὲ χρηστῷ τε καὶ καλῶς.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "πονηρὸς δ᾽ ἐστὶν ἐκεῖνος ὁ ἐραστὴς ὁ πάνδημος,",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "while his reproachers are not in their turn withheld or upbraided by their elders as speaking amiss;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and from this it might rather be inferred that his behavior is held to be a great disgrace in Athens .",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Yet the truth of it, I think, is this:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "the affair is no simple thing;",
+          "mapsTo": []
+        },
+        {
+          "text": "you remember we said that by itself it was neither noble nor base, but that it was noble if nobly conducted, and base if basely.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "To do the thing basely is to gratify a wicked man in a wicked manner:",
+          "mapsTo": []
+        },
+        {
+          "text": "nobly means having to do with a good man in a noble manner.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "By wicked we mean that popular lover, who craves the body rather than the soul:",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "183e",
+      "page": "183",
+      "order": 57,
+      "greek": "ὁ τοῦ σώματος μᾶλλον ἢ τῆς ψυχῆς ἐρῶν· καὶ γὰρ οὐδὲ μόνιμός ἐστιν, ἅτε οὐ μονίμου ἐρῶν πράγματος. ἅμα γὰρ τῷ τοῦ σώματος ἄνθει λήγοντι, οὗπερ ἤρα, οἴχεται ἀποπτάμενος, πολλοὺς λόγους καὶ ὑποσχέσεις καταισχύνας· ὁ δὲ τοῦ ἤθους χρηστοῦ ὄντος ἐραστὴς διὰ βίου μένει, ἅ τε μονίμῳ συντακείς. τούτους δὴ βούλεται ὁ",
+      "english": "as he is not in love with what abides, he himself is not abiding. As soon as the bloom of the body he so loved begins to fade he flutters off and is gone, leaving all his speeches and promises dishonored: whereas the lover of a nature that is worthy abides throughout life,",
+      "greekPhrases": [
+        {
+          "text": "ὁ τοῦ σώματος μᾶλλον ἢ τῆς ψυχῆς ἐρῶν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ γὰρ οὐδὲ μόνιμός ἐστιν, ἅτε οὐ μονίμου ἐρῶν πράγματος.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἅμα γὰρ τῷ τοῦ σώματος ἄνθει λήγοντι, οὗπερ ἤρα, οἴχεται ἀποπτάμενος, πολλοὺς λόγους καὶ ὑποσχέσεις καταισχύνας·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ὁ δὲ τοῦ ἤθους χρηστοῦ ὄντος ἐραστὴς διὰ βίου μένει, ἅ τε μονίμῳ συντακείς.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "τούτους δὴ βούλεται ὁ",
+          "mapsTo": [
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "as he is not in love with what abides, he himself is not abiding.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "As soon as the bloom of the body he so loved begins to fade he flutters off and is gone, leaving all his speeches and promises dishonored:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "whereas the lover of a nature that is worthy abides throughout life,",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "184a",
+      "page": "184",
+      "order": 58,
+      "greek": "ἡμέτερος νόμος εὖ καὶ καλῶς βασανίζειν, καὶ τοῖς μὲν χαρίσασθαι, τοὺς δὲ διαφεύγειν. διὰ ταῦτα οὖν τοῖς μὲν διώκειν παρακελεύεται, τοῖς δὲ φεύγειν, ἀγωνοθετῶν καὶ βασανίζων , ποτέρων ποτέ ἐστιν ὁ ἐρῶν καὶ ποτέρων ὁ ἐρώμενος. Οὕτω δὴ ὑπὸ ταύτης τῆς αἰτίας πρῶτον μὲν τὸ ἁλίσκεσθαι ταχὺ αἰσχρὸν νενόμισται, ἵνα χρόνος ἐγγένηται, ὃς δὴ δοκεῖ τὰ πολλὰ καλῶς βασανίζειν· ἔπειτα τὸ ὑπὸ χρημάτων καὶ ὑπὸ πολιτικῶν δυνάμεων ἁλῶναι αἰσχρόν,",
+      "english": "as being fused into one with the abiding. Now our law has a sure and excellent test for the trial of these persons, showing which are to be favored and which to be shunned. In the one case, accordingly, it encourages pursuit, but flight in the other, applying ordeals and tests in each case, whereby we are able to rank the lover and the beloved on this side or on that. And so it is for this reason that our convention regards a quick capitulation as a disgrace: for there ought, first, to be a certain interval—the generally approved touchstone—of time; and, second, it is disgraceful if the surrender is due to gold or public preferment,",
+      "greekPhrases": [
+        {
+          "text": "ἡμέτερος νόμος εὖ καὶ καλῶς βασανίζειν, καὶ τοῖς μὲν χαρίσασθαι, τοὺς δὲ διαφεύγειν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "διὰ ταῦτα οὖν τοῖς μὲν διώκειν παρακελεύεται, τοῖς δὲ φεύγειν, ἀγωνοθετῶν καὶ βασανίζων , ποτέρων ποτέ ἐστιν ὁ ἐρῶν καὶ ποτέρων ὁ ἐρώμενος.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Οὕτω δὴ ὑπὸ ταύτης τῆς αἰτίας πρῶτον μὲν τὸ ἁλίσκεσθαι ταχὺ αἰσχρὸν νενόμισται, ἵνα χρόνος ἐγγένηται, ὃς δὴ δοκεῖ τὰ πολλὰ καλῶς βασανίζειν·",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "ἔπειτα τὸ ὑπὸ χρημάτων καὶ ὑπὸ πολιτικῶν δυνάμεων ἁλῶναι αἰσχρόν,",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "as being fused into one with the abiding.",
+          "mapsTo": []
+        },
+        {
+          "text": "Now our law has a sure and excellent test for the trial of these persons, showing which are to be favored and which to be shunned.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "In the one case, accordingly, it encourages pursuit, but flight in the other, applying ordeals and tests in",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "each case, whereby we are able to rank the lover and the beloved on this side or on that.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "And so it is for this reason that our convention regards a quick capitulation as a disgrace:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for there ought, first, to be a certain interval—the generally approved touchstone—of time;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and, second, it is disgraceful if the surrender is due to gold or public preferment,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "184b",
+      "page": "184",
+      "order": 59,
+      "greek": "ἐάν τε κακῶς πάσχων πτήξῃ καὶ μὴ καρτερήσῃ, ἄν τ᾽ εὐεργετούμενος εἰς χρήματα ἢ εἰς διαπράξεις πολιτικὰς μὴ καταφρονήσῃ· οὐδὲν γὰρ δοκεῖ τούτων οὔτε βέβαιον οὔτε μόνιμον εἶναι, χωρὶς τοῦ μηδὲ πεφυκέναι ἀπ᾽ αὐτῶν γενναίαν φιλίαν. μία δὴ λείπεται τῷ ἡμετέρῳ νόμῳ ὁδός, εἰ μέλλει καλῶς χαριεῖσθαι ἐραστῇ παιδικά. Ἔστι γὰρ ἡμῖν νόμος, ὥσπερ ἐπὶ τοῖς ἐρασταῖς ἦν δουλεύειν ἐθέλοντας",
+      "english": "or is a mere cowering away from the endurance of ill-treatment, or shows the youth not properly contemptuous of such benefits as he may receive in pelf or political success. For in these there appears nothing steadfast or abiding, unless it be the impossibility of their producing a noble friendship. One way remains in our custom whereby a favorite may rightly gratify his lover:",
+      "greekPhrases": [
+        {
+          "text": "ἐάν τε κακῶς πάσχων πτήξῃ καὶ μὴ καρτερήσῃ, ἄν τ᾽ εὐεργετούμενος εἰς χρήματα ἢ εἰς διαπράξεις πολιτικὰς μὴ καταφρονήσῃ·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "οὐδὲν γὰρ δοκεῖ τούτων οὔτε βέβαιον οὔτε μόνιμον εἶναι, χωρὶς τοῦ μηδὲ πεφυκέναι ἀπ᾽ αὐτῶν γενναίαν φιλίαν.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "μία δὴ λείπεται τῷ ἡμετέρῳ νόμῳ ὁδός, εἰ μέλλει καλῶς χαριεῖσθαι ἐραστῇ παιδικά.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Ἔστι γὰρ ἡμῖν νόμος, ὥσπερ ἐπὶ τοῖς ἐρασταῖς ἦν δουλεύειν ἐθέλοντας",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "or is a mere cowering away from the endurance of ill-treatment, or shows the youth",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "not properly contemptuous of such benefits as he may receive in pelf or political success.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "For in these there appears nothing steadfast or abiding, unless it be the impossibility of their producing a noble friendship.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "One way remains in our custom whereby a favorite may rightly gratify his lover:",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "184c",
+      "page": "184",
+      "order": 60,
+      "greek": "ἡντινοῦν δουλείαν παιδικοῖς μὴ κολακείαν εἶναι μηδὲ ἐπονείδιστον, οὕτω δὴ καὶ ἄλλη μία μόνη δουλεία ἑκούσιος λείπεται οὐκ ἐπονείδιστος· αὕτη δ᾽ ἐστὶν ἡ περὶ τὴν ἀρετήν. Νενόμισται γὰρ δὴ ἡμῖν, ἐάν τις ἐθέλῃ τινὰ θεραπεύειν ἡγούμενος δι᾽ ἐκεῖνον ἀμείνων ἔσεσθαι ἢ κατὰ σοφίαν τινὰ ἢ κατὰ ἄλλο ὁτιοῦν μέρος ἀρετῆς, αὕτη αὖ ἡ ἐθελοδουλεία οὐκ αἰσχρὰ εἶναι οὐδὲ κολακεία. δεῖ δὴ τὼ νόμω τούτω ξυμβαλεῖν εἰς ταὐτό, τόν τε περὶ τὴν παιδεραστίαν καὶ",
+      "english": "it is our rule that, just as in the case of the lovers it was counted no flattery or scandal for them to be willingly and utterly enslaved to their favorites, so there is left one sort of voluntary thraldom which is not scandalous; I mean, in the cause of virtue. It is our settled tradition that when a man freely devotes his service to another in the belief that his friend will make him better in point of wisdom, it may be, or in any of the other parts of virtue, this willing bondage also is no sort of baseness or flattery. Let us compare the two rules—",
+      "greekPhrases": [
+        {
+          "text": "ἡντινοῦν δουλείαν παιδικοῖς μὴ κολακείαν εἶναι μηδὲ ἐπονείδιστον, οὕτω δὴ καὶ ἄλλη μία μόνη δουλεία ἑκούσιος λείπεται οὐκ ἐπονείδιστος·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "αὕτη δ᾽ ἐστὶν ἡ περὶ τὴν ἀρετήν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Νενόμισται γὰρ δὴ ἡμῖν, ἐάν τις ἐθέλῃ τινὰ θεραπεύειν ἡγούμενος δι᾽ ἐκεῖνον ἀμείνων ἔσεσθαι ἢ κατὰ",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "σοφίαν τινὰ ἢ κατὰ ἄλλο ὁτιοῦν μέρος ἀρετῆς, αὕτη αὖ ἡ ἐθελοδουλεία οὐκ αἰσχρὰ εἶναι οὐδὲ κολακεία.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "δεῖ δὴ τὼ νόμω τούτω ξυμβαλεῖν εἰς ταὐτό, τόν τε περὶ τὴν παιδεραστίαν καὶ",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "it is our rule that, just as in the case of the lovers it was counted no flattery or scandal for them",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "to be willingly and utterly enslaved to their favorites, so there is left one sort of voluntary thraldom which is not scandalous;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "I mean, in the cause of virtue.",
+          "mapsTo": []
+        },
+        {
+          "text": "It is our settled tradition that when a man freely devotes his service to another in the belief that his friend will make him better in",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "point of wisdom, it may be, or in any of the other parts of virtue, this willing bondage also is no sort of baseness or flattery.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Let us compare the two rules—",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "184d",
+      "page": "184",
+      "order": 61,
+      "greek": "τὸν περὶ τὴν φιλοσοφίαν τε καὶ τὴν ἄλλην ἀρετήν, εἰ μέλλει ξυμβῆναι καλὸν γενέσθαι τὸ ἐραστῇ παιδικὰ χαρίσασθαι. ὅταν γὰρ εἰς τὸ αὐτὸ ἔλθωσιν ἐραστής τε καὶ παιδικά, νόμον ἔχων ἑκάτερος, ὁ μὲν χαρισαμένοις παιδικοῖς ὑπηρετῶν ὁτιοῦν δικαίως ἂν ὑπηρετεῖν, ὁ δὲ τῷ ποιοῦντι αὐτὸν σοφόν τε καὶ ἀγαθὸν δικαίως αὖ ὁτιοῦν ἂν ὑπουργεῖν , καὶ ὁ μὲν δυνάμενος εἰς φρόνησιν καὶ τὴν",
+      "english": "one dealing with the passion for boys, and the other with the love of wisdom and all virtuous ways: by this we shall see if we are to conclude it a good thing that a favorite should gratify his lover. For when lover and favorite come together, each guided by his own rule—on the one side, of being justified in doing any service to the favorite who has obliged him, and on the other, of being justified in showing any attentions to the friend who makes him wise and good; the elder of his plenty contributing to intellectual",
+      "greekPhrases": [
+        {
+          "text": "τὸν περὶ τὴν φιλοσοφίαν τε καὶ τὴν ἄλλην ἀρετήν, εἰ μέλλει ξυμβῆναι καλὸν γενέσθαι τὸ ἐραστῇ παιδικὰ χαρίσασθαι.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ὅταν γὰρ εἰς τὸ αὐτὸ ἔλθωσιν ἐραστής τε καὶ παιδικά, νόμον ἔχων ἑκάτερος, ὁ μὲν χαρισαμένοις παιδικοῖς ὑπηρετῶν ὁτιοῦν δικαίως ἂν ὑπηρετεῖν,",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὁ δὲ τῷ ποιοῦντι αὐτὸν σοφόν τε καὶ ἀγαθὸν δικαίως αὖ ὁτιοῦν ἂν ὑπουργεῖν , καὶ ὁ μὲν δυνάμενος εἰς φρόνησιν καὶ τὴν",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "one dealing with the passion for boys, and the other with the love of wisdom and all virtuous ways:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "by this we shall see if we are to conclude it a good thing that a favorite should gratify his lover.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For when lover and favorite come together, each guided by his own rule—on the one side, of being justified in doing any service to the",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "favorite who has obliged him, and on the other, of being justified in showing any attentions to the friend who makes him wise and good;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "the elder of his plenty contributing to intellectual",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "184e",
+      "page": "184",
+      "order": 62,
+      "greek": "ἄλλην ἀρετὴν ξυμβάλλεσθαι, ὁ δὲ δεόμενος εἰς παίδευσιν καὶ τὴν ἄλλην σοφίαν κτᾶσθαι, τότε δὴ τούτων ξυνιόντων εἰς ταὐτὸν τῶν νόμων μοναχοῦ ἐνταῦθα ξυμπίπτει τὸ καλὸν εἶναι παιδικὰ ἐραστῇ χαρίσασθαι, ἄλλοθι δὲ οὐδαμοῦ. ἐπὶ τούτῳ καὶ ἐξαπατηθῆναι οὐδὲν αἰσχρόν· ἐπὶ δὲ τοῖς ἄλλοις πᾶσι καὶ ἐξαπατωμένῳ αἰσχύνην φέρει καὶ μή. εἰ γάρ τις",
+      "english": "and all other excellence, the younger in his paucity acquiring education and all learned arts: only then, at the meeting of these two principles in one place, only then and there, and in no other case, can it befall that a favorite may honorably indulge his lover. To have such hopes deceived is no disgrace; while those of any other sort must be disgraceful, whether deceived or not.",
+      "greekPhrases": [
+        {
+          "text": "ἄλλην ἀρετὴν ξυμβάλλεσθαι, ὁ δὲ δεόμενος εἰς παίδευσιν καὶ τὴν ἄλλην σοφίαν κτᾶσθαι, τότε δὴ τούτων",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ξυνιόντων εἰς ταὐτὸν τῶν νόμων μοναχοῦ ἐνταῦθα ξυμπίπτει τὸ καλὸν εἶναι παιδικὰ ἐραστῇ χαρίσασθαι, ἄλλοθι δὲ οὐδαμοῦ.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἐπὶ τούτῳ καὶ ἐξαπατηθῆναι οὐδὲν αἰσχρόν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἐπὶ δὲ τοῖς ἄλλοις πᾶσι καὶ ἐξαπατωμένῳ αἰσχύνην φέρει καὶ μή. εἰ γάρ τις",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and all other excellence, the younger in his paucity acquiring education and all learned arts:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "only then, at the meeting of these two principles in one place, only then and there,",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and in no other case, can it befall that a favorite may honorably indulge his lover.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "To have such hopes deceived is no disgrace;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "while those of any other sort must be disgraceful, whether deceived or not.",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "185a",
+      "page": "185",
+      "order": 63,
+      "greek": "ἐραστῇ ὡς πλουσίῳ πλούτου ἕνεκα χαρισάμενος ἐξαπατηθείη καὶ μὴ λάβοι χρήματα, ἀναφανέντος τοῦ ἐραστοῦ πένητος, οὐδὲν ἧττον αἰσχρόν· δοκεῖ γὰρ ὁ τοιοῦτος τό γε αὑτοῦ ἐπιδεῖξαι, ὅτι ἕνεκα χρημάτων ὁτιοῦν ἂν ὁτῳοῦν ὑπηρετοῖ, τοῦτο δὲ οὐ καλόν. κατὰ τὸν αὐτὸν δὴ λόγον κἂν εἴ τις ὡς ἀγαθῷ χαρισάμενος καὶ αὐτὸς ὡς ἀμείνων ἐσόμενος διὰ τὴν φιλίαν ἐραστοῦ ἐξαπατηθείη, ἀναφανέντος ἐκείνου κακοῦ",
+      "english": "For suppose that a youth had a lover he deemed to be wealthy and, after obliging him for the sake of his wealth, were to find himself deceived and no money to be got, since the lover proved to be poor; this would be disgraceful all the same; since the youth may be said to have revealed his character, and shown himself ready to do anyone any service for pelf, and this is not honorable. By the same token, when a youth gratifies a friend, supposing him to be a good man and expecting to be made better himself as a result of his lover’s affection,",
+      "greekPhrases": [
+        {
+          "text": "ἐραστῇ ὡς πλουσίῳ πλούτου ἕνεκα χαρισάμενος ἐξαπατηθείη καὶ μὴ λάβοι χρήματα, ἀναφανέντος τοῦ ἐραστοῦ πένητος, οὐδὲν ἧττον αἰσχρόν·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "δοκεῖ γὰρ ὁ τοιοῦτος τό γε αὑτοῦ ἐπιδεῖξαι, ὅτι ἕνεκα χρημάτων ὁτιοῦν ἂν ὁτῳοῦν ὑπηρετοῖ, τοῦτο δὲ οὐ καλόν.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "κατὰ τὸν αὐτὸν δὴ λόγον κἂν εἴ τις ὡς ἀγαθῷ χαρισάμενος καὶ αὐτὸς ὡς ἀμείνων ἐσόμενος διὰ τὴν φιλίαν ἐραστοῦ ἐξαπατηθείη, ἀναφανέντος ἐκείνου κακοῦ",
+          "mapsTo": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "For suppose that a youth had a lover he deemed to be wealthy and, after obliging him for the sake",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "of his wealth, were to find himself deceived and no money to be got, since the lover proved to be poor;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "this would be disgraceful all the same;",
+          "mapsTo": []
+        },
+        {
+          "text": "since the youth may be said to have revealed his character, and shown himself ready to do anyone any service for pelf, and this is not honorable.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "By the same token, when a youth gratifies a friend, supposing him to be a",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "good man and expecting to be made better himself as a result of his lover’s affection,",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "185b",
+      "page": "185",
+      "order": 64,
+      "greek": "καὶ οὐ κεκτημένου ἀρετήν, ὅμως καλὴ ἡ ἀπάτη· δοκεῖ γὰρ αὖ καὶ οὗτος τὸ καθ᾽ αὑτὸν δεδηλωκέναι, ὅτι ἀρετῆς γ᾽ ἕνεκα καὶ τοῦ βελτίων γενέσθαι πᾶν ἂν παντὶ προθυμηθείη, τοῦτο δὲ αὖ πάντων κάλλιστον· οὕτω πάντως γε καλὸν ἀρετῆς ἕνεκα χαρίζεσθαι. οὗτός ἐστιν ὁ τῆς Οὐρανίας θεοῦ Ἔρως καὶ Οὐράνιος καὶ πολλοῦ ἄξιος καὶ πόλει καὶ ἰδιώταις, πολλὴν ἐπιμέλειαν ἀναγκάζων ποιεῖσθαι πρὸς ἀρετὴν τόν",
+      "english": "and then finds he is deceived, since his friend proves to be vile and destitute of virtue; even so the deception is honorable. For this youth is also held to have discovered his nature, by showing that he would make anyone the object of his utmost ardor for the sake of virtuous improvement; and this by contrast is supremely honorable. Thus by all means it is right to bestow this favor for the sake of virtue. This is the Love that belongs to the Heavenly Goddess, heavenly itself and precious to both public and private life: for this compels lover and beloved alike",
+      "greekPhrases": [
+        {
+          "text": "καὶ οὐ κεκτημένου ἀρετήν, ὅμως καλὴ ἡ ἀπάτη·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "δοκεῖ γὰρ αὖ καὶ οὗτος τὸ καθ᾽ αὑτὸν δεδηλωκέναι, ὅτι ἀρετῆς γ᾽ ἕνεκα καὶ τοῦ βελτίων γενέσθαι πᾶν ἂν παντὶ προθυμηθείη, τοῦτο δὲ αὖ πάντων κάλλιστον·",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "οὕτω πάντως γε καλὸν ἀρετῆς ἕνεκα χαρίζεσθαι.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "οὗτός ἐστιν ὁ τῆς Οὐρανίας θεοῦ Ἔρως καὶ Οὐράνιος καὶ πολλοῦ ἄξιος καὶ πόλει καὶ ἰδιώταις, πολλὴν ἐπιμέλειαν ἀναγκάζων ποιεῖσθαι πρὸς ἀρετὴν τόν",
+          "mapsTo": [
+            5,
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and then finds he is deceived, since his friend proves to be vile and destitute of virtue;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "even so the deception is honorable.",
+          "mapsTo": []
+        },
+        {
+          "text": "For this youth is also held to have discovered his nature, by showing that he",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "would make anyone the object of his utmost ardor for the sake of virtuous improvement;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and this by contrast is supremely honorable.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Thus by all means it is right to bestow this favor for the sake of virtue.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "This is the Love that belongs to the Heavenly Goddess, heavenly itself and precious to both public and private life:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "for this compels lover and beloved alike",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "185c",
+      "page": "185",
+      "order": 65,
+      "greek": "τε ἐρῶντα αὐτὸν αὑτοῦ καὶ τὸν ἐρώμενον· οἱ δ᾽ ἕτεροι πάντες τῆς ἑτέρας, τῆς πανδήμου. ταῦτά σοι, ἔφη, ὡς ἐκ τοῦ παραχρῆμα, ὦ Φαῖδρε, περὶ Ἔρωτος ξυμβάλλομαι. — Παυσανίου δὲ παυσαμένου , διδάσκουσι γάρ με ἴσα λέγειν οὑτωσὶ οἱ σοφοί , ἔφη ὁ Ἀριστόδημος δεῖν μὲν Ἀριστοφάνη λέγειν, τυχεῖν δὲ αὐτῷ τινὰ ἢ ὑπὸ πλησμονῆς ἢ ὑπό τινος ἄλλου λύγγα ἐπιπεπτωκυῖαν καὶ οὐχ οἷόν τε εἶναι λέγειν,",
+      "english": "to feel a zealous concern for their own virtue. But lovers of the other sort belong all to the other Goddess, the Popular. Such, Phaedrus, is the contribution I am able to offer you, on the spur of the moment, towards the discussion of Love. Pausanias’ praise made a pause with this phrase—you see what jingles the schoolmen are teaching me! The next speaker, so Aristodemus told me, was to have been Aristophanes: but a surfeit or some other cause had chanced to afflict him with a hiccough, which prevented him from speaking; and he could only just say",
+      "greekPhrases": [
+        {
+          "text": "τε ἐρῶντα αὐτὸν αὑτοῦ καὶ τὸν ἐρώμενον·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οἱ δ᾽ ἕτεροι πάντες τῆς ἑτέρας, τῆς πανδήμου.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ταῦτά σοι, ἔφη, ὡς ἐκ τοῦ παραχρῆμα, ὦ Φαῖδρε, περὶ Ἔρωτος ξυμβάλλομαι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "— Παυσανίου δὲ παυσαμένου , διδάσκουσι γάρ με ἴσα λέγειν οὑτωσὶ οἱ σοφοί , ἔφη ὁ Ἀριστόδημος δεῖν μὲν Ἀριστοφάνη",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "λέγειν, τυχεῖν δὲ αὐτῷ τινὰ ἢ ὑπὸ πλησμονῆς ἢ ὑπό τινος ἄλλου λύγγα ἐπιπεπτωκυῖαν καὶ οὐχ οἷόν τε εἶναι λέγειν,",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "to feel a zealous concern for their own virtue.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "But lovers of the other sort belong all to the other Goddess, the Popular.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Such, Phaedrus, is the contribution I am able to offer you, on the spur of the moment, towards the discussion of Love.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Pausanias’ praise made a pause with this phrase—you see what jingles the schoolmen are teaching me!",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "The next speaker, so Aristodemus told me, was to have been Aristophanes:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "but a surfeit or some other cause had chanced to afflict him with a hiccough, which prevented him from speaking;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "and he could only just say",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "185d",
+      "page": "185",
+      "order": 66,
+      "greek": "ἀλλ᾽ εἰπεῖν αὐτόν , ἐν τῇ κάτω γὰρ αὐτοῦ τὸν ἰατρὸν Ἐρυξίμαχον κατακεῖσθαι , Ὦ Ἐρυξίμαχε, δίκαιος εἶ ἢ παῦσαί με τῆς λυγγὸς ἢ λέγειν ὑπὲρ ἐμοῦ, ἕως ἂν ἐγὼ παύσωμαι. καὶ τὸν Ἐρυξίμαχον εἰπεῖν· Ἀλλὰ ποιήσω ἀμφότερα ταῦτα· ἐγὼ μὲν γὰρ ἐρῶ ἐν τῷ σῷ μέρει, σὺ δ᾽ ἐπειδὰν παύσῃ, ἐν τῷ ἐμῷ. ἐν ᾧ δ᾽ ἂν ἐγὼ λέγω, ἐὰν μέν σοι ἐθέλῃ ἀπνευστὶ ἔχοντι πολὺν χρόνον παύεσθαι ἡ λύγξ· εἰ δὲ μή, ὕδατι",
+      "english": "to Eryximachus the doctor, whose place was next below him, I look to you Eryximachus, either to stop my hiccough, or to speak in my stead until I can stop it. Why, I will do both, replied Eryximachus for I will take your turn for speaking, and when you have stopped it, you shall take mine. But during my speech, if on your holding your breath a good while the hiccough chooses to stop, well and good; otherwise, you must gargle with some water.",
+      "greekPhrases": [
+        {
+          "text": "ἀλλ᾽ εἰπεῖν αὐτόν , ἐν τῇ κάτω γὰρ αὐτοῦ τὸν ἰατρὸν Ἐρυξίμαχον κατακεῖσθαι , Ὦ",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Ἐρυξίμαχε, δίκαιος εἶ ἢ παῦσαί με τῆς λυγγὸς ἢ λέγειν ὑπὲρ ἐμοῦ, ἕως ἂν ἐγὼ παύσωμαι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ τὸν Ἐρυξίμαχον εἰπεῖν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Ἀλλὰ ποιήσω ἀμφότερα ταῦτα·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐγὼ μὲν γὰρ ἐρῶ ἐν τῷ σῷ μέρει, σὺ δ᾽ ἐπειδὰν παύσῃ, ἐν τῷ ἐμῷ.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ἐν ᾧ δ᾽ ἂν ἐγὼ λέγω, ἐὰν μέν σοι ἐθέλῃ ἀπνευστὶ ἔχοντι πολὺν χρόνον παύεσθαι ἡ λύγξ·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "εἰ δὲ μή, ὕδατι",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "to Eryximachus the doctor, whose place was next below him, I look to you Eryximachus,",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "either to stop my hiccough, or to speak in my stead until I can stop it.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Why, I will do both, replied Eryximachus for I will take your turn for speaking, and when you have stopped it, you shall take mine.",
+          "mapsTo": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "text": "But during my speech, if on your holding your breath a good while the hiccough chooses to stop, well and good;",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "otherwise, you must gargle with some water.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "185e",
+      "page": "185",
+      "order": 67,
+      "greek": "ἀνακογχυλίασον. εἰ δ᾽ ἄρα πάνυ ἰσχυρά ἐστιν, ἀναλαβών τι τοιοῦτον οἵῳ κινήσαις ἂν τὴν ῥῖνα, πτάρε· καὶ ἐὰν τοῦτο ποιήσῃς ἅπαξ ἢ δίς, καὶ εἰ πάνυ ἰσχυρά ἐστι, παύσεται. Οὐκ ἂν φθάνοις λέγων, φάναι τὸν Ἀριστοφάνη· ἐγὼ δὲ ταῦτα ποιήσω. Εἰπεῖν δὴ τὸν Ἐρυξίμαχον· Δοκεῖ τοίνυν μοι ἀναγκαῖον εἶναι, ἐπειδὴ Παυσανίας ὁρμήσας ἐπὶ τὸν λόγον καλῶς οὐχ",
+      "english": "If, however, it is a very stubborn one, take something that will tickle your nostrils, and sneeze: do this once or twice, and though it be of the stubbornest, it will stop. Start away with your speech, said Aristophanes, and I will do as you advise. Then Eryximachus spoke as follows: Well then, since Pausanias did not properly finish off",
+      "greekPhrases": [
+        {
+          "text": "ἀνακογχυλίασον. εἰ δ᾽ ἄρα πάνυ ἰσχυρά ἐστιν, ἀναλαβών τι τοιοῦτον οἵῳ κινήσαις ἂν τὴν ῥῖνα, πτάρε·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ ἐὰν τοῦτο ποιήσῃς ἅπαξ ἢ δίς, καὶ εἰ πάνυ ἰσχυρά ἐστι, παύσεται.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Οὐκ ἂν φθάνοις λέγων, φάναι τὸν Ἀριστοφάνη·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐγὼ δὲ ταῦτα ποιήσω.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Εἰπεῖν δὴ τὸν Ἐρυξίμαχον·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Δοκεῖ τοίνυν μοι ἀναγκαῖον εἶναι, ἐπειδὴ Παυσανίας ὁρμήσας ἐπὶ τὸν λόγον καλῶς οὐχ",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "If, however, it is a very stubborn one, take something that will tickle your nostrils, and sneeze:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "do this once or twice, and though it be of the stubbornest, it will stop.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Start away with your speech, said Aristophanes, and I will do as you advise.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Then Eryximachus spoke as follows:",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Well then, since Pausanias did not properly finish off",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "186a",
+      "page": "186",
+      "order": 68,
+      "greek": "ἱκανῶς ἀπετέλεσε, δεῖν ἐμὲ πειρᾶσθαι τέλος ἐπιθεῖναι τῷ λόγῳ. Τὸ μὲν γὰρ διπλοῦν εἶναι τὸν Ἔρωτα δοκεῖ μοι καλῶς διελέσθαι . ὅτι δὲ οὐ μόνον ἐστὶν ἐπὶ ταῖς ψυχαῖς τῶν ἀνθρώπων πρὸς τοὺς καλοὺς ἀλλὰ καὶ πρὸς ἄλλα πολλὰ καὶ ἐν τοῖς ἄλλοις, τοῖς τε σώμασι τῶν πάντων ζῴων καὶ τοῖς ἐν τῇ γῇ φυομένοις καὶ ὡς ἔπος εἰπεῖν ἐν πᾶσι τοῖς οὖσι, καθεωρακέναι μοι δοκῶ ἐκ τῆς ἰατρικῆς, τῆς ἡμετέρας",
+      "english": "the speech he began so well, I must do my best to append a conclusion thereto. His division of Love into two sorts appears to me a good one: but medicine, our great mystery, has taught me to observe that Love is not merely an impulse of human souls towards beautiful men but the attraction of all creatures to a great variety of things, which works in the bodies of all animals and all growths upon the earth, and practically in everything that is; and I have learnt",
+      "greekPhrases": [
+        {
+          "text": "ἱκανῶς ἀπετέλεσε, δεῖν ἐμὲ πειρᾶσθαι τέλος ἐπιθεῖναι τῷ λόγῳ.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Τὸ μὲν γὰρ διπλοῦν εἶναι τὸν Ἔρωτα δοκεῖ μοι καλῶς διελέσθαι .",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ὅτι δὲ οὐ μόνον ἐστὶν ἐπὶ ταῖς ψυχαῖς τῶν ἀνθρώπων πρὸς τοὺς καλοὺς ἀλλὰ καὶ πρὸς ἄλλα πολλὰ καὶ ἐν τοῖς ἄλλοις, τοῖς τε σώμασι",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "τῶν πάντων ζῴων καὶ τοῖς ἐν τῇ γῇ φυομένοις καὶ ὡς ἔπος εἰπεῖν ἐν πᾶσι τοῖς οὖσι, καθεωρακέναι μοι δοκῶ ἐκ τῆς ἰατρικῆς, τῆς ἡμετέρας",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "the speech he began so well, I must do my best to append a conclusion thereto.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "His division of Love into two sorts appears to me a good one:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "but medicine, our great mystery, has taught me to observe that Love is not merely an impulse of human souls towards beautiful men but the attraction of",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "all creatures to a great variety of things, which works in the bodies of all animals and all growths upon the earth, and practically in everything that is;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "and I have learnt",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "186b",
+      "page": "186",
+      "order": 69,
+      "greek": "τέχνης, ὡς μέγας καὶ θαυμαστὸς καὶ ἐπὶ πᾶν ὁ θεὸς τείνει καὶ κατ᾽ ἀνθρώπινα καὶ κατὰ θεῖα πράγματα. ἄρξομαι δὲ ἀπὸ τῆς ἰατρικῆς λέγων, ἵνα καὶ πρεσβεύωμεν τὴν τέχνην. ἡ γὰρ φύσις τῶν σωμάτων τὸν διπλοῦν Ἔρωτα τοῦτον ἔχει· τὸ γὰρ ὑγιὲς τοῦ σώματος καὶ τὸ νοσοῦν ὁμολογουμένως ἕτερόν τε καὶ ἀνόμοιόν ἐστι· τὸ δὲ ἀνόμοιον ἀνομοίων ἐπιθυμεῖ καὶ ἐρᾷ. ἄλλος μὲν οὖν ὁ ἐπὶ τῷ ὑγιεινῷ ἔρως, ἄλλος δὲ ὁ ἐπὶ τῷ νοσώδει. ἔστι δή, ὥσπερ ἄρτι Παυσανίας ἔλεγεν τοῖς μὲν ἀγαθοῖς καλὸν χαρίζεσθαι τῶν ἀνθρώπων,",
+      "english": "how mighty and wonderful and universal is the sway of this god over all affairs both human and divine. Reverence for my profession prompts me to begin with the witness of medicine. This double Love belongs to the nature of all bodies: for between bodily health and sickness there is an admitted difference or dissimilarity, and what is dissimilar craves and loves dissimilar things. Hence the desire felt by a sound body is quite other than that of a sickly one. Now I agree with what Pausanias was just saying, that it is right to gratify",
+      "greekPhrases": [
+        {
+          "text": "τέχνης, ὡς μέγας καὶ θαυμαστὸς καὶ ἐπὶ πᾶν ὁ θεὸς τείνει καὶ κατ᾽ ἀνθρώπινα καὶ κατὰ θεῖα πράγματα.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἄρξομαι δὲ ἀπὸ τῆς ἰατρικῆς λέγων, ἵνα καὶ πρεσβεύωμεν τὴν τέχνην.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἡ γὰρ φύσις τῶν σωμάτων τὸν διπλοῦν Ἔρωτα τοῦτον ἔχει·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "τὸ γὰρ ὑγιὲς τοῦ σώματος καὶ τὸ νοσοῦν ὁμολογουμένως ἕτερόν τε καὶ ἀνόμοιόν ἐστι·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "τὸ δὲ ἀνόμοιον ἀνομοίων ἐπιθυμεῖ καὶ ἐρᾷ.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἄλλος μὲν οὖν ὁ ἐπὶ τῷ ὑγιεινῷ ἔρως, ἄλλος δὲ ὁ ἐπὶ τῷ νοσώδει.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἔστι δή, ὥσπερ ἄρτι Παυσανίας ἔλεγεν τοῖς μὲν ἀγαθοῖς καλὸν χαρίζεσθαι τῶν ἀνθρώπων,",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "how mighty and wonderful and universal is the sway of this god over all affairs both human and divine.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Reverence for my profession prompts me to begin with the witness of medicine.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "This double Love belongs to the nature of all bodies:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for between bodily health and sickness there is an admitted difference or dissimilarity, and what is dissimilar craves and loves dissimilar things.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Hence the desire felt by a sound body is quite other than that of a sickly one.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Now I agree with what Pausanias was just saying, that it is right to gratify",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "186c",
+      "page": "186",
+      "order": 70,
+      "greek": "τοῖς δ᾽ ἀκολάστοις αἰσχρόν, οὕτω καὶ ἐν αὐτοῖς τοῖς σώμασιν τοῖς μὲν ἀγαθοῖς ἑκάστου τοῦ σώματος καὶ ὑγιεινοῖς καλὸν χαρίζεσθαι καὶ δεῖ, καὶ τοῦτό ἐστιν ᾧ ὄνομα τὸ ἰατρικόν, τοῖς δὲ κακοῖς καὶ νοσώδεσιν αἰσχρόν τε καὶ δεῖ ἀχαριστεῖν, εἰ μέλλει τις τεχνικὸς εἶναι. ἔστι γὰρ ἰατρική, ὡς ἐν κεφαλαίῳ εἰπεῖν, ἐπιστήμη τῶν τοῦ σώματος ἐρωτικῶν πρὸς πλησμονὴν καὶ κένωσιν, καὶ ὁ διαγιγνώσκων ἐν τούτοις τὸν",
+      "english": "good men, base to gratify the dissolute: similarly, in treating actual bodies it is right and necessary to gratify the good and healthy elements of each, and this is what we term the physician’s skill; but it is a disgrace to do aught but disappoint the bad and sickly parts, if one aims at being an adept. For the art of medicine may be summarily described as a knowledge of the love-matters of the body in regard to repletion and evacuation;",
+      "greekPhrases": [
+        {
+          "text": "τοῖς δ᾽ ἀκολάστοις αἰσχρόν, οὕτω καὶ ἐν αὐτοῖς τοῖς σώμασιν τοῖς μὲν ἀγαθοῖς ἑκάστου τοῦ σώματος καὶ ὑγιεινοῖς καλὸν χαρίζεσθαι καὶ δεῖ,",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "καὶ τοῦτό ἐστιν ᾧ ὄνομα τὸ ἰατρικόν, τοῖς δὲ κακοῖς καὶ νοσώδεσιν αἰσχρόν τε καὶ δεῖ ἀχαριστεῖν, εἰ μέλλει τις τεχνικὸς εἶναι.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἔστι γὰρ ἰατρική, ὡς ἐν κεφαλαίῳ εἰπεῖν, ἐπιστήμη τῶν τοῦ σώματος ἐρωτικῶν πρὸς πλησμονὴν καὶ κένωσιν, καὶ ὁ διαγιγνώσκων ἐν τούτοις τὸν",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "good men, base to gratify the dissolute:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "similarly, in treating actual bodies it is right and necessary to gratify the good and healthy elements of each, and this is what we term the physician’s skill;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "but it is a disgrace to do aught but disappoint the bad and sickly parts, if one aims at being an adept.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "For the art of medicine may be summarily described as a knowledge of the love-matters of the body in regard to repletion and evacuation;",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "186d",
+      "page": "186",
+      "order": 71,
+      "greek": "καλόν τε καὶ αἰσχρὸν ἔρωτα, οὗτός ἐστιν ὁ ἰατρικώτατος, καὶ ὁ μεταβάλλειν ποιῶν, ὥστε ἀντὶ τοῦ ἑτέρου ἔρωτος τὸν ἕτερον κτᾶσθαι, καὶ οἷς μὴ ἔνεστιν ἔρως, δεῖ δ᾽ ἐγγενέσθαι, ἐπιστάμενος ἐμποιῆσαι καὶ ἐνόντα ἐξελεῖν, ἀγαθὸς ἂν εἴη δημιουργός. δεῖ γὰρ δὴ τὰ ἔχθιστα ὄντα ἐν τῷ σώματι φίλα οἷόν τ᾽ εἶναι ποιεῖν καὶ ἐρᾷν ἀλλήλων. ἔστι δὲ ἔχθιστα τὰ ἐναντιώτατα, ψυχρὸν θερμῷ, πικρὸν γλυκεῖ, ξηρὸν ὑγρῷ,",
+      "english": "and the master-physician is he who can distinguish there between the nobler and baser Loves, and can effect such alteration that the one passion is replaced by the other; and he will be deemed a good practitioner who is expert in producing Love where it ought to flourish but exists not, and in removing it from where it should not be. Indeed he must be able to make friends and happy lovers of the keenest opponents in the body. Now the most contrary qualities are most hostile to each other—cold and hot, bitter and sweet, dry and moist, and the rest of them. It was by knowing how to foster",
+      "greekPhrases": [
+        {
+          "text": "καλόν τε καὶ αἰσχρὸν ἔρωτα, οὗτός ἐστιν ὁ ἰατρικώτατος, καὶ ὁ μεταβάλλειν ποιῶν, ὥστε ἀντὶ τοῦ ἑτέρου ἔρωτος τὸν",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἕτερον κτᾶσθαι, καὶ οἷς μὴ ἔνεστιν ἔρως, δεῖ δ᾽ ἐγγενέσθαι, ἐπιστάμενος ἐμποιῆσαι καὶ ἐνόντα ἐξελεῖν, ἀγαθὸς ἂν εἴη δημιουργός.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "δεῖ γὰρ δὴ τὰ ἔχθιστα ὄντα ἐν τῷ σώματι φίλα οἷόν τ᾽ εἶναι ποιεῖν καὶ ἐρᾷν ἀλλήλων.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "ἔστι δὲ ἔχθιστα τὰ ἐναντιώτατα, ψυχρὸν θερμῷ, πικρὸν γλυκεῖ, ξηρὸν ὑγρῷ,",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and the master-physician is he who can distinguish there between the nobler and baser",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Loves, and can effect such alteration that the one passion is replaced by the other;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and he will be deemed a good practitioner who is expert in producing Love where it",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ought to flourish but exists not, and in removing it from where it should not be.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Indeed he must be able to make friends and happy lovers of the keenest opponents in the body.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Now the most contrary qualities are most hostile to each other—cold and hot, bitter and sweet, dry and moist, and the rest of them.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "It was by knowing how to foster",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "186e",
+      "page": "186",
+      "order": 72,
+      "greek": "πάντα τὰ τοιαῦτα· τούτοις ἐπιστηθεὶς ἔρωτα ἐμποιῆσαι καὶ ὁμόνοιαν ὁ ἡμέτερος πρόγονος Ἀσκληπιός, ὥς φασιν οἵδε οἱ ποιηταὶ καὶ ἐγὼ πείθομαι, συνέστησεν τὴν ἡμετέραν τέχνην. ἥ τε οὖν ἰατρική, ὥσπερ λέγω, πᾶσα διὰ τοῦ θεοῦ τούτου",
+      "english": "love and unanimity in these that, as our two poets here relate, and as I myself believe, our forefather Asclepius composed this science of ours. And so not merely is all medicine governed, as I propound it, through the influence of this god, but likewise athletics and agriculture.",
+      "greekPhrases": [
+        {
+          "text": "πάντα τὰ τοιαῦτα· τούτοις ἐπιστηθεὶς ἔρωτα ἐμποιῆσαι καὶ ὁμόνοιαν ὁ ἡμέτερος πρόγονος Ἀσκληπιός, ὥς φασιν οἵδε οἱ ποιηταὶ καὶ ἐγὼ πείθομαι, συνέστησεν τὴν ἡμετέραν τέχνην.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἥ τε οὖν ἰατρική, ὥσπερ λέγω, πᾶσα διὰ τοῦ θεοῦ τούτου",
+          "mapsTo": [
+            1
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "love and unanimity in these that, as our two poets here relate, and as I myself believe, our forefather Asclepius composed this science of ours.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "And so not merely is all medicine governed, as I propound it, through the influence of this god, but likewise athletics and agriculture.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "187a",
+      "page": "187",
+      "order": 73,
+      "greek": "κυβερνᾶται, ὡσαύτως δὲ καὶ γυμναστικὴ καὶ γεωργία· μουσικὴ δὲ καὶ παντὶ κατάδηλος τῷ καὶ σμικρὸν προσέχοντι τὸν νοῦν ὅτι κατὰ ταὐτὰ ἔχει τούτοις, ὥσπερ ἴσως καὶ Ἡράκλειτος βούλεται λέγειν, ἐπεὶ τοῖς γε ῥήμασιν οὐ καλῶς λέγει. τὸ ἓν γάρ φησι διαφερόμενον αὐτὸ αὑτῷ ξυμφέρεσθαι, ὥσπερ ἁρμονίαν τόξου τε καὶ λύρας. ἔστι δὲ πολλὴ ἀλογία ἁρμονίαν φάναι διαφέρεσθαι ἢ ἐκ διαφερομένων ἔτι εἶναι. ἀλλὰ ἴσως τόδε ἐβούλετο λέγειν, ὅτι ἐκ διαφερομένων",
+      "english": "Music also, as is plain to any the least curious observer, is in the same sort of case: perhaps Heracleitus intends as much by those perplexing words, The One at variance with itself is drawn together, like harmony of bow or lyre. Now it is perfectly absurd to speak of a harmony at variance, or as formed from things still varying. Perhaps he meant, however, that",
+      "greekPhrases": [
+        {
+          "text": "κυβερνᾶται, ὡσαύτως δὲ καὶ γυμναστικὴ καὶ γεωργία·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "μουσικὴ δὲ καὶ παντὶ κατάδηλος τῷ καὶ σμικρὸν προσέχοντι τὸν νοῦν ὅτι κατὰ ταὐτὰ",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἔχει τούτοις, ὥσπερ ἴσως καὶ Ἡράκλειτος βούλεται λέγειν, ἐπεὶ τοῖς γε ῥήμασιν οὐ καλῶς λέγει.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τὸ ἓν γάρ φησι διαφερόμενον αὐτὸ αὑτῷ ξυμφέρεσθαι, ὥσπερ ἁρμονίαν τόξου τε καὶ λύρας.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἔστι δὲ πολλὴ ἀλογία ἁρμονίαν φάναι διαφέρεσθαι ἢ ἐκ διαφερομένων ἔτι εἶναι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀλλὰ ἴσως τόδε ἐβούλετο λέγειν, ὅτι ἐκ διαφερομένων",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Music also, as is plain to any the least curious observer, is in the same sort of case:",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "perhaps Heracleitus intends as much by those perplexing words, The One at variance with itself is drawn together, like harmony of bow or lyre.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Now it is perfectly absurd to speak of a harmony at variance, or as formed from things still varying.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Perhaps he meant, however, that",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "187b",
+      "page": "187",
+      "order": 74,
+      "greek": "πρότερον τοῦ ὀξέος καὶ βαρέος, ἔπειτα ὕστερον ὁμολογησάντων γέγονεν ὑπὸ τῆς μουσικῆς τέχνης. οὐ γὰρ δή που ἐκ διαφερομένων γε ἔτι τοῦ ὀξέος καὶ βαρέος ἁρμονία ἂν εἴη . ἡ γὰρ ἁρμονία συμφωνία ἐστί, συμφωνία δὲ ὁμολογία τις· ὁμολογίαν δὲ ἐκ διαφερομένων, ἕως ἂν διαφέρωνται, ἀδύνατον εἶναι· διαφερόμενον δὲ αὖ καὶ μὴ ὁμολογοῦν ἀδύνατον ἁρμόσαι· ὥσπερ γε καὶ ὁ ῥυθμὸς ἐκ τοῦ ταχέος καὶ",
+      "english": "from the grave and acute which were varying before, but which afterwards came to agreement, the harmony was by musical art created. For surely there can be no harmony of acute and grave while still at variance: harmony is consonance, and consonance is a kind of agreement; and agreement of things varying, so long as they are at variance, is impossible. On the other hand, when a thing varies with no disability of agreement, then it may be harmonized; just as rhythm",
+      "greekPhrases": [
+        {
+          "text": "πρότερον τοῦ ὀξέος καὶ βαρέος, ἔπειτα ὕστερον ὁμολογησάντων γέγονεν ὑπὸ τῆς μουσικῆς τέχνης.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὐ γὰρ δή που ἐκ διαφερομένων γε ἔτι τοῦ ὀξέος καὶ βαρέος ἁρμονία ἂν εἴη .",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἡ γὰρ ἁρμονία συμφωνία ἐστί, συμφωνία δὲ ὁμολογία τις·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὁμολογίαν δὲ ἐκ διαφερομένων, ἕως ἂν διαφέρωνται, ἀδύνατον εἶναι·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "διαφερόμενον δὲ αὖ καὶ μὴ ὁμολογοῦν ἀδύνατον ἁρμόσαι·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ὥσπερ γε καὶ ὁ ῥυθμὸς ἐκ τοῦ ταχέος καὶ",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "from the grave and acute which were varying before, but which afterwards came to agreement, the harmony was by musical art created.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For surely there can be no harmony of acute and grave while still at variance:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "harmony is consonance, and consonance is a kind of agreement;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and agreement of things varying, so long as they are at variance, is impossible.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "On the other hand, when a thing varies with no disability of agreement, then it may be harmonized; just as rhythm",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "187c",
+      "page": "187",
+      "order": 75,
+      "greek": "βραδέος, ἐκ διενηνεγμένων πρότερον, ὕστερον δὲ ὁμολογησάντων γέγονε. τὴν δὲ ὁμολογίαν πᾶσι τούτοις, ὥσπερ ἐκεῖ ἡ ἰατρική, ἐνταῦθα ἡ μουσικὴ ἐντίθησιν, ἔρωτα καὶ ὁμόνοιαν ἀλλήλων ἐμποιήσασα· καὶ ἔστιν αὖ μουσικὴ περὶ ἁρμονίαν καὶ ῥυθμὸν ἐρωτικῶν ἐπιστήμη. καὶ ἐν μέν γε αὐτῇ τῇ συστάσει ἁρμονίας τε καὶ ῥυθμοῦ οὐδὲν χαλεπὸν τὰ ἐρωτικὰ διαγιγνώσκειν, οὐδὲ ὁ διπλοῦς ἔρως ἐνταῦθά πως ἔστιν· ἀλλ᾽ ἐπειδὰν δέῃ πρὸς τοὺς ἀνθρώπους καταχρῆσθαι",
+      "english": "is produced by fast and slow, which in the beginning were at variance but later came to agree. In all these cases the agreement is brought about by music which, like medicine in the former instance, introduces a mutual love and unanimity. Hence in its turn music is found to be a knowledge of love-matters relating to harmony and rhythm. In the actual system of harmony or rhythm we can easily distinguish these love-matters; as yet the double Love is absent: but when we come to the application",
+      "greekPhrases": [
+        {
+          "text": "βραδέος, ἐκ διενηνεγμένων πρότερον, ὕστερον δὲ ὁμολογησάντων γέγονε.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τὴν δὲ ὁμολογίαν πᾶσι τούτοις, ὥσπερ ἐκεῖ ἡ ἰατρική, ἐνταῦθα ἡ μουσικὴ ἐντίθησιν, ἔρωτα καὶ ὁμόνοιαν ἀλλήλων ἐμποιήσασα·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ ἔστιν αὖ μουσικὴ περὶ ἁρμονίαν καὶ ῥυθμὸν ἐρωτικῶν ἐπιστήμη.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ ἐν μέν γε αὐτῇ τῇ συστάσει ἁρμονίας τε καὶ ῥυθμοῦ οὐδὲν χαλεπὸν τὰ ἐρωτικὰ διαγιγνώσκειν, οὐδὲ ὁ διπλοῦς ἔρως ἐνταῦθά πως ἔστιν·",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ἐπειδὰν δέῃ πρὸς τοὺς ἀνθρώπους καταχρῆσθαι",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "is produced by fast and slow, which in the beginning were at variance but later came to agree.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "In all these cases the agreement is brought about by music which, like medicine in the former instance, introduces a mutual love and unanimity.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Hence in its turn music is found to be a knowledge of love-matters relating to harmony and rhythm.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "In the actual system of harmony or rhythm we can easily distinguish these love-matters;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "as yet the double Love is absent:",
+          "mapsTo": []
+        },
+        {
+          "text": "but when we come to the application",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "187d",
+      "page": "187",
+      "order": 76,
+      "greek": "ῥυθμῷ τε καὶ ἁρμονίᾳ ἢ ποιοῦντα, ( ὃ δὴ μελοποιίαν καλοῦσιν ) , ἢ χρώμενον ὀρθῶς τοῖς πεποιημένοις μέλεσί τε καὶ μέτροις, ( ὃ δὴ παιδεία ἐκλήθη ) , ἐνταῦθα δὴ καὶ χαλεπὸν καὶ ἀγαθοῦ δημιουργοῦ δεῖ. πάλιν γὰρ ἥκει ὁ αὐτὸς λόγος, ὅτι τοῖς μὲν κοσμίοις τῶν ἀνθρώπων, καὶ ὡς ἂν κοσμιώτεροι γίγνοιντο οἱ μήπω ὄντες, δεῖ χαρίζεσθαι καὶ φυλάττειν τὸν τούτων ἔρωτα, καὶ οὗτός ἐστιν ὁ καλός, ὁ οὐράνιος, ὁ τῆς Οὐρανίας",
+      "english": "of rhythm and harmony to social life, whether we construct what are called melodies or render correctly, by what is known as training, tunes and measures already constructed, we find here a certain difficulty and require a good craftsman. Round comes the same conclusion: well-ordered men, and the less regular only so as to bring them to better order, should be indulged in this Love, and this is the sort we should preserve; this is the noble, the Heavenly Love,",
+      "greekPhrases": [
+        {
+          "text": "ῥυθμῷ τε καὶ ἁρμονίᾳ ἢ ποιοῦντα, ( ὃ δὴ μελοποιίαν καλοῦσιν ) , ἢ χρώμενον ὀρθῶς τοῖς πεποιημένοις",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "μέλεσί τε καὶ μέτροις, ( ὃ δὴ παιδεία ἐκλήθη ) , ἐνταῦθα δὴ καὶ χαλεπὸν καὶ ἀγαθοῦ δημιουργοῦ δεῖ.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "πάλιν γὰρ ἥκει ὁ αὐτὸς λόγος, ὅτι τοῖς μὲν κοσμίοις τῶν ἀνθρώπων, καὶ ὡς ἂν κοσμιώτεροι γίγνοιντο οἱ",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "μήπω ὄντες, δεῖ χαρίζεσθαι καὶ φυλάττειν τὸν τούτων ἔρωτα, καὶ οὗτός ἐστιν ὁ καλός, ὁ οὐράνιος, ὁ τῆς Οὐρανίας",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "of rhythm and harmony to social life, whether we construct what are called melodies or render correctly, by what",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "is known as training, tunes and measures already constructed, we find here a certain difficulty and require a good craftsman.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Round comes the same conclusion:",
+          "mapsTo": []
+        },
+        {
+          "text": "well-ordered men, and the less regular only so as to bring them to better",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "order, should be indulged in this Love, and this is the sort we should preserve;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "this is the noble, the Heavenly Love,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "187e",
+      "page": "187",
+      "order": 77,
+      "greek": "μούσης Ἔρως· ὁ δὲ Πολυμνίας ὁ πάνδημος, ὃν δεῖ εὐλαβούμενον προσφέρειν οἷς ἂν προσφέρῃ, ὅπως ἂν τὴν μὲν ἡδονὴν αὐτοῦ καρπώσηται, ἀκολασίαν δὲ μηδεμίαν ἐμποιήσῃ· ὥσπερ ἐν τῇ ἡμετέρᾳ τέχνῃ μέγα ἔργον ταῖς περὶ τὴν ὀψοποιικὴν τέχνην ἐπιθυμίαις καλῶς χρῆσθαι, ὥστ᾽ ἄνευ νόσου τὴν ἡδονὴν καρπώσασθαι. καὶ ἐν μουσικῇ δὴ καὶ ἐν ἰατρικῇ καὶ ἐν τοῖς ἄλλοις πᾶσι καὶ τοῖς ἀνθρωπείοις καὶ τοῖς θείοις, καθ᾽ ὅσον παρείκει, φυλακτέον ἑκάτερον τὸν ἔρωτα· ἔνεστον",
+      "english": "sprung from the Heavenly Muse. But the Popular Love comes from the Queen of Various Song; in applying him we must proceed with all caution, that no debauchery be implanted with the reaping of his pleasure, just as in our craft we set high importance on a right use of the appetite for dainties of the table, that we may cull the pleasure without disease. Thus in music and medicine and every other affair whether human or divine, we must be on the watch as far as may be for either sort of Love;",
+      "greekPhrases": [
+        {
+          "text": "μούσης Ἔρως· ὁ δὲ Πολυμνίας ὁ πάνδημος, ὃν δεῖ εὐλαβούμενον προσφέρειν οἷς ἂν προσφέρῃ, ὅπως ἂν τὴν μὲν ἡδονὴν αὐτοῦ καρπώσηται, ἀκολασίαν δὲ μηδεμίαν ἐμποιήσῃ·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ὥσπερ ἐν τῇ ἡμετέρᾳ τέχνῃ μέγα ἔργον ταῖς περὶ τὴν ὀψοποιικὴν τέχνην ἐπιθυμίαις καλῶς χρῆσθαι, ὥστ᾽ ἄνευ νόσου τὴν ἡδονὴν καρπώσασθαι.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "καὶ ἐν μουσικῇ δὴ καὶ ἐν ἰατρικῇ καὶ ἐν τοῖς ἄλλοις πᾶσι καὶ τοῖς ἀνθρωπείοις καὶ τοῖς θείοις, καθ᾽ ὅσον παρείκει, φυλακτέον ἑκάτερον τὸν ἔρωτα· ἔνεστον",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "sprung from the Heavenly Muse.",
+          "mapsTo": []
+        },
+        {
+          "text": "But the Popular Love comes from the Queen of Various Song;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "in applying him we must proceed with all caution, that no debauchery be implanted with the reaping of his pleasure, just as in our",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "craft we set high importance on a right use of the appetite for dainties of the table, that we may cull the pleasure without disease.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Thus in music and medicine and every other affair whether human or divine, we",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "must be on the watch as far as may be for either sort of Love;",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "188a",
+      "page": "188",
+      "order": 78,
+      "greek": "γάρ. Ἐπεὶ καὶ ἡ τῶν ὡρῶν τοῦ ἐνιαυτοῦ σύστασις μεστή ἐστιν ἀμφοτέρων τούτων, καὶ ἐπειδὰν μὲν πρὸς ἄλληλα τοῦ κοσμίου τύχῃ ἔρωτος ἃ νῦν δὴ ἐγὼ ἔλεγον, τά τε θερμὰ καὶ τὰ ψυχρὰ καὶ ξηρὰ καὶ ὑγρά, καὶ ἁρμονίαν καὶ κρᾶσιν λάβῃ σώφρονα, ἥκει φέροντα εὐετηρίαν τε καὶ ὑγίειαν ἀνθρώποις καὶ τοῖς ἄλλοις ζῴοις τε καὶ φυτοῖς, καὶ οὐδὲν ἠδίκησεν· ὅταν δὲ ὁ μετὰ τῆς ὕβρεως Ἔρως ἐγκρατέστερος περὶ τὰς τοῦ ἐνιαυτοῦ ὥρας γένηται, διαφθείρει τε πολλὰ καὶ ἠδίκησεν.",
+      "english": "for both are there. Note how even the system of the yearly seasons is full of these two forces; how the qualities I mentioned just now, heat and cold, drought and moisture, when brought together by the orderly Love, and taking on a temperate harmony as they mingle, become bearers of ripe fertility and health to men and animals and plants, and are guilty of no wrong. But when the wanton-spirited Love gains the ascendant in the seasons of the year, great destruction",
+      "greekPhrases": [
+        {
+          "text": "γάρ. Ἐπεὶ καὶ ἡ τῶν ὡρῶν τοῦ ἐνιαυτοῦ σύστασις μεστή ἐστιν ἀμφοτέρων τούτων, καὶ ἐπειδὰν μὲν πρὸς ἄλληλα τοῦ κοσμίου τύχῃ ἔρωτος ἃ νῦν δὴ ἐγὼ ἔλεγον, τά τε θερμὰ",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "καὶ τὰ ψυχρὰ καὶ ξηρὰ καὶ ὑγρά, καὶ ἁρμονίαν καὶ κρᾶσιν λάβῃ σώφρονα, ἥκει φέροντα εὐετηρίαν τε καὶ ὑγίειαν ἀνθρώποις καὶ τοῖς ἄλλοις ζῴοις τε καὶ φυτοῖς, καὶ οὐδὲν ἠδίκησεν·",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ὅταν δὲ ὁ μετὰ τῆς ὕβρεως Ἔρως ἐγκρατέστερος περὶ τὰς τοῦ ἐνιαυτοῦ ὥρας γένηται, διαφθείρει τε πολλὰ καὶ ἠδίκησεν.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "for both are there.",
+          "mapsTo": []
+        },
+        {
+          "text": "Note how even the system of the yearly seasons is full of these two forces;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "how the qualities I mentioned just now, heat and cold, drought and moisture, when brought together by the orderly Love, and taking on a",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "temperate harmony as they mingle, become bearers of ripe fertility and health to men and animals and plants, and are guilty of no wrong.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "But when the wanton-spirited Love gains the ascendant in the seasons of the year, great destruction",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "188b",
+      "page": "188",
+      "order": 79,
+      "greek": "οἵ τε γὰρ λοιμοὶ φιλοῦσι γίγνεσθαι ἐκ τῶν τοιούτων καὶ ἄλλ᾽ αὖ ὅμοια πολλὰ νοσήματα καὶ τοῖς θηρίοις καὶ τοῖς φυτοῖς· καὶ γὰρ πάχναι καὶ χάλαζαι καὶ ἐρυσῖβαι ἐκ πλεονεξίας καὶ ἀκοσμίας περὶ ἄλληλα τῶν τοιούτων γίγνεται ἐρωτικῶν· ὧν ἐπιστήμη περὶ ἄστρων τε φορὰς καὶ ἐνιαυτῶν ὥρας ἀστρονομία καλεῖται. ἔτι τοίνυν καὶ θυσίαι πᾶσαι καὶ οἷς μαντικὴ ἐπιστατεῖ (ταῦτα δ᾽ ἐστὶν ἡ περὶ θεούς τε",
+      "english": "and wrong does he wreak. For at these junctures are wont to arise pestilences and many other varieties of disease in beasts and herbs; likewise hoar-frosts, hails, and mildews, which spring from mutual encroachments and disturbances in such love-connections as are studied in relation to the motions of the stars and the yearly seasons by what we term astronomy. So further, all sacrifices and ceremonies controlled by divination,",
+      "greekPhrases": [
+        {
+          "text": "οἵ τε γὰρ λοιμοὶ φιλοῦσι γίγνεσθαι ἐκ τῶν τοιούτων καὶ ἄλλ᾽ αὖ ὅμοια πολλὰ νοσήματα καὶ τοῖς θηρίοις καὶ τοῖς φυτοῖς·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ γὰρ πάχναι καὶ χάλαζαι καὶ ἐρυσῖβαι ἐκ πλεονεξίας καὶ ἀκοσμίας περὶ ἄλληλα τῶν τοιούτων γίγνεται ἐρωτικῶν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὧν ἐπιστήμη περὶ ἄστρων τε φορὰς καὶ ἐνιαυτῶν ὥρας ἀστρονομία καλεῖται.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἔτι τοίνυν καὶ θυσίαι πᾶσαι καὶ οἷς μαντικὴ ἐπιστατεῖ (ταῦτα δ᾽ ἐστὶν ἡ περὶ θεούς τε",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and wrong does he wreak.",
+          "mapsTo": []
+        },
+        {
+          "text": "For at these junctures are wont to arise pestilences and many other varieties of disease in beasts and herbs;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "likewise hoar-frosts, hails, and mildews, which spring from mutual encroachments and disturbances in such love-connections as are",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "studied in relation to the motions of the stars and the yearly seasons by what we term astronomy.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So further, all sacrifices and ceremonies controlled by divination,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "188c",
+      "page": "188",
+      "order": 80,
+      "greek": "καὶ ἀνθρώπους πρὸς ἀλλήλους κοινωνία) οὐ περὶ ἄλλο τί ἐστιν ἢ περὶ Ἔρωτος φυλακήν τε καὶ ἴασιν· πᾶσα γὰρ ἡ ἀσέβεια φιλεῖ γίγνεσθαι ἐὰν μή τις τῷ κοσμίῳ Ἔρωτι χαρίζηται μηδὲ τιμᾷ τε αὐτὸν καὶ πρεσβεύῃ ἐν παντὶ ἔργῳ, ἀλλὰ τὸν ἕτερον, καὶ περὶ γονέας καὶ ζῶντας καὶ τετελευτηκότας καὶ περὶ θεούς· ἃ δὴ προστέτακται τῇ μαντικῇ ἐπισκοπεῖν τοὺς Ἔρωτας καὶ ἰατρεύειν· καὶ ἔστιν αὖ ἡ",
+      "english": "namely, all means of communion between gods and men, are only concerned with either the preservation or the cure of Love. For impiety is usually in each case the result of refusing to gratify the orderly Love or to honor and prefer him in all our affairs, and of yielding to the other in questions of duty towards one’s parents whether alive or dead, and also towards the gods. To divination is appointed the task of supervising and treating the health of these Loves; wherefore that art,",
+      "greekPhrases": [
+        {
+          "text": "καὶ ἀνθρώπους πρὸς ἀλλήλους κοινωνία) οὐ περὶ ἄλλο τί ἐστιν ἢ περὶ Ἔρωτος φυλακήν τε καὶ ἴασιν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "πᾶσα γὰρ ἡ ἀσέβεια φιλεῖ γίγνεσθαι ἐὰν μή τις τῷ κοσμίῳ Ἔρωτι χαρίζηται μηδὲ τιμᾷ τε αὐτὸν",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ πρεσβεύῃ ἐν παντὶ ἔργῳ, ἀλλὰ τὸν ἕτερον, καὶ περὶ γονέας καὶ ζῶντας καὶ τετελευτηκότας καὶ περὶ θεούς·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἃ δὴ προστέτακται τῇ μαντικῇ ἐπισκοπεῖν τοὺς Ἔρωτας καὶ ἰατρεύειν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ ἔστιν αὖ ἡ",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "namely, all means of communion between gods and men, are only concerned with either the preservation or the cure of Love.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For impiety is usually in each case the result of refusing to gratify the orderly Love or to honor and prefer him in all",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "our affairs, and of yielding to the other in questions of duty towards one’s parents whether alive or dead, and also towards the gods.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "To divination is appointed the task of supervising and treating the health of these Loves; wherefore that art,",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "188d",
+      "page": "188",
+      "order": 81,
+      "greek": "μαντικὴ φιλίας θεῶν καὶ ἀνθρώπων δημιουργὸς τῷ ἐπίστασθαι τὰ κατὰ ἀνθρώπους ἐρωτικά, ὅσα τείνει πρὸς θέμιν καὶ ἀσέβειαν. οὕτω πολλὴν καὶ μεγάλην, μᾶλλον δὲ πᾶσαν δύναμιν ἔχει ξυλλήβδην μὲν ὁ πᾶς Ἔρως, ὁ δὲ περὶ τἀγαθὰ μετὰ σωφροσύνης καὶ δικαιοσύνης ἀποτελούμενος καὶ παρ᾽ ἡμῖν καὶ παρὰ θεοῖς, οὗτος τὴν μεγίστην δύναμιν ἔχει καὶ πᾶσαν ἡμῖν εὐδαιμονίαν παρασκευάζει καὶ ἀλλήλοις δυναμένους ὁμιλεῖν καὶ φίλους εἶναι καὶ τοῖς κρείττοσιν ἡμῶν θεοῖς. ἴσως μὲν",
+      "english": "as knowing what human love-affairs will lead to seemliness and pious observance, is indeed a purveyor of friendship betwixt gods and men. Thus Love, conceived as a single whole, exerts a wide, a strong, nay, in short, a complete power: but that which is consummated for a good purpose, temperately and justly, both here on earth and in heaven above, wields the mightiest power of all and provides us with a perfect bliss; so that we are able to consort with one another and have friendship with the gods who are above us.",
+      "greekPhrases": [
+        {
+          "text": "μαντικὴ φιλίας θεῶν καὶ ἀνθρώπων δημιουργὸς τῷ ἐπίστασθαι τὰ κατὰ ἀνθρώπους ἐρωτικά, ὅσα τείνει πρὸς θέμιν καὶ ἀσέβειαν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὕτω πολλὴν καὶ μεγάλην, μᾶλλον δὲ πᾶσαν δύναμιν ἔχει ξυλλήβδην μὲν ὁ πᾶς Ἔρως, ὁ δὲ περὶ τἀγαθὰ μετὰ σωφροσύνης καὶ δικαιοσύνης ἀποτελούμενος καὶ παρ᾽",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἡμῖν καὶ παρὰ θεοῖς, οὗτος τὴν μεγίστην δύναμιν ἔχει καὶ πᾶσαν ἡμῖν εὐδαιμονίαν παρασκευάζει καὶ ἀλλήλοις δυναμένους ὁμιλεῖν καὶ φίλους εἶναι καὶ τοῖς κρείττοσιν ἡμῶν θεοῖς. ἴσως μὲν",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "as knowing what human love-affairs will lead to seemliness and pious observance, is indeed a purveyor of friendship betwixt gods and men.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Thus Love, conceived as a single whole, exerts a wide, a strong, nay, in short, a complete power:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "but that which is consummated for a good purpose, temperately and justly, both here on earth",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and in heaven above, wields the mightiest power of all and provides us with a perfect bliss;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "so that we are able to consort with one another and have friendship with the gods who are above us.",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "188e",
+      "page": "188",
+      "order": 82,
+      "greek": "οὖν καὶ ἐγὼ τὸν Ἔρωτα ἐπαινῶν πολλὰ παραλείπω, οὐ μέντοι ἑκών γε. ἀλλ᾽ εἴ τι ἐξέλιπον, σὸν ἔργον, ὦ Ἀριστόφανες, ἀναπληρῶσαι· ἢ εἴ πως ἄλλως ἐν νῷ ἔχεις ἐγκωμιάζειν τὸν θεόν, ἐγκωμίαζε, ἐπειδὴ καὶ τῆς λυγγὸς πέπαυσαι. —",
+      "english": "It may well be that with the best will in the world I have omitted many points in the praise I owe to Love; but any gaps which I may have left it is your business, Aristophanes, to fill: or if you intend some different manner of glorifying the god, let us hear your eulogy, for you have stopped your hiccough now.",
+      "greekPhrases": [
+        {
+          "text": "οὖν καὶ ἐγὼ τὸν Ἔρωτα ἐπαινῶν πολλὰ παραλείπω, οὐ μέντοι ἑκών γε.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ εἴ τι ἐξέλιπον, σὸν ἔργον, ὦ Ἀριστόφανες, ἀναπληρῶσαι·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἢ εἴ πως ἄλλως ἐν νῷ ἔχεις ἐγκωμιάζειν τὸν θεόν, ἐγκωμίαζε, ἐπειδὴ καὶ τῆς λυγγὸς πέπαυσαι. —",
+          "mapsTo": [
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "It may well be that with the best will in the world I have omitted many points in the praise I owe to Love;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "but any gaps which I may have left it is your business, Aristophanes, to fill:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "or if you intend some different manner of glorifying the god, let us hear your eulogy, for you have stopped your hiccough now.",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "189a",
+      "page": "189",
+      "order": 83,
+      "greek": "Ἐκδεξάμενον οὖν ἔφη εἰπεῖν τὸν Ἀριστοφάνη ὅτι· Καὶ μάλ᾽ ἐπαύσατο, οὐ μέντοι πρίν γε τὸν πταρμὸν προσενεχθῆναι αὐτῇ, ὥστε με θαυμάζειν εἰ τὸ κόσμιον τοῦ σώματος ἐπιθυμεῖ τοιούτων ψόφων καὶ γαργαλισμῶν, οἷον καὶ ὁ πταρμός ἐστι· πάνυ γὰρ εὐθὺς ἐπαύσατο, ἐπειδὴ αὐτῷ τὸν πταρμὸν προσήνεγκα. καὶ τὸν Ἐρυξίμαχον· ὠγαθέ, φάναι, Ἀριστόφανες, ὅρα τί ποιεῖς. γελωτοποιεῖς μέλλων λέγειν, καὶ φύλακά με τοῦ",
+      "english": "Then, as my friend related, Aristophanes took up the word and said: Yes, it has stopped, though not until it was treated with a course of sneezing, such as leaves me wondering that the orderly principle of the body should call for the noises and titillations involved in sneezing; you see, it stopped the very moment I applied the sneeze to it. My good Aristophanes, replied Eryximachus, take heed what you are about. Here are you buffooning before ever you begin, and compelling me",
+      "greekPhrases": [
+        {
+          "text": "Ἐκδεξάμενον οὖν ἔφη εἰπεῖν τὸν Ἀριστοφάνη ὅτι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Καὶ μάλ᾽ ἐπαύσατο, οὐ μέντοι πρίν γε τὸν πταρμὸν προσενεχθῆναι αὐτῇ, ὥστε με θαυμάζειν",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "εἰ τὸ κόσμιον τοῦ σώματος ἐπιθυμεῖ τοιούτων ψόφων καὶ γαργαλισμῶν, οἷον καὶ ὁ πταρμός ἐστι·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "πάνυ γὰρ εὐθὺς ἐπαύσατο, ἐπειδὴ αὐτῷ τὸν πταρμὸν προσήνεγκα. καὶ τὸν Ἐρυξίμαχον·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ὠγαθέ, φάναι, Ἀριστόφανες, ὅρα τί ποιεῖς.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "γελωτοποιεῖς μέλλων λέγειν, καὶ φύλακά με τοῦ",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Then, as my friend related, Aristophanes took up the word and said:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Yes, it has stopped, though not until it was treated with a course of sneezing, such as leaves",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "me wondering that the orderly principle of the body should call for the noises and titillations involved in sneezing;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "you see, it stopped the very moment I applied the sneeze to it.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "My good Aristophanes, replied Eryximachus, take heed what you are about.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Here are you buffooning before ever you begin, and compelling me",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "189b",
+      "page": "189",
+      "order": 84,
+      "greek": "λόγου ἀναγκάζεις γίγνεσθαι τοῦ σεαυτοῦ, ἐάν τοι γελοῖον εἴπῃς, ἐξόν σοι ἐν εἰρήνῃ λέγειν. καὶ τὸν Ἀριστοφάνη γελάσαντα εἰπεῖν· Εὖ λέγεις, ὦ Ἐρυξίμαχε, καί μοι ἔστω ἄῤῥητα τὰ εἰρημένα. ἀλλὰ μή με φύλαττε, ὡς ἐγὼ φοβοῦμαι περὶ τῶν μελλόντων ῥηθήσεσθαι, οὔ τι μὴ γελοῖα εἴπω (τοῦτο μὲν γὰρ ἂν κέρδος εἴη καὶ τῆς ἡμετέρας μούσης ἐπιχώριον) ἀλλὰ μὴ καταγέλαστα. Βαλών γε, φάναι, ὦ Ἀριστόφανες, οἴει ἐκφεύξεσθαι· ἀλλὰ πρόσεχε τὸν νοῦν καὶ οὕτως λέγε ὡς δώσων λόγον·",
+      "english": "to be on the watch for the first absurdity in your speech, when you might deliver it in peace. At this Aristophanes laughed, and Quite right, Eryximachus, he said; I unsay all that I have said. Do not keep a watch on me for as to what is going to be said, my fear is not so much of saying something absurd—since that would be all to the good and native to my Muse—as something utterly ridiculous. You think you can just let fly, Aristophanes, and get off unscathed! Have a good care to speak only what you can defend;",
+      "greekPhrases": [
+        {
+          "text": "λόγου ἀναγκάζεις γίγνεσθαι τοῦ σεαυτοῦ, ἐάν τοι γελοῖον εἴπῃς, ἐξόν σοι ἐν εἰρήνῃ λέγειν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ τὸν Ἀριστοφάνη γελάσαντα εἰπεῖν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Εὖ λέγεις, ὦ Ἐρυξίμαχε, καί μοι ἔστω ἄῤῥητα τὰ εἰρημένα.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀλλὰ μή με φύλαττε, ὡς ἐγὼ φοβοῦμαι περὶ τῶν μελλόντων ῥηθήσεσθαι, οὔ τι μὴ γελοῖα",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "εἴπω (τοῦτο μὲν γὰρ ἂν κέρδος εἴη καὶ τῆς ἡμετέρας μούσης ἐπιχώριον) ἀλλὰ μὴ καταγέλαστα.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Βαλών γε, φάναι, ὦ Ἀριστόφανες, οἴει ἐκφεύξεσθαι·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἀλλὰ πρόσεχε τὸν νοῦν καὶ οὕτως λέγε ὡς δώσων λόγον·",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "to be on the watch for the first absurdity in your speech, when you might deliver it in peace.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "At this Aristophanes laughed, and Quite right, Eryximachus, he said;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I unsay all that I have said.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Do not keep a watch on me for as to what is going to be said, my fear is not",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "so much of saying something absurd—since that would be all to the good and native to my Muse—as something utterly ridiculous.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "You think you can just let fly, Aristophanes, and get off unscathed!",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Have a good care to speak only what you can defend;",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "189c",
+      "page": "189",
+      "order": 85,
+      "greek": "ἴσως μέντοι, ἂν δόξῃ μοι, ἀφήσω σε. Καὶ μήν, ὦ Ἐρυξίμαχε, εἰπεῖν τὸν Ἀριστοφάνη, ἄλλῃ γέ πῃ ἐν νῷ ἔχω λέγειν ἢ ᾗ σύ τε καὶ Παυσανίας εἰπέτην. ἐμοὶ γὰρ δοκοῦσιν ἅνθρωποι παντάπασι τὴν τοῦ ἔρωτος δύναμιν οὐκ ᾐσθῆσθαι, ἐπεὶ αἰσθανόμενοί γε μέγιστ᾽ ἂν αὐτοῦ ἱερὰ κατασκευάσαι καὶ βωμούς, καὶ θυσίας ἂν ποιεῖν μεγίστας, οὐχ ὥσπερ νῦν τούτων οὐδὲν γίγνεται περὶ αὐτόν, δέον πάντων μάλιστα γίγνεσθαι. ἔστι γὰρ θεῶν φιλανθρωπότατος,",
+      "english": "though perhaps I may be pleased to let you off altogether. It is indeed my intention, Eryximachus, said Aristophanes, to speak in somewhat different strain from you and Pausanias. For in my opinion humanity has entirely failed to perceive the power of Love: if men did perceive it, they would have provided him with splendid temples and altars, and would splendidly honor him with sacrifice; whereas we see none of these things done for him, though they are especially his due.",
+      "greekPhrases": [
+        {
+          "text": "ἴσως μέντοι, ἂν δόξῃ μοι, ἀφήσω σε.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Καὶ μήν, ὦ Ἐρυξίμαχε, εἰπεῖν τὸν Ἀριστοφάνη, ἄλλῃ γέ πῃ ἐν νῷ ἔχω λέγειν ἢ ᾗ σύ τε καὶ Παυσανίας εἰπέτην.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐμοὶ γὰρ δοκοῦσιν ἅνθρωποι παντάπασι τὴν τοῦ ἔρωτος δύναμιν οὐκ ᾐσθῆσθαι, ἐπεὶ αἰσθανόμενοί γε μέγιστ᾽ ἂν αὐτοῦ ἱερὰ κατασκευάσαι",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "καὶ βωμούς, καὶ θυσίας ἂν ποιεῖν μεγίστας, οὐχ ὥσπερ νῦν τούτων οὐδὲν γίγνεται περὶ αὐτόν, δέον πάντων μάλιστα γίγνεσθαι.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "ἔστι γὰρ θεῶν φιλανθρωπότατος,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "though perhaps I may be pleased to let you off altogether.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "It is indeed my intention, Eryximachus, said Aristophanes, to speak in somewhat different strain from you and Pausanias.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "For in my opinion humanity has entirely failed to perceive the power of Love:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "if men did perceive it, they would have provided him with splendid temples and altars, and would splendidly honor him with sacrifice;",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "whereas we see none of these things done for him, though they are especially his due.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "189d",
+      "page": "189",
+      "order": 86,
+      "greek": "ἐπίκουρός τε ὢν τῶν ἀνθρώπων καὶ ἰατρὸς τούτων ὧν ἰαθέντων μεγίστη εὐδαιμονία ἂν τῷ ἀνθρωπείῳ γένει εἴη. ἐγὼ οὖν πειράσομαι ὑμῖν εἰσηγήσασθαι τὴν δύναμιν αὐτοῦ, ὑμεῖς δὲ τῶν ἄλλων διδάσκαλοι ἔσεσθε. δεῖ δὲ πρῶτον ὑμᾶς μαθεῖν τὴν ἀνθρωπίνην φύσιν καὶ τὰ παθήματα αὐτῆς. ἡ γὰρ πάλαι ἡμῶν φύσις οὐχ αὑτὴ ἦν ἥπερ νῦν, ἀλλ᾽ ἀλλοία. πρῶτον μὲν γὰρ τρία ἦν τὰ γένη τὰ τῶν ἀνθρώπων, οὐχ ὥσπερ νῦν δύο, ἄῤῥεν καὶ θῆλυ,",
+      "english": "He of all gods is most friendly to men; he succors mankind and heals those ills whose cure must be the highest happiness of the human race. Hence I shall try and introduce you to his power, that you may transmit this teaching to the world at large. You must begin your lesson with the nature of man and its development. For our original nature was by no means the same as it is now. In the first place, there were three kinds of human beings,",
+      "greekPhrases": [
+        {
+          "text": "ἐπίκουρός τε ὢν τῶν ἀνθρώπων καὶ ἰατρὸς τούτων ὧν ἰαθέντων μεγίστη εὐδαιμονία ἂν τῷ ἀνθρωπείῳ γένει εἴη.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἐγὼ οὖν πειράσομαι ὑμῖν εἰσηγήσασθαι τὴν δύναμιν αὐτοῦ, ὑμεῖς δὲ τῶν ἄλλων διδάσκαλοι ἔσεσθε.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "δεῖ δὲ πρῶτον ὑμᾶς μαθεῖν τὴν ἀνθρωπίνην φύσιν καὶ τὰ παθήματα αὐτῆς.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἡ γὰρ πάλαι ἡμῶν φύσις οὐχ αὑτὴ ἦν ἥπερ νῦν, ἀλλ᾽ ἀλλοία.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "πρῶτον μὲν γὰρ τρία ἦν τὰ γένη τὰ τῶν ἀνθρώπων, οὐχ ὥσπερ νῦν δύο, ἄῤῥεν καὶ θῆλυ,",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "He of all gods is most friendly to men;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "he succors mankind and heals those ills whose cure must be the highest happiness of the human race.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Hence I shall try and introduce you to his power, that you may transmit this teaching to the world at large.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "You must begin your lesson with the nature of man and its development.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "For our original nature was by no means the same as it is now.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "In the first place, there were three kinds of human beings,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "189e",
+      "page": "189",
+      "order": 87,
+      "greek": "ἀλλὰ καὶ τρίτον προσῆν κοινὸν ὂν ἀμφοτέρων τούτων, οὗ νῦν ὄνομα λοιπόν, αὐτὸ δὲ ἠφάνισται· ἀνδρόγυνον γὰρ ἓν τότε μὲν ἦν καὶ εἶδος καὶ ὄνομα ἐξ ἀμφοτέρων κοινὸν τοῦ τε ἄῤῥενος καὶ θήλεος, νῦν δὲ οὐκ ἔστιν ἀλλ᾽ ἢ ἐν ὀνείδει ὄνομα κείμενον. ἔπειτα ὅλον ἦν ἑκάστου τοῦ ἀνθρώπου τὸ εἶδος στρογγύλον, νῶτον καὶ πλευρὰς κύκλῳ ἔχον· χεῖρας δὲ τέτταρας εἶχε, καὶ σκέλη τὰ ἴσα ταῖς χερσίν, καὶ πρόσωπα",
+      "english": "not merely the two sexes, male and female, as at present: there was a third kind as well, which had equal shares of the other two, and whose name survives though, the thing itself has vanished. For man-woman was then a unity in form no less than name, composed of both sexes and sharing equally in male and female; whereas now it has come to be merely a name of reproach. Secondly, the form of each person was round all over, with back and sides encompassing it every way; each had four arms, and legs to match these, and two faces perfectly alike",
+      "greekPhrases": [
+        {
+          "text": "ἀλλὰ καὶ τρίτον προσῆν κοινὸν ὂν ἀμφοτέρων τούτων, οὗ νῦν ὄνομα λοιπόν, αὐτὸ δὲ ἠφάνισται·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἀνδρόγυνον γὰρ ἓν τότε μὲν ἦν καὶ εἶδος καὶ ὄνομα ἐξ ἀμφοτέρων κοινὸν τοῦ τε ἄῤῥενος καὶ θήλεος, νῦν δὲ οὐκ ἔστιν ἀλλ᾽ ἢ ἐν ὀνείδει ὄνομα κείμενον.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἔπειτα ὅλον ἦν ἑκάστου τοῦ ἀνθρώπου τὸ εἶδος στρογγύλον, νῶτον καὶ πλευρὰς κύκλῳ ἔχον·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "χεῖρας δὲ τέτταρας εἶχε, καὶ σκέλη τὰ ἴσα ταῖς χερσίν, καὶ πρόσωπα",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "not merely the two sexes, male and female, as at present:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "there was a third kind as well, which had equal shares of the other two, and whose name survives though, the thing itself has vanished.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "For man-woman was then a unity in form no less than name, composed of both sexes and sharing equally in male and female;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "whereas now it has come to be merely a name of reproach.",
+          "mapsTo": []
+        },
+        {
+          "text": "Secondly, the form of each person was round all over, with back and sides encompassing it every way;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "each had four arms, and legs to match these, and two faces perfectly alike",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "190a",
+      "page": "190",
+      "order": 88,
+      "greek": "δύ᾽ ἐπ᾽ αὐχένι κυκλοτερεῖ, ὅμοια πάντῃ· κεφαλὴν δ᾽ ἐπ᾽ ἀμφοτέροις τοῖς προσώποις ἐναντίοις κειμένοις μίαν, καὶ ὦτα τέτταρα, καὶ αἰδοῖα δύο, καὶ τἆλλα πάντα ὡς ἀπὸ τούτων ἄν τις εἰκάσειεν. ἐπορεύετο δὲ καὶ ὀρθὸν ὥσπερ νῦν, ὁποτέρωσε βουληθείη· καὶ ὁπότε ταχὺ ὁρμήσειεν θεῖν, ὥσπερ οἱ κυβιστῶντες καὶ εἰς ὀρθὸν τὰ σκέλη περιφερόμενοι κυβιστῶσι κύκλῳ, ὀκτὼ τότε οὖσι τοῖς μέλεσιν ἀπερειδόμενοι ταχὺ ἐφέροντο κύκλῳ. ἦν δὲ διὰ ταῦτα τρία",
+      "english": "on a cylindrical neck. There was one head to the two faces, which looked opposite ways; there were four ears, two privy members, and all the other parts, as may be imagined, in proportion. The creature walked upright as now, in either direction as it pleased and whenever it started running fast, it went like our acrobats, whirling over and over with legs stuck out straight; only then they had eight limbs to support and speed them",
+      "greekPhrases": [
+        {
+          "text": "δύ᾽ ἐπ᾽ αὐχένι κυκλοτερεῖ, ὅμοια πάντῃ·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "κεφαλὴν δ᾽ ἐπ᾽ ἀμφοτέροις τοῖς προσώποις ἐναντίοις κειμένοις μίαν, καὶ ὦτα τέτταρα, καὶ αἰδοῖα δύο, καὶ τἆλλα πάντα ὡς ἀπὸ τούτων ἄν τις εἰκάσειεν.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἐπορεύετο δὲ καὶ ὀρθὸν ὥσπερ νῦν, ὁποτέρωσε βουληθείη·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ ὁπότε ταχὺ ὁρμήσειεν θεῖν, ὥσπερ οἱ κυβιστῶντες καὶ εἰς ὀρθὸν τὰ σκέλη περιφερόμενοι κυβιστῶσι κύκλῳ, ὀκτὼ τότε οὖσι τοῖς μέλεσιν ἀπερειδόμενοι ταχὺ ἐφέροντο κύκλῳ.",
+          "mapsTo": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "ἦν δὲ διὰ ταῦτα τρία",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "on a cylindrical neck.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "There was one head to the two faces, which looked opposite ways;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "there were four ears, two privy members, and all the other parts, as may be imagined, in proportion.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "The creature walked upright as now, in either direction as it pleased and whenever it started",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "running fast, it went like our acrobats, whirling over and over with legs stuck out straight;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "only then they had eight limbs to support and speed them",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "190b",
+      "page": "190",
+      "order": 89,
+      "greek": "τὰ γένη καὶ τοιαῦτα, ὅτι τὸ μὲν ἄῤῥεν ἦν τοῦ ἡλίου τὴν ἀρχὴν ἔκγονον, τὸ δὲ θῆλυ τῆς γῆς, τὸ δὲ ἀμφοτέρων μετέχον τῆς σελήνης, ὅτι καὶ ἡ σελήνη ἀμφοτέρων μετέχει· περιφερῆ δὲ δὴ ἦν καὶ αὐτὰ καὶ ἡ πορεία αὐτῶν διὰ τὸ τοῖς γονεῦσιν ὅμοια εἶναι. ἦν οὖν τὴν ἰσχὺν δεινὰ καὶ τὴν ῥώμην, καὶ τὰ φρονήματα μεγάλα εἶχον, ἐπεχείρησαν δὲ τοῖς θεοῖς, καὶ ὃ λέγει Ὅμηρος περὶ Ἐφιάλτου τε καὶ Ὤτου, περὶ ἐκείνων λέγεται, τὸ εἰς τὸν οὐρανὸν ἀνάβασιν ἐπιχειρεῖν",
+      "english": "swiftly round and round. The number and features of these three sexes were owing to the fact that the male was originally the offspring of the sun, and the female of the earth; while that which partook of both sexes was born of the moon, for the moon also partakes of both. They were globular in their shape as in their progress, since they took after their parents. Now, they were of surprising strength and vigor, and so lofty in their notions that they even conspired against the gods; and the same story is told of them as Homer relates of",
+      "greekPhrases": [
+        {
+          "text": "τὰ γένη καὶ τοιαῦτα, ὅτι τὸ μὲν ἄῤῥεν ἦν τοῦ ἡλίου τὴν ἀρχὴν ἔκγονον, τὸ",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "δὲ θῆλυ τῆς γῆς, τὸ δὲ ἀμφοτέρων μετέχον τῆς σελήνης, ὅτι καὶ ἡ σελήνη ἀμφοτέρων μετέχει·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "περιφερῆ δὲ δὴ ἦν καὶ αὐτὰ καὶ ἡ πορεία αὐτῶν διὰ τὸ τοῖς γονεῦσιν ὅμοια εἶναι.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἦν οὖν τὴν ἰσχὺν δεινὰ καὶ τὴν ῥώμην, καὶ τὰ φρονήματα μεγάλα εἶχον, ἐπεχείρησαν δὲ τοῖς θεοῖς,",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "καὶ ὃ λέγει Ὅμηρος περὶ Ἐφιάλτου τε καὶ Ὤτου, περὶ ἐκείνων λέγεται, τὸ εἰς τὸν οὐρανὸν ἀνάβασιν ἐπιχειρεῖν",
+          "mapsTo": [
+            5,
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "swiftly round and round.",
+          "mapsTo": []
+        },
+        {
+          "text": "The number and features of these three sexes were owing to the fact that",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "the male was originally the offspring of the sun, and the female of the earth;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "while that which partook of both sexes was born of the moon, for the moon also partakes of both.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "They were globular in their shape as in their progress, since they took after their parents.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Now, they were of surprising strength and vigor, and so lofty in their notions that they even conspired against the gods;",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "and the same story is told of them as Homer relates of",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "190c",
+      "page": "190",
+      "order": 90,
+      "greek": "ποιεῖν, ὡς ἐπιθησομένων τοῖς θεοῖς. Ὁ οὖν Ζεὺς καὶ οἱ ἄλλοι θεοὶ ἐβουλεύοντο , ὅ τι χρὴ αὐτοὺς ποιῆσαι, καὶ ἠπόρουν· οὔτε γὰρ ὅπως ἀποκτείναιεν εἶχον καὶ ὥσπερ τοὺς γίγαντας κεραυνώσαντες τὸ γένος ἀφανίσαιεν — αἱ τιμαὶ γὰρ αὐτοῖς καὶ ἱερὰ τὰ παρὰ τῶν ἀνθρώπων ἠφανίζετο — οὔθ᾽ ὅπως ἐῷεν ἀσελγαίνειν. μόγις δὴ ὁ Ζεὺς ἐννοήσας λέγει ὅτι· Δοκῶ μοι, ἔφη, ἔχειν μηχανήν, ὡς ἂν εἶέν τε ἄνθρωποι καὶ παύσαιντο τῆς ἀκολασίας ἀσθενέστεροι",
+      "english": "Ephialtes and Otus, that scheming to assault the gods in fight they essayed to mount high heaven. Thereat Zeus and the other gods debated what they should do, and were perplexed: for they felt they could not slay them like the Giants, whom they had abolished root and branch with strokes of thunder—it would be only abolishing the honors and observances they had from men; nor yet could they endure such sinful rioting. Then Zeus, putting all his wits together, spoke at length and said: Methinks I can contrive that men, without ceasing to exist, shall give over their iniquity through a lessening of their strength.",
+      "greekPhrases": [
+        {
+          "text": "ποιεῖν, ὡς ἐπιθησομένων τοῖς θεοῖς.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Ὁ οὖν Ζεὺς καὶ οἱ ἄλλοι θεοὶ ἐβουλεύοντο , ὅ τι χρὴ αὐτοὺς ποιῆσαι, καὶ ἠπόρουν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οὔτε γὰρ ὅπως ἀποκτείναιεν εἶχον καὶ ὥσπερ τοὺς γίγαντας κεραυνώσαντες τὸ γένος ἀφανίσαιεν — αἱ",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "τιμαὶ γὰρ αὐτοῖς καὶ ἱερὰ τὰ παρὰ τῶν ἀνθρώπων ἠφανίζετο — οὔθ᾽ ὅπως ἐῷεν ἀσελγαίνειν.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "μόγις δὴ ὁ Ζεὺς ἐννοήσας λέγει ὅτι·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Δοκῶ μοι, ἔφη, ἔχειν μηχανήν, ὡς ἂν εἶέν τε ἄνθρωποι καὶ παύσαιντο τῆς ἀκολασίας ἀσθενέστεροι",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Ephialtes and Otus, that scheming to assault the gods in fight they essayed to mount high heaven.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Thereat Zeus and the other gods debated what they should do, and were perplexed:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "for they felt they could not slay them like the Giants, whom they had abolished root and",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "branch with strokes of thunder—it would be only abolishing the honors and observances they had from men;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "nor yet could they endure such sinful rioting.",
+          "mapsTo": []
+        },
+        {
+          "text": "Then Zeus, putting all his wits together, spoke at length and said:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Methinks I can contrive that men, without ceasing to exist, shall give over their iniquity through a lessening of their strength.",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "190d",
+      "page": "190",
+      "order": 91,
+      "greek": "γενόμενοι. νῦν μὲν γὰρ αὐτούς, ἔφη, διατεμῶ δίχα ἕκαστον, καὶ ἅμα μὲν ἀσθενέστεροι ἔσονται, ἅμα δὲ χρησιμώτεροι ἡμῖν διὰ τὸ πλείους τὸν ἀριθμὸν γεγονέναι· καὶ βαδιοῦνται ὀρθοὶ ἐπὶ δυοῖν σκελοῖν· ἐὰν δ᾽ ἔτι δοκῶσιν ἀσελγαίνειν καὶ μὴ ἐθέλωσιν ἡσυχίαν ἄγειν, πάλιν αὖ, ἔφη, τεμῶ δίχα, ὥστ᾽ ἐφ᾽ ἑνὸς πορεύσονται σκέλους ἀσκωλιάζοντες. ταῦτα εἰπὼν ἔτεμνε τοὺς ἀνθρώπους δίχα, ὥσπερ οἱ τὰ ὠὰ τέμνοντες",
+      "english": "I propose now to slice every one of them in two, so that while making them weaker we shall find them more useful by reason of their multiplication; and they shall walk erect upon two legs. If they continue turbulent and do not choose to keep quiet, I will do it again, said he; I will slice every person in two, and then they must go their ways on one leg, hopping. So saying, he sliced each human being in two, just as they slice sorb-apples to make a dry preserve, or eggs with hairs;",
+      "greekPhrases": [
+        {
+          "text": "γενόμενοι. νῦν μὲν γὰρ αὐτούς, ἔφη, διατεμῶ δίχα ἕκαστον, καὶ ἅμα μὲν ἀσθενέστεροι ἔσονται, ἅμα δὲ χρησιμώτεροι ἡμῖν διὰ τὸ πλείους τὸν ἀριθμὸν γεγονέναι·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "καὶ βαδιοῦνται ὀρθοὶ ἐπὶ δυοῖν σκελοῖν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐὰν δ᾽ ἔτι δοκῶσιν ἀσελγαίνειν καὶ μὴ ἐθέλωσιν ἡσυχίαν ἄγειν, πάλιν αὖ, ἔφη, τεμῶ δίχα, ὥστ᾽ ἐφ᾽ ἑνὸς πορεύσονται σκέλους ἀσκωλιάζοντες.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "ταῦτα εἰπὼν ἔτεμνε τοὺς ἀνθρώπους δίχα, ὥσπερ οἱ τὰ ὠὰ τέμνοντες",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "I propose now to slice every one of them in two, so that while making them weaker we shall find them more useful by reason of their multiplication;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and they shall walk erect upon two legs.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "If they continue turbulent and do not choose to keep quiet, I will do it again, said he;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I will slice every person in two, and then they must go their ways on one leg, hopping.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So saying, he sliced each human being in two, just as they slice sorb-apples to make a dry preserve, or eggs with hairs;",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "190e",
+      "page": "190",
+      "order": 92,
+      "greek": "καὶ μέλλοντες ταριχεύειν, ἢ ὥσπερ οἱ τὰ ὠὰ ταῖς θριξίν· ὅντινα δὲ τέμοι, τὸν Ἀπόλλω ἐκέλευε τό τε πρόσωπον μεταστρέφειν καὶ τὸ τοῦ αὐχένος ἥμισυ πρὸς τὴν τομήν, ἵνα θεώμενος τὴν αὑτοῦ τμῆσιν κοσμιώτερος εἴη ὁ ἄνθρωπος· καὶ τἆλλα ἰᾶσθαι ἐκέλευεν. ὁ δὲ τό τε πρόσωπον μετέστρεφε, καὶ συνέλκων πανταχόθεν τὸ δέρμα ἐπὶ τὴν γαστέρα νῦν καλουμένην, ὥσπερ τὰ σύσπαστα βαλάντια, ἓν στόμα ποιῶν ἀπέδει κατὰ μέσην τὴν γαστέρα, ὃ δὴ τὸν ὀμφαλὸν καλοῦσι. καὶ τὰς μὲν ἄλλας ῥυτίδας",
+      "english": "and at the cleaving of each he bade Apollo turn its face and half-neck to the section side, in order that every one might be made more orderly by the sight of the knife’s work upon him; this done, the god was to heal them up. Then Apollo turned their faces about, and pulled their skin together from the edges over what is now called the belly, just like purses which you draw close with a string; the little opening he tied up in the middle of the belly, so making what we know as the navel.",
+      "greekPhrases": [
+        {
+          "text": "καὶ μέλλοντες ταριχεύειν, ἢ ὥσπερ οἱ τὰ ὠὰ ταῖς θριξίν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ὅντινα δὲ τέμοι, τὸν Ἀπόλλω ἐκέλευε τό τε πρόσωπον μεταστρέφειν καὶ τὸ τοῦ αὐχένος ἥμισυ πρὸς τὴν τομήν, ἵνα θεώμενος τὴν αὑτοῦ τμῆσιν κοσμιώτερος εἴη ὁ ἄνθρωπος·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "καὶ τἆλλα ἰᾶσθαι ἐκέλευεν.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ὁ δὲ τό τε πρόσωπον μετέστρεφε, καὶ συνέλκων πανταχόθεν τὸ δέρμα ἐπὶ τὴν γαστέρα νῦν καλουμένην,",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "ὥσπερ τὰ σύσπαστα βαλάντια, ἓν στόμα ποιῶν ἀπέδει κατὰ μέσην τὴν γαστέρα, ὃ δὴ τὸν ὀμφαλὸν καλοῦσι.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "καὶ τὰς μὲν ἄλλας ῥυτίδας",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and at the cleaving of each he bade Apollo turn its face and half-neck to the section side,",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "in order that every one might be made more orderly by the sight of the knife’s work upon him;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "this done, the god was to heal them up.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Then Apollo turned their faces about, and pulled their skin together from the edges over",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "what is now called the belly, just like purses which you draw close with a string;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "the little opening he tied up in the middle of the belly, so making what we know as the navel.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "191a",
+      "page": "191",
+      "order": 93,
+      "greek": "τὰς πολλὰς ἐξελέαινε καὶ τὰ στήθη διήρθρου, ἔχων τι τοιοῦτον ὄργανον οἷον οἱ σκυτοτόμοι περὶ τὸν καλάποδα λεαίνοντες τὰς τῶν σκυτῶν ῥυτίδας· ὀλίγας δὲ κατέλιπε, τὰς περὶ αὐτὴν τὴν γαστέρα καὶ τὸν ὀμφαλόν, μνημεῖον εἶναι τοῦ παλαιοῦ πάθους. ἐπειδὴ οὖν ἡ φύσις δίχα ἐτμήθη, ποθοῦν ἕκαστον τὸ ἥμισυ τὸ αὑτοῦ ξυνῄει, καὶ περιβάλλοντες τὰς χεῖρας καὶ συμπλεκόμενοι ἀλλήλοις, ἐπιθυμοῦντες συμφῦναι, ἀπέθνῃσκον ὑπὸ λιμοῦ καὶ τῆς",
+      "english": "For the rest, he smoothed away most of the puckers and figured out the breast with some such instrument as shoemakers use in smoothing the wrinkles of leather on the last; though he left there a few which we have just about the belly and navel, to remind us of our early fall. Now when our first form had been cut in two, each half in longing for its fellow would come to it again; and then would they fling their arms about each other and in mutual embraces",
+      "greekPhrases": [
+        {
+          "text": "τὰς πολλὰς ἐξελέαινε καὶ τὰ στήθη διήρθρου, ἔχων τι τοιοῦτον ὄργανον οἷον οἱ σκυτοτόμοι περὶ τὸν καλάποδα λεαίνοντες τὰς τῶν σκυτῶν ῥυτίδας·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ὀλίγας δὲ κατέλιπε, τὰς περὶ αὐτὴν τὴν γαστέρα καὶ τὸν ὀμφαλόν, μνημεῖον εἶναι τοῦ παλαιοῦ πάθους.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐπειδὴ οὖν ἡ φύσις δίχα ἐτμήθη, ποθοῦν ἕκαστον τὸ ἥμισυ τὸ αὑτοῦ ξυνῄει, καὶ περιβάλλοντες τὰς χεῖρας καὶ συμπλεκόμενοι ἀλλήλοις, ἐπιθυμοῦντες συμφῦναι, ἀπέθνῃσκον ὑπὸ λιμοῦ καὶ τῆς",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "For the rest, he smoothed away most of the puckers and figured out the breast",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "with some such instrument as shoemakers use in smoothing the wrinkles of leather on the last;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "though he left there a few which we have just about the belly and navel, to remind us of our early fall.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Now when our first form had been cut in two, each half in longing for its fellow would come to it again;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and then would they fling their arms about each other and in mutual embraces",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "191b",
+      "page": "191",
+      "order": 94,
+      "greek": "ἄλλης ἀργίας διὰ τὸ μηδὲν ἐθέλειν χωρὶς ἀλλήλων ποιεῖν. καὶ ὁπότε τι ἀποθάνοι τῶν ἡμίσεων, τὸ δὲ λειφθείη, τὸ λειφθὲν ἄλλο ἐζήτει καὶ συνεπλέκετο, εἴτε γυναικὸς τῆς ὅλης ἐντύχοι ἡμίσει , ὃ δὴ νῦν γυναῖκα καλοῦμεν , εἴτ᾽ ἀνδρός· καὶ οὕτως ἀπώλλυντο. ἐλεήσας δὲ ὁ Ζεὺς ἄλλην μηχανὴν πορίζεται, καὶ μετατίθησιν αὐτῶν τὰ αἰδοῖα εἰς τὸ πρόσθεν· τέως γὰρ καὶ ταῦτα ἐκτὸς εἶχον, καὶ ἐγέννων",
+      "english": "yearn to be grafted together, till they began to perish of hunger and general indolence, through refusing to do anything apart. And whenever on the death of one half the other was left alone, it went searching and embracing to see if it might happen on that half of the whole woman which now we call a woman, or perchance the half of the whole man. In this plight they were perishing away, when Zeus in his pity provided a fresh device. He moved their privy parts to the front—for until then they had these, like all else, on the outside, and did their begetting and bringing forth not on each other but on the earth, like the crickets. These parts he now shifted to the front,",
+      "greekPhrases": [
+        {
+          "text": "ἄλλης ἀργίας διὰ τὸ μηδὲν ἐθέλειν χωρὶς ἀλλήλων ποιεῖν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ ὁπότε τι ἀποθάνοι τῶν ἡμίσεων, τὸ δὲ λειφθείη, τὸ λειφθὲν ἄλλο ἐζήτει καὶ συνεπλέκετο,",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "εἴτε γυναικὸς τῆς ὅλης ἐντύχοι ἡμίσει , ὃ δὴ νῦν γυναῖκα καλοῦμεν , εἴτ᾽ ἀνδρός· καὶ οὕτως ἀπώλλυντο.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ἐλεήσας δὲ ὁ Ζεὺς ἄλλην μηχανὴν πορίζεται, καὶ μετατίθησιν αὐτῶν τὰ αἰδοῖα εἰς τὸ πρόσθεν·",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "τέως γὰρ καὶ ταῦτα ἐκτὸς εἶχον, καὶ ἐγέννων",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "yearn to be grafted together, till they began to perish of hunger and general indolence, through refusing to do anything apart.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "And whenever on the death of one half the other was left alone, it went searching and embracing to see if it",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "might happen on that half of the whole woman which now we call a woman, or perchance the half of the whole man.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "In this plight they were perishing away, when Zeus in his pity provided a fresh device.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "He moved their privy parts to the front—for until then they had these, like all else, on the",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "outside, and did their begetting and bringing forth not on each other but on the earth, like the crickets.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "These parts he now shifted to the front,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "191c",
+      "page": "191",
+      "order": 95,
+      "greek": "καὶ ἔτικτον οὐκ εἰς ἀλλήλους ἀλλ᾽ εἰς γῆν, ὥσπερ οἱ τέττιγες. μετέθηκέ τε οὖν οὕτω αὐτῶν εἰς τὸ πρόσθεν καὶ διὰ τούτων τὴν γένεσιν ἐν ἀλλήλοις ἐποίησε, διὰ τοῦ ἄῤῥενος ἐν τῷ θήλει, τῶνδε ἕνεκα, ἵνα ἐν τῇ συμπλοκῇ ἅμα μὲν εἰ ἀνὴρ γυναικὶ ἐντύχοι, γεννῷεν καὶ γίγνοιτο τὸ γένος, ἅμα δ᾽ εἰ καὶ ἄῤῥην ἄῤῥενι, πλησμονὴν γοῦν γίγνοιτο τῆς συνουσίας καὶ διαπαύοιντο καὶ ἐπὶ τὰ ἔργα τρέποιντο καὶ τοῦ ἄλλου βίου ἐπιμελοῖντο. ἔστι δὴ οὖν ἐκ τόσου",
+      "english": "to be used for propagating on each other—in the female member by means of the male; so that if in their embracements a man should happen on a woman there might be conception and continuation of their kind; and also, if male met with male they might have satiety of their union and a relief, and so might turn their hands to their labors and their interest to ordinary life. Thus anciently is mutual love ingrained",
+      "greekPhrases": [
+        {
+          "text": "καὶ ἔτικτον οὐκ εἰς ἀλλήλους ἀλλ᾽ εἰς γῆν, ὥσπερ οἱ τέττιγες.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "μετέθηκέ τε οὖν οὕτω αὐτῶν εἰς τὸ πρόσθεν καὶ διὰ τούτων τὴν γένεσιν ἐν ἀλλήλοις ἐποίησε, διὰ τοῦ ἄῤῥενος ἐν τῷ θήλει, τῶνδε ἕνεκα, ἵνα ἐν τῇ συμπλοκῇ ἅμα μὲν εἰ",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἀνὴρ γυναικὶ ἐντύχοι, γεννῷεν καὶ γίγνοιτο τὸ γένος, ἅμα δ᾽ εἰ καὶ ἄῤῥην ἄῤῥενι, πλησμονὴν γοῦν γίγνοιτο τῆς συνουσίας καὶ διαπαύοιντο καὶ ἐπὶ τὰ ἔργα τρέποιντο καὶ τοῦ ἄλλου βίου ἐπιμελοῖντο.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ἔστι δὴ οὖν ἐκ τόσου",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "to be used for propagating on each other—in the female member by means of the male;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "so that if in their embracements a man should happen on a woman there might be conception and continuation of their kind;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and also, if male met with male they might have satiety of their union and a",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "relief, and so might turn their hands to their labors and their interest to ordinary life.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Thus anciently is mutual love ingrained",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "191d",
+      "page": "191",
+      "order": 96,
+      "greek": "ὁ ἔρως ἔμφυτος ἀλλήλων τοῖς ἀνθρώποις καὶ τῆς ἀρχαίας φύσεως συναγωγεὺς καὶ ἐπιχειρῶν ποιῆσαι ἓν ἐκ δυοῖν καὶ ἰάσασθαι τὴν φύσιν τὴν ἀνθρωπίνην. Ἕκαστος οὖν ἡμῶν ἐστὶν ἀνθρώπου ξύμβολον, ἅτε τετμημένος ὥσπερ αἱ ψῆτται, ἐξ ἑνὸς δύο . ζητεῖ δὴ ἀεὶ τὸ αὑτοῦ ἕκαστος ξύμβολον. ὅσοι μὲν οὖν τῶν ἀνδρῶν τοῦ κοινοῦ τμῆμά εἰσιν, ὃ δὴ τότε ἀνδρόγυνον ἐκαλεῖτο, φιλογύναικές τέ εἰσὶ καὶ οἱ πολλοὶ τῶν μοιχῶν ἐκ τούτου τοῦ γένους γεγόνασιν, καὶ",
+      "english": "in mankind, reassembling our early estate and endeavoring to combine two in one and heal the human sore. Each of us, then, is but a tally of a man, since every one shows like a flat-fish the traces of having been sliced in two; and each is ever searching for the tally that will fit him. All the men who are sections of that composite sex that at first was called man-woman are woman-courters; our adulterers are mostly descended from that sex,",
+      "greekPhrases": [
+        {
+          "text": "ὁ ἔρως ἔμφυτος ἀλλήλων τοῖς ἀνθρώποις καὶ τῆς ἀρχαίας φύσεως συναγωγεὺς καὶ ἐπιχειρῶν ποιῆσαι ἓν ἐκ δυοῖν καὶ ἰάσασθαι τὴν φύσιν τὴν ἀνθρωπίνην.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Ἕκαστος οὖν ἡμῶν ἐστὶν ἀνθρώπου ξύμβολον, ἅτε τετμημένος ὥσπερ αἱ ψῆτται, ἐξ ἑνὸς δύο .",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ζητεῖ δὴ ἀεὶ τὸ αὑτοῦ ἕκαστος ξύμβολον.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὅσοι μὲν οὖν τῶν ἀνδρῶν τοῦ κοινοῦ τμῆμά εἰσιν, ὃ δὴ τότε ἀνδρόγυνον ἐκαλεῖτο, φιλογύναικές τέ εἰσὶ καὶ οἱ πολλοὶ τῶν μοιχῶν ἐκ τούτου τοῦ γένους γεγόνασιν, καὶ",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "in mankind, reassembling our early estate and endeavoring to combine two in one and heal the human sore.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Each of us, then, is but a tally of a man, since every one shows like a flat-fish the traces of having been sliced in two;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "and each is ever searching for the tally that will fit him.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "All the men who are sections of that composite sex that at first was called man-woman are woman-courters;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "our adulterers are mostly descended from that sex,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "191e",
+      "page": "191",
+      "order": 97,
+      "greek": "ὅσαι αὖ γυναῖκες φίλανδροί τε καὶ μοιχεύτριαι , ἐκ τούτου τοῦ γένους γίγνονται. ὅσαι δὲ τῶν γυναικῶν γυναικὸς τμῆμά εἰσιν, οὐ πάνυ αὗται τοῖς ἀνδράσι τὸν νοῦν προσέχουσιν, ἀλλὰ μᾶλλον πρὸς τὰς γυναῖκας τετραμμέναι εἰσί, καὶ αἱ ἑταιρίστριαι ἐκ τούτου τοῦ γένους γίγνονται. ὅσοι δὲ ἄῤῥενος τμῆμά εἰσι, τὰ ἄῤῥενα διώκουσι, καὶ τέως μὲν ἂν παῖδες ὦσιν, ἅτε τεμάχια ὄντα τοῦ ἄῤῥενος, φιλοῦσι τοὺς ἄνδρας καὶ χαίρουσι συγκατακείμενοι καὶ συμπεπλεγμένοι",
+      "english": "whence likewise are derived our man-courting women and adulteresses. All the women who are sections of the woman have no great fancy for men: they are inclined rather to women, and of this stock are the she-minions. Men who are sections of the male pursue the masculine, and so long as their boyhood lasts they show themselves to be slices of the male by making friends with men and delighting",
+      "greekPhrases": [
+        {
+          "text": "ὅσαι αὖ γυναῖκες φίλανδροί τε καὶ μοιχεύτριαι , ἐκ τούτου τοῦ γένους γίγνονται.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ὅσαι δὲ τῶν γυναικῶν γυναικὸς τμῆμά εἰσιν, οὐ πάνυ αὗται τοῖς ἀνδράσι τὸν νοῦν προσέχουσιν,",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἀλλὰ μᾶλλον πρὸς τὰς γυναῖκας τετραμμέναι εἰσί, καὶ αἱ ἑταιρίστριαι ἐκ τούτου τοῦ γένους γίγνονται.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὅσοι δὲ ἄῤῥενος τμῆμά εἰσι, τὰ ἄῤῥενα διώκουσι, καὶ τέως μὲν ἂν παῖδες ὦσιν, ἅτε τεμάχια ὄντα τοῦ ἄῤῥενος, φιλοῦσι τοὺς ἄνδρας καὶ χαίρουσι συγκατακείμενοι καὶ συμπεπλεγμένοι",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "whence likewise are derived our man-courting women and adulteresses.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "All the women who are sections of the woman have no great fancy for men:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "they are inclined rather to women, and of this stock are the she-minions.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Men who are sections of the male pursue the masculine, and so long as their boyhood",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "lasts they show themselves to be slices of the male by making friends with men and delighting",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "192a",
+      "page": "192",
+      "order": 98,
+      "greek": "τοῖς ἀνδράσι, καί εἰσιν οὗτοι βέλτιστοι τῶν παίδων καὶ μειρακίων, ἅτε ἀνδρειότατοι ὄντες φύσει. φασὶ δὲ δή τινες αὐτοὺς ἀναισχύντους εἶναι, ψευδόμενοι· οὐ γὰρ ὑπ᾽ ἀναισχυντίας τοῦτο δρῶσιν ἀλλ᾽ ὑπὸ θάῤῥους καὶ ἀνδρείας καὶ ἀῤῥενωπίας, τὸ ὅμοιον αὐτοῖς ἀσπαζόμενοι. μέγα δὲ τεκμήριον· καὶ γὰρ τελεωθέντες μόνοι ἀποβαίνουσιν εἰς τὰ πολιτικὰ ἄνδρες οἱ τοιοῦτοι. ἐπειδὰν δὲ ἀνδρωθῶσι,",
+      "english": "to lie with them and to be clasped in men’s embraces; these are the finest boys and striplings, for they have the most manly nature. Some say they are shameless creatures, but falsely: for their behavior is due not to shamelessness but to daring, manliness, and virility, since they are quick to welcome their like. Sure evidence of this is the fact that on reaching maturity these alone prove in a public career to be men. So when they come to man’s estate",
+      "greekPhrases": [
+        {
+          "text": "τοῖς ἀνδράσι, καί εἰσιν οὗτοι βέλτιστοι τῶν παίδων καὶ μειρακίων, ἅτε ἀνδρειότατοι ὄντες φύσει.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "φασὶ δὲ δή τινες αὐτοὺς ἀναισχύντους εἶναι, ψευδόμενοι·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ὑπ᾽ ἀναισχυντίας τοῦτο δρῶσιν ἀλλ᾽ ὑπὸ θάῤῥους καὶ ἀνδρείας καὶ ἀῤῥενωπίας, τὸ ὅμοιον αὐτοῖς ἀσπαζόμενοι. μέγα δὲ τεκμήριον·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ γὰρ τελεωθέντες μόνοι ἀποβαίνουσιν εἰς τὰ πολιτικὰ ἄνδρες οἱ τοιοῦτοι. ἐπειδὰν δὲ ἀνδρωθῶσι,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "to lie with them and to be clasped in men’s embraces;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "these are the finest boys and striplings, for they have the most manly nature.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Some say they are shameless creatures, but falsely:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "for their behavior is due not to shamelessness but to daring, manliness, and virility, since they are quick to welcome their like.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Sure evidence of this is the fact that on reaching maturity these alone prove in a public career to be men.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "So when they come to man’s estate",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "192b",
+      "page": "192",
+      "order": 99,
+      "greek": "παιδεραστοῦσι καὶ πρὸς γάμους καὶ παιδοποιίας οὐ προσέχουσι τὸν νοῦν φύσει, ἀλλ᾽ ὑπὸ τοῦ νόμου ἀναγκάζονται· ἀλλ᾽ ἐξαρκεῖ αὐτοῖς μετ᾽ ἀλλήλων καταζῆν ἀγάμοις. πάντως μὲν οὖν ὁ τοιοῦτος παιδεραστής τε καὶ φιλεραστὴς γίγνεται, ἀεὶ τὸ συγγενὲς ἀσπαζόμενος. ὅταν μὲν οὖν καὶ αὐτῷ ἐκείνῳ ἐντύχῃ τῷ αὑτοῦ ἡμίσει καὶ ὁ παιδεραστὴς καὶ ἄλλος πᾶς, τότε καὶ θαυμαστὰ ἐκπλήττονται φιλίᾳ τε καὶ",
+      "english": "they are boy-lovers, and have no natural interest in wiving and getting children, but only do these things under stress of custom; they are quite contented to live together unwedded all their days. A man of this sort is at any rate born to be a lover of boys or the willing mate of a man, eagerly greeting his own kind. Well, when one of them—whether he be a boy-lover or a lover of any other sort—",
+      "greekPhrases": [
+        {
+          "text": "παιδεραστοῦσι καὶ πρὸς γάμους καὶ παιδοποιίας οὐ προσέχουσι τὸν νοῦν φύσει, ἀλλ᾽ ὑπὸ τοῦ νόμου ἀναγκάζονται·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ἐξαρκεῖ αὐτοῖς μετ᾽ ἀλλήλων καταζῆν ἀγάμοις.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "πάντως μὲν οὖν ὁ τοιοῦτος παιδεραστής τε καὶ φιλεραστὴς γίγνεται, ἀεὶ τὸ συγγενὲς ἀσπαζόμενος.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ὅταν μὲν οὖν καὶ αὐτῷ ἐκείνῳ ἐντύχῃ τῷ αὑτοῦ ἡμίσει καὶ ὁ παιδεραστὴς καὶ ἄλλος πᾶς, τότε καὶ θαυμαστὰ ἐκπλήττονται φιλίᾳ τε καὶ",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "they are boy-lovers, and have no natural interest in wiving and getting children, but only do these things under stress of custom;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "they are quite contented to live together unwedded all their days.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "A man of this sort is at any rate born to be a lover of boys or the willing mate of a man, eagerly greeting his own kind.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Well, when one of them—whether he be a boy-lover or a lover of any other sort—",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "192c",
+      "page": "192",
+      "order": 100,
+      "greek": "οἰκειότητι καὶ ἔρωτι, οὐκ ἐθέλοντες , ὡς ἔπος εἰπεῖν χωρίζεσθαι ἀλλήλων οὐδὲ σμικρὸν χρόνον. καὶ οἱ διατελοῦντες μετ᾽ ἀλλήλων διὰ βίου οὗτοί εἰσιν, οἳ οὐδ᾽ ἂν ἔχοιεν εἰπεῖν ὅ τι βούλονται σφίσι παρ᾽ ἀλλήλων γίγνεσθαι. οὐδενὶ γὰρ ἂν δόξειεν τοῦτ᾽ εἶναι ἡ τῶν ἀφροδισίων συνουσία, ὡς ἄρα τούτου ἕνεκα ἕτερος ἑτέρῳ χαίρει ξυνὼν οὕτως ἐπὶ μεγάλης σπουδῆς· ἀλλ᾽ ἄλλο τι βουλομένη ἑκατέρου ἡ ψυχὴ",
+      "english": "happens on his own particular half, the two of them are wondrously thrilled with affection and intimacy and love, and are hardly to be induced to leave each other’s side for a single moment. These are they who continue together throughout life, though they could not even say what they would have of one another. No one could imagine this to be the mere amorous connection, or that such alone could be the reason why each rejoices in the other’s company with so eager a zest: obviously the soul of each is wishing for something else that it cannot express,",
+      "greekPhrases": [
+        {
+          "text": "οἰκειότητι καὶ ἔρωτι, οὐκ ἐθέλοντες , ὡς ἔπος εἰπεῖν χωρίζεσθαι ἀλλήλων οὐδὲ σμικρὸν χρόνον.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ οἱ διατελοῦντες μετ᾽ ἀλλήλων διὰ βίου οὗτοί εἰσιν, οἳ οὐδ᾽ ἂν ἔχοιεν εἰπεῖν ὅ τι βούλονται σφίσι παρ᾽ ἀλλήλων γίγνεσθαι.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "οὐδενὶ γὰρ ἂν δόξειεν τοῦτ᾽ εἶναι ἡ τῶν ἀφροδισίων συνουσία, ὡς ἄρα τούτου ἕνεκα ἕτερος ἑτέρῳ χαίρει ξυνὼν οὕτως ἐπὶ μεγάλης σπουδῆς·",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ἄλλο τι βουλομένη ἑκατέρου ἡ ψυχὴ",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "happens on his own particular half, the two of them are wondrously thrilled with affection and intimacy",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and love, and are hardly to be induced to leave each other’s side for a single moment.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "These are they who continue together throughout life, though they could not even say what they would have of one another.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "No one could imagine this to be the mere amorous connection, or that such alone",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "could be the reason why each rejoices in the other’s company with so eager a zest:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "obviously the soul of each is wishing for something else that it cannot express,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "192d",
+      "page": "192",
+      "order": 101,
+      "greek": "δήλη ἐστίν, ὃ οὐ δύναται εἰπεῖν, ἀλλὰ μαντεύεται ὃ βούλεται, καὶ αἰνίττεται. καὶ εἰ αὐτοῖς ἐν τῷ αὐτῷ κατακειμένοις ἐπιστὰς ὁ Ἥφαιστος, ἔχων τὰ ὄργανα, ἔροιτο· τί ἔσθ᾽ ὃ βούλεσθε, ὦ ἄνθρωποι, ὑμῖν παρ᾽ ἀλλήλων γενέσθαι; καὶ εἰ ἀποροῦντας αὐτοὺς πάλιν ἔροιτο· ἆρά γε τοῦδε ἐπιθυμεῖτε, ἐν τῷ αὐτῷ γενέσθαι ὅτι μάλιστα ἀλλήλοις, ὥστε καὶ νύκτα καὶ ἡμέραν μὴ ἀπολείπεσθαι ἀλλήλων ; εἰ γὰρ τούτου ἐπιθυμεῖτε, ἐθέλω ὑμᾶς συντῆξαι καὶ",
+      "english": "only divining and darkly hinting what it wishes. Suppose that, as they lay together, Hephaestus should come and stand over them, and showing his implements should ask: What is it, good mortals, that you would have of one another? —and suppose that in their perplexity he asked them again: Do you desire to be joined in the closest possible union, so that you shall not be divided",
+      "greekPhrases": [
+        {
+          "text": "δήλη ἐστίν, ὃ οὐ δύναται εἰπεῖν, ἀλλὰ μαντεύεται ὃ βούλεται, καὶ αἰνίττεται.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ εἰ αὐτοῖς ἐν τῷ αὐτῷ κατακειμένοις ἐπιστὰς ὁ Ἥφαιστος, ἔχων τὰ ὄργανα, ἔροιτο·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τί ἔσθ᾽ ὃ βούλεσθε, ὦ ἄνθρωποι, ὑμῖν παρ᾽ ἀλλήλων γενέσθαι;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ εἰ ἀποροῦντας αὐτοὺς πάλιν ἔροιτο·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἆρά γε τοῦδε ἐπιθυμεῖτε, ἐν τῷ αὐτῷ γενέσθαι ὅτι μάλιστα ἀλλήλοις, ὥστε καὶ νύκτα καὶ ἡμέραν μὴ ἀπολείπεσθαι ἀλλήλων ;",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "εἰ γὰρ τούτου ἐπιθυμεῖτε, ἐθέλω ὑμᾶς συντῆξαι καὶ",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "only divining and darkly hinting what it wishes.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Suppose that, as they lay together, Hephaestus should come and stand over them, and showing his implements should ask:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "What is it, good mortals, that you would have of one another?",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "—and suppose that in their perplexity he asked them again:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Do you desire to be joined in the closest possible union, so that you shall not be divided",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "192e",
+      "page": "192",
+      "order": 102,
+      "greek": "συμφυσῆσαι εἰς τὸ αὐτό, ὥστε δύ᾽ ὄντας ἕνα γεγονέναι καὶ ἕως τ᾽ ἂν ζῆτε, ὡς ἕνα ὄντα, κοινῇ ἀμφοτέρους ζῇν, καὶ ἐπειδὰν ἀποθάνητε, ἐκεῖ αὖ ἐν Ἅιδου ἀντὶ δυοῖν ἕνα εἶναι κοινῇ τεθνεῶτε· ἀλλ᾽ ὁρᾶτε εἰ τούτου ἐρᾶτε καὶ ἐξαρκεῖ ὑμῖν ἂν τούτου τύχητε· ταῦτ᾽ ἀκούσας ἴσμεν ὅτι οὐδ᾽ ἂν εἷς ἐξαρνηθείη οὐδ᾽ ἄλλο τι ἂν φανείη βουλόμενος, ἀλλ᾽ ἀτεχνῶς οἴοιτ᾽ ἂν ἀκηκοέναι τοῦτο ὃ πάλαι ἄρα ἐπεθύμει, συνελθὼν καὶ συντακεὶς τῷ ἐρωμένῳ ἐκ δυοῖν εἷς γενέσθαι. τοῦτο γάρ ἐστι τὸ αἴτιον, ὅτι ἡ ἀρχαία φύσις ἡμῶν ἦν αὕτη καὶ ἦμεν ὅλοι· τοῦ ὅλου οὖν τῇ ἐπιθυμίᾳ",
+      "english": "by night or by day? If that is your craving, I am ready to fuse and weld you together in a single piece, that from being two you may be made one; that so long as you live, the pair of you, being as one, may share a single life; and that when you die you may also in Hades yonder be one instead of two, having shared a single death. Bethink yourselves if this is your heart’s desire, and if you will be quite contented with this lot. No one on hearing this, we are sure, would demur to it or would be found wishing for anything else: each would unreservedly deem that he had been offered just what he was yearning for all the time, namely, to be so joined and fused with his beloved that the two might be made one. The cause of it all is this, that our original form was as I have described, and we were entire; and the craving and pursuit",
+      "greekPhrases": [
+        {
+          "text": "συμφυσῆσαι εἰς τὸ αὐτό, ὥστε δύ᾽ ὄντας ἕνα γεγονέναι καὶ ἕως τ᾽ ἂν ζῆτε, ὡς ἕνα",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ὄντα, κοινῇ ἀμφοτέρους ζῇν, καὶ ἐπειδὰν ἀποθάνητε, ἐκεῖ αὖ ἐν Ἅιδου ἀντὶ δυοῖν ἕνα εἶναι κοινῇ τεθνεῶτε·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ὁρᾶτε εἰ τούτου ἐρᾶτε καὶ ἐξαρκεῖ ὑμῖν ἂν τούτου τύχητε·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ταῦτ᾽ ἀκούσας ἴσμεν ὅτι οὐδ᾽ ἂν εἷς ἐξαρνηθείη οὐδ᾽ ἄλλο τι ἂν φανείη βουλόμενος, ἀλλ᾽ ἀτεχνῶς",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "οἴοιτ᾽ ἂν ἀκηκοέναι τοῦτο ὃ πάλαι ἄρα ἐπεθύμει, συνελθὼν καὶ συντακεὶς τῷ ἐρωμένῳ ἐκ δυοῖν εἷς γενέσθαι.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "τοῦτο γάρ ἐστι τὸ αἴτιον, ὅτι ἡ ἀρχαία φύσις ἡμῶν ἦν αὕτη καὶ ἦμεν ὅλοι·",
+          "mapsTo": [
+            8
+          ]
+        },
+        {
+          "text": "τοῦ ὅλου οὖν τῇ ἐπιθυμίᾳ",
+          "mapsTo": [
+            9
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "by night or by day?",
+          "mapsTo": []
+        },
+        {
+          "text": "If that is your craving, I am ready to fuse and weld you together in a single piece, that from being two you may be made one;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "that so long as you live, the pair of you, being as one, may share a single life;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and that when you die you may also in Hades yonder be one instead of two, having shared a single death.",
+          "mapsTo": []
+        },
+        {
+          "text": "Bethink yourselves if this is your heart’s desire, and if you will be quite contented with this lot.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "No one on hearing this, we are sure, would demur to it or would be found wishing for anything else:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "each would unreservedly deem that he had been offered just what he was yearning for all the",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "time, namely, to be so joined and fused with his beloved that the two might be made one.",
+          "mapsTo": []
+        },
+        {
+          "text": "The cause of it all is this, that our original form was as I have described, and we were entire;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "and the craving and pursuit",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "193a",
+      "page": "193",
+      "order": 103,
+      "greek": "καὶ διώξει ἔρως ὄνομα. καὶ πρὸ τοῦ, ὥσπερ λέγω, ἓν ἦμεν, νυνὶ δὲ διὰ τὴν ἀδικίαν διῳκίσθημεν ὑπὸ τοῦ θεοῦ, καθάπερ Ἀρκάδες ὑπὸ Λακεδαιμονίων· φόβος οὖν ἔστιν, ἐὰν μὴ κόσμιοι ὦμεν πρὸς τοὺς θεούς, ὅπως μὴ καὶ αὖθις διασχισθησόμεθα, καὶ περίιμεν ἔχοντες ὥσπερ οἱ ἐν ταῖς στήλαις καταγραφὴν ἐκτετυπωμένοι, διαπεπρισμένοι κατὰ τὰς ῥῖνας, γεγονότες ὥσπερ λίσπαι. ἀλλὰ τούτων ἕνεκα πάντ᾽ ἄνδρα χρὴ ἅπαντα παρακελεύεσθαι εὐσεβεῖν περὶ",
+      "english": "of that entirety is called Love. Formerly, as I have said, we were one; but now for our sins we are all dispersed by God, as the Arcadians were by the Lacedaemonians ; and we may well be afraid that if we are disorderly towards Heaven we may once more be cloven asunder and may go about in the shape of those outline-carvings on the tombs, with our noses sawn down the middle, and may thus become like tokens of split dice. Wherefore we ought all to exhort our neighbors to a pious observance of the gods, in order that we may escape harm",
+      "greekPhrases": [
+        {
+          "text": "καὶ διώξει ἔρως ὄνομα.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ πρὸ τοῦ, ὥσπερ λέγω, ἓν ἦμεν, νυνὶ δὲ διὰ τὴν ἀδικίαν διῳκίσθημεν ὑπὸ τοῦ θεοῦ, καθάπερ Ἀρκάδες ὑπὸ Λακεδαιμονίων·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "φόβος οὖν ἔστιν, ἐὰν μὴ κόσμιοι ὦμεν πρὸς τοὺς θεούς, ὅπως μὴ καὶ αὖθις διασχισθησόμεθα, καὶ",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "περίιμεν ἔχοντες ὥσπερ οἱ ἐν ταῖς στήλαις καταγραφὴν ἐκτετυπωμένοι, διαπεπρισμένοι κατὰ τὰς ῥῖνας, γεγονότες ὥσπερ λίσπαι.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἀλλὰ τούτων ἕνεκα πάντ᾽ ἄνδρα χρὴ ἅπαντα παρακελεύεσθαι εὐσεβεῖν περὶ",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "of that entirety is called Love.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Formerly, as I have said, we were one;",
+          "mapsTo": []
+        },
+        {
+          "text": "but now for our sins we are all dispersed by God, as the Arcadians were by the Lacedaemonians ;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and we may well be afraid that if we are disorderly towards Heaven we may once more be cloven asunder and may go about",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "in the shape of those outline-carvings on the tombs, with our noses sawn down the middle, and may thus become like tokens of split dice.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Wherefore we ought all to exhort our neighbors to a pious observance of the gods, in order that we may escape harm",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "193b",
+      "page": "193",
+      "order": 104,
+      "greek": "θεούς, ἵνα τὰ μὲν ἐκφύγωμεν, τῶν δὲ τύχωμεν, ὧν ὁ Ἔρως ἡμῖν ἡγεμὼν καὶ στρατηγός. ᾧ μηδεὶς ἐναντία πραττέτω ( πράττει δ᾽ ἐναντία ὅστις θεοῖς ἀπεχθάνεται)· φίλοι γὰρ γενόμενοι καὶ διαλλαγέντες τῷ θεῷ ἐξευρήσομέν τε καὶ ἐντευξόμεθα τοῖς παιδικοῖς τοῖς ἡμετέροις αὐτῶν, ὃ τῶν νῦν ὀλίγοι ποιοῦσι. καὶ μή μοι ὑπολάβῃ Ἐρυξίμαχος, κωμῳδῶν τὸν λόγον, ὡς Παυσανίαν καὶ Ἀγάθωνα λέγω· ἴσως μὲν",
+      "english": "and attain to bliss under the gallant leadership of Love. Let none in act oppose him—and it is opposing him to incur the hate of Heaven: if we make friends with the god and are reconciled, we shall have the fortune that falls to few in our day, of discovering our proper favorites. And let not Eryximachus interrupt my speech with a comic mock,",
+      "greekPhrases": [
+        {
+          "text": "θεούς, ἵνα τὰ μὲν ἐκφύγωμεν, τῶν δὲ τύχωμεν, ὧν ὁ Ἔρως ἡμῖν ἡγεμὼν καὶ στρατηγός.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ᾧ μηδεὶς ἐναντία πραττέτω ( πράττει δ᾽ ἐναντία ὅστις θεοῖς ἀπεχθάνεται)·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "φίλοι γὰρ γενόμενοι καὶ διαλλαγέντες τῷ θεῷ ἐξευρήσομέν τε καὶ ἐντευξόμεθα τοῖς παιδικοῖς τοῖς ἡμετέροις αὐτῶν, ὃ τῶν νῦν ὀλίγοι ποιοῦσι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ μή μοι ὑπολάβῃ Ἐρυξίμαχος, κωμῳδῶν τὸν λόγον, ὡς Παυσανίαν καὶ Ἀγάθωνα λέγω· ἴσως μὲν",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and attain to bliss under the gallant leadership of Love.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Let none in act oppose him—and it is opposing him to incur the hate of Heaven:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "if we make friends with the god and are reconciled, we shall have the fortune that falls to few in our day, of discovering our proper favorites.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "And let not Eryximachus interrupt my speech with a comic mock,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "193c",
+      "page": "193",
+      "order": 105,
+      "greek": "γὰρ καὶ οὗτοι τούτων τυγχάνουσιν ὄντες καί εἰσιν ἀμφότεροι τὴν φύσιν ἄῤῥενες· λέγω δὲ οὖν ἔγωγε καθ᾽ ἁπάντων καὶ ἀνδρῶν καὶ γυναικῶν, ὅτι οὕτως ἂν ἡμῶν τὸ γένος εὔδαιμον γένοιτο, εἰ ἐκτελέσαιμεν τὸν ἔρωτα καὶ τῶν παιδικῶν τῶν αὑτοῦ ἕκαστος τύχοι εἰς τὴν ἀρχαίαν ἀπελθὼν φύσιν· εἰ δὲ τοῦτο ἄριστον, ἀναγκαῖον καὶ τῶν νῦν παρόντων τὸ τούτου ἐγγυτάτω ἄριστον εἶναι· τοῦτο δ᾽ ἐστὶ παιδικῶν τυχεῖν κατὰ νοῦν αὐτῷ πεφυκότων· οὗ δὴ τὸν αἴτιον θεὸν ὑμνοῦντες",
+      "english": "and say I refer to Pausanias and Agathon; it may be they do belong to the fortunate few, and are both of them males by nature; what I mean is—and this applies to the whole world of men and women—that the way to bring happiness to our race is to give our love its true fulfillment: let every one find his own favorite, and so revert to his primal estate. If this be the best thing of all, the nearest approach to it among all acts open to us now must accordingly be the best to choose; and that is, to find a favorite",
+      "greekPhrases": [
+        {
+          "text": "γὰρ καὶ οὗτοι τούτων τυγχάνουσιν ὄντες καί εἰσιν ἀμφότεροι τὴν φύσιν ἄῤῥενες·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "λέγω δὲ οὖν ἔγωγε καθ᾽ ἁπάντων καὶ ἀνδρῶν καὶ γυναικῶν, ὅτι οὕτως ἂν ἡμῶν τὸ γένος εὔδαιμον",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "γένοιτο, εἰ ἐκτελέσαιμεν τὸν ἔρωτα καὶ τῶν παιδικῶν τῶν αὑτοῦ ἕκαστος τύχοι εἰς τὴν ἀρχαίαν ἀπελθὼν φύσιν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "εἰ δὲ τοῦτο ἄριστον, ἀναγκαῖον καὶ τῶν νῦν παρόντων τὸ τούτου ἐγγυτάτω ἄριστον εἶναι·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "τοῦτο δ᾽ ἐστὶ παιδικῶν τυχεῖν κατὰ νοῦν αὐτῷ πεφυκότων·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "οὗ δὴ τὸν αἴτιον θεὸν ὑμνοῦντες",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and say I refer to Pausanias and Agathon;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "it may be they do belong to the fortunate few, and are both of them males by nature;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "what I mean is—and this applies to the whole world of men and women—that the",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "way to bring happiness to our race is to give our love its true fulfillment:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "let every one find his own favorite, and so revert to his primal estate.",
+          "mapsTo": []
+        },
+        {
+          "text": "If this be the best thing of all, the nearest approach to it among all acts open to us now must accordingly be the best to choose;",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "and that is, to find a favorite",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "193d",
+      "page": "193",
+      "order": 106,
+      "greek": "δικαίως ἂν ὑμνοῖμεν Ἔρωτα, ὃς ἔν τε τῷ παρόντι ἡμᾶς πλεῖστα ὀνίνησιν εἰς τὸ οἰκεῖον ἄγων, καὶ εἰς τὸ ἔπειτα ἐλπίδας μεγίστας παρέχεται, ἡμῶν παρεχομένων πρὸς θεοὺς εὐσέβειαν, καταστήσας ἡμᾶς εἰς τὴν ἀρχαίαν φύσιν καὶ ἰασάμενος μακαρίους καὶ εὐδαίμονας ποιῆσαι. οὗτος, ἔφη, ὦ Ἐρυξίμαχε, ὁ ἐμὸς λόγος ἐστὶ περὶ Ἔρωτος, ἀλλοῖος ἢ ὁ σός. ὥσπερ οὖν ἐδεήθην σου, μὴ κωμῳδήσῃς αὐτόν, ἵνα καὶ τῶν λοιπῶν ἀκούσωμεν τί ἕκαστος",
+      "english": "whose nature is exactly to our mind. Love is the god who brings this about; he fully deserves our hymns. For not only in the present does he bestow the priceless boon of bringing us to our very own, but he also supplies this excellent hope for the future, that if we will supply the gods with reverent duty he will restore us to our ancient life and heal and help us into the happiness of the blest. There, Eryximachus, is my discourse on Love, of a different sort from yours. As I besought you, make no comic sport of it, for we want to hear what the others will say in their turn—I rather mean the other two,",
+      "greekPhrases": [
+        {
+          "text": "δικαίως ἂν ὑμνοῖμεν Ἔρωτα, ὃς ἔν τε τῷ παρόντι ἡμᾶς πλεῖστα ὀνίνησιν εἰς τὸ οἰκεῖον ἄγων, καὶ εἰς τὸ ἔπειτα",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἐλπίδας μεγίστας παρέχεται, ἡμῶν παρεχομένων πρὸς θεοὺς εὐσέβειαν, καταστήσας ἡμᾶς εἰς τὴν ἀρχαίαν φύσιν καὶ ἰασάμενος μακαρίους καὶ εὐδαίμονας ποιῆσαι.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "οὗτος, ἔφη, ὦ Ἐρυξίμαχε, ὁ ἐμὸς λόγος ἐστὶ περὶ Ἔρωτος, ἀλλοῖος ἢ ὁ σός.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ὥσπερ οὖν ἐδεήθην σου, μὴ κωμῳδήσῃς αὐτόν, ἵνα καὶ τῶν λοιπῶν ἀκούσωμεν τί ἕκαστος",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "whose nature is exactly to our mind.",
+          "mapsTo": []
+        },
+        {
+          "text": "Love is the god who brings this about;",
+          "mapsTo": []
+        },
+        {
+          "text": "he fully deserves our hymns.",
+          "mapsTo": []
+        },
+        {
+          "text": "For not only in the present does he bestow the priceless boon of bringing us to our very own, but he also supplies this excellent hope for the future,",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "that if we will supply the gods with reverent duty he will restore us to our ancient life and heal and help us into the happiness of the blest.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "There, Eryximachus, is my discourse on Love, of a different sort from yours.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "As I besought you, make no comic sport of it, for we want to hear what the others will say in their turn—I rather mean the other two,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "193e",
+      "page": "193",
+      "order": 107,
+      "greek": "ἐρεῖ, μᾶλλον δὲ τί ἑκάτερος· Ἀγάθων γὰρ καὶ Σωκράτης λοιποί. Ἀλλὰ πείσομαί σοι, ἔφη φάναι τὸν Ἐρυξίμαχον· καὶ γάρ μοι ὁ λόγος ἡδέως ἐῤῥήθη. καὶ εἰ μὴ ξυνῄδειν Σωκράτει τε καὶ Ἀγάθωνι δεινοῖς οὖσι περὶ τὰ ἐρωτικά, πάνυ ἂν ἐφοβούμην μὴ ἀπορήσωσι λόγων διὰ τὸ πολλὰ καὶ παντοδαπὰ εἰρῆσθαι· νῦν δὲ ὅμως θαῤῥῶ ,",
+      "english": "since only Agathon and Socrates are left. Well, I will obey you, said Eryximachus, for in fact I enjoyed your speech. Had I not reason to know the prowess of Socrates and Agathon in love-matters, I should have great fears of their being at a loss for eloquence after we have heard it in such copious variety: but you see, my confidence is unshaken. Whereon Socrates remarked: Your own performance,",
+      "greekPhrases": [
+        {
+          "text": "ἐρεῖ, μᾶλλον δὲ τί ἑκάτερος·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Ἀγάθων γὰρ καὶ Σωκράτης λοιποί.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ἀλλὰ πείσομαί σοι, ἔφη φάναι τὸν Ἐρυξίμαχον·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ γάρ μοι ὁ λόγος ἡδέως ἐῤῥήθη.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ εἰ μὴ ξυνῄδειν Σωκράτει τε καὶ Ἀγάθωνι δεινοῖς οὖσι περὶ τὰ ἐρωτικά, πάνυ ἂν ἐφοβούμην μὴ ἀπορήσωσι λόγων διὰ τὸ πολλὰ καὶ παντοδαπὰ εἰρῆσθαι·",
+          "mapsTo": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "text": "νῦν δὲ ὅμως θαῤῥῶ ,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "since only Agathon and Socrates are left.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Well, I will obey you, said Eryximachus, for in fact I enjoyed your speech.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Had I not reason to know the prowess of Socrates and Agathon in love-matters, I should have great",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "fears of their being at a loss for eloquence after we have heard it in such copious variety:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "but you see, my confidence is unshaken. Whereon Socrates remarked: Your own performance,",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "194a",
+      "page": "194",
+      "order": 108,
+      "greek": "τὸν οὖν Σωκράτη εἰπεῖν Καλῶς γὰρ αὐτὸς ἠγώνισαι, ὦ Ἐρυξίμαχε· εἰ δὲ γένοιο οὗ νῦν ἐγώ εἰμι, μᾶλλον δὲ ἴσως οὗ ἔσομαι ἐπειδὰν καὶ Ἀγάθων εἴπῃ εὖ, καὶ μάλ᾽ ἂν φοβοῖο καὶ ἐν παντὶ εἴης ὥσπερ ἐγὼ νῦν. Φαρμάττειν βούλει με, ὦ Σώκρατες, εἰπεῖν τὸν Ἀγάθωνα, ἵνα θορυβηθῶ διὰ τὸ οἴεσθαι τὸ θέατρον προσδοκίαν μεγάλην ἔχειν ὡς εὖ ἐροῦντος ἐμοῦ. Ἐπιλήσμων μέντ᾽ ἂν εἴην, ὦ Ἀγάθων, εἰπεῖν τὸν Σωκράτη,",
+      "english": "Eryximachus, made a fine hit: but if you could be where I am now—or rather, I should say, where I shall be when Agathon has spoken—you would be fitly and sorely afraid, and would be as hard put to it as I am. You want to throw a spell over me, Socrates, said Agathon, so that I may be flustered with the consciousness of the high expectations the audience has formed of my discourse. Nay, Agathon, how forgetful I should be, replied Socrates,",
+      "greekPhrases": [
+        {
+          "text": "τὸν οὖν Σωκράτη εἰπεῖν Καλῶς γὰρ αὐτὸς ἠγώνισαι, ὦ Ἐρυξίμαχε·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "εἰ δὲ γένοιο οὗ νῦν ἐγώ εἰμι, μᾶλλον δὲ ἴσως οὗ ἔσομαι ἐπειδὰν καὶ Ἀγάθων εἴπῃ εὖ, καὶ μάλ᾽ ἂν φοβοῖο καὶ ἐν παντὶ εἴης ὥσπερ ἐγὼ νῦν.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Φαρμάττειν βούλει με, ὦ Σώκρατες, εἰπεῖν τὸν Ἀγάθωνα, ἵνα θορυβηθῶ διὰ τὸ οἴεσθαι τὸ θέατρον προσδοκίαν μεγάλην ἔχειν ὡς εὖ ἐροῦντος ἐμοῦ.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Ἐπιλήσμων μέντ᾽ ἂν εἴην, ὦ Ἀγάθων, εἰπεῖν τὸν Σωκράτη,",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Eryximachus, made a fine hit:",
+          "mapsTo": []
+        },
+        {
+          "text": "but if you could be where I am now—or rather, I should say, where I shall be when Agathon",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "has spoken—you would be fitly and sorely afraid, and would be as hard put to it as I am.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "You want to throw a spell over me, Socrates, said Agathon, so that I may",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "be flustered with the consciousness of the high expectations the audience has formed of my discourse.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Nay, Agathon, how forgetful I should be, replied Socrates,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "194b",
+      "page": "194",
+      "order": 109,
+      "greek": "εἰ ἰδὼν τὴν σὴν ἀνδρείαν καὶ μεγαλοφροσύνην ἀναβαίνοντος ἐπὶ τὸν ὀκρίβαντα μετὰ τῶν ὑποκριτῶν, καὶ βλέψαντος ἐναντία τοσούτῳ θεάτρῳ, μέλλοντος ἐπιδείξεσθαι σαυτοῦ λόγους, καὶ οὐδ᾽ ὁπωστιοῦν ἐκπλαγέντος, νῦν οἰηθείην σε θορυβήσεσθαι ἕνεκα ἡμῶν ὀλίγων ἀνθρώπων. Τί δέ, ὦ Σώκρατες; τὸν Ἀγάθωνα φάναι, οὐ δή πού με οὕτω θεάτρου μεστὸν ἡγεῖ, ὥστε καὶ ἀγνοεῖν ὅτι νοῦν ἔχοντι ὀλίγοι ἔμφρονες πολλῶν ἀφρόνων φοβερώτεροι;",
+      "english": "if after noticing your high and manly spirit as you stepped upon the platform with your troupe—how you sent a straight glance at that vast assembly to show that you meant to do yourself credit with your production, and how you were not dismayed in the slightest—if I should now suppose you could be flustered on account of a few fellows like us. Why, Socrates, said Agathon, I hope you do not always fancy me so puffed up with the playhouse as to forget that an intelligent speaker is more alarmed at a few men of wit than at a host of fools. No, Agathon, it would be wrong of me indeed, said Socrates,",
+      "greekPhrases": [
+        {
+          "text": "εἰ ἰδὼν τὴν σὴν ἀνδρείαν καὶ μεγαλοφροσύνην ἀναβαίνοντος ἐπὶ τὸν ὀκρίβαντα μετὰ τῶν ὑποκριτῶν, καὶ βλέψαντος ἐναντία",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τοσούτῳ θεάτρῳ, μέλλοντος ἐπιδείξεσθαι σαυτοῦ λόγους, καὶ οὐδ᾽ ὁπωστιοῦν ἐκπλαγέντος, νῦν οἰηθείην σε θορυβήσεσθαι ἕνεκα ἡμῶν ὀλίγων ἀνθρώπων.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Τί δέ, ὦ Σώκρατες;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "τὸν Ἀγάθωνα φάναι, οὐ δή πού με οὕτω θεάτρου μεστὸν ἡγεῖ, ὥστε καὶ ἀγνοεῖν ὅτι νοῦν ἔχοντι ὀλίγοι ἔμφρονες πολλῶν ἀφρόνων φοβερώτεροι;",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "if after noticing your high and manly spirit as you stepped upon the platform with your troupe—how you sent a straight glance at that vast assembly to show that you meant",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "to do yourself credit with your production, and how you were not dismayed in the slightest—if I should now suppose you could be flustered on account of a few fellows like us.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Why, Socrates, said Agathon, I hope you do not always fancy me so puffed up with the playhouse as to",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "forget that an intelligent speaker is more alarmed at a few men of wit than at a host of fools.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "No, Agathon, it would be wrong of me indeed, said Socrates,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "194c",
+      "page": "194",
+      "order": 110,
+      "greek": "Οὐ μέντ᾽ ἂν καλῶς ποιοίην, φάναι τὸν Σωκράτη, ὦ Ἀγάθων, περὶ σοῦ τι ἐγὼ ἄγροικον δοξάζων· ἀλλ᾽ εὖ οἶδα ὅτι εἴ τισιν ἐντύχοις οὓς ἡγεῖο σοφούς, μᾶλλον ἂν αὐτῶν φροντίζοις ἢ τῶν πολλῶν· ἀλλὰ μὴ οὐχ οὗτοι ἡμεῖς ὦμεν· ἡμεῖς μὲν γὰρ καὶ ἐκεῖ παρῆμεν καὶ ἦμεν τῶν πολλῶν· εἰ δὲ ἄλλοις ἐντύχοις σοφοῖς, τάχ᾽ ἂν αἰσχύνοιο αὐτούς, εἴ τι ἴσως οἴοιο αἰσχρὸν ὂν ποιεῖν· ἢ πῶς λέγεις; Ἀληθῆ λέγεις, φάναι. Τοὺς δὲ πολλοὺς οὐκ ἂν αἰσχύνοιο εἴ τι οἴοιο αἰσχρὸν ποιεῖν;",
+      "english": "to associate you with any such clownish notion: I am quite sure that on finding yourself with a few persons whom you considered clever you would make more account of them than of the multitude. Yet we, perhaps, are the latter; for we were there, and among the crowd: but suppose you found yourself with other folk who were clever, you would probably feel ashamed that they should witness any shameful act you might feel yourself to be doing. Will you agree to that?",
+      "greekPhrases": [
+        {
+          "text": "Οὐ μέντ᾽ ἂν καλῶς ποιοίην, φάναι τὸν Σωκράτη, ὦ Ἀγάθων, περὶ σοῦ τι ἐγὼ ἄγροικον δοξάζων·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ εὖ οἶδα ὅτι εἴ τισιν ἐντύχοις οὓς ἡγεῖο σοφούς, μᾶλλον ἂν αὐτῶν φροντίζοις ἢ τῶν πολλῶν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἀλλὰ μὴ οὐχ οὗτοι ἡμεῖς ὦμεν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἡμεῖς μὲν γὰρ καὶ ἐκεῖ παρῆμεν καὶ ἦμεν τῶν πολλῶν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "εἰ δὲ ἄλλοις ἐντύχοις σοφοῖς, τάχ᾽ ἂν αἰσχύνοιο αὐτούς, εἴ τι ἴσως οἴοιο αἰσχρὸν ὂν ποιεῖν· ἢ πῶς λέγεις; Ἀληθῆ λέγεις, φάναι.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Τοὺς δὲ πολλοὺς οὐκ ἂν αἰσχύνοιο εἴ τι οἴοιο αἰσχρὸν ποιεῖν;",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "to associate you with any such clownish notion:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "I am quite sure that on finding yourself with a few persons whom you considered clever you would make more account of them than of the multitude.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Yet we, perhaps, are the latter;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for we were there, and among the crowd:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "but suppose you found yourself with other folk who were clever, you would probably feel",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ashamed that they should witness any shameful act you might feel yourself to be doing.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Will you agree to that?",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "194d",
+      "page": "194",
+      "order": 111,
+      "greek": "καὶ τὸν Φαῖδρον ἔφη ὑπολαβόντα εἰπεῖν Ὦ φίλε Ἀγάθων, ἐὰν ἀποκρίνῃ Σωκράτει, οὐδὲν ἔτι διοίσει αὐτῷ ὁπῃοῦν τῶν ἐνθάδε ὁτιοῦν γίγνεσθαι, ἐὰν μόνον ἔχῃ ὅτῳ διαλέγηται, ἄλλως τε καὶ καλῷ. ἐγὼ δὲ ἡδέως μὲν ἀκούω Σωκράτους διαλεγομένου, ἀναγκαῖον δέ μοι ἐπιμεληθῆναι τοῦ ἐγκωμίου τῷ Ἔρωτι καὶ ἀποδέξασθαι παρ᾽ ἑνὸς ἑκάστου ὑμῶν τὸν λόγον· ἀποδοὺς οὖν ἑκάτερος τῷ θεῷ οὕτως ἤδη διαλεγέσθω.",
+      "english": "Quite true, he said. Whereas before the multitude you would not be ashamed if you felt you were doing anything shameful? Here Phaedrus interposed: My dear Agathon, if you go on answering Socrates he will be utterly indifferent to the fate of our present business, so long as he has some one to argue with, especially some one handsome. For my part, I enjoy listening to Socrates’ arguments; but I am responsible for our eulogy of Love, and must levy a speech from every one of you in turn. Let each of you two, then, give the god his meed before you have your argument. You are quite right, Phaedrus, said Agathon,",
+      "greekPhrases": [
+        {
+          "text": "καὶ τὸν Φαῖδρον ἔφη ὑπολαβόντα εἰπεῖν Ὦ φίλε Ἀγάθων, ἐὰν ἀποκρίνῃ Σωκράτει, οὐδὲν ἔτι διοίσει",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "αὐτῷ ὁπῃοῦν τῶν ἐνθάδε ὁτιοῦν γίγνεσθαι, ἐὰν μόνον ἔχῃ ὅτῳ διαλέγηται, ἄλλως τε καὶ καλῷ.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ἐγὼ δὲ ἡδέως μὲν ἀκούω Σωκράτους διαλεγομένου, ἀναγκαῖον δέ μοι ἐπιμεληθῆναι τοῦ ἐγκωμίου τῷ Ἔρωτι καὶ ἀποδέξασθαι παρ᾽ ἑνὸς ἑκάστου ὑμῶν τὸν λόγον·",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "ἀποδοὺς οὖν ἑκάτερος τῷ θεῷ οὕτως ἤδη διαλεγέσθω.",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Quite true, he said.",
+          "mapsTo": []
+        },
+        {
+          "text": "Whereas before the multitude you would not be ashamed if you felt you were doing anything shameful? Here Phaedrus interposed:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "My dear Agathon, if you go on answering Socrates he will be utterly indifferent to the fate",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "of our present business, so long as he has some one to argue with, especially some one handsome.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "For my part, I enjoy listening to Socrates’ arguments;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but I am responsible for our eulogy of Love, and must levy a speech from every one of you in turn.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Let each of you two, then, give the god his meed before you have your argument.",
+          "mapsTo": []
+        },
+        {
+          "text": "You are quite right, Phaedrus, said Agathon,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "194e",
+      "page": "194",
+      "order": 112,
+      "greek": "Ἀλλὰ καλῶς λέγεις, ὦ Φαῖδρε, φάναι τὸν Ἀγάθωνα, καὶ οὐδέν με κωλύει λέγειν· Σωκράτει γὰρ καὶ αὖθις ἔσται πολλάκις διαλέγεσθαι. Ἐγὼ δὲ δὴ βούλομαι πρῶτον μὲν εἰπεῖν ὡς χρή με εἰπεῖν, ἔπειτα εἰπεῖν. δοκοῦσι γάρ μοι πάντες οἱ πρόσθεν εἰρηκότες οὐ τὸν θεὸν ἐγκωμιάζειν ἀλλὰ τοὺς ἀνθρώπους εὐδαιμονίζειν τῶν ἀγαθῶν ὧν ὁ θεὸς αὐτοῖς αἴτιος· ὁποῖος δέ τις αὐτὸς ὢν",
+      "english": "and there is nothing to hinder my speaking; for I shall find many other occasions for arguing with Socrates. I propose first to speak of the plan most proper for my speaking, and after that to speak. Every one of the previous speakers, instead of eulogizing the god, has merely, as it seems to me, felicitated humanity on the benefits he bestows: not one of them has told us what is the nature",
+      "greekPhrases": [
+        {
+          "text": "Ἀλλὰ καλῶς λέγεις, ὦ Φαῖδρε, φάναι τὸν Ἀγάθωνα, καὶ οὐδέν με κωλύει λέγειν·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Σωκράτει γὰρ καὶ αὖθις ἔσται πολλάκις διαλέγεσθαι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ἐγὼ δὲ δὴ βούλομαι πρῶτον μὲν εἰπεῖν ὡς χρή με εἰπεῖν, ἔπειτα εἰπεῖν.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "δοκοῦσι γάρ μοι πάντες οἱ πρόσθεν εἰρηκότες οὐ τὸν θεὸν ἐγκωμιάζειν ἀλλὰ τοὺς ἀνθρώπους εὐδαιμονίζειν τῶν ἀγαθῶν ὧν ὁ θεὸς αὐτοῖς αἴτιος·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ὁποῖος δέ τις αὐτὸς ὢν",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and there is nothing to hinder my speaking;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for I shall find many other occasions for arguing with Socrates.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "I propose first to speak of the plan most proper for my speaking, and after that to speak.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Every one of the previous speakers, instead of eulogizing the god, has merely, as it seems to me, felicitated humanity on the benefits he bestows:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "not one of them has told us what is the nature",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "195a",
+      "page": "195",
+      "order": 113,
+      "greek": "ταῦτα ἐδωρήσατο, οὐδεὶς εἴρηκεν. εἷς δὲ τρόπος ὀρθὸς παντὸς ἐπαίνου περὶ παντός, λόγῳ διελθεῖν οἷος οἵων αἴτιος ὢν τυγχάνει περὶ οὗ ἂν ὁ λόγος ᾖ. οὕτω δὴ τὸν Ἔρωτα καὶ ἡμᾶς δίκαιον ἐπαινέσαι πρῶτον αὐτὸν οἷός ἐστιν, ἔπειτα τὰς δόσεις. φημὶ οὖν ἐγὼ πάντων θεῶν εὐδαιμόνων ὄντων Ἔρωτα, εἰ θέμις καὶ ἀνεμέσητον εἰπεῖν, εὐδαιμονέστατον εἶναι αὐτῶν, κάλλιστον ὄντα καὶ ἄριστον. ἔστι δὲ κάλλιστος ὢν τοιόσδε. πρῶτον μὲν νεώτατος θεῶν, ὦ Φαῖδρε. μέγα",
+      "english": "of the benefactor himself. There is but one correct method of giving anyone any kind of praise, namely to make the words unfold the character of him, and of the blessings brought by him, who is to be our theme. Hence it is meet that we praise him first for what he is and then for what he gives. So I say that, while all gods are blissful, Love—with no irreverence or offence be it spoken—is the most blissful, as being the most beautiful and the best. How most beautiful, I will explain. First of all, Phaedrus, he is youngest of the gods. He himself supplies",
+      "greekPhrases": [
+        {
+          "text": "ταῦτα ἐδωρήσατο, οὐδεὶς εἴρηκεν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἷς δὲ τρόπος ὀρθὸς παντὸς ἐπαίνου περὶ παντός, λόγῳ διελθεῖν οἷος οἵων αἴτιος ὢν τυγχάνει περὶ οὗ ἂν ὁ λόγος ᾖ.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "οὕτω δὴ τὸν Ἔρωτα καὶ ἡμᾶς δίκαιον ἐπαινέσαι πρῶτον αὐτὸν οἷός ἐστιν, ἔπειτα τὰς δόσεις.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "φημὶ οὖν ἐγὼ πάντων θεῶν εὐδαιμόνων ὄντων Ἔρωτα, εἰ θέμις καὶ ἀνεμέσητον εἰπεῖν, εὐδαιμονέστατον εἶναι αὐτῶν, κάλλιστον ὄντα καὶ ἄριστον.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἔστι δὲ κάλλιστος ὢν τοιόσδε.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "πρῶτον μὲν νεώτατος θεῶν, ὦ Φαῖδρε. μέγα",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "of the benefactor himself.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "There is but one correct method of giving anyone any kind of praise, namely to make the words",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "unfold the character of him, and of the blessings brought by him, who is to be our theme.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Hence it is meet that we praise him first for what he is and then for what he gives.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So I say that, while all gods are blissful, Love—with no irreverence or offence be it spoken—is the most blissful, as being the most beautiful and the best.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "How most beautiful, I will explain.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "First of all, Phaedrus, he is youngest of the gods. He himself supplies",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "195b",
+      "page": "195",
+      "order": 114,
+      "greek": "δὲ τεκμήριον τῷ λόγῳ αὐτὸς παρέχεται, φεύγων φυγῇ τὸ γῆρας, ταχὺ ὂν δῆλον ὅτι· θᾶττον γοῦν τοῦ δέοντος ἡμῖν προσέρχεται. ὃ δὴ πέφυκεν Ἔρως μισεῖν καὶ οὐδ᾽ ἐντὸς πολλοῦ πλησιάζειν. μετὰ δὲ νέων ἀεὶ σύνεστί τε καὶ ἔστιν· ὁ γὰρ παλαιὸς λόγος εὖ ἔχει, ὡς ὅμοιον ὁμοίῳ ἀεὶ πελάζει. ἐγὼ δὲ Φαίδρῳ πολλὰ ἄλλα ὁμολογῶν τοῦτο οὐχ ὁμολογῶ, ὡς Ἔρως Κρόνου καὶ Ἰαπετοῦ ἀρχαιότερός ἐστιν . ἀλλά",
+      "english": "clear evidence of this; for he flies and flees from old age—a swift thing obviously, since it gains on us too quickly for our liking. Love hates it by nature, and refuses to come within any distance of it. He is ever consorting with the young, and such also is he: well says the old saw, Like and like together strike. And though in much else I agree with Phaedrus, in this I agree not, that Love by his account is more ancient than Cronos and Iapetus :",
+      "greekPhrases": [
+        {
+          "text": "δὲ τεκμήριον τῷ λόγῳ αὐτὸς παρέχεται, φεύγων φυγῇ τὸ γῆρας, ταχὺ ὂν δῆλον ὅτι·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "θᾶττον γοῦν τοῦ δέοντος ἡμῖν προσέρχεται.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ὃ δὴ πέφυκεν Ἔρως μισεῖν καὶ οὐδ᾽ ἐντὸς πολλοῦ πλησιάζειν.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "μετὰ δὲ νέων ἀεὶ σύνεστί τε καὶ ἔστιν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ὁ γὰρ παλαιὸς λόγος εὖ ἔχει, ὡς ὅμοιον ὁμοίῳ ἀεὶ πελάζει.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἐγὼ δὲ Φαίδρῳ πολλὰ ἄλλα ὁμολογῶν τοῦτο οὐχ ὁμολογῶ, ὡς Ἔρως Κρόνου καὶ Ἰαπετοῦ ἀρχαιότερός ἐστιν . ἀλλά",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "clear evidence of this;",
+          "mapsTo": []
+        },
+        {
+          "text": "for he flies and flees from old age—a swift thing obviously, since it gains on us too quickly for our liking.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Love hates it by nature, and refuses to come within any distance of it.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "He is ever consorting with the young, and such also is he:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "well says the old saw, Like and like together strike.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "And though in much else I agree with Phaedrus, in this I agree not, that Love by his account is more ancient than Cronos and Iapetus :",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "195c",
+      "page": "195",
+      "order": 115,
+      "greek": "φημὶ νεώτατον αὐτὸν εἶναι θεῶν καὶ ἀεὶ νέον, τὰ δὲ παλαιὰ πράγματα περὶ θεούς, ἃ Ἡσίοδος καὶ Παρμενίδης λέγουσιν, Ἀνάγκῃ καὶ οὐκ Ἔρωτι γεγονέναι, εἰ ἐκεῖνοι ἀληθῆ ἔλεγον· οὐ γὰρ ἂν ἐκτομαὶ οὐδὲ δεσμοὶ ἀλλήλων ἐγίγνοντο καὶ ἄλλα πολλὰ καὶ βίαια, εἰ Ἔρως ἐν αὐτοῖς ἦν, ἀλλὰ φιλία καὶ εἰρήνη, ὥσπερ νῦν, ἐξ οὗ Ἔρως τῶν θεῶν βασιλεύει. νέος μὲν οὖν ἐστί, πρὸς δὲ τῷ νέῳ ἁπαλός· ποιητοῦ δ᾽ ἔστιν",
+      "english": "I say he is youngest of the gods and ever young, while those early dealings with the gods which Hesiod and Parmenides relate, I take to have been the work of Necessity, not of Love, if there is any truth in those stories. For there would have been no gelding or fettering of each other, nor any of those various violences, if Love had been amongst them; rather only amity and peace, such as now subsist ever since Love has reigned over the gods. So then he is young, and delicate withal: he requires a poet such as Homer to set forth his delicacy divine.",
+      "greekPhrases": [
+        {
+          "text": "φημὶ νεώτατον αὐτὸν εἶναι θεῶν καὶ ἀεὶ νέον, τὰ δὲ παλαιὰ πράγματα περὶ θεούς, ἃ Ἡσίοδος καὶ Παρμενίδης λέγουσιν, Ἀνάγκῃ καὶ οὐκ Ἔρωτι γεγονέναι, εἰ ἐκεῖνοι ἀληθῆ ἔλεγον·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἂν ἐκτομαὶ οὐδὲ δεσμοὶ ἀλλήλων ἐγίγνοντο καὶ ἄλλα πολλὰ καὶ βίαια, εἰ Ἔρως",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐν αὐτοῖς ἦν, ἀλλὰ φιλία καὶ εἰρήνη, ὥσπερ νῦν, ἐξ οὗ Ἔρως τῶν θεῶν βασιλεύει.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "νέος μὲν οὖν ἐστί, πρὸς δὲ τῷ νέῳ ἁπαλός· ποιητοῦ δ᾽ ἔστιν",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "I say he is youngest of the gods and ever young, while those early dealings with the gods which Hesiod and",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Parmenides relate, I take to have been the work of Necessity, not of Love, if there is any truth in those stories.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For there would have been no gelding or fettering of each other, nor any of those various violences, if Love had been amongst them;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "rather only amity and peace, such as now subsist ever since Love has reigned over the gods.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So then he is young, and delicate withal:",
+          "mapsTo": []
+        },
+        {
+          "text": "he requires a poet such as Homer to set forth his delicacy divine.",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "195d",
+      "page": "195",
+      "order": 116,
+      "greek": "ἐνδεὴς οἷος ἦν Ὅμηρος , πρὸς τὸ ἐπιδεῖξαι θεοῦ ἁπαλότητα. Ὅμηρος γὰρ Ἄτην θεόν τέ φησιν εἶναι καὶ ἁπαλήν ( τοὺς γοῦν πόδας αὐτῆς ἁπαλοὺς εἶναι ) λέγων . . . τῆς μένθ᾽ ἁπαλοὶ πόδες· οὐ γὰρ ἐπ᾽ οὔδεος πίλναται, ἀλλ᾽ ἄρα ἥ γε κατ᾽ ἀνδρῶν κράατα βαίνει. καλῷ οὖν δοκεῖ μοι τεκμηρίῳ τὴν ἁπλότητα ἀποφαίνειν, ὅτι οὐκ ἐπὶ σκληροῦ βαίνει, ἀλλ᾽ ἐπὶ μαλθακοῦ. τῷ αὐτῷ",
+      "english": "Homer it is who tells of Ate as both divine and delicate; you recollect those delicate feet of hers, where he says— Yet delicate are her feet, for on the ground She speeds not, only on the heads of men. So I hold it convincing proof of her delicacy that she goes not on hard things but on soft.",
+      "greekPhrases": [
+        {
+          "text": "ἐνδεὴς οἷος ἦν Ὅμηρος , πρὸς τὸ ἐπιδεῖξαι θεοῦ ἁπαλότητα.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Ὅμηρος γὰρ Ἄτην θεόν τέ φησιν εἶναι καὶ ἁπαλήν ( τοὺς γοῦν πόδας αὐτῆς ἁπαλοὺς εἶναι ) λέγων . . .",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τῆς μένθ᾽ ἁπαλοὶ πόδες·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἐπ᾽ οὔδεος πίλναται, ἀλλ᾽ ἄρα ἥ γε κατ᾽ ἀνδρῶν κράατα βαίνει.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καλῷ οὖν δοκεῖ μοι τεκμηρίῳ τὴν ἁπλότητα ἀποφαίνειν, ὅτι οὐκ ἐπὶ σκληροῦ βαίνει, ἀλλ᾽ ἐπὶ μαλθακοῦ. τῷ αὐτῷ",
+          "mapsTo": [
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Homer it is who tells of Ate as both divine and delicate;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "you recollect those delicate feet of hers, where he says— Yet delicate are her feet, for on the ground She speeds not, only on the heads of men.",
+          "mapsTo": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "So I hold it convincing proof of her delicacy that she goes not on hard things but on soft.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "195e",
+      "page": "195",
+      "order": 117,
+      "greek": "δὴ καὶ ἡμεῖς χρησόμεθα τεκμηρίῳ περὶ Ἔρωτα ὅτι ἁπαλός. οὐ γὰρ ἐπὶ γῆς βαίνει οὐδ᾽ ἐπὶ κρανίων, ἅ ἐστιν οὐ πάνυ μαλακά, ἀλλ᾽ ἐν τοῖς μαλακωτάτοις τῶν ὄντων καὶ βαίνει καὶ οἰκεῖ. ἐν γὰρ ἤθεσι καὶ ψυχαῖς θεῶν καὶ ἀνθρώπων τὴν οἴκησιν ἵδρυται· καὶ οὐκ αὖ ἑξῆς ἐν πάσαις ταῖς ψυχαῖς, ἀλλ᾽ ᾗτινι ἂν σκληρὸν ἦθος ἐχούσῃ ἐντύχῃ, ἀπέρχεται, ᾗ δ᾽ ἂν μαλακόν, οἰκίζεται. ἁπτόμενον οὖν ἀεὶ καὶ ποσὶν καὶ πάντῃ ἐν μαλακωτάτοις τῶν μαλακωτάτων, ἁπαλώτατον ἀνάγκη",
+      "english": "The same method will serve us to prove the delicacy of Love. Not upon earth goes he, nor on our crowns, which are not very soft; but takes his way and abode in the softest things that exist. The tempers and souls of gods and men are his chosen habitation: not indeed any soul as much as another; when he comes upon one whose temper is hard, away he goes, but if it be soft, he makes his dwelling there. So if with feet and every way he is wont ever to get hold of the softest parts of the softest creatures,",
+      "greekPhrases": [
+        {
+          "text": "δὴ καὶ ἡμεῖς χρησόμεθα τεκμηρίῳ περὶ Ἔρωτα ὅτι ἁπαλός.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἐπὶ γῆς βαίνει οὐδ᾽ ἐπὶ κρανίων, ἅ ἐστιν οὐ πάνυ μαλακά, ἀλλ᾽ ἐν τοῖς μαλακωτάτοις τῶν ὄντων καὶ βαίνει καὶ οἰκεῖ.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἐν γὰρ ἤθεσι καὶ ψυχαῖς θεῶν καὶ ἀνθρώπων τὴν οἴκησιν ἵδρυται·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ οὐκ αὖ ἑξῆς ἐν πάσαις ταῖς ψυχαῖς, ἀλλ᾽ ᾗτινι ἂν σκληρὸν ἦθος ἐχούσῃ ἐντύχῃ, ἀπέρχεται, ᾗ δ᾽ ἂν μαλακόν, οἰκίζεται.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἁπτόμενον οὖν ἀεὶ καὶ ποσὶν καὶ πάντῃ ἐν μαλακωτάτοις τῶν μαλακωτάτων, ἁπαλώτατον ἀνάγκη",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "The same method will serve us to prove the delicacy of Love.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Not upon earth goes he, nor on our crowns, which are not very soft;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "but takes his way and abode in the softest things that exist.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "The tempers and souls of gods and men are his chosen habitation:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "not indeed any soul as much as another;",
+          "mapsTo": []
+        },
+        {
+          "text": "when he comes upon one whose temper is hard, away he goes, but if it be soft, he makes his dwelling there.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "So if with feet and every way he is wont ever to get hold of the softest parts of the softest creatures,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "196a",
+      "page": "196",
+      "order": 118,
+      "greek": "εἶναι. νεώτατος μὲν δή ἐστι καὶ ἁπαλώτατος, πρὸς δὲ τούτοις ὑγρὸς τὸ εἶδος , οὐ γὰρ ἂν οἷός τ᾽ ἦν πάντῃ περιπτύσσεσθαι οὐδὲ διὰ πάσης ψυχῆς καὶ εἰσιὼν τὸ πρῶτον λανθάνειν καὶ ἐξιών, εἰ σκληρὸς ἦν. συμμέτρου δὲ καὶ ὑγρᾶς ἰδέας μέγα τεκμήριον ἡ εὐσχημοσύνη, ὃ δὴ διαφερόντως ἐκ πάντων ὁμολογουμένως Ἔρως ἔχει· ἀσχημοσύνῃ γὰρ καὶ Ἔρωτι πρὸς ἀλλήλους ἀεὶ πόλεμος. χρόας δὲ κάλλος ἡ κατ᾽ ἄνθη δίαιτα τοῦ θεοῦ σημαίνει· ἀνανθεῖ γὰρ",
+      "english": "he needs must be most delicate. Youngest, then, and most delicate is he, and withal pliant of form: for he would never contrive to fold himself about us every way, nor begin by stealing in and out of every soul so secretly, if he were hard. Clear evidence of his fit proportion and pliancy of form is found in his shapely grace, a quality wherein Love is in every quarter allowed to excel: unshapeliness and Love are ever at war with one another. Beauty of hue in this god",
+      "greekPhrases": [
+        {
+          "text": "εἶναι. νεώτατος μὲν δή ἐστι καὶ ἁπαλώτατος, πρὸς δὲ τούτοις ὑγρὸς τὸ εἶδος , οὐ γὰρ ἂν οἷός",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τ᾽ ἦν πάντῃ περιπτύσσεσθαι οὐδὲ διὰ πάσης ψυχῆς καὶ εἰσιὼν τὸ πρῶτον λανθάνειν καὶ ἐξιών, εἰ σκληρὸς ἦν.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "συμμέτρου δὲ καὶ ὑγρᾶς ἰδέας μέγα τεκμήριον ἡ εὐσχημοσύνη, ὃ δὴ διαφερόντως ἐκ πάντων ὁμολογουμένως Ἔρως ἔχει·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἀσχημοσύνῃ γὰρ καὶ Ἔρωτι πρὸς ἀλλήλους ἀεὶ πόλεμος.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "χρόας δὲ κάλλος ἡ κατ᾽ ἄνθη δίαιτα τοῦ θεοῦ σημαίνει· ἀνανθεῖ γὰρ",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "he needs must be most delicate.",
+          "mapsTo": []
+        },
+        {
+          "text": "Youngest, then, and most delicate is he, and withal pliant of form:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for he would never contrive to fold himself about us every way, nor begin by stealing in and out of every soul so secretly, if he were hard.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Clear evidence of his fit proportion and pliancy of form is found in his shapely grace, a quality wherein Love is in every quarter allowed to excel:",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "unshapeliness and Love are ever at war with one another.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Beauty of hue in this god",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "196b",
+      "page": "196",
+      "order": 119,
+      "greek": "καὶ ἀπηνθηκότι καὶ σώματι καὶ ψυχῇ καὶ ἄλλῳ ὁτῳοῦν οὐκ ἐνίζει Ἔρως· οὗ δ᾽ ἂν εὐανθής τε καὶ εὐώδης τόπος ᾖ, ἐνταῦθα δὲ καὶ ἵζει καὶ μένει. Περὶ μὲν οὖν κάλλους τοῦ θεοῦ καὶ ταῦθ ᾽ ἱκανὰ καὶ ἔτι πολλὰ λείπεται, περὶ δὲ ἀρετῆς Ἔρωτος μετὰ ταῦτα λεκτέον· τὸ μὲν μέγιστον ὅτι Ἔρως οὔτ᾽ ἀδικεῖ οὔτ᾽ ἀδικεῖται οὔθ ᾽ ὑπὸ θεοῦ οὔτε θεόν, οὔθ ᾽ ὑπ᾽ ἀνθρώπου οὔτε ἄνθρωπον. οὔτε γὰρ αὐτὸς βίᾳ πάσχει, εἴ τι πάσχει — βία γὰρ Ἔρωτος οὐχ",
+      "english": "is evinced by his seeking his food among flowers: for Love will not settle on body or soul or aught else that is flowerless or whose flower has faded away; while he has only to light on a plot of sweet blossoms and scents to settle there and stay. Enough has now been said, though much remains unsaid, of the beauty of our god; next shall Love’s goodness be my theme. The strongest plea for this is that neither to a god he gives nor from a god receives any injury, nor from men receives it nor to men gives it. For neither is the usage he himself gets a violent usage, since violence",
+      "greekPhrases": [
+        {
+          "text": "καὶ ἀπηνθηκότι καὶ σώματι καὶ ψυχῇ καὶ ἄλλῳ ὁτῳοῦν οὐκ ἐνίζει Ἔρως·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὗ δ᾽ ἂν εὐανθής τε καὶ εὐώδης τόπος ᾖ, ἐνταῦθα δὲ καὶ ἵζει καὶ μένει.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Περὶ μὲν οὖν κάλλους τοῦ θεοῦ καὶ ταῦθ ᾽ ἱκανὰ καὶ ἔτι πολλὰ λείπεται, περὶ δὲ ἀρετῆς Ἔρωτος μετὰ ταῦτα λεκτέον·",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "τὸ μὲν μέγιστον ὅτι Ἔρως οὔτ᾽ ἀδικεῖ οὔτ᾽ ἀδικεῖται οὔθ ᾽ ὑπὸ θεοῦ οὔτε θεόν, οὔθ ᾽ ὑπ᾽ ἀνθρώπου οὔτε ἄνθρωπον.",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "οὔτε γὰρ αὐτὸς βίᾳ πάσχει, εἴ τι πάσχει — βία γὰρ Ἔρωτος οὐχ",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "is evinced by his seeking his food among flowers:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for Love will not settle on body or soul or aught else that is flowerless or whose flower has faded away;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "while he has only to light on a plot of sweet blossoms and scents to settle there and stay.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Enough has now been said, though much remains unsaid, of the beauty of our god;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "next shall Love’s goodness be my theme.",
+          "mapsTo": []
+        },
+        {
+          "text": "The strongest plea for this is that neither to a god he gives nor from",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "a god receives any injury, nor from men receives it nor to men gives it.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "For neither is the usage he himself gets a violent usage, since violence",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "196c",
+      "page": "196",
+      "order": 120,
+      "greek": "ἅπτεται — οὔτε ποιῶν ποιεῖ — πᾶς γὰρ ἑκὼν Ἔρωτι πᾶν ὑπηρετεῖ — ἃ δ᾽ ἂν ἑκὼν ἑκόντι ὁμολογήσῃ, φασὶν “ οἱ πόλεως βασιλῆς νόμοι „ δίκαια εἶναι. πρὸς δὲ τῇ δικαιοσύνῃ σωφροσύνης πλείστης μετέχει. εἶναι γὰρ ὁμολογεῖται σωφροσύνη τὸ κρατεῖν ἡδονῶν καὶ ἐπιθυμιῶν, Ἔρωτος δὲ μηδεμίαν ἡδονὴν κρείττω εἶναι· εἰ δὲ ἥττους, κρατοῖντ᾽ ἂν ὑπὸ Ἔρωτος, ὁ δὲ κρατοῖ, κρατῶν δὲ ἡδονῶν καὶ ἐπιθυμιῶν ὁ Ἔρως διαφερόντως ἂν σωφρονοῖ. καὶ μὴν εἴς γε ἀνδρείαν Ἔρωτι",
+      "english": "takes not hold of Love; nor is there violence in his dealings, since Love wins all men’s willing service; and agreements on both sides willingly made are held to be just by our city’s sovereign, the law. Then, over and above his justice, he is richly endowed with temperance. We all agree that temperance is a control of pleasures and desires, while no pleasure is stronger than Love: if they are the weaker, they must be under Love’s control, and he is their controller; so that Love, by controlling pleasures and desires, must be eminently temperate. And observe how in valor",
+      "greekPhrases": [
+        {
+          "text": "ἅπτεται — οὔτε ποιῶν ποιεῖ — πᾶς γὰρ ἑκὼν Ἔρωτι πᾶν ὑπηρετεῖ — ἃ δ᾽ ἂν ἑκὼν ἑκόντι ὁμολογήσῃ, φασὶν “ οἱ πόλεως βασιλῆς νόμοι „ δίκαια εἶναι.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "πρὸς δὲ τῇ δικαιοσύνῃ σωφροσύνης πλείστης μετέχει.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "εἶναι γὰρ ὁμολογεῖται σωφροσύνη τὸ κρατεῖν ἡδονῶν καὶ ἐπιθυμιῶν, Ἔρωτος δὲ μηδεμίαν ἡδονὴν κρείττω εἶναι·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "εἰ δὲ ἥττους, κρατοῖντ᾽ ἂν ὑπὸ Ἔρωτος, ὁ δὲ κρατοῖ, κρατῶν δὲ ἡδονῶν καὶ ἐπιθυμιῶν ὁ Ἔρως διαφερόντως ἂν σωφρονοῖ.",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "καὶ μὴν εἴς γε ἀνδρείαν Ἔρωτι",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "takes not hold of Love;",
+          "mapsTo": []
+        },
+        {
+          "text": "nor is there violence in his dealings, since Love wins all men’s willing service;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and agreements on both sides willingly made are held to be just by our city’s sovereign, the law.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Then, over and above his justice, he is richly endowed with temperance.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "We all agree that temperance is a control of pleasures and desires, while no pleasure is stronger than Love:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "if they are the weaker, they must be under Love’s control, and he is their controller;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "so that Love, by controlling pleasures and desires, must be eminently temperate.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "And observe how in valor",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "196d",
+      "page": "196",
+      "order": 121,
+      "greek": "“ οὐδ᾽ Ἄρης ἀνθίσταται „. οὐ γὰρ ἔχει Ἔρωτα Ἄρης, ἀλλ᾽ Ἔρως Ἄρη , Ἀφροδίτης, ὡς λόγος· κρείττων δὲ ὁ ἔχων τοῦ ἐχομένου· τοῦ δ᾽ ἀνδρειοτάτου τῶν ἄλλων κρατῶν πάντων ἂν ἀνδρειότατος εἴη· περὶ μὲν οὖν δικαιοσύνης καὶ σωφροσύνης καὶ ἀνδρείας τοῦ θεοῦ εἴρηται, περὶ δὲ σοφίας λείπεται· ὅσον οὖν δυνατόν, πειρατέον μὴ ἐλλείπειν. καὶ πρῶτον μέν, ἵν᾽ αὖ καὶ ἐγὼ τὴν ἡμετέραν τέχνην τιμήσω ὥσπερ Ἐρυξίμαχος",
+      "english": "not even the God of War withstands him; for we hear, not of Love caught by Ares, but of Ares caught by Love—of Aphrodite. The captor is stronger than the caught; and as he controls what is braver than any other, he must be bravest of all. So much for justice and temperance and valor in the god: it remains to speak of skill; and here I must try my best to be adequate. First, if I in turn may dignify our craft as Eryximachus did his,",
+      "greekPhrases": [
+        {
+          "text": "“ οὐδ᾽ Ἄρης ἀνθίσταται „.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἔχει Ἔρωτα Ἄρης, ἀλλ᾽ Ἔρως Ἄρη , Ἀφροδίτης, ὡς λόγος·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "κρείττων δὲ ὁ ἔχων τοῦ ἐχομένου·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "τοῦ δ᾽ ἀνδρειοτάτου τῶν ἄλλων κρατῶν πάντων ἂν ἀνδρειότατος εἴη·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "περὶ μὲν οὖν δικαιοσύνης καὶ σωφροσύνης καὶ ἀνδρείας τοῦ θεοῦ εἴρηται, περὶ δὲ σοφίας λείπεται·",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "ὅσον οὖν δυνατόν, πειρατέον μὴ ἐλλείπειν.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "καὶ πρῶτον μέν, ἵν᾽ αὖ καὶ ἐγὼ τὴν ἡμετέραν τέχνην τιμήσω ὥσπερ Ἐρυξίμαχος",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "not even the God of War withstands him;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for we hear, not of Love caught by Ares, but of Ares caught by Love—of Aphrodite.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "The captor is stronger than the caught;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and as he controls what is braver than any other, he must be bravest of all.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "So much for justice and temperance and valor in the god:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "it remains to speak of skill;",
+          "mapsTo": []
+        },
+        {
+          "text": "and here I must try my best to be adequate.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "First, if I in turn may dignify our craft as Eryximachus did his,",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "196e",
+      "page": "196",
+      "order": 122,
+      "greek": "τὴν αὑτοῦ, ποιητὴς ὁ θεὸς σοφὸς οὕτως ὥστε καὶ ἄλλον ποιῆσαι· πᾶς γοῦν ποιητὴς γίγνεται, “ κἂν ἄμουσος ᾖ τὸ πρίν „ , οὗ ἂν Ἔρως ἅψηται. ᾧ δὴ πρέπει ἡμᾶς μαρτυρίῳ χρῆσθαι, ὅτι ποιητὴς ὁ Ἔρως ἀγαθὸς ἐν κεφαλαίῳ πᾶσαν ποίησιν τὴν κατὰ μουσικήν· ἃ γάρ τις ἢ μὴ ἔχει ἢ μὴ οἶδεν, οὔτ᾽ ἂν ἑτέρῳ δοίη οὔτ᾽ ἂν ἄλλον διδάξειεν. καὶ",
+      "english": "the god is a composer so accomplished that he is a cause of composing in others: every one, you know, becomes a poet, though alien to the Muse before, when Love gets hold of him. This we may fitly take for a testimony that Love is a poet well skilled—I speak summarily—in all composing that has to do with music;",
+      "greekPhrases": [
+        {
+          "text": "τὴν αὑτοῦ, ποιητὴς ὁ θεὸς σοφὸς οὕτως ὥστε καὶ ἄλλον ποιῆσαι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "πᾶς γοῦν ποιητὴς γίγνεται, “ κἂν ἄμουσος ᾖ τὸ πρίν „ , οὗ ἂν Ἔρως ἅψηται.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ᾧ δὴ πρέπει ἡμᾶς μαρτυρίῳ χρῆσθαι, ὅτι ποιητὴς ὁ Ἔρως ἀγαθὸς ἐν κεφαλαίῳ πᾶσαν ποίησιν τὴν κατὰ μουσικήν·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἃ γάρ τις ἢ μὴ ἔχει ἢ μὴ οἶδεν, οὔτ᾽ ἂν ἑτέρῳ δοίη οὔτ᾽ ἂν ἄλλον διδάξειεν. καὶ",
+          "mapsTo": [
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "the god is a composer so accomplished that he is a cause of composing in others:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "every one, you know, becomes a poet, though alien to the Muse before, when Love gets hold of him.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "This we may fitly take for a testimony that Love is a poet well skilled—I speak summarily—in all composing that has to do with music;",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197a",
+      "page": "197",
+      "order": 123,
+      "greek": "μὲν δὴ τήν γε τῶν ζῴων ποίησιν πάντων τίς ἐναντιώσεται μὴ οὐχὶ Ἔρωτος εἶναι σοφίαν, ᾗ γίγνεταί τε καὶ φύεται πάντα τὰ ζῷα; ἀλλὰ τὴν τῶν τεχνῶν δημιουργίαν οὐκ ἴσμεν, ὅτι οὗ μὲν ἂν ὁ θεὸς οὗτος διδάσκαλος γένηται, ἐλλόγιμος καὶ φανὸς ἀπέβη, οὗ δ᾽ ἂν Ἔρως μὴ ἐφάψηται, σκοτεινός; τοξικήν γε μὴν καὶ ἰατρικὴν καὶ μαντικὴν Ἀπόλλων ἀνεῦρεν ἐπιθυμίας καὶ ἔρωτος ἡγεμονεύσαντος,",
+      "english": "for whatever we have not or know not we can neither give to another nor teach our neighbor. And who, let me ask, will gainsay that the composing of all forms of life is Love’s own craft, whereby all creatures are begotten and produced? Again, in artificial manufacture, do we not know that a man who has this god for teacher turns out a brilliant success, whereas he on whom Love has laid no hold is obscure? If Apollo invented archery and medicine and divination, it was under the guidance of Desire and Love; so that he too may be deemed a disciple of Love as likewise may the",
+      "greekPhrases": [
+        {
+          "text": "μὲν δὴ τήν γε τῶν ζῴων ποίησιν πάντων τίς ἐναντιώσεται μὴ οὐχὶ Ἔρωτος εἶναι σοφίαν, ᾗ γίγνεταί τε καὶ φύεται πάντα τὰ ζῷα;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἀλλὰ τὴν τῶν τεχνῶν δημιουργίαν οὐκ ἴσμεν, ὅτι οὗ μὲν ἂν ὁ θεὸς οὗτος διδάσκαλος γένηται, ἐλλόγιμος καὶ φανὸς ἀπέβη, οὗ δ᾽ ἂν Ἔρως μὴ ἐφάψηται, σκοτεινός;",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "τοξικήν γε μὴν καὶ ἰατρικὴν καὶ μαντικὴν Ἀπόλλων ἀνεῦρεν ἐπιθυμίας καὶ ἔρωτος ἡγεμονεύσαντος,",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "for whatever we have not or know not we can neither give to another nor teach our neighbor.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "And who, let me ask, will gainsay that the composing of all forms of life is Love’s own craft, whereby all creatures are begotten and produced?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Again, in artificial manufacture, do we not know that a man who has this god for",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "teacher turns out a brilliant success, whereas he on whom Love has laid no hold is obscure?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "If Apollo invented archery and medicine and divination, it was under the guidance of Desire and Love;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "so that he too may be deemed a disciple of Love as likewise may the",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197b",
+      "page": "197",
+      "order": 124,
+      "greek": "ὥστε καὶ οὗτος Ἔρωτος ἂν εἴη μαθητής, καὶ Μοῦσαι μουσικῆς καὶ Ἥφαιστος χαλκείας καὶ Ἀθηνᾶ ἱστουργίας καὶ “ Ζεὺς κυβερνᾶν θεῶν τε καὶ ἀνθρώπων „ . ὅθεν δὴ καὶ κατεσκευάσθη τῶν θεῶν τὰ πράγματα Ἔρωτος ἐγγενομένου, δῆλον ὅτι κάλλους ( αἴσχει γὰρ οὐκ ἔνι Ἔρως )· πρὸ τοῦ δέ, ὥσπερ ἐν ἀρχῇ εἶπον, πολλὰ καὶ δεινὰ θεοῖς ἐγίγνετο . ὡς λέγεται, διὰ τὴν τῆς Ἀνάγκης βασιλείαν· ἐπειδὴ δ᾽ ὁ θεὸς οὗτος ἔφυ, ἐκ τοῦ ἐρᾷν τῶν καλῶν πάντ᾽ ἀγαθὰ γέγονεν καὶ θεοῖς καὶ ἀνθρώποις.",
+      "english": "Muses in music, Hephaestus in metal-work, Athene in weaving and Zeus in pilotage of gods and men. Hence also those dealings of the gods were contrived by Love—clearly love of beauty—astir in them, for Love has no concern with ugliness; though aforetime, as I began by saying, there were many strange doings among the gods, as legend tells, because of the dominion of Necessity. But since this god arose, the loving of beautiful things has brought all kinds of benefits both to gods and to men.",
+      "greekPhrases": [
+        {
+          "text": "ὥστε καὶ οὗτος Ἔρωτος ἂν εἴη μαθητής, καὶ Μοῦσαι μουσικῆς καὶ Ἥφαιστος χαλκείας καὶ Ἀθηνᾶ ἱστουργίας καὶ “ Ζεὺς κυβερνᾶν θεῶν τε καὶ ἀνθρώπων „ .",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ὅθεν δὴ καὶ κατεσκευάσθη τῶν θεῶν τὰ πράγματα Ἔρωτος ἐγγενομένου, δῆλον ὅτι κάλλους ( αἴσχει γὰρ οὐκ ἔνι Ἔρως )·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "πρὸ τοῦ δέ, ὥσπερ ἐν ἀρχῇ εἶπον, πολλὰ καὶ δεινὰ θεοῖς ἐγίγνετο .",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὡς λέγεται, διὰ τὴν τῆς Ἀνάγκης βασιλείαν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐπειδὴ δ᾽ ὁ θεὸς οὗτος ἔφυ, ἐκ τοῦ ἐρᾷν τῶν καλῶν πάντ᾽ ἀγαθὰ γέγονεν καὶ θεοῖς καὶ ἀνθρώποις.",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Muses in music, Hephaestus in metal-work, Athene in weaving and Zeus in pilotage of gods and men.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Hence also those dealings of the gods were contrived by Love—clearly love of beauty—astir in them, for Love has no concern with ugliness;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "though aforetime, as I began by saying, there were many strange doings among the gods, as legend tells, because of the dominion of Necessity.",
+          "mapsTo": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "But since this god arose, the loving of beautiful things has brought all kinds of benefits both to gods and to men.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197c",
+      "page": "197",
+      "order": 125,
+      "greek": "οὕτως ἐμοὶ δοκεῖ, ὦ Φαῖδρε, Ἔρως πρῶτος αὐτὸς ὢν κάλλιστος καὶ ἄριστος μετὰ τοῦτο τοῖς ἄλλοις ἄλλων τοιούτων αἴτιος εἶναι. ἐπέρχεται δέ μοί τι καὶ ἔμμετρον εἰπεῖν, ὅτι οὗτός ἐστιν ὁ ποιῶν ''εἰρήνην μὲν ἐν ἀνθρώποις, πελάγει δὲ γαλήνην'' ''νηνεμίαν, ἀνέμων κοίτην ὕπνον τ᾽ ἐνὶ κήδει.''",
+      "english": "Thus I conceive, Phaedrus, that Love was originally of surpassing beauty and goodness, and is latterly the cause of similar excellences in others. And now I am moved to summon the aid of verse, and tell how it is he who makes— Peace among men, and a windless waveless main; Repose for winds, and slumber in our pain.",
+      "greekPhrases": [
+        {
+          "text": "οὕτως ἐμοὶ δοκεῖ, ὦ Φαῖδρε, Ἔρως πρῶτος αὐτὸς ὢν κάλλιστος καὶ ἄριστος μετὰ τοῦτο τοῖς ἄλλοις ἄλλων τοιούτων αἴτιος εἶναι.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐπέρχεται δέ μοί τι καὶ ἔμμετρον εἰπεῖν, ὅτι οὗτός ἐστιν ὁ ποιῶν ''εἰρήνην μὲν ἐν ἀνθρώποις, πελάγει δὲ γαλήνην'' ''νηνεμίαν, ἀνέμων κοίτην ὕπνον τ᾽ ἐνὶ κήδει.''",
+          "mapsTo": [
+            1,
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Thus I conceive, Phaedrus, that Love was originally of surpassing beauty and goodness, and is latterly the cause of similar excellences in others.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "And now I am moved to summon the aid of verse, and tell how it is he who makes— Peace among men, and a windless waveless main;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Repose for winds, and slumber in our pain.",
+          "mapsTo": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197d",
+      "page": "197",
+      "order": 126,
+      "greek": "οὗτος δὲ ἡμᾶς ἀλλοτριότητος μὲν κενοῖ, οἰκειότητος δὲ πληροῖ, τὰς τοιάσδε ξυνόδους μετ᾽ ἀλλήλων πάσας τιθεὶς ξυνιέναι, ἐν ἑορταῖς, ἐν χοροῖς, ἐν θυσίαις γιγνόμενος ἡγεμών· πρᾳότητα μὲν πορίζων, ἀγριότητα δ᾽ ἐξορίζων· φιλόδωρος εὐμενείας, ἄδωρος δυσμενείας· ἵλεως ἀγαθοῖς· θεατὸς σοφοῖς, ἀγαστὸς θεοῖς· ζηλωτὸς ἀμοίροις, κτητὸς εὐμοίροις· Τρυφῆς, Ἁβρότητος, Χλιδῆς, Χαρίτων, Ἱμέρου, Πόθου πατήρ· ἐπιμελὴς ἀγαθῶν, ἀμελὴς κακῶν· ἐν πόνῳ, ἐν φόβῳ, ἐν πόθῳ, ἐν",
+      "english": "He it is who casts alienation out, draws intimacy in; he brings us together in such friendly gatherings as the present; at feasts and dances and oblations he makes himself our leader; politeness contriving, moroseness outdriving; kind giver of amity, giving no enmity; gracious, superb; a marvel to the wise, a delight to the gods coveted of such as share him not, treasured of such as good share have got; father of luxury, tenderness, elegance, graces and longing and yearning; careful of the good, careless of the bad;",
+      "greekPhrases": [
+        {
+          "text": "οὗτος δὲ ἡμᾶς ἀλλοτριότητος μὲν κενοῖ, οἰκειότητος δὲ πληροῖ, τὰς τοιάσδε ξυνόδους μετ᾽ ἀλλήλων πάσας τιθεὶς ξυνιέναι, ἐν ἑορταῖς, ἐν χοροῖς, ἐν θυσίαις γιγνόμενος ἡγεμών·",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "πρᾳότητα μὲν πορίζων, ἀγριότητα δ᾽ ἐξορίζων·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "φιλόδωρος εὐμενείας, ἄδωρος δυσμενείας· ἵλεως ἀγαθοῖς·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "θεατὸς σοφοῖς, ἀγαστὸς θεοῖς·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ζηλωτὸς ἀμοίροις, κτητὸς εὐμοίροις·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Τρυφῆς, Ἁβρότητος, Χλιδῆς, Χαρίτων, Ἱμέρου, Πόθου πατήρ·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ἐπιμελὴς ἀγαθῶν, ἀμελὴς κακῶν·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ἐν πόνῳ, ἐν φόβῳ, ἐν πόθῳ, ἐν",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "He it is who casts alienation out, draws intimacy in;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "he brings us together in such friendly gatherings as the present;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "at feasts and dances and oblations he makes himself our leader;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "politeness contriving, moroseness outdriving;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "kind giver of amity, giving no enmity; gracious, superb;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "a marvel to the wise, a delight to the gods coveted of such as share him not, treasured of such as good share have got;",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "father of luxury, tenderness, elegance, graces and longing and yearning;",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "careful of the good, careless of the bad;",
+          "mapsTo": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "197e",
+      "page": "197",
+      "order": 127,
+      "greek": "λόγῳ κυβερνήτης, ἐπιβάτης, παραστάτης τε καὶ σωτὴρ ἄριστος, ξυμπάντων τε θεῶν καὶ ἀνθρώπων κόσμος, ἡγεμὼν κάλλιστος καὶ ἄριστος, ᾧ χρὴ ἕπεσθαι πάντα ἄνδρα ἐφυμνοῦντα καλῆς ᾠδῆς μετέχοντα ἣν ᾄδει θέλγων πάντων θεῶν τε καὶ ἀνθρώπων νόημα· οὗτος, ἔφη, ὁ παρ᾽ ἐμοῦ λόγος, ὦ Φαῖδρε, τῷ θεῷ ἀνακείσθω, τὰ μὲν παιδιᾶς, τὰ δὲ σπουδῆς μετρίας, καθ᾽ ὅσον ἐγὼ δύναμαι, μετέχων.",
+      "english": "in toil and fear, in drink and discourse, our trustiest helmsman, boatswain, champion, deliverer; ornament of all gods and men; leader fairest and best, whom every one should follow, joining tunefully in the burthen of his song, wherewith he enchants the thought of every god and man. There, Phaedrus, he said, the speech I would offer at his shrine: I have done my best to mingle amusement with a decent gravity.",
+      "greekPhrases": [
+        {
+          "text": "λόγῳ κυβερνήτης, ἐπιβάτης, παραστάτης τε καὶ σωτὴρ ἄριστος, ξυμπάντων τε θεῶν καὶ ἀνθρώπων κόσμος, ἡγεμὼν κάλλιστος καὶ ἄριστος,",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ᾧ χρὴ ἕπεσθαι πάντα ἄνδρα ἐφυμνοῦντα καλῆς ᾠδῆς μετέχοντα ἣν ᾄδει θέλγων πάντων θεῶν τε καὶ ἀνθρώπων νόημα·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "οὗτος, ἔφη, ὁ παρ᾽ ἐμοῦ λόγος, ὦ Φαῖδρε, τῷ θεῷ ἀνακείσθω, τὰ μὲν παιδιᾶς, τὰ δὲ σπουδῆς μετρίας, καθ᾽ ὅσον ἐγὼ δύναμαι, μετέχων.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "in toil and fear, in drink and discourse, our trustiest helmsman, boatswain, champion, deliverer;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ornament of all gods and men;",
+          "mapsTo": []
+        },
+        {
+          "text": "leader fairest and best, whom every one should follow, joining tunefully in the burthen of his song, wherewith he enchants the thought of every god and man.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "There, Phaedrus, he said, the speech I would offer at his shrine:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "I have done my best to mingle amusement with a decent gravity.",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "198a",
+      "page": "198",
+      "order": 128,
+      "greek": "Εἰπόντος δὲ τοῦ Ἀγάθωνος πάντας ἔφη ὁ Ἀριστόδημος ἀναθορυβῆσαι τοὺς παρόντας, ὡς πρεπόντως τοῦ νεανίσκου εἰρηκότος καὶ αὑτῷ καὶ τῷ θεῷ· τὸν οὖν Σωκράτη εἰπεῖν βλέψαντα εἰς τὸν Ἐρυξίμαχον· Ἆρά σοι δοκῶ, φάναι, ὦ παῖ Ἀκουμενοῦ, ἀδεὲς πάλαι δέος δεδιέναι, ἀλλ᾽ οὐ μαντικῶς , ἃ νῦν δὴ ἔλεγον εἰπεῖν, ὅτι Ἀγάθων θαυμαστῶς ἐροῖ, ἐγὼ δ᾽ ἀπορήσοιμι; Τὸ μὲν ἕτερον, φάναι τὸν Ἐρυξίμαχον, μαντικῶς μοι δοκεῖς εἰρηκέναι, ὅτι Ἀγάθων εὖ ἐρεῖ· τὸ δὲ σὲ ἀπορήσειν, οὐκ οἶμαι.",
+      "english": "At the end of Agathon’s speech, as Aristodemus told me, there was tumultuous applause from all present, at hearing the youngster speak in terms so appropriate to himself and to the god. Then Socrates, with a glance at Eryximachus, said: Son of Acumenus, do you really call it an unfearful fear that has all this while affrighted me, and myself no prophet in saying just now that Agathon would make a marvellous speech, and I be hard put to it? In one part of your statement, that he would speak finely, replied Eryximachus,",
+      "greekPhrases": [
+        {
+          "text": "Εἰπόντος δὲ τοῦ Ἀγάθωνος πάντας ἔφη ὁ Ἀριστόδημος ἀναθορυβῆσαι τοὺς παρόντας, ὡς πρεπόντως τοῦ νεανίσκου εἰρηκότος καὶ αὑτῷ καὶ τῷ θεῷ·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "τὸν οὖν Σωκράτη εἰπεῖν βλέψαντα εἰς τὸν Ἐρυξίμαχον·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Ἆρά σοι δοκῶ, φάναι, ὦ παῖ Ἀκουμενοῦ, ἀδεὲς πάλαι δέος δεδιέναι, ἀλλ᾽ οὐ μαντικῶς , ἃ νῦν δὴ ἔλεγον εἰπεῖν, ὅτι Ἀγάθων θαυμαστῶς ἐροῖ, ἐγὼ δ᾽ ἀπορήσοιμι;",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Τὸ μὲν ἕτερον, φάναι τὸν Ἐρυξίμαχον, μαντικῶς μοι δοκεῖς εἰρηκέναι, ὅτι Ἀγάθων εὖ ἐρεῖ·",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "τὸ δὲ σὲ ἀπορήσειν, οὐκ οἶμαι.",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "At the end of Agathon’s speech, as Aristodemus told me, there was tumultuous applause from all",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "present, at hearing the youngster speak in terms so appropriate to himself and to the god.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Then Socrates, with a glance at Eryximachus, said:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Son of Acumenus, do you really call it an unfearful fear that has all this while affrighted me, and myself",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "no prophet in saying just now that Agathon would make a marvellous speech, and I be hard put to it?",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "In one part of your statement, that he would speak finely, replied Eryximachus,",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "198b",
+      "page": "198",
+      "order": 129,
+      "greek": "Καὶ πῶς, ὦ μακάριε, εἰπεῖν τὸν Σωκράτη, οὐ μέλλω ἀπορεῖν καὶ ἐγὼ καὶ ἄλλος ὁστισοῦν, μέλλων λέξειν μετὰ καλὸν οὕτω καὶ παντοδαπὸν λόγον ῥηθέντα; καὶ τὰ μὲν ἄλλα οὐχ ὁμοίως μὲν θαυμαστά· τὸ δὲ ἐπὶ τελευτῆς τοῦ κάλλους τῶν ὀνομάτων καὶ ῥημάτων τίς οὐκ ἂν ἐξεπλάγη ἀκούων; ἐπεὶ ἔγωγε ἐνθυμούμενος ὅτι αὐτὸς οὐχ οἷός τ᾽ ἔσομαι οὐδ᾽ ἐγγὺς τούτων οὐδὲν καλὸν εἰπεῖν, ὑπ᾽ αἰσχύνης ὀλίγου",
+      "english": "I think you were a true prophet; but as to your being hard put to it, I do not agree. But surely, my good sir, said Socrates, I am bound to be hard put, I or anyone else in the world who should have to speak after such a fine assortment of eloquence. The greater part of it was not so very astounding; but when we drew towards the close, the beauty of the words and phrases could not but take one’s breath away. For myself, indeed, I was so conscious that I should fail to say anything",
+      "greekPhrases": [
+        {
+          "text": "Καὶ πῶς, ὦ μακάριε, εἰπεῖν τὸν Σωκράτη, οὐ μέλλω ἀπορεῖν καὶ ἐγὼ καὶ ἄλλος ὁστισοῦν, μέλλων λέξειν μετὰ καλὸν οὕτω καὶ παντοδαπὸν λόγον ῥηθέντα;",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "καὶ τὰ μὲν ἄλλα οὐχ ὁμοίως μὲν θαυμαστά·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "τὸ δὲ ἐπὶ τελευτῆς τοῦ κάλλους τῶν ὀνομάτων καὶ ῥημάτων τίς οὐκ ἂν ἐξεπλάγη ἀκούων;",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "ἐπεὶ ἔγωγε ἐνθυμούμενος ὅτι αὐτὸς οὐχ οἷός τ᾽ ἔσομαι οὐδ᾽ ἐγγὺς τούτων οὐδὲν καλὸν εἰπεῖν, ὑπ᾽ αἰσχύνης ὀλίγου",
+          "mapsTo": [
+            5,
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "I think you were a true prophet;",
+          "mapsTo": []
+        },
+        {
+          "text": "but as to your being hard put to it, I do not agree.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "But surely, my good sir, said Socrates, I am bound to be hard put, I or",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "anyone else in the world who should have to speak after such a fine assortment of eloquence.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "The greater part of it was not so very astounding;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but when we drew towards the close, the beauty of the words and phrases could not but take one’s breath away.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "For myself, indeed, I was so conscious that I should fail to say anything",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "198c",
+      "page": "198",
+      "order": 130,
+      "greek": "ἀποδρὰς ᾠχόμην, εἴ πῃ εἶχον. καὶ γάρ με Γοργίου ὁ λόγος ἀνεμίμνῃσκεν, ὥστε ἀτεχνῶς τὸ τοῦ Ὁμήρου ἐπεπόνθη· ἐφοβούμην μή μοι τελευτῶν ὁ Ἀγάθων Γοργίου κεφαλὴν δεινοῦ λέγειν ἐν τῷ λόγῳ ἐπὶ τὸν ἐμὸν λόγον πέμψας αὐτόν με λίθον τῇ ἀφωνίᾳ ποιήσειε. καὶ ἐνενόησα τότε ἄρα καταγέλαστος ὤν, ἡνίκα ὑμῖν ὡμολόγουν ἐν τῷ μέρει μεθ᾽",
+      "english": "half as fine, that for very shame I was on the point of slinking away, had I had any chance. For his speech so reminded me of Gorgias that I was exactly in the plight described by Homer: I feared that Agathon in his final phrases would confront me with the eloquent Gorgias’ head, and by opposing his speech to mine would turn me thus dumbfounded into stone. And so in that moment I realized what a ridiculous fool I was to fall in with your proposal that I should take my turn in your eulogies of Love,",
+      "greekPhrases": [
+        {
+          "text": "ἀποδρὰς ᾠχόμην, εἴ πῃ εἶχον.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ γάρ με Γοργίου ὁ λόγος ἀνεμίμνῃσκεν, ὥστε ἀτεχνῶς τὸ τοῦ Ὁμήρου ἐπεπόνθη·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἐφοβούμην μή μοι τελευτῶν ὁ Ἀγάθων Γοργίου κεφαλὴν δεινοῦ λέγειν ἐν τῷ λόγῳ ἐπὶ τὸν ἐμὸν λόγον πέμψας αὐτόν με λίθον τῇ ἀφωνίᾳ ποιήσειε.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "καὶ ἐνενόησα τότε ἄρα καταγέλαστος ὤν, ἡνίκα ὑμῖν ὡμολόγουν ἐν τῷ μέρει μεθ᾽",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "half as fine, that for very shame I was on the point of slinking away, had I had any chance.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "For his speech so reminded me of Gorgias that I was exactly in the plight described by Homer:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I feared that Agathon in his final phrases would confront me with the eloquent Gorgias’",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "head, and by opposing his speech to mine would turn me thus dumbfounded into stone.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "And so in that moment I realized what a ridiculous fool I was to fall",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "in with your proposal that I should take my turn in your eulogies of Love,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "198d",
+      "page": "198",
+      "order": 131,
+      "greek": "ὑμῶν ἐγκωμιάσεσθαι τὸν Ἔρωτα καὶ ἔφην εἶναι δεινὸς τὰ ἐρωτικά, οὐδὲν εἰδὼς ἄρα τοῦ πράγματος, ὡς ἔδει ἐγκωμιάζειν ὁτιοῦν. ἐγὼ μὲν γὰρ ὑπ᾽ ἀβελτερίας ᾤμην δεῖν τἀληθῆ λέγειν περὶ ἑκάστου τοῦ ἐγκωμιαζομένου, καὶ τοῦτο μὲν ὑπάρχειν, ἐξ αὐτῶν δὲ τούτων τὰ κάλλιστα ἐκλεγομένους ὡς εὐπρεπέστατα τιθέναι· καὶ πάνυ δὴ μέγα ἐφρόνουν ὡς εὖ ἐρῶν, ὡς εἰδὼς τὴν ἀλήθειαν τοῦ ἐπαινεῖν ὁτιοῦν. τὸ δὲ ἄρα, ὡς ἔοικεν, οὐ τοῦτο ἦν τὸ καλῶς ἐπαινεῖν ὁτιοῦν, ἀλλὰ τὸ ὡς",
+      "english": "and to call myself an expert in love-matters, when really I was ignorant of the method in which eulogies ought to be made at all. For I was such a silly wretch as to think that one ought in each case to speak the truth about the person eulogized; on this assumption I hoped we might pick out the fairest of the facts and set these forth in their comeliest guise. I was quite elated with the notion of what a fine speech I should make, for I felt that I knew the truth. But now, it appears that this is not what is meant by a good speech of praise;",
+      "greekPhrases": [
+        {
+          "text": "ὑμῶν ἐγκωμιάσεσθαι τὸν Ἔρωτα καὶ ἔφην εἶναι δεινὸς τὰ ἐρωτικά, οὐδὲν εἰδὼς ἄρα τοῦ πράγματος, ὡς ἔδει ἐγκωμιάζειν ὁτιοῦν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐγὼ μὲν γὰρ ὑπ᾽ ἀβελτερίας ᾤμην δεῖν τἀληθῆ λέγειν περὶ ἑκάστου τοῦ ἐγκωμιαζομένου, καὶ τοῦτο μὲν ὑπάρχειν, ἐξ αὐτῶν δὲ τούτων τὰ κάλλιστα ἐκλεγομένους ὡς εὐπρεπέστατα τιθέναι·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "καὶ πάνυ δὴ μέγα ἐφρόνουν ὡς εὖ ἐρῶν, ὡς εἰδὼς τὴν ἀλήθειαν τοῦ ἐπαινεῖν ὁτιοῦν.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "τὸ δὲ ἄρα, ὡς ἔοικεν, οὐ τοῦτο ἦν τὸ καλῶς ἐπαινεῖν ὁτιοῦν, ἀλλὰ τὸ ὡς",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and to call myself an expert in love-matters, when really I was ignorant of the method in which eulogies ought to be made at all.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For I was such a silly wretch as to think that one ought in each case to speak the truth about the person eulogized;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "on this assumption I hoped we might pick out the fairest of the facts and set these forth in their comeliest guise.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I was quite elated with the notion of what a fine speech I should make, for I felt that I knew the truth.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "But now, it appears that this is not what is meant by a good speech of praise;",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "198e",
+      "page": "198",
+      "order": 132,
+      "greek": "μέγιστα ἀνατιθέναι τῷ πράγματι καὶ ὡς κάλλιστα, ἐάν τε ᾖ οὕτως ἔχοντα ἐάν τε μή· εἰ δὲ ψευδῆ, οὐδὲν ἄρ᾽ ἦν πρᾶγμα. προυῤῥήθη γάρ, ὡς ἔοικεν, ὅπως ἕκαστος ἡμῶν τὸν ἔρωτα ἐγκωμιάζειν δόξει, οὐχ ὅπως ἐγκωμιάσεται. διὰ ταῦτα δὴ , οἶμαι , πάντα λόγον κινοῦντες ἀνατίθετε τῷ Ἔρωτι, καί φατε αὐτὸν τοιοῦτόν τε εἶναι καὶ τοσούτων αἴτιον, ὅπως ἂν",
+      "english": "which is rather an ascription of all the highest and fairest qualities, whether the case be so or not; it is really no matter if they are untrue. Our arrangement, it seems, was that each should appear to eulogize Love, not that he should make a real eulogy. Hence it is, sirs, I suppose, that you muster every kind of phrase for your tribute to Love, declaring such and such to be his character and influence, in order to present him",
+      "greekPhrases": [
+        {
+          "text": "μέγιστα ἀνατιθέναι τῷ πράγματι καὶ ὡς κάλλιστα, ἐάν τε ᾖ οὕτως ἔχοντα ἐάν τε μή·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἰ δὲ ψευδῆ, οὐδὲν ἄρ᾽ ἦν πρᾶγμα.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "προυῤῥήθη γάρ, ὡς ἔοικεν, ὅπως ἕκαστος ἡμῶν τὸν ἔρωτα ἐγκωμιάζειν δόξει, οὐχ ὅπως ἐγκωμιάσεται.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "διὰ ταῦτα δὴ , οἶμαι , πάντα λόγον κινοῦντες ἀνατίθετε τῷ Ἔρωτι, καί φατε αὐτὸν τοιοῦτόν τε εἶναι καὶ τοσούτων αἴτιον, ὅπως ἂν",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "which is rather an ascription of all the highest and fairest qualities, whether the case be so or not;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "it is really no matter if they are untrue.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Our arrangement, it seems, was that each should appear to eulogize Love, not that he should make a real eulogy.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Hence it is, sirs, I suppose, that you muster every kind of phrase for your tribute",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "to Love, declaring such and such to be his character and influence, in order to present him",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "199a",
+      "page": "199",
+      "order": 133,
+      "greek": "φαίνηται ὡς κάλλιστος καὶ ἄριστος, δῆλον ὅτι τοῖς μὴ γιγνώσκουσιν· οὐ γὰρ που τοῖς γε εἰδόσιν· καὶ καλῶς γ᾽ ἔχει καὶ σεμνῶς ὁ ἔπαινος. ἀλλὰ γὰρ ἐγὼ οὐκ ᾔδη τὸν τρόπον τοῦ ἐπαίνου, οὐδ᾽ εἰδὼς ὑμῖν ὡμολόγησα καὶ αὐτὸς ἐν τῷ μέρει ἐπαινέσεσθαι. “ ἡ γλῶσσα οὖν ὑπέσχετο, ἡ δὲ φρὴν οὔ „ · χαιρέτω δή. οὐ γὰρ ἔτι ἐγκωμιάζω τοῦτον τὸν τρόπον· οὐ γὰρ ἂν δυναίμην· οὐ μέντοι ἀλλὰ τά γε ἀληθῆ,",
+      "english": "in the best and fairest light; successfully, of course, before those who do not know him, though it must be otherwise before those who do; your praise has such a fine impressive air! No, I find I was quite mistaken as to the method required; it was in ignorance that I agreed to take my turn in the round of praising. The tongue, you see, undertook, the mind did not; so good-bye to my bond. I am not to be called upon now as an eulogist in your sense; for such I cannot be.",
+      "greekPhrases": [
+        {
+          "text": "φαίνηται ὡς κάλλιστος καὶ ἄριστος, δῆλον ὅτι τοῖς μὴ γιγνώσκουσιν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οὐ γὰρ που τοῖς γε εἰδόσιν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ καλῶς γ᾽ ἔχει καὶ σεμνῶς ὁ ἔπαινος.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀλλὰ γὰρ ἐγὼ οὐκ ᾔδη τὸν τρόπον τοῦ ἐπαίνου, οὐδ᾽ εἰδὼς ὑμῖν ὡμολόγησα καὶ αὐτὸς ἐν τῷ μέρει ἐπαινέσεσθαι.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "“ ἡ γλῶσσα οὖν ὑπέσχετο, ἡ δὲ φρὴν οὔ „ · χαιρέτω δή.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἔτι ἐγκωμιάζω τοῦτον τὸν τρόπον·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἂν δυναίμην·",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "οὐ μέντοι ἀλλὰ τά γε ἀληθῆ,",
+          "mapsTo": [
+            8
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "in the best and fairest light;",
+          "mapsTo": []
+        },
+        {
+          "text": "successfully, of course, before those who do not know him, though it must be otherwise before those who do;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "your praise has such a fine impressive air!",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "No, I find I was quite mistaken as to the method required;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "it was in ignorance that I agreed to take my turn in the round of praising.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "The tongue, you see, undertook, the mind did not;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "so good-bye to my bond.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "I am not to be called upon now as an eulogist in your sense;",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "for such I cannot be.",
+          "mapsTo": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "199b",
+      "page": "199",
+      "order": 134,
+      "greek": "εἰ βούλεσθε, ἐθέλω εἰπεῖν κατ᾽ ἐμαυτόν, οὐ πρὸς τοὺς ὑμετέρους λόγους, ἵνα μὴ γέλωτα ὄφλω. ὅρα οὖν, ὦ Φαῖδρε, εἴ τι καὶ τοιούτου λόγου δέῃ, περὶ Ἔρωτος τἀληθῆ λεγόμενα ἀκούειν, ὀνομάσει δὲ καὶ θέσει ῥημάτων τοιαύτῃ ὁποία δὴ ἄν τις τύχῃ ἐπελθοῦσα. τὸν οὖν Φαῖδρον ἔφη καὶ τοὺς ἄλλους κελεύειν λέγειν, ὅπῃ αὐτὸς οἴοιτο δεῖν εἰπεῖν, ταύτῃ. Ἔτι τοίνυν, φάναι, ὦ Φαῖδρε, πάρες μοι Ἀγάθωνα σμίκρ᾽ ἄττα ἐρέσθαι, ἵνα ἀνομολογησάμενος παρ᾽ αὐτοῦ οὕτως ἤδη λέγω.",
+      "english": "Nevertheless I am ready, if you like, to speak the mere truth in my own way; not to rival your discourses, and so be your laughing-stock. Decide then, Phaedrus, whether you have any need of such a speech besides, and would like to hear the truth told about Love in whatsoever style of terms and phrases may chance to occur by the way. So Phaedrus and the others bade him speak, just in any manner he himself should think fit. Then allow me further, Phaedrus, to put some little questions to Agathon, so as to secure his agreement before I begin my speech.",
+      "greekPhrases": [
+        {
+          "text": "εἰ βούλεσθε, ἐθέλω εἰπεῖν κατ᾽ ἐμαυτόν, οὐ πρὸς τοὺς ὑμετέρους λόγους, ἵνα μὴ γέλωτα ὄφλω.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ὅρα οὖν, ὦ Φαῖδρε, εἴ τι καὶ τοιούτου λόγου δέῃ, περὶ Ἔρωτος τἀληθῆ λεγόμενα ἀκούειν, ὀνομάσει δὲ καὶ θέσει ῥημάτων τοιαύτῃ ὁποία δὴ ἄν τις τύχῃ ἐπελθοῦσα.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "τὸν οὖν Φαῖδρον ἔφη καὶ τοὺς ἄλλους κελεύειν λέγειν, ὅπῃ αὐτὸς οἴοιτο δεῖν εἰπεῖν, ταύτῃ.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Ἔτι τοίνυν, φάναι, ὦ Φαῖδρε, πάρες μοι Ἀγάθωνα σμίκρ᾽ ἄττα ἐρέσθαι, ἵνα ἀνομολογησάμενος παρ᾽ αὐτοῦ οὕτως ἤδη λέγω.",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Nevertheless I am ready, if you like, to speak the mere truth in my own way;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "not to rival your discourses, and so be your laughing-stock.",
+          "mapsTo": []
+        },
+        {
+          "text": "Decide then, Phaedrus, whether you have any need of such a speech besides, and would like to hear",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "the truth told about Love in whatsoever style of terms and phrases may chance to occur by the way.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "So Phaedrus and the others bade him speak, just in any manner he himself should think fit.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Then allow me further, Phaedrus, to put some little questions to Agathon, so as to secure his agreement before I begin my speech.",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "199c",
+      "page": "199",
+      "order": 135,
+      "greek": "Ἀλλὰ παρίημι, φάναι τὸν Φαῖδρον, ἀλλ᾽ ἐρώτα. μετὰ ταῦτα δὴ τὸν Σωκράτη ἔφη ἐνθένδε ποθὲν ἄρξασθαι. Καὶ μήν, ὦ φίλε Ἀγάθων, καλῶς μοι ἔδοξας καθηγήσασθαι τοῦ λόγου, λέγων ὅτι πρῶτον μὲν δέοι αὐτὸν ἐπιδεῖξαι ὁποῖός τίς ἐστιν ὁ Ἔρως, ὕστερον δὲ τὰ ἔργα αὐτοῦ , ταύτην τὴν ἀρχὴν πάνυ ἄγαμαι. ἴθι οὖν μοι περὶ Ἔρωτος, ἐπειδὴ καὶ τἆλλα καλῶς καὶ μεγαλοπρεπῶς διῆλθες οἷός ἐστι, καὶ",
+      "english": "You have my leave, said Phaedrus; so ask him. After that, my friend told me, Socrates started off in this sort of way: I must say, my dear Agathon, you gave your speech an excellent introduction, by stating that your duty was first to display the character of Love, and then to treat of his acts. Those opening words I thoroughly admire. So come now, complete your beautiful and magnificent description of Love,",
+      "greekPhrases": [
+        {
+          "text": "Ἀλλὰ παρίημι, φάναι τὸν Φαῖδρον, ἀλλ᾽ ἐρώτα.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "μετὰ ταῦτα δὴ τὸν Σωκράτη ἔφη ἐνθένδε ποθὲν ἄρξασθαι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Καὶ μήν, ὦ φίλε Ἀγάθων, καλῶς μοι ἔδοξας καθηγήσασθαι τοῦ λόγου, λέγων ὅτι πρῶτον μὲν δέοι αὐτὸν",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐπιδεῖξαι ὁποῖός τίς ἐστιν ὁ Ἔρως, ὕστερον δὲ τὰ ἔργα αὐτοῦ , ταύτην τὴν ἀρχὴν πάνυ ἄγαμαι.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἴθι οὖν μοι περὶ Ἔρωτος, ἐπειδὴ καὶ τἆλλα καλῶς καὶ μεγαλοπρεπῶς διῆλθες οἷός ἐστι, καὶ",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "You have my leave, said Phaedrus; so ask him.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "After that, my friend told me, Socrates started off in this sort of way:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I must say, my dear Agathon, you gave your speech an excellent introduction, by stating that",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "your duty was first to display the character of Love, and then to treat of his acts.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Those opening words I thoroughly admire.",
+          "mapsTo": []
+        },
+        {
+          "text": "So come now, complete your beautiful and magnificent description of Love,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "199d",
+      "page": "199",
+      "order": 136,
+      "greek": "τόδε εἰπέ· πότερόν ἐστι τοιοῦτος οἷος εἶναι τινὸς ὁ Ἔρως ἔρως, ἢ οὐδενός; ἐρωτῶ δ᾽ οὐκ εἰ μητρός τινος ἢ πατρός ἐστιν — γελοῖον γὰρ ἂν εἴη τὸ ἐρώτημα , εἰ Ἔρως ἐστὶν ἔρως μητρὸς ἢ πατρός — ἀλλ᾽ ὥσπερ ἂν εἰ αὐτὸ τοῦτο πατέρα ἠρώτων, ἆρα ὁ πατήρ ἐστι πατήρ τινος ἢ οὔ; εἶπες ἂν δή πού μοι, εἰ ἐβούλου καλῶς ἀποκρίνασθαι, ὅτι ἔστιν ὑέος γε ἢ θυγατρὸς ὁ πατὴρ πατήρ· ἢ οὔ; Πάνυ γε, φάναι τὸν Ἀγάθωνα. Οὐκοῦν καὶ ἡ μήτηρ ὡσαύτως; Ὁμολογεῖσθαι καὶ τοῦτο.",
+      "english": "and tell me this: Are we so to view his character as to take Love to be love of some object, or of none? My question is not whether he is love of a mother or a father—how absurd it would be to ask whether Love is love of mother or father —but as though I were asking about our notion of father, whether one’s father is a father of somebody or not. Surely you would say, if you cared to give the proper answer, that the father is father of son or of daughter, would you not? Yes, of course, said Agathon. And you would say the same of the mother? He agreed to this too.",
+      "greekPhrases": [
+        {
+          "text": "τόδε εἰπέ· πότερόν ἐστι τοιοῦτος οἷος εἶναι τινὸς ὁ Ἔρως ἔρως, ἢ οὐδενός;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐρωτῶ δ᾽ οὐκ εἰ μητρός τινος ἢ πατρός ἐστιν — γελοῖον γὰρ ἂν εἴη τὸ ἐρώτημα , εἰ Ἔρως ἐστὶν",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἔρως μητρὸς ἢ πατρός — ἀλλ᾽ ὥσπερ ἂν εἰ αὐτὸ τοῦτο πατέρα ἠρώτων, ἆρα ὁ πατήρ ἐστι πατήρ τινος ἢ οὔ;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "εἶπες ἂν δή πού μοι, εἰ ἐβούλου καλῶς ἀποκρίνασθαι, ὅτι ἔστιν ὑέος γε ἢ θυγατρὸς ὁ πατὴρ πατήρ· ἢ οὔ;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Πάνυ γε, φάναι τὸν Ἀγάθωνα.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Οὐκοῦν καὶ ἡ μήτηρ ὡσαύτως; Ὁμολογεῖσθαι καὶ τοῦτο.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and tell me this:",
+          "mapsTo": []
+        },
+        {
+          "text": "Are we so to view his character as to take Love to be love of some object, or of none?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "My question is not whether he is love of a mother or a father—how absurd it would be to ask whether Love is love",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "of mother or father —but as though I were asking about our notion of father, whether one’s father is a father of somebody or not.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Surely you would say, if you cared to give the proper answer, that the father is father of son or of daughter, would you not?",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Yes, of course, said Agathon.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "And you would say the same of the mother?",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "He agreed to this too.",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "199e",
+      "page": "199",
+      "order": 137,
+      "greek": "Ἔτι τοίνυν, εἰπεῖν τὸν Σωκράτη, ἀπόκριναι ὀλίγῳ πλείω, ἵνα μᾶλλον καταμάθῃς ὃ βούλομαι. εἰ γὰρ ἐροίμην, τί δέ; ἀδελφός, αὐτὸ τοῦθ᾽ ὅπερ ἔστιν, ἔστι τινὸς ἀδελφὸς ἢ οὔ; Φάναι εἶναι. Οὐκοῦν ἀδελφοῦ ἢ ἀδελφῆς; Ὁμολογεῖν. Πειρῶ δή, φάναι, καὶ τὸν ἔρωτα εἰπεῖν. ὁ Ἔρως ἔρως ἐστὶν οὐδενὸς ἢ τινός; Πάνυ μὲν οὖν ἔστιν.",
+      "english": "Then will you give me just a few more answers, said Socrates, so that you may the better grasp my meaning? Suppose I were to ask you, Well now, a brother, viewed in the abstract, is he brother of somebody or not? He is, said Agathon. That is, of brother or of sister? He agreed. Now try and tell me about Love: is he a love of nothing or of something?",
+      "greekPhrases": [
+        {
+          "text": "Ἔτι τοίνυν, εἰπεῖν τὸν Σωκράτη, ἀπόκριναι ὀλίγῳ πλείω, ἵνα μᾶλλον καταμάθῃς ὃ βούλομαι.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἰ γὰρ ἐροίμην, τί δέ;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἀδελφός, αὐτὸ τοῦθ᾽ ὅπερ ἔστιν, ἔστι τινὸς ἀδελφὸς ἢ οὔ; Φάναι εἶναι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Οὐκοῦν ἀδελφοῦ ἢ ἀδελφῆς; Ὁμολογεῖν.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Πειρῶ δή, φάναι, καὶ τὸν ἔρωτα εἰπεῖν.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ὁ Ἔρως ἔρως ἐστὶν οὐδενὸς ἢ τινός;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Πάνυ μὲν οὖν ἔστιν.",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Then will you give me just a few more answers, said Socrates, so that you may the better grasp my meaning?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Suppose I were to ask you, Well now, a brother, viewed in the abstract, is he brother of somebody or not?",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "He is, said Agathon.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "That is, of brother or of sister? He agreed.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Now try and tell me about Love:",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "is he a love of nothing or of something?",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "200a",
+      "page": "200",
+      "order": 138,
+      "greek": "Τοῦτο μὲν τοίνυν, εἰπεῖν τὸν Σωκράτη, φύλαξον παρὰ σαυτῷ μεμνημένος ὅτου· τοσόνδε δὲ εἰπέ, πότερον ὁ Ἔρως ἐκείνου οὗ ἔστιν ἔρως, ἐπιθυμεῖ αὐτοῦ ἢ οὔ; Πάνυ γε, φάναι. Πότερον ἔχων αὐτὸ οὗ ἐπιθυμεῖ τε καὶ ἐρᾷ, εἶτα ἐπιθυμεῖ τε καὶ ἐρᾷ, ἢ οὐκ ἔχων; Οὐκ ἔχων, ὡς τὸ εἰκός γε, φάναι. Σκόπει δή, εἰπεῖν τὸν Σωκράτη, ἀντὶ τοῦ εἰκότος εἰ ἀνάγκη οὕτως, τὸ ἐπιθυμοῦν ἐπιθυμεῖν οὗ ἐνδεές ἐστιν, ἢ μὴ",
+      "english": "Of something, to be sure. Now then, said Socrates, keep carefully in mind what is the object of Love, and only tell me whether he desires the particular thing that is his object. Yes, to be sure, he replied. Has he or has he not the object of his desire and love when he desires and loves it? He does not have it, most likely, he said. Not as a likelihood, said Socrates, but as a necessity,",
+      "greekPhrases": [
+        {
+          "text": "Τοῦτο μὲν τοίνυν, εἰπεῖν τὸν Σωκράτη, φύλαξον παρὰ σαυτῷ μεμνημένος ὅτου·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τοσόνδε δὲ εἰπέ, πότερον ὁ Ἔρως ἐκείνου οὗ ἔστιν ἔρως, ἐπιθυμεῖ αὐτοῦ ἢ οὔ; Πάνυ γε, φάναι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Πότερον ἔχων αὐτὸ οὗ ἐπιθυμεῖ τε καὶ ἐρᾷ, εἶτα ἐπιθυμεῖ τε καὶ ἐρᾷ, ἢ οὐκ ἔχων;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Οὐκ ἔχων, ὡς τὸ εἰκός γε, φάναι.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Σκόπει δή, εἰπεῖν τὸν Σωκράτη, ἀντὶ τοῦ εἰκότος εἰ ἀνάγκη οὕτως, τὸ ἐπιθυμοῦν ἐπιθυμεῖν οὗ ἐνδεές ἐστιν, ἢ μὴ",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Of something, to be sure.",
+          "mapsTo": []
+        },
+        {
+          "text": "Now then, said Socrates, keep carefully in mind what is the object of Love, and only tell me whether he desires the particular thing that is his object.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Yes, to be sure, he replied.",
+          "mapsTo": []
+        },
+        {
+          "text": "Has he or has he not the object of his desire and love when he desires and loves it?",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "He does not have it, most likely, he said.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Not as a likelihood, said Socrates, but as a necessity,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "200b",
+      "page": "200",
+      "order": 139,
+      "greek": "ἐπιθυμεῖν, ἐὰν μὴ ἐνδεὲς ᾖ . ἐμοὶ μὲν γὰρ θαυμαστῶς δοκεῖ, ὦ Ἀγάθων, ὡς ἀνάγκη εἶναι· σοὶ δὲ πῶς; Κἀμοί, φάναι, δοκεῖ. Καλῶς λέγεις. ἆρ᾽ οὖν βούλοιτ᾽ ἄν τις μέγας ὢν μέγας εἶναι, ἢ ἰσχυρὸς ὢν ἰσχυρός; Ἀδύνατον ἐκ τῶν ὡμολογημένων. Οὐ γάρ που ἐνδεὴς ἂν εἴη τούτων ὅ γε ὤν. Ἀληθῆ λέγεις. Εἰ γὰρ καὶ ἰσχυρὸς ὢν βούλοιτο ἰσχυρὸς εἶναι, φάναι τὸν Σωκράτη, καὶ ταχὺς ὢν ταχύς, καὶ ὑγιὴς ὢν ὑγιής — ἴσως γὰρ ἄν τις ταῦτα οἰηθείη καὶ πάντα τὰ τοιαῦτα , τοὺς ὄντας",
+      "english": "consider if the desiring subject must have desire for something it lacks, and again, no desire if it has no lack. I at least, Agathon, am perfectly sure it is a necessity. How does it strike you? I am sure of it also, said he. Very good. Now could a tall man wish to be tall, or a strong man to be strong? By what has been admitted, this is impossible. Since, I suppose, the man in each case would not be lacking the quality mentioned. True. For if, being strong, he should wish to be strong, said Socrates, or being swift, to be swift, or being healthy, to be healthy,—since we are apt to suppose in these",
+      "greekPhrases": [
+        {
+          "text": "ἐπιθυμεῖν, ἐὰν μὴ ἐνδεὲς ᾖ .",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐμοὶ μὲν γὰρ θαυμαστῶς δοκεῖ, ὦ Ἀγάθων, ὡς ἀνάγκη εἶναι· σοὶ δὲ πῶς; Κἀμοί, φάναι, δοκεῖ. Καλῶς λέγεις.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἆρ᾽ οὖν βούλοιτ᾽ ἄν τις μέγας ὢν μέγας εἶναι, ἢ ἰσχυρὸς ὢν ἰσχυρός;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ἀδύνατον ἐκ τῶν ὡμολογημένων.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Οὐ γάρ που ἐνδεὴς ἂν εἴη τούτων ὅ γε ὤν. Ἀληθῆ λέγεις.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Εἰ γὰρ καὶ ἰσχυρὸς ὢν βούλοιτο ἰσχυρὸς εἶναι, φάναι τὸν Σωκράτη, καὶ ταχὺς ὢν ταχύς, καὶ",
+          "mapsTo": [
+            6,
+            7
+          ]
+        },
+        {
+          "text": "ὑγιὴς ὢν ὑγιής — ἴσως γὰρ ἄν τις ταῦτα οἰηθείη καὶ πάντα τὰ τοιαῦτα , τοὺς ὄντας",
+          "mapsTo": [
+            8
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "consider if the desiring subject must have desire for something it lacks, and again, no desire if it has no lack.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "I at least, Agathon, am perfectly sure it is a necessity.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "How does it strike you?",
+          "mapsTo": []
+        },
+        {
+          "text": "I am sure of it also, said he. Very good.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Now could a tall man wish to be tall, or a strong man to be strong?",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "By what has been admitted, this is impossible.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Since, I suppose, the man in each case would not be lacking the quality mentioned. True.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "For if, being strong, he should wish to be strong, said Socrates, or being swift,",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "to be swift, or being healthy, to be healthy,—since we are apt to suppose in these",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "200c",
+      "page": "200",
+      "order": 140,
+      "greek": "τε τοιούτους καὶ ἔχοντας ταῦτα τούτων ἅπερ ἔχουσι καὶ ἐπιθυμεῖν, ἵν᾽ οὖν μὴ ἐξαπατηθῶμεν, τούτου ἕνεκα λέγω· τούτοις γάρ, ὦ Ἀγάθων, εἰ ἐννοεῖς, ἔχειν μὲν ἕκαστα τούτων ἐν τῷ παρόντι ἀνάγκη ἃ ἔχουσιν, ἐάν τε βούλωνται ἐάν τε μή, καὶ τούτου γε δή που τίς ἂν ἐπιθυμήσειεν; ἀλλ᾽ ὅταν τις λέγῃ ὅτι ἐγὼ ὑγιαίνων βούλομαι καὶ ὑγιαίνειν, καὶ πλουτῶν βούλομαι καὶ πλουτεῖν, καὶ ἐπιθυμῶ αὐτῶν τούτων ἃ ἔχω, εἴποιμεν ἂν αὐτῷ ὅτι σύ, ὦ ἄνθρωπε,",
+      "english": "and all such cases that men of this or that sort, possessing these qualities, do also desire what they have already: I put this in, to prevent any misconception; these men, Agathon, if you consider, are bound to have at the very moment each thing that they have whether they wish it or not; and how, I ask, is a man going to desire that? No, when a person says, I being healthy, want to be healthy; being rich, I want to be rich; I desire the very things that I have —we shall tell him,",
+      "greekPhrases": [
+        {
+          "text": "τε τοιούτους καὶ ἔχοντας ταῦτα τούτων ἅπερ ἔχουσι καὶ ἐπιθυμεῖν, ἵν᾽ οὖν μὴ ἐξαπατηθῶμεν, τούτου ἕνεκα λέγω·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τούτοις γάρ, ὦ Ἀγάθων, εἰ ἐννοεῖς, ἔχειν μὲν ἕκαστα τούτων ἐν τῷ παρόντι ἀνάγκη ἃ",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἔχουσιν, ἐάν τε βούλωνται ἐάν τε μή, καὶ τούτου γε δή που τίς ἂν ἐπιθυμήσειεν;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ὅταν τις λέγῃ ὅτι ἐγὼ ὑγιαίνων βούλομαι καὶ ὑγιαίνειν, καὶ πλουτῶν βούλομαι καὶ πλουτεῖν, καὶ ἐπιθυμῶ αὐτῶν τούτων ἃ ἔχω, εἴποιμεν ἂν αὐτῷ ὅτι σύ, ὦ ἄνθρωπε,",
+          "mapsTo": [
+            4,
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and all such cases that men of this or that sort, possessing these qualities, do also desire what they have already:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "I put this in, to prevent any misconception;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "these men, Agathon, if you consider, are bound to have at the very moment each thing that they have whether they wish it or not;",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "and how, I ask, is a man going to desire that?",
+          "mapsTo": []
+        },
+        {
+          "text": "No, when a person says, I being healthy, want to be healthy;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "being rich, I want to be rich;",
+          "mapsTo": []
+        },
+        {
+          "text": "I desire the very things that I have —we shall tell him,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "200d",
+      "page": "200",
+      "order": 141,
+      "greek": "πλοῦτον κεκτημένος καὶ ὑγίειαν καὶ ἰσχὺν βούλει καὶ εἰς τὸν ἔπειτα χρόνον ταῦτα κεκτῆσθαι, ἐπεὶ ἐν τῷ γε νῦν παρόντι, εἴτε βούλει εἴτε μή, ἔχεις· σκόπει οὖν, ὅταν τοῦτο λέγῃς, ὅτι ἐπιθυμῶ τῶν παρόντων, εἰ ἄλλο τι λέγεις ἢ τόδε, ὅτι βούλομαι τὰ νῦν παρόντα καὶ εἰς τὸν ἔπειτα χρόνον παρεῖναι· ἄλλο τι ὁμολογοῖ ἄν; Συμφάναι ἔφη τὸν Ἀγάθωνα. εἰπεῖν δὴ τὸν Σωκράτη, Οὐκοῦν τοῦτό γ᾽ ἐστὶν ἐκείνου ἐρᾶν, ὃ οὔπω ἕτοιμον αὐτῷ ἐστιν οὐδὲ ἔχει, τὸ εἰς τὸν ἔπειτα χρόνον ταῦτα εἶναι αὐτῷ σῳζόμενα καὶ παρόντα;",
+      "english": "My good sir, riches you possess, and health and strength, which you would like to possess in the future also: for the time now present you have them whether you would or no. When you say, I desire these present things, we suggest you are merely saying I wish these things now present to be present also in the future. Would he not admit our point? To this Agathon assented. And so, continued Socrates, a man may be said to love a thing not yet provided or possessed, when he would have the presence of certain things secured to him for ever in the future. Certainly, he said.",
+      "greekPhrases": [
+        {
+          "text": "πλοῦτον κεκτημένος καὶ ὑγίειαν καὶ ἰσχὺν βούλει καὶ εἰς τὸν ἔπειτα χρόνον ταῦτα κεκτῆσθαι, ἐπεὶ ἐν τῷ γε νῦν παρόντι, εἴτε βούλει εἴτε μή, ἔχεις·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "σκόπει οὖν, ὅταν τοῦτο λέγῃς, ὅτι ἐπιθυμῶ τῶν παρόντων, εἰ ἄλλο τι λέγεις ἢ τόδε, ὅτι βούλομαι τὰ νῦν παρόντα καὶ εἰς τὸν ἔπειτα χρόνον παρεῖναι·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἄλλο τι ὁμολογοῖ ἄν;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Συμφάναι ἔφη τὸν Ἀγάθωνα.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "εἰπεῖν δὴ τὸν Σωκράτη, Οὐκοῦν τοῦτό γ᾽ ἐστὶν ἐκείνου ἐρᾶν, ὃ οὔπω ἕτοιμον αὐτῷ ἐστιν οὐδὲ ἔχει, τὸ εἰς τὸν ἔπειτα χρόνον ταῦτα εἶναι αὐτῷ σῳζόμενα καὶ παρόντα;",
+          "mapsTo": [
+            5,
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "My good sir, riches you possess, and health and strength, which you would like to possess in the future also:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for the time now present you have them whether you would or no.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "When you say, I desire these present things, we suggest you are merely saying I wish these things now present to be present also in the future.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Would he not admit our point?",
+          "mapsTo": []
+        },
+        {
+          "text": "To this Agathon assented.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "And so, continued Socrates, a man may be said to love a thing not yet provided or",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "possessed, when he would have the presence of certain things secured to him for ever in the future. Certainly, he said.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "200e",
+      "page": "200",
+      "order": 142,
+      "greek": "Πάνυ γε, φάναι. Καὶ οὗτος ἄρα καὶ ἄλλος πᾶς ὁ ἐπιθυμῶν τοῦ μὴ ἑτοίμου ἐπιθυμεῖ καὶ τοῦ μὴ παρόντος, καὶ ὃ μὴ ἔχει καὶ ὃ μὴ ἔστιν αὐτὸς καὶ οὗ ἐνδεής ἐστι, τοιαῦτ᾽ ἄττα ἐστὶν ὧν ἡ ἐπιθυμία τε καὶ ὁ ἔρως ἐστίν; Πάνυ γ᾽, εἰπεῖν. Ἴθι δή, φάναι τὸν Σωκράτη, ἀνομολογησώμεθα τὰ εἰρημένα. ἄλλο τι ἔστιν ὁ Ἔρως ἢ πρῶτον μὲν τινῶν, ἔπειτα τούτων ὧν ἂν ἔνδεια παρῇ αὐτῷ;",
+      "english": "Then such a person, and in general all who feel desire, feel it for what is not provided or present; for something they have not or are not or lack and that sort of thing is the object of desire and love? Assuredly, he said. Now then, said Socrates, let us agree to what we have so far concluded. First, is not Love directed to certain things of which, in the second place, he has a want? Yes, he said.",
+      "greekPhrases": [
+        {
+          "text": "Πάνυ γε, φάναι. Καὶ οὗτος ἄρα καὶ ἄλλος πᾶς ὁ ἐπιθυμῶν τοῦ μὴ ἑτοίμου ἐπιθυμεῖ καὶ τοῦ μὴ παρόντος, καὶ ὃ μὴ ἔχει",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ ὃ μὴ ἔστιν αὐτὸς καὶ οὗ ἐνδεής ἐστι, τοιαῦτ᾽ ἄττα ἐστὶν ὧν ἡ ἐπιθυμία τε καὶ ὁ ἔρως ἐστίν; Πάνυ γ᾽, εἰπεῖν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ἴθι δή, φάναι τὸν Σωκράτη, ἀνομολογησώμεθα τὰ εἰρημένα.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἄλλο τι ἔστιν ὁ Ἔρως ἢ πρῶτον μὲν τινῶν, ἔπειτα τούτων ὧν ἂν ἔνδεια παρῇ αὐτῷ;",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Then such a person, and in general all who feel desire, feel it for what is not provided or present;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for something they have not or are not or lack and that sort of thing is the object of desire and love? Assuredly, he said.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Now then, said Socrates, let us agree to what we have so far concluded.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "First, is not Love directed to certain things of which, in the second place, he has a want? Yes, he said.",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "201a",
+      "page": "201",
+      "order": 143,
+      "greek": "Ναί, φάναι. Ἐπὶ δὴ τούτοις ἀναμνήσθητι τίνων ἔφησθα ἐν τῷ λόγῳ εἶναι τὸν Ἔρωτα· εἰ δὲ βούλει, ἐγώ σε ἀναμνήσω. οἶμαι γάρ σε οὑτωσί πως εἰπεῖν, ὅτι τοῖς θεοῖς κατεσκευάσθη τὰ πράγματα δι᾽ ἔρωτα καλῶν· αἰσχρῶν γὰρ οὐκ εἴη ἔρως. οὐχ οὑτωσί πως ἔλεγες; Εἶπον γάρ, φάναι τὸν Ἀγάθωνα. Καὶ ἐπιεικῶς γε λέγεις, ὦ ἑταῖρε, φάναι τὸν Σωκράτη· καὶ εἰ τοῦτο οὕτως ἔχει, ἄλλο τι ὁ Ἔρως κάλλους ἂν εἴη ἔρως, αἴσχους δὲ οὔ; Ὡμολόγει.",
+      "english": "Then, granting this, recollect what things you named in our discussion as the objects of Love: if you like, I will remind you. What you said, I believe, was to the effect that the gods contrived the world from a love of beautiful things, for of ugly there was no love. Did you not say something of the sort? Yes, I did, said Agathon. And quite properly, my friend, said Socrates; then, such being the case, must not Love be only love of beauty, and not of ugliness? He assented.",
+      "greekPhrases": [
+        {
+          "text": "Ναί, φάναι. Ἐπὶ δὴ τούτοις ἀναμνήσθητι τίνων ἔφησθα ἐν τῷ λόγῳ εἶναι τὸν Ἔρωτα·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἰ δὲ βούλει, ἐγώ σε ἀναμνήσω.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οἶμαι γάρ σε οὑτωσί πως εἰπεῖν, ὅτι τοῖς θεοῖς κατεσκευάσθη τὰ πράγματα δι᾽ ἔρωτα καλῶν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "αἰσχρῶν γὰρ οὐκ εἴη ἔρως.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "οὐχ οὑτωσί πως ἔλεγες;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Εἶπον γάρ, φάναι τὸν Ἀγάθωνα.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Καὶ ἐπιεικῶς γε λέγεις, ὦ ἑταῖρε, φάναι τὸν Σωκράτη·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "καὶ εἰ τοῦτο οὕτως ἔχει, ἄλλο τι ὁ Ἔρως κάλλους ἂν εἴη ἔρως, αἴσχους δὲ οὔ; Ὡμολόγει.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Then, granting this, recollect what things you named in our discussion as the objects of Love:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "if you like, I will remind you.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "What you said, I believe, was to the effect that the gods contrived the world from a love of beautiful things, for of ugly there was no love.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Did you not say something of the sort?",
+          "mapsTo": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Yes, I did, said Agathon.",
+          "mapsTo": []
+        },
+        {
+          "text": "And quite properly, my friend, said Socrates;",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "then, such being the case, must not Love be only love of beauty, and not of ugliness? He assented.",
+          "mapsTo": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "201b",
+      "page": "201",
+      "order": 144,
+      "greek": "Οὐκοῦν ὡμολόγηται, οὗ ἐνδεής ἐστι καὶ μὴ ἔχει, τούτου ἐρᾷν; Ναί, εἰπεῖν. Ἐνδεὴς ἄρ᾽ ἐστὶ καὶ οὐκ ἔχει ὁ Ἔρως κάλλος. Ἀνάγκη, φάναι. Τί δέ; τὸ ἐνδεὲς κάλλους καὶ μηδαμῇ κεκτημένον κάλλος ἆρα λέγεις σὺ καλὸν εἶναι; Οὐ δῆτα. Ἔτι οὖν ὁμολογεῖς Ἔρωτα καλὸν εἶναι, εἰ ταῦτα οὕτως ἔχει; καὶ τὸν Ἀγάθωνα εἰπεῖν . Κινδυνεύω, ὦ Σώκρατες, οὐδὲν εἰδέναι ὧν τότε εἶπον.",
+      "english": "Well then, we have agreed that he loves what he lacks and has not? Yes, he replied. And what Love lacks and has not is beauty? That needs must be, he said. Well now, will you say that what lacks beauty, and in no wise possesses it, is beautiful? Surely not. So can you still allow Love to be beautiful, if this is the case? Whereupon Agathon said, I greatly fear, Socrates, I knew nothing of what I was talking about.",
+      "greekPhrases": [
+        {
+          "text": "Οὐκοῦν ὡμολόγηται, οὗ ἐνδεής ἐστι καὶ μὴ ἔχει, τούτου ἐρᾷν; Ναί, εἰπεῖν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Ἐνδεὴς ἄρ᾽ ἐστὶ καὶ οὐκ ἔχει ὁ Ἔρως κάλλος. Ἀνάγκη, φάναι. Τί δέ;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τὸ ἐνδεὲς κάλλους καὶ μηδαμῇ κεκτημένον κάλλος ἆρα λέγεις σὺ καλὸν εἶναι; Οὐ δῆτα.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ἔτι οὖν ὁμολογεῖς Ἔρωτα καλὸν εἶναι, εἰ ταῦτα οὕτως ἔχει;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "καὶ τὸν Ἀγάθωνα εἰπεῖν .",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Κινδυνεύω, ὦ Σώκρατες, οὐδὲν εἰδέναι ὧν τότε εἶπον.",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Well then, we have agreed that he loves what he lacks and has not? Yes, he replied.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "And what Love lacks and has not is beauty?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "That needs must be, he said.",
+          "mapsTo": []
+        },
+        {
+          "text": "Well now, will you say that what lacks beauty, and in no wise possesses it, is beautiful? Surely not.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So can you still allow Love to be beautiful, if this is the case?",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Whereupon Agathon said, I greatly fear, Socrates, I knew nothing of what I was talking about.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "201c",
+      "page": "201",
+      "order": 145,
+      "greek": "Καὶ μὴν καλῶς γε εἶπες, φάναι, ὦ Ἀγάθων. ἀλλὰ σμικρὸν ἔτι εἰπέ· τἀγαθὰ οὐ καὶ καλὰ δοκεῖ σοι εἶναι; Ἔμοιγε. Εἰ ἄρα ὁ Ἔρως τῶν καλῶν ἐνδεής ἐστι, τὰ δὲ ἀγαθὰ καλά, κἂν τῶν ἀγαθῶν ἐνδεὴς εἴη. Ἐγώ, φάναι, ὦ Σώκρατες, σοὶ οὐκ ἂν δυναίμην ἀντιλέγειν, ἀλλ᾽ οὕτως ἐχέτω ὡς σὺ λέγεις. Οὐ μὲν οὖν τῇ ἀληθείᾳ, φάναι, ὦ φιλούμενε Ἀγάθων, δύνασαι ἀντιλέγειν, ἐπεὶ Σωκράτει γε οὐδὲν χαλεπόν.",
+      "english": "Ah, your words were beautiful enough, Agathon; but pray give me one or two more: you hold, do you not, that good things are beautiful? I do. Then if Love lacks beautiful things, and good things are beautiful, he must lack good things too. I see no means, Socrates, of contradicting you, he replied; let it be as you say. No, it is Truth, my lovable Agathon,",
+      "greekPhrases": [
+        {
+          "text": "Καὶ μὴν καλῶς γε εἶπες, φάναι, ὦ Ἀγάθων.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀλλὰ σμικρὸν ἔτι εἰπέ·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τἀγαθὰ οὐ καὶ καλὰ δοκεῖ σοι εἶναι; Ἔμοιγε.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Εἰ ἄρα ὁ Ἔρως τῶν καλῶν ἐνδεής ἐστι, τὰ δὲ ἀγαθὰ καλά, κἂν τῶν ἀγαθῶν ἐνδεὴς εἴη.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Ἐγώ, φάναι, ὦ Σώκρατες, σοὶ οὐκ ἂν δυναίμην ἀντιλέγειν, ἀλλ᾽ οὕτως ἐχέτω ὡς σὺ λέγεις.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Οὐ μὲν οὖν τῇ ἀληθείᾳ, φάναι, ὦ φιλούμενε Ἀγάθων, δύνασαι ἀντιλέγειν, ἐπεὶ Σωκράτει γε οὐδὲν χαλεπόν.",
+          "mapsTo": [
+            4,
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Ah, your words were beautiful enough, Agathon;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "but pray give me one or two more:",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "you hold, do you not, that good things are beautiful? I do.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Then if Love lacks beautiful things, and good things are beautiful, he must lack good things too.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "I see no means, Socrates, of contradicting you, he replied;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "let it be as you say.",
+          "mapsTo": []
+        },
+        {
+          "text": "No, it is Truth, my lovable Agathon,",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "201d",
+      "page": "201",
+      "order": 146,
+      "greek": "Καὶ σὲ μέν γε ἤδη ἐάσω· τὸν δὲ λόγον τὸν περὶ τοῦ Ἔρωτος, ὅν ποτ᾽ ἤκουσα γυναικὸς Μαντινικῆς Διοτίμας, ἣ ταῦτά τε σοφὴ ἦν καὶ ἄλλα πολλά , καὶ Ἀθηναίοις ποτὲ θυσαμένοις πρὸ τοῦ λοιμοῦ δέκα ἔτη ἀναβολὴν ἐποίησε τῆς νόσου, ἣ δὴ καὶ ἐμὲ τὰ ἐρωτικὰ ἐδίδαξεν ,— ὃν οὖν ἐκείνη ἔλεγε λόγον, πειράσομαι ὑμῖν διελθεῖν ἐκ τῶν ὡμολογημένων ἐμοὶ καὶ Ἀγάθωνι, αὐτὸς ἀπ᾽ ἐμαυτοῦ, ὅπως ἂν δύνωμαι. δεῖ δή, ὦ Ἀγάθων, ὥσπερ σὺ διηγήσω, διελθεῖν",
+      "english": "whom you cannot contradict: Socrates you easily may. And now I shall let you alone, and proceed with the discourse upon Love which I heard one day from a Mantinean woman named Diotima: in this subject she was skilled, and in many others too; for once, by bidding the Athenians offer sacrifices ten years before the plague, she procured them so much delay in the advent of the sickness. Well, I also had my lesson from her in love-matters; so now I will try and follow up the points on which Agathon and I have just agreed by narrating to you all on my own account, as well as I am able, the speech she delivered to me. So first, Agathon, I must unfold,",
+      "greekPhrases": [
+        {
+          "text": "Καὶ σὲ μέν γε ἤδη ἐάσω·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τὸν δὲ λόγον τὸν περὶ τοῦ Ἔρωτος, ὅν ποτ᾽ ἤκουσα γυναικὸς Μαντινικῆς Διοτίμας, ἣ ταῦτά τε σοφὴ ἦν καὶ ἄλλα πολλά , καὶ Ἀθηναίοις ποτὲ θυσαμένοις πρὸ τοῦ λοιμοῦ δέκα ἔτη",
+          "mapsTo": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "text": "ἀναβολὴν ἐποίησε τῆς νόσου, ἣ δὴ καὶ ἐμὲ τὰ ἐρωτικὰ ἐδίδαξεν ,— ὃν οὖν ἐκείνη ἔλεγε λόγον, πειράσομαι ὑμῖν διελθεῖν ἐκ τῶν ὡμολογημένων ἐμοὶ καὶ Ἀγάθωνι, αὐτὸς ἀπ᾽ ἐμαυτοῦ, ὅπως ἂν δύνωμαι.",
+          "mapsTo": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "text": "δεῖ δή, ὦ Ἀγάθων, ὥσπερ σὺ διηγήσω, διελθεῖν",
+          "mapsTo": [
+            8
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "whom you cannot contradict:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Socrates you easily may.",
+          "mapsTo": []
+        },
+        {
+          "text": "And now I shall let you alone, and proceed with the discourse upon Love which I heard one day from a Mantinean woman named Diotima:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "in this subject she was skilled, and in many others too;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "for once, by bidding the Athenians offer sacrifices ten years before the plague, she procured them so much delay in the advent of the sickness.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Well, I also had my lesson from her in love-matters;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "so now I will try and follow up the points on which Agathon and I have just agreed by",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "narrating to you all on my own account, as well as I am able, the speech she delivered to me.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So first, Agathon, I must unfold,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "201e",
+      "page": "201",
+      "order": 147,
+      "greek": "αὐτὸν πρῶτον, τίς ἐστιν ὁ Ἔρως καὶ ποῖός τις, ἔπειτα τὰ ἔργα αὐτοῦ. δοκεῖ οὖν μοι ῥᾷστον εἶναι οὕτω διελθεῖν, ὥς ποτέ με ἡ ξένη ἀνακρίνουσα διῄει. σχεδὸν γάρ τι καὶ ἐγὼ πρὸς αὐτὴν ἕτερα τοιαῦτα ἔλεγον οἷάπερ νῦν πρὸς ἐμὲ Ἀγάθων, ὡς εἴη ὁ Ἔρως μέγας θεός, εἴη δὲ τῶν καλῶν· ἤλεγχε δή με τούτοις τοῖς λόγοις οἷσπερ ἐγὼ τοῦτον, ὡς οὔτε καλὸς εἴη κατὰ τὸν ἐμὸν λόγον οὔτε ἀγαθός. καὶ ἐγώ, Πῶς λέγεις, ἔφην, ὦ Διοτίμα; αἰσχρὸς ἄρα ὁ Ἔρως ἐστὶ καὶ κακός; καὶ ἥ, Οὐκ εὐφημήσεις; ἔφη· ἢ οἴει, ὅτι ἂν μὴ καλὸν ᾖ, ἀναγκαῖον αὐτὸ εἶναι αἰσχρόν;",
+      "english": "in your manner of exposition, who and what sort of being is Love, and then I shall tell of his works. The readiest way, I think, will be to give my description that form of question and answer which the stranger woman used for hers that day. For I spoke to her in much the same terms as Agathon addressed just now to me, saying Love was a great god, and was of beautiful things; and she refuted me with the very arguments I have brought against our young friend, showing that by my account that god was neither beautiful nor good. How do you mean, Diotima? said I; is Love then ugly and bad? Peace, for shame! she replied: or do you imagine that whatever is not beautiful must needs be ugly?",
+      "greekPhrases": [
+        {
+          "text": "αὐτὸν πρῶτον, τίς ἐστιν ὁ Ἔρως καὶ ποῖός τις, ἔπειτα τὰ ἔργα αὐτοῦ.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "δοκεῖ οὖν μοι ῥᾷστον εἶναι οὕτω διελθεῖν, ὥς ποτέ με ἡ ξένη ἀνακρίνουσα διῄει.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "σχεδὸν γάρ τι καὶ ἐγὼ πρὸς αὐτὴν ἕτερα τοιαῦτα ἔλεγον οἷάπερ νῦν πρὸς ἐμὲ Ἀγάθων, ὡς εἴη ὁ Ἔρως μέγας θεός, εἴη δὲ τῶν καλῶν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἤλεγχε δή με τούτοις τοῖς λόγοις οἷσπερ ἐγὼ τοῦτον, ὡς οὔτε καλὸς εἴη κατὰ τὸν ἐμὸν λόγον οὔτε ἀγαθός.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ ἐγώ, Πῶς λέγεις, ἔφην, ὦ Διοτίμα;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "αἰσχρὸς ἄρα ὁ Ἔρως ἐστὶ καὶ κακός;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "καὶ ἥ, Οὐκ εὐφημήσεις; ἔφη·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἢ οἴει, ὅτι ἂν μὴ καλὸν ᾖ, ἀναγκαῖον αὐτὸ εἶναι αἰσχρόν;",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "in your manner of exposition, who and what sort of being is Love, and then I shall tell of his works.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "The readiest way, I think, will be to give my description that form of question and answer which the stranger woman used for hers that day.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "For I spoke to her in much the same terms as Agathon addressed just now to me, saying Love was a great god, and was of beautiful things;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and she refuted me with the very arguments I have brought against our young friend, showing that by my account that god was neither beautiful nor good.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "How do you mean, Diotima? said I;",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "is Love then ugly and bad? Peace, for shame! she replied:",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "or do you imagine that whatever is not beautiful must needs be ugly?",
+          "mapsTo": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "202a",
+      "page": "202",
+      "order": 148,
+      "greek": "Μάλιστά γε. Ἦ καὶ ἂν μὴ σοφόν, ἀμαθές; ἢ οὐκ ᾔσθησαι ὅτι ἔστιν τι μεταξὺ σοφίας καὶ ἀμαθίας; Τί τοῦτο; Τὸ ὀρθὰ δοξάζειν καὶ ἄνευ τοῦ ἔχειν λόγον δοῦναι οὐκ οἶσθ᾽, ἔφη, ὅτι οὔτε ἐπίστασθαί ἐστιν ( ἄλογον γὰρ πρᾶγμα πῶς ἂν εἴη ἐπιστήμη; ) οὔτε ἀμαθία ( τὸ γὰρ τοῦ ὄντος τυγχάνον πῶς ἂν εἴη ἀμαθία;) ἔστι δὲ δή που τοιοῦτον ἡ ὀρθὴ δόξα, μεταξὺ φρονήσεως καὶ ἀμαθίας. Ἀληθῆ, ἦν δ᾽ ἐγώ, λέγεις.",
+      "english": "To be sure I do. And what is not skilled, ignorant? Have you not observed that there is something halfway between skill and ignorance? What is that? You know, of course, that to have correct opinion, if you can give no reason for it, is neither full knowledge—how can an unreasoned thing be knowledge?—nor yet ignorance; for what hits on the truth cannot be ignorance. So correct opinion, I take it, is just in that position, between understanding and ignorance. Quite true, I said.",
+      "greekPhrases": [
+        {
+          "text": "Μάλιστά γε. Ἦ καὶ ἂν μὴ σοφόν, ἀμαθές;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἢ οὐκ ᾔσθησαι ὅτι ἔστιν τι μεταξὺ σοφίας καὶ ἀμαθίας; Τί τοῦτο;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Τὸ ὀρθὰ δοξάζειν καὶ ἄνευ τοῦ ἔχειν λόγον δοῦναι οὐκ οἶσθ᾽, ἔφη, ὅτι οὔτε ἐπίστασθαί ἐστιν ( ἄλογον γὰρ πρᾶγμα πῶς ἂν εἴη ἐπιστήμη;",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": ") οὔτε ἀμαθία ( τὸ γὰρ τοῦ ὄντος τυγχάνον πῶς ἂν εἴη ἀμαθία;) ἔστι δὲ δή που τοιοῦτον ἡ ὀρθὴ δόξα, μεταξὺ φρονήσεως καὶ ἀμαθίας.",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "Ἀληθῆ, ἦν δ᾽ ἐγώ, λέγεις.",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "To be sure I do.",
+          "mapsTo": []
+        },
+        {
+          "text": "And what is not skilled, ignorant?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Have you not observed that there is something halfway between skill and ignorance? What is that?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "You know, of course, that to have correct opinion, if you can give no",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "reason for it, is neither full knowledge—how can an unreasoned thing be knowledge?—nor yet ignorance;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for what hits on the truth cannot be ignorance.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "So correct opinion, I take it, is just in that position, between understanding and ignorance.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Quite true, I said.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "202b",
+      "page": "202",
+      "order": 149,
+      "greek": "Μὴ τοίνυν ἀνάγκαζε ὃ μὴ καλόν ἐστιν αἰσχρὸν εἶναι, μηδὲ ὃ μὴ ἀγαθόν, κακόν. οὕτω δὲ καὶ τὸν Ἔρωτα ἐπειδὴ αὐτὸς ὁμολογεῖς μὴ εἶναι ἀγαθὸν μηδὲ καλόν, μηδέν τι μᾶλλον οἴου δεῖν αὐτὸν αἰσχρὸν καὶ κακὸν εἶναι, ἀλλά τι μεταξύ, ἔφη, τούτοιν. Καὶ μήν, ἦν δ᾽ ἐγώ, ὁμολογεῖταί γε παρὰ πάντων μέγας θεὸς εἶναι; Τῶν μὴ εἰδότων, ἔφη, πάντων λέγεις, ἢ καὶ τῶν εἰδότων; Ξυμπάντων μὲν οὖν. καὶ ἣ γελάσασα· Καὶ πῶς ἄν, ἔφη, ὦ Σώκρατες,",
+      "english": "Then do not compel what is not beautiful to be ugly, she said, or what is not good to be bad. Likewise of Love, when you find yourself admitting that he is not good nor beautiful, do not therefore suppose he must be ugly and bad, but something betwixt the two. And what of the notion, I asked, to which every one agrees, that he is a great god? Every one? People who do not know, she rejoined, or those who know also? I mean everybody in the world.",
+      "greekPhrases": [
+        {
+          "text": "Μὴ τοίνυν ἀνάγκαζε ὃ μὴ καλόν ἐστιν αἰσχρὸν εἶναι, μηδὲ ὃ μὴ ἀγαθόν, κακόν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὕτω δὲ καὶ τὸν Ἔρωτα ἐπειδὴ αὐτὸς ὁμολογεῖς μὴ εἶναι ἀγαθὸν μηδὲ καλόν, μηδέν τι μᾶλλον οἴου δεῖν αὐτὸν αἰσχρὸν καὶ κακὸν εἶναι, ἀλλά τι μεταξύ, ἔφη, τούτοιν.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Καὶ μήν, ἦν δ᾽ ἐγώ, ὁμολογεῖταί γε παρὰ πάντων μέγας θεὸς εἶναι;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Τῶν μὴ εἰδότων, ἔφη, πάντων λέγεις, ἢ καὶ τῶν εἰδότων; Ξυμπάντων μὲν οὖν. καὶ ἣ γελάσασα·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Καὶ πῶς ἄν, ἔφη, ὦ Σώκρατες,",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Then do not compel what is not beautiful to be ugly, she said, or what is not good to be bad.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Likewise of Love, when you find yourself admitting that he is not good nor beautiful,",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "do not therefore suppose he must be ugly and bad, but something betwixt the two.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "And what of the notion, I asked, to which every one agrees, that he is a great god? Every one?",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "People who do not know, she rejoined, or those who know also?",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "I mean everybody in the world.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "202c",
+      "page": "202",
+      "order": 150,
+      "greek": "ὁμολογοῖτο μέγας θεὸς εἶναι παρὰ τούτων, οἵ φασιν αὐτὸν οὐδὲ θεὸν εἶναι; Τίνες οὗτοι; ἦν δ᾽ ἐγώ. Εἷς μέν, ἔφη, σύ, μία δ᾽ ἐγώ. κἀγὼ εἶπον· Πῶς τοῦτο, ἔφην, λέγεις; καὶ ἥ, Ῥᾳδίως, ἔφη. λέγε γάρ μοι, οὐ πάντας θεοὺς φῂς εὐδαίμονας εἶναι καὶ καλούς; ἢ τολμήσαις ἄν τινα μὴ φάναι καλόν τε καὶ εὐδαίμονα θεῶν εἶναι; Μὰ Δί᾽ οὐκ ἔγωγ᾽, ἔφην. Εὐδαίμονας δὲ δὴ λέγεις οὐ τοὺς τἀγαθὰ καὶ τὰ καλὰ κεκτημένους; Πάνυ γε.",
+      "english": "At this she laughed and said, But how, Socrates, can those agree that he is a great god who say he is no god at all? What persons are they? I asked. You are one, she replied, and I am another. How do you make that out? I said. Easily, said she; tell me, do you not say that all gods are happy and beautiful? Or will you dare to deny that any god is beautiful and happy? Bless me! I exclaimed, not I. And do you not call those happy who possess good and beautiful things?",
+      "greekPhrases": [
+        {
+          "text": "ὁμολογοῖτο μέγας θεὸς εἶναι παρὰ τούτων, οἵ φασιν αὐτὸν οὐδὲ θεὸν εἶναι; Τίνες οὗτοι; ἦν δ᾽ ἐγώ.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Εἷς μέν, ἔφη, σύ, μία δ᾽ ἐγώ. κἀγὼ εἶπον·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Πῶς τοῦτο, ἔφην, λέγεις;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ ἥ, Ῥᾳδίως, ἔφη.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "λέγε γάρ μοι, οὐ πάντας θεοὺς φῂς εὐδαίμονας εἶναι καὶ καλούς;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἢ τολμήσαις ἄν τινα μὴ φάναι καλόν τε καὶ εὐδαίμονα θεῶν εἶναι;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Μὰ Δί᾽ οὐκ ἔγωγ᾽, ἔφην.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "Εὐδαίμονας δὲ δὴ λέγεις οὐ τοὺς τἀγαθὰ καὶ τὰ καλὰ κεκτημένους; Πάνυ γε.",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "At this she laughed and said, But how, Socrates, can those agree that he is a great god who say he is no god at all?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "What persons are they? I asked.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "You are one, she replied, and I am another.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "How do you make that out? I said. Easily, said she;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "tell me, do you not say that all gods are happy and beautiful?",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Or will you dare to deny that any god is beautiful and happy? Bless me!",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "I exclaimed, not I.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "And do you not call those happy who possess good and beautiful things?",
+          "mapsTo": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "202d",
+      "page": "202",
+      "order": 151,
+      "greek": "Ἀλλὰ μὴν Ἔρωτά γε ὡμολόγηκας δι᾽ ἔνδειαν τῶν ἀγαθῶν καὶ καλῶν ἐπιθυμεῖν αὐτῶν τούτων ὧν ἐνδεής ἐστιν. Ὡμολόγηκα γάρ. Πῶς ἂν οὖν θεὸς εἴη ὅ γε τῶν καλῶν καὶ ἀγαθῶν ἄμοιρος; Οὐδαμῶς, ὥς γ᾽ ἔοικεν. Ὁρᾷς οὖν, ἔφη, ὅτι καὶ σὺ ἔρωτα οὐ θεὸν νομίζεις; Τί οὖν ἄν, ἔφην, εἴη ὁ Ἔρως; θνητός; Ἥκιστά γε. Ἀλλὰ τί μήν; Ὥσπερ τὰ πρότερα, ἔφη, μεταξὺ θνητοῦ καὶ ἀθανάτου. Τί οὖν, ὦ Διοτίμα; Δαίμων μέγας, ὦ Σώκρατες· καὶ γὰρ πᾶν τὸ δαιμόνιον",
+      "english": "Certainly I do. But you have admitted that Love, from lack of good and beautiful things, desires these very things that he lacks. Yes, I have. How then can he be a god, if he is devoid of things beautiful and good? By no means, it appears. So you see, she said, you are a person who does not consider Love to be a god. What then, I asked, can Love be? A mortal? Anything but that.",
+      "greekPhrases": [
+        {
+          "text": "Ἀλλὰ μὴν Ἔρωτά γε ὡμολόγηκας δι᾽ ἔνδειαν τῶν ἀγαθῶν καὶ καλῶν ἐπιθυμεῖν αὐτῶν τούτων ὧν ἐνδεής ἐστιν. Ὡμολόγηκα γάρ.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Πῶς ἂν οὖν θεὸς εἴη ὅ γε τῶν καλῶν καὶ ἀγαθῶν ἄμοιρος;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Οὐδαμῶς, ὥς γ᾽ ἔοικεν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ὁρᾷς οὖν, ἔφη, ὅτι καὶ σὺ ἔρωτα οὐ θεὸν νομίζεις;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Τί οὖν ἄν, ἔφην, εἴη ὁ Ἔρως; θνητός; Ἥκιστά γε. Ἀλλὰ τί μήν;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ὥσπερ τὰ πρότερα, ἔφη, μεταξὺ θνητοῦ καὶ ἀθανάτου.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Τί οὖν, ὦ Διοτίμα;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Δαίμων μέγας, ὦ Σώκρατες·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "καὶ γὰρ πᾶν τὸ δαιμόνιον",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Certainly I do. But you have admitted that Love, from lack of good and beautiful things, desires these very things that he lacks. Yes, I have.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "How then can he be a god, if he is devoid of things beautiful and good?",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "By no means, it appears.",
+          "mapsTo": []
+        },
+        {
+          "text": "So you see, she said, you are a person who does not consider Love to be a god.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "What then, I asked, can Love be? A mortal? Anything but that.",
+          "mapsTo": [
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "202e",
+      "page": "202",
+      "order": 152,
+      "greek": "μεταξύ ἐστι θεοῦ τε καὶ θνητοῦ. Τίνα, ἦν δ᾽ ἐγώ, δύναμιν ἔχον; Ἑρμηνεῦον καὶ διαπορθμεῦον θεοῖς τὰ παρ᾽ ἀνθρώπων καὶ ἀνθρώποις τὰ παρὰ θεῶν, τῶν μὲν τὰς δεήσεις καὶ θυσίας, τῶν δὲ τὰς ἐπιτάξεις τε καὶ ἀμοιβὰς τῶν θυσιῶν, ἐν μέσῳ δὲ ὂν ἀμφοτέρων συμπληροῖ, ὥστε τὸ πᾶν αὐτὸ αὑτῷ ξυνδεδέσθαι. διὰ τούτου καὶ ἡ μαντικὴ πᾶσα χωρεῖ καὶ ἡ τῶν ἱερέων τέχνη τῶν τε περὶ τὰς θυσίας καὶ τελετὰς",
+      "english": "Well what? As I previously suggested, between a mortal and an immortal. And what is that, Diotima? A great spirit, Socrates: for the whole of the spiritual is between divine and mortal. Possessing what power? I asked. Interpreting and transporting human things to the gods and divine things to men; entreaties and sacrifices from below, and ordinances and requitals from above: being midway between, it makes each to supplement the other, so that the whole is combined in one. Through it are conveyed all divination and priestcraft concerning sacrifice and ritual",
+      "greekPhrases": [
+        {
+          "text": "μεταξύ ἐστι θεοῦ τε καὶ θνητοῦ.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Τίνα, ἦν δ᾽ ἐγώ, δύναμιν ἔχον;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ἑρμηνεῦον καὶ διαπορθμεῦον θεοῖς τὰ παρ᾽ ἀνθρώπων καὶ ἀνθρώποις τὰ παρὰ θεῶν, τῶν μὲν τὰς δεήσεις καὶ θυσίας, τῶν",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "δὲ τὰς ἐπιτάξεις τε καὶ ἀμοιβὰς τῶν θυσιῶν, ἐν μέσῳ δὲ ὂν ἀμφοτέρων συμπληροῖ, ὥστε τὸ πᾶν αὐτὸ αὑτῷ ξυνδεδέσθαι.",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "διὰ τούτου καὶ ἡ μαντικὴ πᾶσα χωρεῖ καὶ ἡ τῶν ἱερέων τέχνη τῶν τε περὶ τὰς θυσίας καὶ τελετὰς",
+          "mapsTo": [
+            6,
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Well what? As I previously suggested, between a mortal and an immortal.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "And what is that, Diotima?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "A great spirit, Socrates:",
+          "mapsTo": []
+        },
+        {
+          "text": "for the whole of the spiritual is between divine and mortal. Possessing what power? I asked.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Interpreting and transporting human things to the gods and divine things to men;",
+          "mapsTo": []
+        },
+        {
+          "text": "entreaties and sacrifices from below, and ordinances and requitals from above:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "being midway between, it makes each to supplement the other, so that the whole is combined in one.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Through it are conveyed all divination and priestcraft concerning sacrifice and ritual",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "203a",
+      "page": "203",
+      "order": 153,
+      "greek": "καὶ τὰς ἐπῳδὰς καὶ τὴν μαντείαν πᾶσαν καὶ γοητείαν. θεὸς δὲ ἀνθρώπῳ οὐ μίγνυται, ἀλλὰ διὰ τούτου πᾶσά ἐστιν ἡ ὁμιλία καὶ ἡ διάλεκτος θεοῖς πρὸς ἀνθρώπους, καὶ ἐγρηγορόσι καὶ καθεύδουσι· καὶ ὁ μὲν περὶ τὰ τοιαῦτα σοφὸς δαιμόνιος ἀνήρ, ὁ δὲ ἄλλο τι σοφὸς ὢν ἢ περὶ τέχνας ἢ χειρουργίας τινὰς βάναυσος. οὗτοι δὴ οἱ δαίμονες πολλοὶ καὶ παντοδαποί εἰσιν, εἷς δὲ τούτων ἐστὶ καὶ ὁ Ἔρως. Πατρὸς δέ, ἦν δ᾽ ἐγώ, τίνος ἐστὶ καὶ μητρός;",
+      "english": "and incantations, and all soothsaying and sorcery. God with man does not mingle: but the spiritual is the means of all society and converse of men with gods and of gods with men, whether waking or asleep. Whosoever has skill in these affairs is a spiritual man to have it in other matters, as in common arts and crafts, is for the mechanical. Many and multifarious are these spirits, and one of them is Love. From what father and mother sprung? I asked.",
+      "greekPhrases": [
+        {
+          "text": "καὶ τὰς ἐπῳδὰς καὶ τὴν μαντείαν πᾶσαν καὶ γοητείαν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "θεὸς δὲ ἀνθρώπῳ οὐ μίγνυται, ἀλλὰ διὰ τούτου πᾶσά ἐστιν ἡ ὁμιλία καὶ ἡ διάλεκτος θεοῖς πρὸς ἀνθρώπους, καὶ ἐγρηγορόσι καὶ καθεύδουσι·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ ὁ μὲν περὶ τὰ τοιαῦτα σοφὸς δαιμόνιος ἀνήρ, ὁ δὲ ἄλλο τι σοφὸς ὢν ἢ περὶ τέχνας ἢ χειρουργίας τινὰς βάναυσος.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "οὗτοι δὴ οἱ δαίμονες πολλοὶ καὶ παντοδαποί εἰσιν, εἷς δὲ τούτων ἐστὶ καὶ ὁ Ἔρως.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Πατρὸς δέ, ἦν δ᾽ ἐγώ, τίνος ἐστὶ καὶ μητρός;",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and incantations, and all soothsaying and sorcery.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "God with man does not mingle:",
+          "mapsTo": []
+        },
+        {
+          "text": "but the spiritual is the means of all society and converse of men with gods and of gods with men, whether waking or asleep.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Whosoever has skill in these affairs is a spiritual man to have it in other matters, as in common arts and crafts, is for the mechanical.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Many and multifarious are these spirits, and one of them is Love.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "From what father and mother sprung? I asked.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "203b",
+      "page": "203",
+      "order": 154,
+      "greek": "Μακρότερον μέν, ἔφη, διηγήσασθαι· ὅμως δέ σοι ἐρῶ. ὅτε γὰρ ἐγένετο ἡ Ἀφροδίτη, εἱστιῶντο οἱ θεοὶ οἵ τε ἄλλοι καὶ ὁ τῆς Μήτιδος ὑὸς Πόρος. ἐπειδὴ δὲ ἐδείπνησαν, προσαιτήσουσα οἷον δὴ εὐωχίας οὔσης ἀφίκετο ἡ Πενία, καὶ ἦν περὶ τὰς θύρας. ὁ οὖν Πόρος μεθυσθεὶς τοῦ νέκταρος , οἶνος γὰρ οὔπω ἦν , εἰς τὸν τοῦ Διὸς κῆπον εἰσελθὼν βεβαρημένος ηὗδεν. ἡ οὖν Πενία ἐπιβουλεύουσα διὰ τὴν αὑτῆς ἀπορίαν παιδίον ποιήσασθαι ἐκ τοῦ Πόρου, κατακλίνεταί",
+      "english": "That is rather a long story, she replied; but still, I will tell it you. When Aphrodite was born, the gods made a great feast, and among the company was Resource the son of Cunning. And when they had banqueted there came Poverty abegging, as well she might in an hour of good cheer, and hung about the door. Now Resource, grown tipsy with nectar—for wine as yet there was none—went into the garden of Zeus, and there, overcome with heaviness, slept. Then Poverty, being of herself so resourceless, devised the scheme of having a child by Resource,",
+      "greekPhrases": [
+        {
+          "text": "Μακρότερον μέν, ἔφη, διηγήσασθαι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ὅμως δέ σοι ἐρῶ.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ὅτε γὰρ ἐγένετο ἡ Ἀφροδίτη, εἱστιῶντο οἱ θεοὶ οἵ τε ἄλλοι καὶ ὁ τῆς Μήτιδος ὑὸς Πόρος.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐπειδὴ δὲ ἐδείπνησαν, προσαιτήσουσα οἷον δὴ εὐωχίας οὔσης ἀφίκετο ἡ Πενία, καὶ ἦν περὶ τὰς θύρας.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ὁ οὖν Πόρος μεθυσθεὶς τοῦ νέκταρος , οἶνος γὰρ οὔπω ἦν , εἰς τὸν τοῦ Διὸς κῆπον εἰσελθὼν βεβαρημένος ηὗδεν.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἡ οὖν Πενία ἐπιβουλεύουσα διὰ τὴν αὑτῆς ἀπορίαν παιδίον ποιήσασθαι ἐκ τοῦ Πόρου, κατακλίνεταί",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "That is rather a long story, she replied;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "but still, I will tell it you.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "When Aphrodite was born, the gods made a great feast, and among the company was Resource the son of Cunning.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "And when they had banqueted there came Poverty abegging, as well she might in an hour of good cheer, and hung about the door.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Now Resource, grown tipsy with nectar—for wine as yet there was none—went into the garden of Zeus, and there, overcome with heaviness, slept.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Then Poverty, being of herself so resourceless, devised the scheme of having a child by Resource,",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "203c",
+      "page": "203",
+      "order": 155,
+      "greek": "τε παρ᾽ αὐτῷ καὶ ἐκύησε τὸν ἔρωτα. διὸ δὴ καὶ τῆς Ἀφροδίτης ἀκόλουθος καὶ θεράπων γέγονεν ὁ Ἔρως, γεννηθεὶς ἐν τοῖς ἐκείνης γενεθλίοις, καὶ ἅμα φύσει ἐραστὴς ὢν περὶ τὸ καλὸν καὶ τῆς Ἀφροδίτης καλῆς οὔσης. ἅτε οὖν Πόρου καὶ Πενίας ὑὸς ὢν ὁ Ἔρως ἐν τοιαύτῃ τύχῃ καθέστηκεν. πρῶτον μὲν πένης ἀεί ἐστι, καὶ πολλοῦ δεῖ ἁπαλός τε καὶ καλός, οἷον οἱ πολλοὶ οἴονται, ἀλλὰ σκληρὸς",
+      "english": "and lying down by his side she conceived Love. Hence it is that Love from the beginning has been attendant and minister to Aphrodite, since he was begotten on the day of her birth, and is, moreover, by nature a lover bent on beauty since Aphrodite is beautiful. Now, as the son of Resource and Poverty, Love is in a peculiar case. First, he is ever poor, and far from tender or beautiful as most suppose him:",
+      "greekPhrases": [
+        {
+          "text": "τε παρ᾽ αὐτῷ καὶ ἐκύησε τὸν ἔρωτα.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "διὸ δὴ καὶ τῆς Ἀφροδίτης ἀκόλουθος καὶ θεράπων γέγονεν ὁ Ἔρως, γεννηθεὶς ἐν τοῖς",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐκείνης γενεθλίοις, καὶ ἅμα φύσει ἐραστὴς ὢν περὶ τὸ καλὸν καὶ τῆς Ἀφροδίτης καλῆς οὔσης.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἅτε οὖν Πόρου καὶ Πενίας ὑὸς ὢν ὁ Ἔρως ἐν τοιαύτῃ τύχῃ καθέστηκεν.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "πρῶτον μὲν πένης ἀεί ἐστι, καὶ πολλοῦ δεῖ ἁπαλός τε καὶ καλός, οἷον οἱ πολλοὶ οἴονται, ἀλλὰ σκληρὸς",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and lying down by his side she conceived Love.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Hence it is that Love from the beginning has been attendant and minister to Aphrodite, since he was begotten",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "on the day of her birth, and is, moreover, by nature a lover bent on beauty since Aphrodite is beautiful.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Now, as the son of Resource and Poverty, Love is in a peculiar case.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "First, he is ever poor, and far from tender or beautiful as most suppose him:",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "203d",
+      "page": "203",
+      "order": 156,
+      "greek": "καὶ αὐχμηρὸς καὶ ἀνυπόδητος καὶ ἄοικος, χαμαιπετὴς ἀεὶ ὢν καὶ ἄστρωτος, ἐπὶ θύραις καὶ ἐν ὁδοῖς ὑπαίθριος κοιμώμενος, τὴν τῆς μητρὸς φύσιν ἔχων, ἀεὶ ἐνδείᾳ ξύνοικος. κατὰ δὲ αὖ τὸν πατέρα ἐπίβουλός ἐστι τοῖς καλοῖς καὶ τοῖς ἀγαθοῖς, ἀνδρεῖος ὢν καὶ ἴτης καὶ σύντονος, θηρευτὴς δεινός, ἀεί τινας πλέκων μηχανάς, καὶ φρονήσεως ἐπιθυμητὴς καὶ πόριμος, φιλοσοφῶν διὰ παντὸς τοῦ βίου, δεινὸς γόης καὶ φαρμακεὺς καὶ σοφιστής· καὶ οὔτε ὡς",
+      "english": "rather is he hard and parched, shoeless and homeless; on the bare ground always he lies with no bedding, and takes his rest on doorsteps and waysides in the open air; true to his mother’s nature, he ever dwells with want. But he takes after his father in scheming for all that is beautiful and good; for he is brave, strenuous and high-strung, a famous hunter, always weaving some stratagem; desirous and competent of wisdom, throughout life ensuing the truth; a master of jugglery, witchcraft,",
+      "greekPhrases": [
+        {
+          "text": "καὶ αὐχμηρὸς καὶ ἀνυπόδητος καὶ ἄοικος, χαμαιπετὴς ἀεὶ ὢν καὶ ἄστρωτος, ἐπὶ θύραις καὶ ἐν ὁδοῖς ὑπαίθριος κοιμώμενος, τὴν τῆς μητρὸς φύσιν ἔχων, ἀεὶ ἐνδείᾳ ξύνοικος.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "κατὰ δὲ αὖ τὸν πατέρα ἐπίβουλός ἐστι τοῖς καλοῖς καὶ τοῖς ἀγαθοῖς, ἀνδρεῖος ὢν καὶ ἴτης καὶ σύντονος, θηρευτὴς δεινός,",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἀεί τινας πλέκων μηχανάς, καὶ φρονήσεως ἐπιθυμητὴς καὶ πόριμος, φιλοσοφῶν διὰ παντὸς τοῦ βίου, δεινὸς γόης καὶ φαρμακεὺς καὶ σοφιστής· καὶ οὔτε ὡς",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "rather is he hard and parched, shoeless and homeless;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "on the bare ground always he lies with no bedding, and takes his rest on doorsteps and waysides in the open air;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "true to his mother’s nature, he ever dwells with want.",
+          "mapsTo": []
+        },
+        {
+          "text": "But he takes after his father in scheming for all that is beautiful and good;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "for he is brave, strenuous and high-strung, a famous hunter, always weaving some stratagem;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "desirous and competent of wisdom, throughout life ensuing the truth;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "a master of jugglery, witchcraft,",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "203e",
+      "page": "203",
+      "order": 157,
+      "greek": "ἀθάνατος πέφυκεν οὔτε ὡς θνητός, ἀλλὰ τοτὲ μὲν τῆς αὐτῆς ἡμέρας θάλλει τε καὶ ζῇ, ὅταν εὐπορήσῃ, τοτὲ δὲ ἀποθνῄσκει, πάλιν δὲ ἀναβιώσκεται διὰ τὴν τοῦ πατρὸς φύσιν, τὸ δὲ ποριζόμενον ἀεὶ ὑπεκρεῖ· ὥστε οὔτε ἀπορεῖ Ἔρως ποτὲ οὔτε πλουτεῖ, σοφίας τε αὖ καὶ ἀμαθίας ἐν μέσῳ ἐστίν.",
+      "english": ">and artful speech. By birth neither immortal nor mortal, in the selfsame day he is flourishing and alive at the hour when he is abounding in resource; at another he is dying, and then reviving again by force of his father’s nature: yet the resources that he gets will ever be ebbing away; so that Love is at no time either resourceless or wealthy, and furthermore, he stands midway betwixt wisdom and ignorance. The position is this: no gods ensue wisdom or desire to be made wise;",
+      "greekPhrases": [
+        {
+          "text": "ἀθάνατος πέφυκεν οὔτε ὡς θνητός, ἀλλὰ τοτὲ μὲν τῆς αὐτῆς ἡμέρας θάλλει τε καὶ ζῇ, ὅταν",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εὐπορήσῃ, τοτὲ δὲ ἀποθνῄσκει, πάλιν δὲ ἀναβιώσκεται διὰ τὴν τοῦ πατρὸς φύσιν, τὸ δὲ ποριζόμενον ἀεὶ ὑπεκρεῖ·",
+          "mapsTo": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ὥστε οὔτε ἀπορεῖ Ἔρως ποτὲ οὔτε πλουτεῖ, σοφίας τε αὖ καὶ ἀμαθίας ἐν μέσῳ ἐστίν.",
+          "mapsTo": [
+            3,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": ">and artful speech. By birth neither immortal nor mortal, in the selfsame day he is flourishing and alive at the hour when he is abounding in resource;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "at another he is dying, and then reviving again by force of his father’s nature:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "yet the resources that he gets will ever be ebbing away;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "so that Love is at no time either resourceless or wealthy, and furthermore, he stands midway betwixt wisdom and ignorance.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "The position is this:",
+          "mapsTo": []
+        },
+        {
+          "text": "no gods ensue wisdom or desire to be made wise;",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "204a",
+      "page": "204",
+      "order": 158,
+      "greek": "ἔχει γὰρ ὧδε. θεῶν οὐδεὶς φιλοσοφεῖ οὐδ᾽ ἐπιθυμεῖ σοφὸς γενέσθαι· ἔστι γάρ· οὐδ᾽ εἴ τις ἄλλος σοφός, οὐ φιλοσοφεῖ· οὐδ᾽ αὖ οἱ ἀμαθεῖς φιλοσοφοῦσιν οὐδ᾽ ἐπιθυμοῦσι σοφοὶ γενέσθαι· αὐτὸ γὰρ τοῦτό ἐστι χαλεπὸν ἀμαθία, τὸ μὴ ὄντα καλὸν κἀγαθὸν μηδὲ φρόνιμον δοκεῖν αὑτῷ εἶναι ἱκανόν· οὔκουν ἐπιθυμεῖ ὁ μὴ οἰόμενος ἐνδεὴς εἶναι οὗ ἂν μὴ οἴηται ἐπιδεῖσθαι. Τίνες οὖν, ἔφην ἐγώ, ὦ Διοτίμα, οἱ φιλοσοφοῦντες, εἰ μήτε οἱ σοφοὶ μήτε οἱ ἀμαθεῖς;",
+      "english": "such they are already; nor does anyone else that is wise ensue it. Neither do the ignorant ensue wisdom, nor desire to be made wise: in this very point is ignorance distressing, when a person who is not comely or worthy or intelligent is satisfied with himself. The man who does not feel himself defective has no desire for that whereof he feels no defect. Who then, Diotima, I asked, are the followers of wisdom, if they are neither the wise nor the ignorant?",
+      "greekPhrases": [
+        {
+          "text": "ἔχει γὰρ ὧδε. θεῶν οὐδεὶς φιλοσοφεῖ οὐδ᾽ ἐπιθυμεῖ σοφὸς γενέσθαι· ἔστι γάρ·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οὐδ᾽ εἴ τις ἄλλος σοφός, οὐ φιλοσοφεῖ·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "οὐδ᾽ αὖ οἱ ἀμαθεῖς φιλοσοφοῦσιν οὐδ᾽ ἐπιθυμοῦσι σοφοὶ γενέσθαι·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "αὐτὸ γὰρ τοῦτό ἐστι χαλεπὸν ἀμαθία, τὸ μὴ ὄντα καλὸν κἀγαθὸν μηδὲ φρόνιμον δοκεῖν αὑτῷ εἶναι ἱκανόν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "οὔκουν ἐπιθυμεῖ ὁ μὴ οἰόμενος ἐνδεὴς εἶναι οὗ ἂν μὴ οἴηται ἐπιδεῖσθαι.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Τίνες οὖν, ἔφην ἐγώ, ὦ Διοτίμα, οἱ φιλοσοφοῦντες, εἰ μήτε οἱ σοφοὶ μήτε οἱ ἀμαθεῖς;",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "such they are already;",
+          "mapsTo": []
+        },
+        {
+          "text": "nor does anyone else that is wise ensue it.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Neither do the ignorant ensue wisdom, nor desire to be made wise:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "in this very point is ignorance distressing, when a person who is not comely or worthy or intelligent is satisfied with himself.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "The man who does not feel himself defective has no desire for that whereof he feels no defect.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Who then, Diotima, I asked, are the followers of wisdom, if they are neither the wise nor the ignorant?",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "204b",
+      "page": "204",
+      "order": 159,
+      "greek": "Δῆλον δή, ἔφη, τοῦτό γε ἤδη καὶ παιδί, ὅτι οἱ μεταξὺ τούτων ἀμφοτέρων, ὧν αὖ καὶ ὁ Ἔρως. ἔστι γὰρ δὴ τῶν καλλίστων ἡ σοφία, Ἔρως δ᾽ ἐστὶν ἔρως περὶ τὸ καλόν, ὥστε ἀναγκαῖον Ἔρωτα φιλόσοφον εἶναι, φιλόσοφον δὲ ὄντα μεταξὺ εἶναι σοφοῦ καὶ ἀμαθοῦς. αἰτία δὲ αὐτῷ καὶ τούτων ἡ γένεσις· πατρὸς μὲν γὰρ σοφοῦ ἐστί καὶ εὐπόρου, μητρὸς δὲ οὐ σοφῆς καὶ ἀπόρου· ἡ μὲν οὖν φύσις τοῦ δαίμονος, ὦ φίλε Σώκρατες, αὕτη· ὃν δὲ σὺ ᾠήθης Ἔρωτα",
+      "english": "Why, a child could tell by this time, she answered, that they are the intermediate sort, and amongst these also is Love. For wisdom has to do with the fairest things, and Love is a love directed to what is fair; so that Love must needs be a friend of wisdom, and, as such, must be between wise and ignorant. This again is a result for which he has to thank his origin: for while he comes of a wise and resourceful father, his mother is unwise and resourceless. Such, my good Socrates, is the nature of this spirit. That you should have formed your other notion of Love",
+      "greekPhrases": [
+        {
+          "text": "Δῆλον δή, ἔφη, τοῦτό γε ἤδη καὶ παιδί, ὅτι οἱ μεταξὺ τούτων ἀμφοτέρων, ὧν αὖ καὶ ὁ Ἔρως.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἔστι γὰρ δὴ τῶν καλλίστων ἡ σοφία, Ἔρως δ᾽ ἐστὶν ἔρως περὶ τὸ καλόν, ὥστε ἀναγκαῖον Ἔρωτα φιλόσοφον εἶναι, φιλόσοφον δὲ ὄντα μεταξὺ εἶναι σοφοῦ καὶ ἀμαθοῦς.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "αἰτία δὲ αὐτῷ καὶ τούτων ἡ γένεσις·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "πατρὸς μὲν γὰρ σοφοῦ ἐστί καὶ εὐπόρου, μητρὸς δὲ οὐ σοφῆς καὶ ἀπόρου·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἡ μὲν οὖν φύσις τοῦ δαίμονος, ὦ φίλε Σώκρατες, αὕτη·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ὃν δὲ σὺ ᾠήθης Ἔρωτα",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Why, a child could tell by this time, she answered, that they are the intermediate sort, and amongst these also is Love.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "For wisdom has to do with the fairest things, and Love is a love directed to what is fair;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "so that Love must needs be a friend of wisdom, and, as such, must be between wise and ignorant.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "This again is a result for which he has to thank his origin:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for while he comes of a wise and resourceful father, his mother is unwise and resourceless.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Such, my good Socrates, is the nature of this spirit.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "That you should have formed your other notion of Love",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "204c",
+      "page": "204",
+      "order": 160,
+      "greek": "εἶναι, θαυμαστὸν οὐδὲν ἔπαθες. ᾠήθης δέ, ὡς ἐμοὶ δοκεῖ τεκμαιρομένῃ ἐξ ὧν σὺ λέγεις, τὸ ἐρώμενον Ἔρωτα εἶναι, οὐ τὸ ἐρῶν· διὰ ταῦτά σοι οἶμαι πάγκαλος ἐφαίνετο ὁ Ἔρως. καὶ γὰρ ἔστι τὸ ἐραστὸν τὸ τῷ ὄντι καλὸν καὶ ἁβρὸν καὶ τέλεον καὶ μακαριστόν· τὸ δέ γε ἐρῶν ἄλλην ἰδέαν τοιαύτην ἔχον, οἵαν ἐγὼ διῆλθον. Καὶ ἐγὼ εἶπον· Εἶεν δή, ὦ ξένη· καλῶς γὰρ λέγεις· τοιοῦτος ὢν ὁ Ἔρως τίνα χρείαν ἔχει τοῖς ἀνθρώποις;",
+      "english": "is no surprising accident. You supposed, if I am to take your own words as evidence, that the beloved and not the lover was Love. This led you, I fancy, to hold that Love is all-beautiful. The lovable, indeed, is the truly beautiful, tender, perfect, and heaven-blest; but the lover is of a different type, in accordance with the account I have given. Upon this I observed: Very well then, madam, you are right; but if Love is such as you describe him, of what use is he to mankind?",
+      "greekPhrases": [
+        {
+          "text": "εἶναι, θαυμαστὸν οὐδὲν ἔπαθες.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ᾠήθης δέ, ὡς ἐμοὶ δοκεῖ τεκμαιρομένῃ ἐξ ὧν σὺ λέγεις, τὸ ἐρώμενον Ἔρωτα εἶναι, οὐ τὸ ἐρῶν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "διὰ ταῦτά σοι οἶμαι πάγκαλος ἐφαίνετο ὁ Ἔρως.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ γὰρ ἔστι τὸ ἐραστὸν τὸ τῷ ὄντι καλὸν καὶ ἁβρὸν καὶ τέλεον καὶ μακαριστόν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "τὸ δέ γε ἐρῶν ἄλλην ἰδέαν τοιαύτην ἔχον, οἵαν ἐγὼ διῆλθον. Καὶ ἐγὼ εἶπον·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Εἶεν δή, ὦ ξένη· καλῶς γὰρ λέγεις·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "τοιοῦτος ὢν ὁ Ἔρως τίνα χρείαν ἔχει τοῖς ἀνθρώποις;",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "is no surprising accident.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "You supposed, if I am to take your own words as evidence, that the beloved and not the lover was Love.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "This led you, I fancy, to hold that Love is all-beautiful.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "The lovable, indeed, is the truly beautiful, tender, perfect, and heaven-blest;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "but the lover is of a different type, in accordance with the account I have given.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Upon this I observed:",
+          "mapsTo": []
+        },
+        {
+          "text": "Very well then, madam, you are right;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "but if Love is such as you describe him, of what use is he to mankind?",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "204d",
+      "page": "204",
+      "order": 161,
+      "greek": "Τοῦτο δὴ μετὰ ταῦτ᾽, ἔφη, ὦ Σώκρατες, πειράσομαί σε διδάξαι. ἔστι μὲν γὰρ δὴ τοιοῦτος καὶ οὕτω γεγονὼς ὁ Ἔρως, ἔστι δὲ τῶν καλῶν, ὡς σὺ φῄς. εἰ δέ τις ἡμᾶς ἔροιτο· τί τῶν καλῶν ἐστιν ὁ Ἔρως, ὦ Σώκρατές τε καὶ Διοτίμα; ὧδε δὲ σαφέστερον ἐρῶ· ὁ ἐρῶν τῶν καλῶν τί ἐρᾷ; καὶ ἐγὼ εἶπον ὅτι· Γενέσθαι αὑτῷ. Ἀλλ᾽ ἐπιποθεῖ, ἔφη, ἡ ἀπόκρισις ἐρώτησιν τοιάνδε· τί ἔσται ἐκείνῳ ᾧ ἂν γένηται τὰ καλά; Οὐ πάνυ ἔφην ἔτι ἔχειν ἐγὼ πρὸς ταύτην τὴν ἐρώτησιν προχείρως ἀποκρίνασθαι.",
+      "english": "That is the next question, Socrates, she replied, on which I will try to enlighten you. While Love is of such nature and origin as I have related, he is also set on beautiful things, as you say. Now, suppose some one were to ask us: In what respect is he Love of beautiful things, Socrates and Diotima? But let me put the question more clearly thus: What is the love of the lover of beautiful things? That they may be his, I replied. But your answer craves a further query, she said, such as this: What will he have who gets beautiful things? This question I declared I was quite unable now to answer offhand.",
+      "greekPhrases": [
+        {
+          "text": "Τοῦτο δὴ μετὰ ταῦτ᾽, ἔφη, ὦ Σώκρατες, πειράσομαί σε διδάξαι.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἔστι μὲν γὰρ δὴ τοιοῦτος καὶ οὕτω γεγονὼς ὁ Ἔρως, ἔστι δὲ τῶν καλῶν, ὡς σὺ φῄς.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "εἰ δέ τις ἡμᾶς ἔροιτο·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "τί τῶν καλῶν ἐστιν ὁ Ἔρως, ὦ Σώκρατές τε καὶ Διοτίμα;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ὧδε δὲ σαφέστερον ἐρῶ·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ὁ ἐρῶν τῶν καλῶν τί ἐρᾷ;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "καὶ ἐγὼ εἶπον ὅτι· Γενέσθαι αὑτῷ.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Ἀλλ᾽ ἐπιποθεῖ, ἔφη, ἡ ἀπόκρισις ἐρώτησιν τοιάνδε·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "τί ἔσται ἐκείνῳ ᾧ ἂν γένηται τὰ καλά;",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "Οὐ πάνυ ἔφην ἔτι ἔχειν ἐγὼ πρὸς ταύτην τὴν ἐρώτησιν προχείρως ἀποκρίνασθαι.",
+          "mapsTo": [
+            9
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "That is the next question, Socrates, she replied, on which I will try to enlighten you.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "While Love is of such nature and origin as I have related, he is also set on beautiful things, as you say.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Now, suppose some one were to ask us:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "In what respect is he Love of beautiful things, Socrates and Diotima?",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "But let me put the question more clearly thus:",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "What is the love of the lover of beautiful things?",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "That they may be his, I replied.",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "But your answer craves a further query, she said, such as this:",
+          "mapsTo": [
+            8
+          ]
+        },
+        {
+          "text": "What will he have who gets beautiful things?",
+          "mapsTo": []
+        },
+        {
+          "text": "This question I declared I was quite unable now to answer offhand.",
+          "mapsTo": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "204e",
+      "page": "204",
+      "order": 162,
+      "greek": "Ἀλλ᾽, ἔφη, ὥσπερ ἂν εἴ τις μεταβαλὼν ἀντὶ τοῦ καλοῦ τῷ ἀγαθῷ χρώμενος πυνθάνοιτο· φέρε, ὦ Σώκρατες, ἐρᾷ ὁ ἐρῶν τῶν ἀγαθῶν· τί ἐρᾷ; Γενέσθαι, ἦν δ᾽ ἐγώ, αὑτῷ. Καὶ τί ἔσται ἐκείνῳ ᾧ ἂν γένηται τἀγαθά; Τοῦτ᾽ εὐπορώτερον, ἦν δ᾽ ἐγώ, ἔχω ἀποκρίνασθαι, ὅτι εὐδαίμων ἔσται.",
+      "english": "Well, she proceeded, imagine that the object is changed, and the inquiry is made about the good instead of the beautiful. Come, Socrates (I shall say), what is the love of the lover of good things? That they may be his, I replied. And what will he have who gets good things? I can make more shift to answer this, I said; he will be happy.",
+      "greekPhrases": [
+        {
+          "text": "Ἀλλ᾽, ἔφη, ὥσπερ ἂν εἴ τις μεταβαλὼν ἀντὶ τοῦ καλοῦ τῷ ἀγαθῷ χρώμενος πυνθάνοιτο·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "φέρε, ὦ Σώκρατες, ἐρᾷ ὁ ἐρῶν τῶν ἀγαθῶν· τί ἐρᾷ;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Γενέσθαι, ἦν δ᾽ ἐγώ, αὑτῷ.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Καὶ τί ἔσται ἐκείνῳ ᾧ ἂν γένηται τἀγαθά;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Τοῦτ᾽ εὐπορώτερον, ἦν δ᾽ ἐγώ, ἔχω ἀποκρίνασθαι, ὅτι εὐδαίμων ἔσται.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Well, she proceeded, imagine that the object is changed, and the inquiry is made about the good instead of the beautiful.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Come, Socrates (I shall say), what is the love of the lover of good things?",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "That they may be his, I replied.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "And what will he have who gets good things?",
+          "mapsTo": []
+        },
+        {
+          "text": "I can make more shift to answer this, I said;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "he will be happy.",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "205a",
+      "page": "205",
+      "order": 163,
+      "greek": "Κτήσει γάρ, ἔφη, ἀγαθῶν οἱ εὐδαίμονες εὐδαίμονες, καὶ οὐκέτι προσδεῖ ἐρέσθαι ἵνα τί δὲ βούλεται εὐδαίμων εἶναι ὁ βουλόμενος , ἀλλὰ τέλος δοκεῖ ἔχειν ἡ ἀπόκρισις. Ἀληθῆ λέγεις, εἶπον ἐγώ. Ταύτην δὴ τὴν βούλησιν καὶ τὸν ἔρωτα τοῦτον πότερα κοινὸν οἴει εἶναι πάντων ἀνθρώπων, καὶ πάντας τἀγαθὰ βούλεσθαι αὑτοῖς εἶναι ἀεί, ἢ πῶς λέγεις; Οὕτως, ἦν δ᾽ ἐγώ· κοινὸν εἶναι πάντων. Τί δὴ οὖν, ἔφη, ὦ Σώκρατες, οὐ πάντας ἐρᾶν φαμέν,",
+      "english": "Yes, she said, the happy are happy by acquisition of good things, and we have no more need to ask for what end a man wishes to be happy, when such is his wish: the answer seems to be ultimate. Quite true, I said. Now do you suppose this wish or this love to be common to all mankind, and that every one always wishes to have good things? Or what do you say? Even so, I said; it is common to all.",
+      "greekPhrases": [
+        {
+          "text": "Κτήσει γάρ, ἔφη, ἀγαθῶν οἱ εὐδαίμονες εὐδαίμονες, καὶ οὐκέτι προσδεῖ ἐρέσθαι ἵνα τί δὲ βούλεται εὐδαίμων εἶναι ὁ βουλόμενος , ἀλλὰ τέλος δοκεῖ ἔχειν ἡ ἀπόκρισις.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Ἀληθῆ λέγεις, εἶπον ἐγώ.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Ταύτην δὴ τὴν βούλησιν καὶ τὸν ἔρωτα τοῦτον πότερα κοινὸν οἴει εἶναι πάντων ἀνθρώπων, καὶ πάντας τἀγαθὰ βούλεσθαι αὑτοῖς εἶναι ἀεί, ἢ πῶς λέγεις;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Οὕτως, ἦν δ᾽ ἐγώ· κοινὸν εἶναι πάντων.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Τί δὴ οὖν, ἔφη, ὦ Σώκρατες, οὐ πάντας ἐρᾶν φαμέν,",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Yes, she said, the happy are happy by acquisition of good things, and we have no more",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "need to ask for what end a man wishes to be happy, when such is his wish:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "the answer seems to be ultimate.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Quite true, I said.",
+          "mapsTo": []
+        },
+        {
+          "text": "Now do you suppose this wish or this love to be common to all mankind, and that every one always wishes to have good things?",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Or what do you say?",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Even so, I said;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "it is common to all.",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "205b",
+      "page": "205",
+      "order": 164,
+      "greek": "εἴπερ γε πάντες τῶν αὐτῶν ἐρῶσι καὶ ἀεί, ἀλλά τινάς φαμεν ἐρᾶν, τοὺς δ᾽ οὔ; Θαυμάζω, ἦν δ᾽ ἐγώ, καὶ αὐτός. Ἀλλὰ μὴ θαύμαζ᾽, ἔφη· ἀφελόντες γὰρ ἄρα τοῦ ἔρωτός τι εἶδος ὀνομάζομεν, τὸ τοῦ ὅλου ἐπιτιθέντες ὄνομα, ἔρωτα, τὰ δὲ ἄλλα ἄλλοις καταχρώμεθα ὀνόμασιν. Ὥσπερ τί; ἦν δ᾽ ἐγώ. Ὥσπερ τόδε , οἶσθ᾽ ὅτι ποίησίς ἐστί τι πολύ· ἡ γάρ τοι ἐκ τοῦ μὴ ὄντος εἰς τὸ ὂν ἰόντι ὁτῳοῦν αἰτία πᾶσά ἐστι",
+      "english": "Well then, Socrates, she said, we do not mean that all men love, when we say that all men love the same things always; we mean that some people love and others do not? I am wondering myself, I replied. But you should not wonder, she said; for we have singled out a certain form of love, and applying thereto the name of the whole, we call it love; and there are other names that we commonly abuse. As, for example—? I asked. Take the following: you know that poetry is more than a single thing. For of anything whatever that passes from not being into being the whole cause",
+      "greekPhrases": [
+        {
+          "text": "εἴπερ γε πάντες τῶν αὐτῶν ἐρῶσι καὶ ἀεί, ἀλλά τινάς φαμεν ἐρᾶν, τοὺς δ᾽ οὔ;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Θαυμάζω, ἦν δ᾽ ἐγώ, καὶ αὐτός.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ἀλλὰ μὴ θαύμαζ᾽, ἔφη·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀφελόντες γὰρ ἄρα τοῦ ἔρωτός τι εἶδος ὀνομάζομεν, τὸ τοῦ ὅλου ἐπιτιθέντες ὄνομα, ἔρωτα, τὰ δὲ ἄλλα ἄλλοις καταχρώμεθα ὀνόμασιν. Ὥσπερ τί; ἦν δ᾽ ἐγώ.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Ὥσπερ τόδε , οἶσθ᾽ ὅτι ποίησίς ἐστί τι πολύ·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ἡ γάρ τοι ἐκ τοῦ μὴ ὄντος εἰς τὸ ὂν ἰόντι ὁτῳοῦν αἰτία πᾶσά ἐστι",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Well then, Socrates, she said, we do not mean that all men love, when we say that all men love the same things always;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "we mean that some people love and others do not?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I am wondering myself, I replied.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "But you should not wonder, she said;",
+          "mapsTo": []
+        },
+        {
+          "text": "for we have singled out a certain form of love, and applying thereto the name of the whole, we call it love;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "and there are other names that we commonly abuse. As, for example—? I asked. Take the following:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "you know that poetry is more than a single thing.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "For of anything whatever that passes from not being into being the whole cause",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "205c",
+      "page": "205",
+      "order": 165,
+      "greek": "ποίησις, ὥστε καὶ αἱ ὑπὸ πάσαις ταῖς τέχναις ἐργασίαι ποιήσεις εἰσὶ καὶ οἱ τούτων δημιουργοὶ πάντες ποιηταί. Ἀληθῆ λέγεις. Ἀλλ᾽ ὅμως, ἦ δ᾽ ἥ, οἶσθ᾽ ὅτι οὐ καλοῦνται ποιηταὶ ἀλλὰ ἄλλα ἔχουσιν ὀνόματα, ἀπὸ δὲ πάσης τῆς ποιήσεως ἓν μόριον ἀφορισθὲν τὸ περὶ τὴν μουσικὴν καὶ τὰ μέτρα τῷ τοῦ ὅλου ὀνόματι προσαγορεύεται. ποίησις γὰρ τοῦτο μόνον καλεῖται, καὶ οἱ ἔχοντες τοῦτο τὸ μόριον τῆς ποιήσεως ποιηταί. Ἀληθῆ λέγεις, ἔφην.",
+      "english": "is composing or poetry; so that the productions of all arts are kinds of poetry, and their craftsmen are all poets. That is true. But still, as you are aware, said she, they are not called poets: they have other names, while a single section disparted from the whole of poetry—merely the business of music and meters—is entitled with the name of the whole. This and no more is called poetry; those only who possess this branch of the art are poets. Quite true, I said. Well, it is just the same with love. Generically, indeed,",
+      "greekPhrases": [
+        {
+          "text": "ποίησις, ὥστε καὶ αἱ ὑπὸ πάσαις ταῖς τέχναις ἐργασίαι ποιήσεις εἰσὶ καὶ οἱ τούτων δημιουργοὶ πάντες ποιηταί. Ἀληθῆ λέγεις.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ἀλλ᾽ ὅμως, ἦ δ᾽ ἥ, οἶσθ᾽ ὅτι οὐ καλοῦνται ποιηταὶ ἀλλὰ ἄλλα ἔχουσιν ὀνόματα, ἀπὸ δὲ πάσης",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "τῆς ποιήσεως ἓν μόριον ἀφορισθὲν τὸ περὶ τὴν μουσικὴν καὶ τὰ μέτρα τῷ τοῦ ὅλου ὀνόματι προσαγορεύεται.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ποίησις γὰρ τοῦτο μόνον καλεῖται, καὶ οἱ ἔχοντες τοῦτο τὸ μόριον τῆς ποιήσεως ποιηταί. Ἀληθῆ λέγεις, ἔφην.",
+          "mapsTo": [
+            5,
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "is composing or poetry;",
+          "mapsTo": []
+        },
+        {
+          "text": "so that the productions of all arts are kinds of poetry, and their craftsmen are all poets. That is true.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "But still, as you are aware, said she, they are not called poets:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "they have other names, while a single section disparted from the whole of poetry—merely the business of music and meters—is entitled with the name of the whole.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "This and no more is called poetry;",
+          "mapsTo": []
+        },
+        {
+          "text": "those only who possess this branch of the art are poets.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Quite true, I said.",
+          "mapsTo": []
+        },
+        {
+          "text": "Well, it is just the same with love. Generically, indeed,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "205d",
+      "page": "205",
+      "order": 166,
+      "greek": "Οὕτω τοίνυν καὶ περὶ τὸν ἔρωτα· τὸ μὲν κεφάλαιόν ἐστι πᾶσα ἡ τῶν ἀγαθῶν ἐπιθυμία καὶ τοῦ εὐδαιμονεῖν , ὁ μέγιστός τε καὶ δολερὸς ἔρως παντί· ἀλλ᾽ οἱ μὲν ἄλλῃ τρεπόμενοι πολλαχῇ ἐπ᾽ αὐτόν, ἢ κατὰ χρηματισμὸν ἢ κατὰ φιλογυμναστίαν ἢ κατὰ φιλοσοφίαν, οὔτε ἐρᾶν καλοῦνται οὔτ ᾽ ἐρασταί, οἱ δὲ κατὰ ἕν τι εἶδος ἰόντες τε καὶ ἐσπουδακότες τὸ τοῦ ὅλου ὄνομα ἴσχουσιν, ἔρωτά τε καὶ ἐρᾶν καὶ ἐρασταί. Κινδυνεύεις ἀληθῆ, ἔφην ἐγώ, λέγειν. Καὶ λέγεται μέν γέ τις, ἔφη, λόγος, ὡς οἳ ἂν τὸ ἥμισυ",
+      "english": "it is all that desire of good things and of being happy —Love most mighty and all-beguiling. Yet, whereas those who resort to him in various other ways—in money-making, an inclination to sports, or philosophy—are not described either as loving or as lovers, all those who pursue him seriously in one of his several forms obtain, as loving and as lovers, the name of the whole. I fancy you are right, I said.",
+      "greekPhrases": [
+        {
+          "text": "Οὕτω τοίνυν καὶ περὶ τὸν ἔρωτα·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τὸ μὲν κεφάλαιόν ἐστι πᾶσα ἡ τῶν ἀγαθῶν ἐπιθυμία καὶ τοῦ εὐδαιμονεῖν , ὁ μέγιστός τε καὶ δολερὸς ἔρως παντί·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ οἱ μὲν ἄλλῃ τρεπόμενοι πολλαχῇ ἐπ᾽ αὐτόν, ἢ κατὰ χρηματισμὸν ἢ κατὰ φιλογυμναστίαν ἢ κατὰ φιλοσοφίαν, οὔτε ἐρᾶν καλοῦνται οὔτ ᾽",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐρασταί, οἱ δὲ κατὰ ἕν τι εἶδος ἰόντες τε καὶ ἐσπουδακότες τὸ τοῦ ὅλου ὄνομα ἴσχουσιν, ἔρωτά τε καὶ ἐρᾶν καὶ ἐρασταί.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Κινδυνεύεις ἀληθῆ, ἔφην ἐγώ, λέγειν.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Καὶ λέγεται μέν γέ τις, ἔφη, λόγος, ὡς οἳ ἂν τὸ ἥμισυ",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "it is all that desire of good things and of being happy —Love most mighty and all-beguiling.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Yet, whereas those who resort to him in various other ways—in money-making, an inclination to sports, or philosophy—are not described either as loving or",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "as lovers, all those who pursue him seriously in one of his several forms obtain, as loving and as lovers, the name of the whole.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "I fancy you are right, I said.",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "205e",
+      "page": "205",
+      "order": 167,
+      "greek": "ἑαυτῶν ζητῶσιν, οὗτοι ἐρῶσιν· ὁ δ᾽ ἐμὸς λόγος οὔτε ἡμίσεός φησιν εἶναι τὸν ἔρωτα οὔτε ὅλου, ἐὰν μὴ τυγχάνῃ γέ που, ὦ ἑταῖρε, ἀγαθὸν ὄν· ἐπεὶ αὑτῶν γε καὶ πόδας καὶ χεῖρας ἐθέλουσιν ἀποτέμνεσθαι οἱ ἄνθρωποι, ἐὰν αὐτοῖς δοκῇ τὰ ἑαυτῶν πονηρὰ εἶναι. οὐ γὰρ τὸ ἑαυτῶν οἶμαι ἕκαστοι ἀσπάζονται, εἰ μὴ εἴ τις τὸ μὲν ἀγαθὸν οἰκεῖον καλεῖ καὶ ἑαυτοῦ, τὸ δὲ κακὸν ἀλλότριον· ὡς οὐδέν γε ἄλλο ἐστὶν οὗ",
+      "english": "> And certainly there runs a story, she continued, that all who go seeking their other half are in love; though by my account love is neither for half nor for whole, unless, of course, my dear sir, this happens to be something good. For men are prepared to have their own feet and hands cut off if they feel these belongings to be harmful. The fact is, I suppose, that each person does not cherish his belongings except where a man calls the good his own property and the bad another’s;",
+      "greekPhrases": [
+        {
+          "text": "ἑαυτῶν ζητῶσιν, οὗτοι ἐρῶσιν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ὁ δ᾽ ἐμὸς λόγος οὔτε ἡμίσεός φησιν εἶναι τὸν ἔρωτα οὔτε ὅλου, ἐὰν μὴ τυγχάνῃ γέ που, ὦ ἑταῖρε, ἀγαθὸν ὄν·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἐπεὶ αὑτῶν γε καὶ πόδας καὶ χεῖρας ἐθέλουσιν ἀποτέμνεσθαι οἱ ἄνθρωποι, ἐὰν αὐτοῖς δοκῇ τὰ ἑαυτῶν πονηρὰ εἶναι.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "οὐ γὰρ τὸ ἑαυτῶν οἶμαι ἕκαστοι ἀσπάζονται, εἰ μὴ εἴ τις τὸ μὲν ἀγαθὸν οἰκεῖον καλεῖ καὶ ἑαυτοῦ, τὸ δὲ κακὸν ἀλλότριον·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ὡς οὐδέν γε ἄλλο ἐστὶν οὗ",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "> And certainly there runs a story, she continued, that all who go seeking their other half are in love;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "though by my account love is neither for half nor for whole, unless, of course, my dear sir, this happens to be something good.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "For men are prepared to have their own feet and hands cut off if they feel these belongings to be harmful.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "The fact is, I suppose, that each person does not cherish his belongings except where a man calls the good his own property and the bad another’s;",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "206a",
+      "page": "206",
+      "order": 168,
+      "greek": "ἐρῶσιν ἅνθρωποι ἢ τοῦ ἀγαθοῦ. ἢ σοὶ δοκοῦσιν; Μὰ Δί᾽ οὐκ ἔμοιγε, ἦν δ᾽ ἐγώ. Ἆρ᾽ οὖν, ἦ δ᾽ ἥ, οὕτως ἁπλοῦν ἐστι λέγειν ὅτι οἱ ἄνθρωποι τἀγαθοῦ ἐρῶσιν; Ναί, ἔφην. Τί δέ; οὐ προσθετέον, ἔφη, ὅτι καὶ εἶναι τὸ ἀγαθὸν αὑτοῖς ἐρῶσιν; Προσθετέον. Ἆρ᾽ οὖν, ἔφη, καὶ οὐ μόνον εἶναι, ἀλλὰ καὶ ἀεὶ εἶναι; Καὶ τοῦτο προσθετέον. Ἔστιν ἄρα συλλήβδην, ἔφη, ὁ ἔρως τοῦ τὸ ἀγαθὸν αὑτῷ εἶναι ἀεί. Ἀληθέστατα, ἔφην ἐγώ, λέγεις.",
+      "english": "since what men love is simply and solely the good. Or is your view otherwise? Faith, no, I said. Then we may state unreservedly that men love the good? Yes, I said. Well now, must we not extend it to this, that they love the good to be theirs? We must. And do they love it to be not merely theirs but theirs always? Include that also. Briefly then, said she, love loves the good to be one’s own for ever. That is the very truth, I said.",
+      "greekPhrases": [
+        {
+          "text": "ἐρῶσιν ἅνθρωποι ἢ τοῦ ἀγαθοῦ. ἢ σοὶ δοκοῦσιν;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Μὰ Δί᾽ οὐκ ἔμοιγε, ἦν δ᾽ ἐγώ.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ἆρ᾽ οὖν, ἦ δ᾽ ἥ, οὕτως ἁπλοῦν ἐστι λέγειν ὅτι οἱ ἄνθρωποι τἀγαθοῦ ἐρῶσιν; Ναί, ἔφην. Τί δέ;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "οὐ προσθετέον, ἔφη, ὅτι καὶ εἶναι τὸ ἀγαθὸν αὑτοῖς ἐρῶσιν; Προσθετέον.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Ἆρ᾽ οὖν, ἔφη, καὶ οὐ μόνον εἶναι, ἀλλὰ καὶ ἀεὶ εἶναι; Καὶ τοῦτο προσθετέον.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Ἔστιν ἄρα συλλήβδην, ἔφη, ὁ ἔρως τοῦ τὸ ἀγαθὸν αὑτῷ εἶναι ἀεί.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "Ἀληθέστατα, ἔφην ἐγώ, λέγεις.",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "since what men love is simply and solely the good.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Or is your view otherwise?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Faith, no, I said.",
+          "mapsTo": []
+        },
+        {
+          "text": "Then we may state unreservedly that men love the good? Yes, I said.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Well now, must we not extend it to this, that they love the good to be theirs? We must.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "And do they love it to be not merely theirs but theirs always? Include that also.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Briefly then, said she, love loves the good to be one’s own for ever.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "That is the very truth, I said.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "206b",
+      "page": "206",
+      "order": 169,
+      "greek": "Ὅτε δὴ τούτου ὁ ἔρως ἐστὶν ἀεί, ἦ δ᾽ ἥ, τῶν τίνα τρόπον διωκόντων αὐτὸ καὶ ἐν τίνι πράξει ἡ σπουδὴ καὶ ἡ ξύντασις ἔρως ἂν καλοῖτο; τί τοῦτο τυγχάνει ὂν τὸ ἔργον; ἔχεις εἰπεῖν; Οὐ μεντἂν σέ, ἔφην ἐγώ, ὦ Διοτίμα, ἐθαύμαζον ἐπὶ σοφίᾳ καὶ ἐφοίτων παρὰ σὲ αὐτὰ ταῦτα μαθησόμενος. Ἀλλ ᾽ ἐγώ σοι, ἔφη, ἐρῶ. ἔστι γὰρ τοῦτο τόκος ἐν καλῷ καὶ κατὰ τὸ σῶμα καὶ κατὰ τὴν ψυχήν. Μαντείας, ἦν δ᾽ ἐγώ, δεῖται ὅτι ποτε λέγεις, καὶ οὐ μανθάνω.",
+      "english": "Now if love is always for this, she proceeded, what is the method of those who pursue it, and what is the behavior whose eagerness and straining are to be termed love? What actually is this effort? Can you tell me? Ah, Diotima, I said; in that case I should hardly be admiring you and your wisdom, and sitting at your feet to be enlightened on just these questions. Well, I will tell you, said she; it is begetting on a beautiful thing by means of both the body and the soul. It wants some divination to make out what you mean, I said; I do not understand.",
+      "greekPhrases": [
+        {
+          "text": "Ὅτε δὴ τούτου ὁ ἔρως ἐστὶν ἀεί, ἦ δ᾽ ἥ, τῶν τίνα τρόπον διωκόντων αὐτὸ καὶ ἐν τίνι πράξει ἡ σπουδὴ καὶ ἡ ξύντασις ἔρως ἂν καλοῖτο;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "τί τοῦτο τυγχάνει ὂν τὸ ἔργον; ἔχεις εἰπεῖν;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Οὐ μεντἂν σέ, ἔφην ἐγώ, ὦ Διοτίμα, ἐθαύμαζον ἐπὶ σοφίᾳ καὶ ἐφοίτων παρὰ σὲ αὐτὰ ταῦτα μαθησόμενος.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Ἀλλ ᾽ ἐγώ σοι, ἔφη, ἐρῶ.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ἔστι γὰρ τοῦτο τόκος ἐν καλῷ καὶ κατὰ τὸ σῶμα καὶ κατὰ τὴν ψυχήν.",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "Μαντείας, ἦν δ᾽ ἐγώ, δεῖται ὅτι ποτε λέγεις, καὶ οὐ μανθάνω.",
+          "mapsTo": [
+            8
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Now if love is always for this, she proceeded, what is the method of those who",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "pursue it, and what is the behavior whose eagerness and straining are to be termed love?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "What actually is this effort?",
+          "mapsTo": []
+        },
+        {
+          "text": "Can you tell me?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ah, Diotima, I said;",
+          "mapsTo": []
+        },
+        {
+          "text": "in that case I should hardly be admiring you and your wisdom, and sitting at your feet to be enlightened on just these questions.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Well, I will tell you, said she;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "it is begetting on a beautiful thing by means of both the body and the soul.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "It wants some divination to make out what you mean, I said;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "I do not understand.",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "206c",
+      "page": "206",
+      "order": 170,
+      "greek": "Ἀλλ᾽ ἐγώ, ἦ δ᾽ ἥ, σαφέστερον ἐρῶ. κυοῦσιν γάρ, ἔφη, ὦ Σώκρατες, πάντες ἄνθρωποι καὶ κατὰ τὸ σῶμα καὶ κατὰ τὴν ψυχήν, καὶ ἐπειδὰν ἔν τινι ἡλικίᾳ γένωνται, τίκτειν ἐπιθυμεῖ ἡμῶν ἡ φύσις. τίκτειν δὲ ἐν μὲν αἰσχρῷ οὐ δύναται, ἐν δὲ τῷ καλῷ. ἡ γὰρ ἀνδρὸς καὶ γυναικὸς συνουσία τόκος ἐστίν. ἔστι δὲ τοῦτο θεῖον τὸ πρᾶγμα, καὶ τοῦτο ἐν θνητῷ ὄντι τῷ ζῴῳ ἀθάνατον ἔνεστιν, ἡ κύησις καὶ ἡ γέννησις. τὰ δὲ ἐν τῷ ἀναρμόστῳ ἀδύνατον γενέσθαι.",
+      "english": "Let me put it more clearly, she said. All men are pregnant, Socrates, both in body and in soul: on reaching a certain age our nature yearns to beget. This it cannot do upon an ugly person, but only on the beautiful: the conjunction of man and woman is a begetting for both. It is a divine affair, this engendering and bringing to birth, an immortal element in the creature that is mortal; and it cannot occur in the discordant.",
+      "greekPhrases": [
+        {
+          "text": "Ἀλλ᾽ ἐγώ, ἦ δ᾽ ἥ, σαφέστερον ἐρῶ.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "κυοῦσιν γάρ, ἔφη, ὦ Σώκρατες, πάντες ἄνθρωποι καὶ κατὰ τὸ σῶμα καὶ κατὰ τὴν ψυχήν, καὶ ἐπειδὰν ἔν τινι ἡλικίᾳ γένωνται, τίκτειν ἐπιθυμεῖ ἡμῶν ἡ φύσις.",
+          "mapsTo": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "τίκτειν δὲ ἐν μὲν αἰσχρῷ οὐ δύναται, ἐν δὲ τῷ καλῷ.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἡ γὰρ ἀνδρὸς καὶ γυναικὸς συνουσία τόκος ἐστίν.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἔστι δὲ τοῦτο θεῖον τὸ πρᾶγμα, καὶ τοῦτο ἐν θνητῷ ὄντι τῷ ζῴῳ ἀθάνατον ἔνεστιν, ἡ κύησις καὶ ἡ γέννησις.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "τὰ δὲ ἐν τῷ ἀναρμόστῳ ἀδύνατον γενέσθαι.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Let me put it more clearly, she said.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "All men are pregnant, Socrates, both in body and in soul:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "on reaching a certain age our nature yearns to beget.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "This it cannot do upon an ugly person, but only on the beautiful:",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "the conjunction of man and woman is a begetting for both.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "It is a divine affair, this engendering and bringing to birth, an immortal element in the creature that is mortal;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "and it cannot occur in the discordant.",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "206d",
+      "page": "206",
+      "order": 171,
+      "greek": "ἀνάρμοστον δ᾽ ἐστὶ τὸ αἰσχρὸν παντὶ τῷ θείῳ, τὸ δὲ καλὸν ἁρμόττον. Μοῖρα οὖν καὶ Εἰλείθυια ἡ Καλλονή ἐστι τῇ γενέσει. διὰ ταῦτα ὅταν μὲν καλῷ προσπελάζῃ τὸ κυοῦν, ἵλεών τε γίγνεται καὶ εὐφραινόμενον διαχεῖται καὶ τίκτει τε καὶ γεννᾷ· ὅταν δὲ αἰσχρῷ, σκυθρωπόν τε καὶ λυπούμενον συσπειρᾶται καὶ ἀποτρέπεται καὶ ἀνείλλεται καὶ οὐ γεννᾷ, ἀλλὰ ἴσχον τὸ κύημα χαλεπῶς φέρει. ὅθεν δὴ τῷ κυοῦντί τε καὶ ἤδη σπαργῶντι πολλὴ ἡ πτοίησις γέγονε",
+      "english": "The ugly is discordant with whatever is divine, whereas the beautiful is accordant. Thus Beauty presides over birth as Fate and Lady of Travail; and hence it is that when the pregnant approaches the beautiful it becomes not only gracious but so exhilarate, that it flows over with begetting and bringing forth; though when it meets the ugly it coils itself close in a sullen dismay: rebuffed and repressed, it brings not forth, but goes in labor with the burden of its young. Therefore when a person is big and teeming-ripe",
+      "greekPhrases": [
+        {
+          "text": "ἀνάρμοστον δ᾽ ἐστὶ τὸ αἰσχρὸν παντὶ τῷ θείῳ, τὸ δὲ καλὸν ἁρμόττον.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Μοῖρα οὖν καὶ Εἰλείθυια ἡ Καλλονή ἐστι τῇ γενέσει.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "διὰ ταῦτα ὅταν μὲν καλῷ προσπελάζῃ τὸ κυοῦν, ἵλεών τε γίγνεται καὶ εὐφραινόμενον διαχεῖται καὶ τίκτει τε καὶ γεννᾷ·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὅταν δὲ αἰσχρῷ, σκυθρωπόν τε καὶ λυπούμενον συσπειρᾶται καὶ ἀποτρέπεται καὶ ἀνείλλεται καὶ οὐ γεννᾷ, ἀλλὰ ἴσχον τὸ κύημα χαλεπῶς φέρει.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "ὅθεν δὴ τῷ κυοῦντί τε καὶ ἤδη σπαργῶντι πολλὴ ἡ πτοίησις γέγονε",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "The ugly is discordant with whatever is divine, whereas the beautiful is accordant.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Thus Beauty presides over birth as Fate and Lady of Travail;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and hence it is that when the pregnant approaches the beautiful it becomes not only gracious but so exhilarate, that it flows over with begetting and bringing forth;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "though when it meets the ugly it coils itself close in a sullen dismay:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "rebuffed and repressed, it brings not forth, but goes in labor with the burden of its young.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Therefore when a person is big and teeming-ripe",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "206e",
+      "page": "206",
+      "order": 172,
+      "greek": "περὶ τὸ καλὸν διὰ τὸ μεγάλης ὠδῖνος ἀπολύειν τὸν ἔχοντα. ἔστιν γάρ, ὦ Σώκρατες, ἔφη, οὐ τοῦ καλοῦ ὁ ἔρως, ὡς σὺ οἴει. Ἀλλὰ τί μήν; Τῆς γεννήσεως καὶ τοῦ τόκου ἐν τῷ καλῷ. Εἶεν, ἦν δ᾽ ἐγώ. Πάνυ μὲν οὖν, ἔφη. τί δὴ οὖν τῆς γεννήσεως; ὅτι ἀειγενές ἐστι καὶ ἀθάνατον ὡς θνητῷ ἡ γέννησις. ἀθανασίας",
+      "english": "he feels himself in a sore flutter for the beautiful, because its possessor can relieve him of his heavy pangs. For you are wrong, Socrates, in supposing that love is of the beautiful. What then is it? It is of engendering and begetting upon the beautiful. Be it so, I said. To be sure it is, she went on; and how of engendering? Because this is something ever-existent and immortal in our mortal life.",
+      "greekPhrases": [
+        {
+          "text": "περὶ τὸ καλὸν διὰ τὸ μεγάλης ὠδῖνος ἀπολύειν τὸν ἔχοντα.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἔστιν γάρ, ὦ Σώκρατες, ἔφη, οὐ τοῦ καλοῦ ὁ ἔρως, ὡς σὺ οἴει. Ἀλλὰ τί μήν;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Τῆς γεννήσεως καὶ τοῦ τόκου ἐν τῷ καλῷ.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Εἶεν, ἦν δ᾽ ἐγώ.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Πάνυ μὲν οὖν, ἔφη.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "τί δὴ οὖν τῆς γεννήσεως;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ὅτι ἀειγενές ἐστι καὶ ἀθάνατον ὡς θνητῷ ἡ γέννησις. ἀθανασίας",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "he feels himself in a sore flutter for the beautiful, because its possessor can relieve him of his heavy pangs.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "For you are wrong, Socrates, in supposing that love is of the beautiful.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "What then is it?",
+          "mapsTo": []
+        },
+        {
+          "text": "It is of engendering and begetting upon the beautiful.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Be it so, I said.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "To be sure it is, she went on;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "and how of engendering?",
+          "mapsTo": []
+        },
+        {
+          "text": "Because this is something ever-existent and immortal in our mortal life.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "207a",
+      "page": "207",
+      "order": 173,
+      "greek": "δὲ ἀναγκαῖον ἐπιθυμεῖν μετὰ ἀγαθοῦ ἐκ τῶν ὡμολογημένων, εἴπερ τοῦ τἀγαθὸν ἑαυτῷ εἶναι ἀεὶ ἔρως ἐστίν. ἀναγκαῖον δὴ ἐκ τούτου τοῦ λόγου καὶ τῆς ἀθανασίας τὸν ἔρωτα εἶναι. Ταῦτά τε οὖν πάντα ἐδίδασκέ με, ὁπότε περὶ τῶν ἐρωτικῶν λόγους ποιοῖτο, καί ποτε ἤρετο Τί οἴει, ὦ Σώκρατες, αἴτιον εἶναι τούτου τοῦ ἔρωτος καὶ τῆς ἐπιθυμίας; ἢ οὐκ αἰσθάνει ὡς δεινῶς διατίθεται πάντα τὰ θηρία ἐπειδὰν γεννᾶν ἐπιθυμήσῃ, καὶ τὰ πεζὰ καὶ τὰ πτηνά, νοσοῦντά τε",
+      "english": "From what has been admitted, we needs must yearn for immortality no less than for good, since love loves good to be one’s own for ever. And hence it necessarily follows that love is of immortality. All this instruction did I get from her at various times when she discoursed of love-matters; and one time she asked me, What do you suppose, Socrates, to be the cause of this love and desire? For you must have observed the strange state into which all the animals are thrown, whether going on earth or winging the air, when they desire to beget: they are all sick",
+      "greekPhrases": [
+        {
+          "text": "δὲ ἀναγκαῖον ἐπιθυμεῖν μετὰ ἀγαθοῦ ἐκ τῶν ὡμολογημένων, εἴπερ τοῦ τἀγαθὸν ἑαυτῷ εἶναι ἀεὶ ἔρως ἐστίν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀναγκαῖον δὴ ἐκ τούτου τοῦ λόγου καὶ τῆς ἀθανασίας τὸν ἔρωτα εἶναι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ταῦτά τε οὖν πάντα ἐδίδασκέ με, ὁπότε περὶ τῶν ἐρωτικῶν λόγους ποιοῖτο, καί ποτε ἤρετο Τί οἴει, ὦ Σώκρατες, αἴτιον εἶναι τούτου τοῦ ἔρωτος καὶ τῆς ἐπιθυμίας;",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ἢ οὐκ αἰσθάνει ὡς δεινῶς διατίθεται πάντα τὰ θηρία ἐπειδὰν γεννᾶν ἐπιθυμήσῃ, καὶ τὰ πεζὰ καὶ τὰ πτηνά, νοσοῦντά τε",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "From what has been admitted, we needs must yearn for immortality no less than for good, since love loves good to be one’s own for ever.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "And hence it necessarily follows that love is of immortality.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "All this instruction did I get from her at various times when she discoursed of love-matters;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and one time she asked me, What do you suppose, Socrates, to be the cause of this love and desire?",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "For you must have observed the strange state into which all the animals are thrown, whether going on earth or winging the air, when they desire to beget:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "they are all sick",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "207b",
+      "page": "207",
+      "order": 174,
+      "greek": "πάντα καὶ ἐρωτικῶς διατιθέμενα, πρῶτον μὲν περὶ τὸ ξυμμιγῆναι ἀλλήλοις, ἔπειτα περὶ τὴν τροφὴν τοῦ γενομένου, καὶ ἕτοιμά ἐστιν ὑπὲρ τούτων καὶ διαμάχεσθαι τὰ ἀσθενέστατα τοῖς ἰσχυροτάτοις καὶ ὑπεραποθνῄσκειν, καὶ αὐτὰ τῷ λιμῷ παρατεινόμενα ὥστ᾽ ἐκεῖνα ἐκτρέφειν, καὶ ἄλλο πᾶν ποιοῦντα; τοὺς μὲν γὰρ ἀνθρώπους, ἔφη, οἴοιτ᾽ ἄν τις ἐκ λογισμοῦ ταῦτα ποιεῖν·",
+      "english": "and amorously disposed, first to have union one with another, and next to find food for the new-born; in whose behalf they are ready to fight hard battles, even the weakest against the strongest, and to sacrifice their lives; to be racked with starvation themselves if they can but nurture their young, and be put to any sort of shift. As for men, said she, one might suppose they do these things on the promptings of reason; but what is the cause",
+      "greekPhrases": [
+        {
+          "text": "πάντα καὶ ἐρωτικῶς διατιθέμενα, πρῶτον μὲν περὶ τὸ ξυμμιγῆναι ἀλλήλοις, ἔπειτα περὶ τὴν τροφὴν τοῦ γενομένου, καὶ ἕτοιμά ἐστιν ὑπὲρ",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "τούτων καὶ διαμάχεσθαι τὰ ἀσθενέστατα τοῖς ἰσχυροτάτοις καὶ ὑπεραποθνῄσκειν, καὶ αὐτὰ τῷ λιμῷ παρατεινόμενα ὥστ᾽ ἐκεῖνα ἐκτρέφειν, καὶ ἄλλο πᾶν ποιοῦντα;",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "τοὺς μὲν γὰρ ἀνθρώπους, ἔφη, οἴοιτ᾽ ἄν τις ἐκ λογισμοῦ ταῦτα ποιεῖν·",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and amorously disposed, first to have union one with another, and next to find food for the new-born;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "in whose behalf they are ready to fight hard battles, even the weakest against the strongest, and to sacrifice their lives;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "to be racked with starvation themselves if they can but nurture their young, and be put to any sort of shift.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "As for men, said she, one might suppose they do these things on the promptings of reason;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but what is the cause",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "207c",
+      "page": "207",
+      "order": 175,
+      "greek": "τὰ δὲ θηρία τίς αἰτία οὕτως ἐρωτικῶς διατίθεσθαι; ἔχεις λέγειν; καὶ ἐγὼ αὖ ἔλεγον ὅτι οὐκ εἰδείην· ἣ δ᾽ εἶπεν, Διανοεῖ οὖν δεινός ποτε γενήσεσθαι τὰ ἐρωτικά, ἐὰν ταῦτα μὴ ἐννοῇς; Ἀλλὰ διὰ ταῦτά τοι, ὦ Διοτίμα, ὅπερ νῦν δὴ εἶπον, παρὰ σὲ ἥκω, γνοὺς ὅτι διδασκάλων δέομαι. ἀλλά μοι λέγε καὶ τούτων τὴν αἰτίαν καὶ τῶν ἄλλων τῶν περὶ τὰ ἐρωτικά. Εἰ τοίνυν, ἔφη, πιστεύεις ἐκείνου εἶναι φύσει τὸν ἔρωτα, οὗ πολλάκις ὡμολογήκαμεν, μὴ θαύμαζε. ἐνταῦθα γὰρ",
+      "english": "of this amorous condition in the animals? Can you tell me? Once more I replied that I did not know; so she proceeded: How do you design ever to become a master of love-matters, if you can form no notion of this? Why, it is just for this, I tell you, Diotima—as I stated a moment ago—that I have come to see you, because I noted my need of an instructor. Come, tell me the cause of these effects as well as of the others that have relation to love. Well then, she said, if you believe that love is by nature bent on what we have repeatedly admitted, you may cease to wonder. For here, too, on the same principle as before,",
+      "greekPhrases": [
+        {
+          "text": "τὰ δὲ θηρία τίς αἰτία οὕτως ἐρωτικῶς διατίθεσθαι; ἔχεις λέγειν;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ ἐγὼ αὖ ἔλεγον ὅτι οὐκ εἰδείην·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἣ δ᾽ εἶπεν, Διανοεῖ οὖν δεινός ποτε γενήσεσθαι τὰ ἐρωτικά, ἐὰν ταῦτα μὴ ἐννοῇς;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ἀλλὰ διὰ ταῦτά τοι, ὦ Διοτίμα, ὅπερ νῦν δὴ εἶπον, παρὰ σὲ ἥκω, γνοὺς ὅτι διδασκάλων δέομαι.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἀλλά μοι λέγε καὶ τούτων τὴν αἰτίαν καὶ τῶν ἄλλων τῶν περὶ τὰ ἐρωτικά.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "Εἰ τοίνυν, ἔφη, πιστεύεις ἐκείνου εἶναι φύσει τὸν ἔρωτα, οὗ πολλάκις ὡμολογήκαμεν, μὴ θαύμαζε. ἐνταῦθα γὰρ",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "of this amorous condition in the animals?",
+          "mapsTo": []
+        },
+        {
+          "text": "Can you tell me?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Once more I replied that I did not know; so she proceeded:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "How do you design ever to become a master of love-matters, if you can form no notion of this?",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Why, it is just for this, I tell you, Diotima—as I stated a moment",
+          "mapsTo": []
+        },
+        {
+          "text": "ago—that I have come to see you, because I noted my need of an instructor.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Come, tell me the cause of these effects as well as of the others that have relation to love.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Well then, she said, if you believe that love is by nature bent on what we have repeatedly admitted, you may cease to wonder.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "For here, too, on the same principle as before,",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "207d",
+      "page": "207",
+      "order": 176,
+      "greek": "τὸν αὐτὸν ἐκείνῳ λόγον ἡ θνητὴ φύσις ζητεῖ κατὰ τὸ δυνατὸν ἀεί τε εἶναι καὶ ἀθάνατος. δύναται δὲ ταύτῃ μόνον τῇ γενέσει, ὅτι ἀεὶ καταλείπει ἕτερον νέον ἀντὶ τοῦ παλαιοῦ, ἐπεὶ καὶ ἐν ᾧ ἓν ἕκαστον τῶν ζῴων ζῆν καλεῖται καὶ εἶναι τὸ αὐτό· οἷον ἐκ παιδαρίου ὁ αὐτὸς λέγεται ἕως ἂν πρεσβύτης γένηται· οὗτος μέντοι οὐδέποτε τὰ αὐτὰ ἔχων ἐν αὑτῷ ὅμως ὁ αὐτὸς καλεῖται, ἀλλὰ νέος ἀεὶ γιγνόμενος, τὰ δὲ ἀπολλύς, καὶ κατὰ τὰς τρίχας καὶ σάρκα καὶ ὀστᾶ καὶ",
+      "english": "the mortal nature ever seeks, as best it can, to be immortal. In one way only can it succeed, and that is by generation; since so it can always leave behind it a new creature in place of the old. It is only for a while that each live thing can be described as alive and the same, as a man is said to be the same person from childhood until he is advanced in years: yet though he is called the same he does not at any time possess the same properties; he is continually becoming a new person, and there are things also which he loses,",
+      "greekPhrases": [
+        {
+          "text": "τὸν αὐτὸν ἐκείνῳ λόγον ἡ θνητὴ φύσις ζητεῖ κατὰ τὸ δυνατὸν ἀεί τε εἶναι καὶ ἀθάνατος.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "δύναται δὲ ταύτῃ μόνον τῇ γενέσει, ὅτι ἀεὶ καταλείπει ἕτερον νέον ἀντὶ τοῦ παλαιοῦ, ἐπεὶ καὶ ἐν ᾧ ἓν ἕκαστον τῶν ζῴων ζῆν καλεῖται καὶ εἶναι τὸ αὐτό·",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "οἷον ἐκ παιδαρίου ὁ αὐτὸς λέγεται ἕως ἂν πρεσβύτης γένηται·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "οὗτος μέντοι οὐδέποτε τὰ αὐτὰ ἔχων ἐν αὑτῷ ὅμως ὁ αὐτὸς καλεῖται, ἀλλὰ νέος ἀεὶ γιγνόμενος, τὰ δὲ ἀπολλύς, καὶ κατὰ τὰς τρίχας καὶ σάρκα καὶ ὀστᾶ καὶ",
+          "mapsTo": [
+            5,
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "the mortal nature ever seeks, as best it can, to be immortal.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "In one way only can it succeed, and that is by generation;",
+          "mapsTo": []
+        },
+        {
+          "text": "since so it can always leave behind it a new creature in place of the old.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "It is only for a while that each live thing can be described as alive and the same,",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "as a man is said to be the same person from childhood until he is advanced in years:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "yet though he is called the same he does not at any time possess the same properties;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "he is continually becoming a new person, and there are things also which he loses,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "207e",
+      "page": "207",
+      "order": 177,
+      "greek": "αἷμα καὶ ξύμπαν τὸ σῶμα. καὶ μὴ ὅτι κατὰ τὸ σῶμα, ἀλλὰ καὶ κατὰ τὴν ψυχὴν οἱ τρόποι, τὰ ἤθη, δόξαι, ἐπιθυμίαι, ἡδοναί, λῦπαι, φόβοι τούτων ἕκαστα οὐδέποτε τὰ αὐτὰ πάρεστιν ἑκάστῳ, ἀλλὰ τὰ μὲν γίγνεται, τὰ δὲ ἀπόλλυται. πολὺ δὲ τούτων ἀτοπώτερον ἔτι, ὅτι καὶ αἱ ἐπιστῆμαι",
+      "english": "as appears by his hair, his flesh, his bones, and his blood and body altogether. And observe that not only in his body but in his soul besides we find none of his manners or habits, his opinions, desires, pleasures, pains or fears, ever abiding the same in his particular self; some things grow in him, while others perish. And here is a yet stranger fact:",
+      "greekPhrases": [
+        {
+          "text": "αἷμα καὶ ξύμπαν τὸ σῶμα.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ μὴ ὅτι κατὰ τὸ σῶμα, ἀλλὰ καὶ κατὰ τὴν ψυχὴν οἱ τρόποι, τὰ ἤθη, δόξαι, ἐπιθυμίαι,",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἡδοναί, λῦπαι, φόβοι τούτων ἕκαστα οὐδέποτε τὰ αὐτὰ πάρεστιν ἑκάστῳ, ἀλλὰ τὰ μὲν γίγνεται, τὰ δὲ ἀπόλλυται.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "πολὺ δὲ τούτων ἀτοπώτερον ἔτι, ὅτι καὶ αἱ ἐπιστῆμαι",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "as appears by his hair, his flesh, his bones, and his blood and body altogether.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "And observe that not only in his body but in his soul besides we find none of his",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "manners or habits, his opinions, desires, pleasures, pains or fears, ever abiding the same in his particular self;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "some things grow in him, while others perish.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "And here is a yet stranger fact:",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "208a",
+      "page": "208",
+      "order": 178,
+      "greek": "μὴ ὅτι αἱ μὲν γίγνονται, αἱ δὲ ἀπόλλυνται ἡμῖν, καὶ οὐδέποτε οἱ αὐτοί ἐσμεν οὐδὲ κατὰ τὰς ἐπιστήμας, ἀλλὰ καὶ μία ἑκάστη τῶν ἐπιστημῶν ταὐτὸν πάσχει. ὃ γὰρ καλεῖται μελετᾷν, ὡς ἐξιούσης ἐστὶ τῆς ἐπιστήμης· λήθη γὰρ ἐπιστήμης ἔξοδος, μελέτη δὲ πάλιν καινὴν ἐμποιοῦσα ἀντὶ τῆς ἀπιούσης μνήμην σῴζει τὴν ἐπιστήμην, ὥστε τὴν αὐτὴν δοκεῖν εἶναι. τούτῳ γὰρ τῷ τρόπῳ πᾶν τὸ θνητὸν σῴζεται, οὐ τὸ παντάπασιν τὸ αὐτὸ ἀεὶ εἶναι ὥσπερ τὸ",
+      "english": "with regard to the possessions of knowledge, not merely do some of them grow and others perish in us, so that neither in what we know are we ever the same persons; but a like fate attends each single sort of knowledge. What we call conning implies that our knowledge is departing; since forgetfulness is an egress of knowledge, while conning substitutes a fresh one in place of that which departs, and so preserves our knowledge enough to make it seem the same. Every mortal thing is preserved in this way; not by keeping it exactly the same for ever,",
+      "greekPhrases": [
+        {
+          "text": "μὴ ὅτι αἱ μὲν γίγνονται, αἱ δὲ ἀπόλλυνται ἡμῖν, καὶ οὐδέποτε οἱ αὐτοί ἐσμεν οὐδὲ κατὰ τὰς ἐπιστήμας, ἀλλὰ καὶ μία ἑκάστη τῶν ἐπιστημῶν ταὐτὸν πάσχει.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ὃ γὰρ καλεῖται μελετᾷν, ὡς ἐξιούσης ἐστὶ τῆς ἐπιστήμης·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "λήθη γὰρ ἐπιστήμης ἔξοδος, μελέτη δὲ πάλιν καινὴν ἐμποιοῦσα ἀντὶ τῆς ἀπιούσης μνήμην σῴζει τὴν ἐπιστήμην, ὥστε τὴν αὐτὴν δοκεῖν εἶναι.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "τούτῳ γὰρ τῷ τρόπῳ πᾶν τὸ θνητὸν σῴζεται, οὐ τὸ παντάπασιν τὸ αὐτὸ ἀεὶ εἶναι ὥσπερ τὸ",
+          "mapsTo": [
+            6,
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "with regard to the possessions of knowledge, not merely do some of them grow and others",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "perish in us, so that neither in what we know are we ever the same persons;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "but a like fate attends each single sort of knowledge.",
+          "mapsTo": []
+        },
+        {
+          "text": "What we call conning implies that our knowledge is departing;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "since forgetfulness is an egress of knowledge, while conning substitutes a fresh one in place",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "of that which departs, and so preserves our knowledge enough to make it seem the same.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Every mortal thing is preserved in this way;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "not by keeping it exactly the same for ever,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "208b",
+      "page": "208",
+      "order": 179,
+      "greek": "θεῖον, ἀλλὰ τῷ τὸ ἀπιὸν καὶ παλαιούμενον ἕτερον νέον ἐγκαταλείπειν οἷον αὐτὸ ἦν. ταύτῃ τῇ μηχανῇ, ὦ Σώκρατες, ἔφη, θνητὸν ἀθανασίας μετέχει, καὶ σῶμα καὶ τἆλλα πάντα· ἀθάνατον δὲ ἄλλῃ. μὴ οὖν θαύμαζε εἰ τὸ αὑτοῦ ἀποβλάστημα φύσει πᾶν τιμᾷ· ἀθανασίας γὰρ χάριν παντὶ αὕτη ἡ σπουδὴ καὶ ὁ ἔρως ἕπεται. Καὶ ἐγὼ ἀκούσας τὸν λόγον ἐθαύμασά τε καὶ εἶπον Εἶεν, ἦν δ᾽ ἐγώ, ὦ σοφωτάτη Διοτίμα, ταῦτα ὡς ἀληθῶς οὕτως ἔχει;",
+      "english": "like the divine, but by replacing what goes off or is antiquated with something fresh, in the semblance of the original. Through this device, Socrates, a mortal thing partakes of immortality, both in its body and in all other respects; by no other means can it be done. So do not wonder if everything naturally values its own offshoot; since all are beset by this eagerness and this love with a view to immortality. On hearing this argument I wondered, and said:",
+      "greekPhrases": [
+        {
+          "text": "θεῖον, ἀλλὰ τῷ τὸ ἀπιὸν καὶ παλαιούμενον ἕτερον νέον ἐγκαταλείπειν οἷον αὐτὸ ἦν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ταύτῃ τῇ μηχανῇ, ὦ Σώκρατες, ἔφη, θνητὸν ἀθανασίας μετέχει, καὶ σῶμα καὶ τἆλλα πάντα· ἀθάνατον δὲ ἄλλῃ.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "μὴ οὖν θαύμαζε εἰ τὸ αὑτοῦ ἀποβλάστημα φύσει πᾶν τιμᾷ·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀθανασίας γὰρ χάριν παντὶ αὕτη ἡ σπουδὴ καὶ ὁ ἔρως ἕπεται.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Καὶ ἐγὼ ἀκούσας τὸν λόγον ἐθαύμασά τε καὶ εἶπον Εἶεν, ἦν δ᾽ ἐγώ, ὦ σοφωτάτη Διοτίμα, ταῦτα ὡς ἀληθῶς οὕτως ἔχει;",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "like the divine, but by replacing what goes off or is antiquated with something fresh, in the semblance of the original.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Through this device, Socrates, a mortal thing partakes of immortality, both in its body and in all other respects;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "by no other means can it be done.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So do not wonder if everything naturally values its own offshoot;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "since all are beset by this eagerness and this love with a view to immortality.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "On hearing this argument I wondered, and said:",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "208c",
+      "page": "208",
+      "order": 180,
+      "greek": "καὶ ἥ, ὥσπερ οἱ τέλεοι σοφισταί, Εὖ ἴσθι, ἔφη, ὦ Σώκρατες· ἐπεί γε καὶ τῶν ἀνθρώπων εἰ ἐθέλεις εἰς τὴν φιλοτιμίαν βλέψαι, θαυμάζοις ἂν τῆς ἀλογίας πέρι ἃ ἐγὼ εἴρηκα εἰ μὴ ἐννοεῖς, ἐνθυμηθεὶς ὡς δεινῶς διάκεινται ἔρωτι τοῦ ὀνομαστοὶ γενέσθαι καὶ κλέος ἐς τὸν ἀεὶ χρόνον ἀθάνατον καταθέσθαι, καὶ ὑπὲρ τούτου κινδύνους τε κινδυνεύειν ἕτοιμοί εἰσι πάντας ἔτι μᾶλλον ἢ ὑπὲρ τῶν",
+      "english": "Really, can this in truth be so, most wise Diotima? Whereat she, like the professors in their glory: Be certain of it, Socrates; only glance at the ambition of the men around you, and you will have to wonder at the unreasonableness of what I have told you, unless you are careful to consider how singularly they are affected with the love of winning a name, and laying up fame immortal for all time to come. For this, even more than for their children, they are ready to run all risks,",
+      "greekPhrases": [
+        {
+          "text": "καὶ ἥ, ὥσπερ οἱ τέλεοι σοφισταί, Εὖ ἴσθι, ἔφη, ὦ Σώκρατες·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐπεί γε καὶ τῶν ἀνθρώπων εἰ ἐθέλεις εἰς τὴν φιλοτιμίαν βλέψαι, θαυμάζοις ἂν τῆς ἀλογίας πέρι ἃ ἐγὼ εἴρηκα εἰ μὴ ἐννοεῖς, ἐνθυμηθεὶς ὡς δεινῶς διάκεινται",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἔρωτι τοῦ ὀνομαστοὶ γενέσθαι καὶ κλέος ἐς τὸν ἀεὶ χρόνον ἀθάνατον καταθέσθαι, καὶ ὑπὲρ τούτου κινδύνους τε κινδυνεύειν ἕτοιμοί εἰσι πάντας ἔτι μᾶλλον ἢ ὑπὲρ τῶν",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Really, can this in truth be so, most wise Diotima?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Whereat she, like the professors in their glory:",
+          "mapsTo": []
+        },
+        {
+          "text": "Be certain of it, Socrates;",
+          "mapsTo": []
+        },
+        {
+          "text": "only glance at the ambition of the men around you, and you will have to wonder at the unreasonableness of what I have told you, unless",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "you are careful to consider how singularly they are affected with the love of winning a name, and laying up fame immortal for all time to come.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "For this, even more than for their children, they are ready to run all risks,",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "208d",
+      "page": "208",
+      "order": 181,
+      "greek": "παίδων, καὶ χρήματα ἀναλίσκειν καὶ πόνους πονεῖν οὑστινασοῦν καὶ ὑπεραποθνῄσκειν. ἐπεὶ οἴει σύ, ἔφη, Ἄλκηστιν ὑπὲρ Ἀδμήτου ἀποθανεῖν ἄν, ἢ Ἀχιλλέα Πατρόκλῳ ἐπαποθανεῖν, ἢ προαποθανεῖν τὸν ὑμέτερον Κόδρον ὑπὲρ τῆς βασιλείας τῶν παίδων, μὴ οἰομένους ἀθάνατον μνήμην ἀρετῆς πέρι ἑαυτῶν ἔσεσθαι, ἣν νῦν ἡμεῖς ἔχομεν; πολλοῦ γε δεῖ, ἔφη, ἀλλ᾽ οἶμαι ὑπὲρ ἀρετῆς ἀθανάτου καὶ τοιαύτης δόξης εὐκλεοῦς πάντες πάντα ποιοῦσιν, ὅσῳ ἂν ἀμείνους",
+      "english": "to expend money, perform any kind of task, and sacrifice their lives. Do you suppose, she asked, that Alcestis would have died for Admetus, or Achilles have sought death on the corpse of Patroclus, or your own Codrus have welcomed it to save the children of his queen, if they had not expected to win a deathless memory for valor, which now we keep? Of course not. I hold it is for immortal distinction and",
+      "greekPhrases": [
+        {
+          "text": "παίδων, καὶ χρήματα ἀναλίσκειν καὶ πόνους πονεῖν οὑστινασοῦν καὶ ὑπεραποθνῄσκειν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐπεὶ οἴει σύ, ἔφη, Ἄλκηστιν ὑπὲρ Ἀδμήτου ἀποθανεῖν ἄν, ἢ Ἀχιλλέα Πατρόκλῳ ἐπαποθανεῖν, ἢ προαποθανεῖν τὸν ὑμέτερον",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Κόδρον ὑπὲρ τῆς βασιλείας τῶν παίδων, μὴ οἰομένους ἀθάνατον μνήμην ἀρετῆς πέρι ἑαυτῶν ἔσεσθαι, ἣν νῦν ἡμεῖς ἔχομεν;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "πολλοῦ γε δεῖ, ἔφη, ἀλλ᾽ οἶμαι ὑπὲρ ἀρετῆς ἀθανάτου καὶ τοιαύτης δόξης εὐκλεοῦς πάντες πάντα ποιοῦσιν, ὅσῳ ἂν ἀμείνους",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "to expend money, perform any kind of task, and sacrifice their lives.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Do you suppose, she asked, that Alcestis would have died for Admetus, or Achilles have sought death on the corpse of Patroclus, or your own Codrus",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "have welcomed it to save the children of his queen, if they had not expected to win a deathless memory for valor, which now we keep? Of course not.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "I hold it is for immortal distinction and",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "208e",
+      "page": "208",
+      "order": 182,
+      "greek": "ὦσι, τοσούτῳ μᾶλλον· τοῦ γὰρ ἀθανάτου ἐρῶσιν. οἱ μὲν οὖν ἐγκύμονες, ἔφη, κατὰ τὰ σώματα ὄντες πρὸς τὰς γυναῖκας μᾶλλον τρέπονται καὶ ταύτῃ ἐρωτικοί εἰσιν, διὰ παιδογονίας ἀθανασίαν καὶ μνήμην καὶ εὐδαιμονίαν, ὡς οἴονται, αὑτοῖς εἰς τὸν ἔπειτα χρόνον πάντα ποριζόμενοι· οἱ δὲ κατὰ τὴν",
+      "english": "for such illustrious renown as this that they all do all they can, and so much the more in proportion to their excellence. They are in love with what is immortal. Now those who are teeming in body betake them rather to women, and are amorous on this wise: by getting children they acquire an immortality, a memorial, and a state of bliss, which in their imagining they for all succeeding time procure.",
+      "greekPhrases": [
+        {
+          "text": "ὦσι, τοσούτῳ μᾶλλον· τοῦ γὰρ ἀθανάτου ἐρῶσιν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οἱ μὲν οὖν ἐγκύμονες, ἔφη, κατὰ τὰ σώματα ὄντες πρὸς τὰς γυναῖκας μᾶλλον τρέπονται καὶ ταύτῃ ἐρωτικοί",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "εἰσιν, διὰ παιδογονίας ἀθανασίαν καὶ μνήμην καὶ εὐδαιμονίαν, ὡς οἴονται, αὑτοῖς εἰς τὸν ἔπειτα χρόνον πάντα ποριζόμενοι·",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "οἱ δὲ κατὰ τὴν",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "for such illustrious renown as this that they all do all they can, and so much the more in proportion to their excellence.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "They are in love with what is immortal.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Now those who are teeming in body betake them rather to women, and are amorous on this wise:",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "by getting children they acquire an immortality, a memorial, and a state of bliss, which in their imagining they for all succeeding time procure.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "209a",
+      "page": "209",
+      "order": 183,
+      "greek": "ψυχήν — εἰσὶ γὰρ οὖν, ἔφη, οἳ ἐν ταῖς ψυχαῖς κυοῦσιν ἔτι μᾶλλον ἢ ἐν τοῖς σώμασιν, ἃ ψυχῇ προσήκει καὶ κυῆσαι καὶ τεκεῖν· τί οὖν προσήκει; φρόνησίν τε καὶ τὴν ἄλλην ἀρετήν· ὧν δή εἰσι καὶ οἱ ποιηταὶ πάντες γεννήτορες καὶ τῶν δημιουργῶν ὅσοι λέγονται εὑρετικοὶ εἶναι· πολὺ δὲ μεγίστη, ἔφη, καὶ καλλίστη τῆς φρονήσεως ἡ περὶ τὰ τῶν πόλεών τε καὶ οἰκήσεων διακόσμησις, ᾗ δὴ ὄνομά ἐστι σωφροσύνη τε καὶ δικαιοσύνη· τούτων δ᾽ αὖ ὅταν τις ἐκ",
+      "english": "But pregnancy of soul—for there are persons, she declared, who in their souls still more than in their bodies conceive those things which are proper for soul to conceive and bring forth; and what are those things? Prudence, and virtue in general; and of these the begetters are all the poets and those craftsmen who are styled inventors. Now by far the highest and fairest part of prudence is that which concerns the regulation of cities and habitations; it is called sobriety",
+      "greekPhrases": [
+        {
+          "text": "ψυχήν — εἰσὶ γὰρ οὖν, ἔφη, οἳ ἐν ταῖς ψυχαῖς κυοῦσιν ἔτι μᾶλλον ἢ ἐν τοῖς σώμασιν, ἃ ψυχῇ προσήκει καὶ κυῆσαι καὶ τεκεῖν· τί οὖν προσήκει;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "φρόνησίν τε καὶ τὴν ἄλλην ἀρετήν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ὧν δή εἰσι καὶ οἱ ποιηταὶ πάντες γεννήτορες καὶ τῶν δημιουργῶν ὅσοι λέγονται εὑρετικοὶ εἶναι·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "πολὺ δὲ μεγίστη, ἔφη, καὶ καλλίστη τῆς φρονήσεως ἡ περὶ τὰ τῶν πόλεών τε καὶ οἰκήσεων διακόσμησις, ᾗ δὴ ὄνομά ἐστι σωφροσύνη τε καὶ δικαιοσύνη·",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "τούτων δ᾽ αὖ ὅταν τις ἐκ",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "But pregnancy of soul—for there are persons, she declared, who in their souls still more than",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "in their bodies conceive those things which are proper for soul to conceive and bring forth;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "and what are those things?",
+          "mapsTo": []
+        },
+        {
+          "text": "Prudence, and virtue in general;",
+          "mapsTo": []
+        },
+        {
+          "text": "and of these the begetters are all the poets and those craftsmen who are styled inventors.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Now by far the highest and fairest part of prudence is that which concerns the regulation of cities and habitations;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "it is called sobriety",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "209b",
+      "page": "209",
+      "order": 184,
+      "greek": "νέου ἐγκύμων ᾖ τὴν ψυχήν θεῖος ὢν , καὶ ἡκούσης τῆς ἡλικίας, τίκτειν τε καὶ γεννᾶν ἤδη ἐπιθυμῇ, ζητεῖ δὴ οἶμαι καὶ οὗτος περιιὼν τὸ καλὸν ἐν ᾧ ἂν γεννήσειεν· ἐν τῷ γὰρ αἰσχρῷ οὐδέποτε γεννήσει. τά τε οὖν σώματα τὰ καλὰ μᾶλλον ἢ τὰ αἰσχρὰ ἀσπάζεται ἅτε κυῶν, καὶ ἂν ἐντύχῃ ψυχῇ καλῇ καὶ γενναίᾳ καὶ εὐφυεῖ, πάνυ δὴ ἀσπάζεται τὸ ξυναμφότερον, καὶ πρὸς τοῦτον τὸν ἄνθρωπον εὐθὺς εὐπορεῖ λόγων περὶ ἀρετῆς καὶ περὶ οἷον χρὴ εἶναι",
+      "english": "and justice. So when a man’s soul is so far divine that it is made pregnant with these from his youth, and on attaining manhood immediately desires to bring forth and beget, he too, I imagine, goes about seeking the beautiful object whereon he may do his begetting, since he will never beget upon the ugly. Hence it is the beautiful rather than the ugly bodies that he welcomes in his pregnancy, and if he chances also on a soul that is fair and noble and well-endowed, he gladly cherishes the two combined in one; and straightway in addressing such a person he is resourceful in discoursing of virtue and of what should be",
+      "greekPhrases": [
+        {
+          "text": "νέου ἐγκύμων ᾖ τὴν ψυχήν θεῖος ὢν , καὶ ἡκούσης τῆς ἡλικίας, τίκτειν τε καὶ",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "γεννᾶν ἤδη ἐπιθυμῇ, ζητεῖ δὴ οἶμαι καὶ οὗτος περιιὼν τὸ καλὸν ἐν ᾧ ἂν γεννήσειεν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐν τῷ γὰρ αἰσχρῷ οὐδέποτε γεννήσει.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τά τε οὖν σώματα τὰ καλὰ μᾶλλον ἢ τὰ αἰσχρὰ ἀσπάζεται ἅτε κυῶν, καὶ ἂν ἐντύχῃ ψυχῇ καλῇ καὶ γενναίᾳ καὶ",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "εὐφυεῖ, πάνυ δὴ ἀσπάζεται τὸ ξυναμφότερον, καὶ πρὸς τοῦτον τὸν ἄνθρωπον εὐθὺς εὐπορεῖ λόγων περὶ ἀρετῆς καὶ περὶ οἷον χρὴ εἶναι",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and justice. So when a man’s soul is so far divine that it is made pregnant with these from his youth, and on attaining manhood immediately desires to bring",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "forth and beget, he too, I imagine, goes about seeking the beautiful object whereon he may do his begetting, since he will never beget upon the ugly.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Hence it is the beautiful rather than the ugly bodies that he welcomes in his pregnancy, and if he",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "chances also on a soul that is fair and noble and well-endowed, he gladly cherishes the two combined in one;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "and straightway in addressing such a person he is resourceful in discoursing of virtue and of what should be",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "209c",
+      "page": "209",
+      "order": 185,
+      "greek": "τὸν ἄνδρα τὸν ἀγαθὸν καὶ ἃ ἐπιτηδεύειν, καὶ ἐπιχειρεῖ παιδεύειν. ἁπτόμενος γὰρ οἶμαι τοῦ καλοῦ καὶ ὁμιλῶν αὐτῷ, ἃ πάλαι ἐκύει , τίκτει καὶ γεννᾷ, καὶ παρὼν καὶ ἀπὼν μεμνημένος, καὶ τὸ γεννηθὲν συνεκτρέφει κοινῇ μετ᾽ ἐκείνου, ὥστε πολὺ μείζω κοινωνίαν τῆς τῶν παίδων πρὸς ἀλλήλους οἱ τοιοῦτοι ἴσχουσι καὶ φιλίαν βεβαιοτέραν, ἅτε καλλιόνων καὶ ἀθανατωτέρων παίδων κεκοινωνηκότες. καὶ πᾶς ἂν δέξαιτο ἑαυτῷ τοιούτους παῖδας μᾶλλον γεγονέναι ἢ τοὺς",
+      "english": "the good man’s character and what his pursuits; and so he takes in hand the other’s education. For I hold that by contact with the fair one and by consorting with him he bears and brings forth his long-felt conception, because in presence or absence he remembers his fair. Equally too with him he shares the nurturing of what is begotten, so that men in this condition enjoy a far fuller community with each other than that which comes with children, and a far surer friendship, since the children of their union are fairer and more deathless. Every one would choose to have got children such as these rather than the human sort—",
+      "greekPhrases": [
+        {
+          "text": "τὸν ἄνδρα τὸν ἀγαθὸν καὶ ἃ ἐπιτηδεύειν, καὶ ἐπιχειρεῖ παιδεύειν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἁπτόμενος γὰρ οἶμαι τοῦ καλοῦ καὶ ὁμιλῶν αὐτῷ, ἃ πάλαι ἐκύει , τίκτει καὶ γεννᾷ, καὶ παρὼν καὶ ἀπὼν μεμνημένος, καὶ τὸ γεννηθὲν συνεκτρέφει",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "κοινῇ μετ᾽ ἐκείνου, ὥστε πολὺ μείζω κοινωνίαν τῆς τῶν παίδων πρὸς ἀλλήλους οἱ τοιοῦτοι ἴσχουσι καὶ φιλίαν βεβαιοτέραν, ἅτε καλλιόνων καὶ ἀθανατωτέρων παίδων κεκοινωνηκότες.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "καὶ πᾶς ἂν δέξαιτο ἑαυτῷ τοιούτους παῖδας μᾶλλον γεγονέναι ἢ τοὺς",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "the good man’s character and what his pursuits;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and so he takes in hand the other’s education.",
+          "mapsTo": []
+        },
+        {
+          "text": "For I hold that by contact with the fair one and by consorting with him he",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "bears and brings forth his long-felt conception, because in presence or absence he remembers his fair.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Equally too with him he shares the nurturing of what is begotten, so that men in this condition enjoy a far fuller community with",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "each other than that which comes with children, and a far surer friendship, since the children of their union are fairer and more deathless.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Every one would choose to have got children such as these rather than the human sort—",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "209d",
+      "page": "209",
+      "order": 186,
+      "greek": "ἀνθρωπίνους, καὶ εἰς Ὅμηρον ἀποβλέψας καὶ Ἡσίοδον καὶ τοὺς ἄλλους ποιητὰς τοὺς ἀγαθοὺς ζηλῶν, οἷα ἔκγονα ἑαυτῶν καταλείπουσιν, ἃ ἐκείνοις ἀθάνατον κλέος καὶ μνήμην παρέχεται αὐτὰ τοιαῦτα ὄντα· εἰ δὲ βούλει, ἔφη, οἵους Λυκοῦργος παῖδας κατελίπετο ἐν Λακεδαίμονι σωτῆρας τῆς Λακεδαίμονος καὶ ὡς ἔπος εἰπεῖν τῆς Ἑλλάδος. τίμιος δὲ παρ᾽ ὑμῖν καὶ Σόλων διὰ τὴν τῶν νόμων γέννησιν, καὶ ἄλλοι",
+      "english": "merely from turning a glance upon Homer and Hesiod and all the other good poets, and envying the fine offspring they leave behind to procure them a glory immortally renewed in the memory of men. Or only look, she said, at the fine children whom Lycurgus left behind him in Lacedaemon to deliver his country and—I may almost say—the whole of Greece ; while Solon is highly esteemed among you for begetting his laws; and so are",
+      "greekPhrases": [
+        {
+          "text": "ἀνθρωπίνους, καὶ εἰς Ὅμηρον ἀποβλέψας καὶ Ἡσίοδον καὶ τοὺς ἄλλους ποιητὰς τοὺς ἀγαθοὺς ζηλῶν, οἷα ἔκγονα ἑαυτῶν καταλείπουσιν, ἃ ἐκείνοις ἀθάνατον κλέος καὶ μνήμην παρέχεται αὐτὰ τοιαῦτα ὄντα·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "εἰ δὲ βούλει, ἔφη, οἵους Λυκοῦργος παῖδας κατελίπετο ἐν Λακεδαίμονι σωτῆρας τῆς Λακεδαίμονος καὶ ὡς ἔπος εἰπεῖν τῆς Ἑλλάδος.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "τίμιος δὲ παρ᾽ ὑμῖν καὶ Σόλων διὰ τὴν τῶν νόμων γέννησιν, καὶ ἄλλοι",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "merely from turning a glance upon Homer and Hesiod and all the other good poets, and envying",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "the fine offspring they leave behind to procure them a glory immortally renewed in the memory of men.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Or only look, she said, at the fine children whom Lycurgus left behind him in Lacedaemon to deliver his country and—I may almost say—the whole of Greece ;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "while Solon is highly esteemed among you for begetting his laws; and so are",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "209e",
+      "page": "209",
+      "order": 187,
+      "greek": "ἄλλοθι πολλαχοῦ ἄνδρες, καὶ ἐν Ἕλλησι καὶ ἐν βαρβάροις, πολλὰ καὶ καλὰ ἀποφηνάμενοι ἔργα, γεννήσαντες παντοίαν ἀρετήν· ὧν καὶ ἱερὰ πολλὰ ἤδη γέγονε διὰ τοὺς τοιούτους παῖδας, διὰ δὲ τοὺς ἀνθρωπίνους οὐδενός πω. Ταῦτα μὲν οὖν τὰ ἐρωτικὰ ἴσως, ὦ Σώκρατες, κἂν σὺ",
+      "english": "diverse men in diverse other regions, whether among the Greeks or among foreign peoples, for the number of goodly deeds shown forth in them, the manifold virtues they begot. In their name has many a shrine been reared because of their fine children; whereas for the human sort never any man obtained this honor. Into these love-matters even you, Socrates, might haply be initiated;",
+      "greekPhrases": [
+        {
+          "text": "ἄλλοθι πολλαχοῦ ἄνδρες, καὶ ἐν Ἕλλησι καὶ ἐν βαρβάροις, πολλὰ καὶ καλὰ ἀποφηνάμενοι ἔργα, γεννήσαντες παντοίαν ἀρετήν·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ὧν καὶ ἱερὰ πολλὰ ἤδη γέγονε διὰ τοὺς τοιούτους παῖδας, διὰ δὲ τοὺς ἀνθρωπίνους οὐδενός πω.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Ταῦτα μὲν οὖν τὰ ἐρωτικὰ ἴσως, ὦ Σώκρατες, κἂν σὺ",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "diverse men in diverse other regions, whether among the Greeks or among foreign peoples,",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for the number of goodly deeds shown forth in them, the manifold virtues they begot.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "In their name has many a shrine been reared because of their fine children;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "whereas for the human sort never any man obtained this honor.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Into these love-matters even you, Socrates, might haply be initiated;",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "210a",
+      "page": "210",
+      "order": 188,
+      "greek": "μυηθείης· τὰ δὲ τέλεα καὶ ἐποπτικά, ὧν ἕνεκα καὶ ταῦτα ἔστιν, ἐάν τις ὀρθῶς μετίῃ, οὐκ οἶδ᾽ εἰ οἷός τ᾽ ἂν εἴης. ἐρῶ μὲν οὖν, ἔφη, ἐγὼ καὶ προθυμίας οὐδὲν ἀπολείψω· πειρῶ δὲ ἕπεσθαι, ἂν οἷός τε ᾖς. δεῖ γάρ, ἔφη, τὸν ὀρθῶς ἰόντα ἐπὶ τοῦτο τὸ πρᾶγμα ἄρχεσθαι μὲν νέον ὄντα ἰέναι ἐπὶ τὰ καλὰ σώματα, καὶ πρῶτον μέν, ἐὰν ὀρθῶς ἡγῆται ὁ ἡγούμενος, ἑνὸς αὐτὸν σώματος ἐρᾷν καὶ ἐνταῦθα γεννᾷν λόγους καλούς, ἔπειτα δὲ αὐτὸν κατανοῆσαι ὅτι τὸ κάλλος",
+      "english": "but I doubt if you could approach the rites and revelations to which these, for the properly instructed, are merely the avenue. However I will speak of them, she said, and will not stint my best endeavors; only you on your part must try your best to follow. He who would proceed rightly in this business must not merely begin from his youth to encounter beautiful bodies. In the first place, indeed, if his conductor guides him aright, he must be in love with one particular body, and engender beautiful converse therein;",
+      "greekPhrases": [
+        {
+          "text": "μυηθείης· τὰ δὲ τέλεα καὶ ἐποπτικά, ὧν ἕνεκα καὶ ταῦτα ἔστιν, ἐάν τις ὀρθῶς μετίῃ, οὐκ οἶδ᾽ εἰ οἷός τ᾽ ἂν εἴης.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐρῶ μὲν οὖν, ἔφη, ἐγὼ καὶ προθυμίας οὐδὲν ἀπολείψω·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "πειρῶ δὲ ἕπεσθαι, ἂν οἷός τε ᾖς.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "δεῖ γάρ, ἔφη, τὸν ὀρθῶς ἰόντα ἐπὶ τοῦτο τὸ πρᾶγμα ἄρχεσθαι μὲν νέον ὄντα ἰέναι ἐπὶ τὰ καλὰ σώματα, καὶ πρῶτον",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "μέν, ἐὰν ὀρθῶς ἡγῆται ὁ ἡγούμενος, ἑνὸς αὐτὸν σώματος ἐρᾷν καὶ ἐνταῦθα γεννᾷν λόγους καλούς, ἔπειτα δὲ αὐτὸν κατανοῆσαι ὅτι τὸ κάλλος",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "but I doubt if you could approach the rites and revelations to which these, for the properly instructed, are merely the avenue.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "However I will speak of them, she said, and will not stint my best endeavors;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "only you on your part must try your best to follow.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "He who would proceed rightly in this business must not merely begin from his youth to encounter beautiful bodies.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "In the first place, indeed, if his conductor guides him aright, he must be in love with one particular body, and engender beautiful converse therein;",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "210b",
+      "page": "210",
+      "order": 189,
+      "greek": "τὸ ἐπὶ ὁτῳοῦν σώματι τῷ ἐπὶ ἑτέρῳ σώματι ἀδελφόν ἐστι, καὶ εἰ δεῖ διώκειν τὸ ἐπ᾽ εἴδει καλόν, πολλὴ ἄνοια μὴ οὐχ ἕν τε καὶ ταὐτὸν ἡγεῖσθαι τὸ ἐπὶ πᾶσιν τοῖς σώμασι κάλλος· τοῦτο δ᾽ ἐννοήσαντα καταστῆναι πάντων τῶν καλῶν σωμάτων ἐραστήν, ἑνὸς δὲ τὸ σφόδρα τοῦτο χαλάσαι καταφρονήσαντα καὶ σμικρὸν ἡγησάμενον· μετὰ δὲ ταῦτα τὸ ἐν ταῖς ψυχαῖς κάλλος τιμιώτερον ἡγήσασθαι τοῦ ἐν τῷ σώματι, ὥστε καὶ ἐὰν ἐπιεικὴς ὢν τὴν ψυχήν τις κἂν σμικρὸν ἄνθος",
+      "english": "but next he must remark how the beauty attached to this or that body is cognate to that which is attached to any other, and that if he means to ensue beauty in form, it is gross folly not to regard as one and the same the beauty belonging to all; and so, having grasped this truth, he must make himself a lover of all beautiful bodies, and slacken the stress of his feeling for one by contemning it and counting it a trifle. But his next advance will be to set a higher value on the beauty of souls than on that of the body, so that however little the grace that may bloom in any likely soul",
+      "greekPhrases": [
+        {
+          "text": "τὸ ἐπὶ ὁτῳοῦν σώματι τῷ ἐπὶ ἑτέρῳ σώματι ἀδελφόν ἐστι, καὶ εἰ δεῖ διώκειν τὸ ἐπ᾽",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἴδει καλόν, πολλὴ ἄνοια μὴ οὐχ ἕν τε καὶ ταὐτὸν ἡγεῖσθαι τὸ ἐπὶ πᾶσιν τοῖς σώμασι κάλλος·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τοῦτο δ᾽ ἐννοήσαντα καταστῆναι πάντων τῶν καλῶν σωμάτων ἐραστήν, ἑνὸς δὲ τὸ σφόδρα τοῦτο χαλάσαι καταφρονήσαντα καὶ σμικρὸν ἡγησάμενον·",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "μετὰ δὲ ταῦτα τὸ ἐν ταῖς ψυχαῖς κάλλος τιμιώτερον ἡγήσασθαι τοῦ ἐν τῷ σώματι, ὥστε καὶ ἐὰν ἐπιεικὴς ὢν τὴν ψυχήν τις κἂν σμικρὸν ἄνθος",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "but next he must remark how the beauty attached to this or that body is cognate to that which is attached to any other, and",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "that if he means to ensue beauty in form, it is gross folly not to regard as one and the same the beauty belonging to all;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and so, having grasped this truth, he must make himself a lover of all beautiful bodies,",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and slacken the stress of his feeling for one by contemning it and counting it a trifle.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "But his next advance will be to set a higher value on the beauty of souls than",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "on that of the body, so that however little the grace that may bloom in any likely soul",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "210c",
+      "page": "210",
+      "order": 190,
+      "greek": "ἔχῃ, ἐξαρκεῖν αὐτῷ καὶ ἐρᾷν καὶ κήδεσθαι καὶ τίκτειν λόγους τοιούτους καὶ ζητεῖν, οἵτινες ποιήσουσι βελτίους τοὺς νέους, ἵνα ἀναγκασθῇ αὖ θεάσασθαι τὸ ἐν τοῖς ἐπιτηδεύμασι καὶ τοῖς νόμοις καλὸν καὶ τοῦτ᾽ ἰδεῖν ὅτι πᾶν αὐτὸ αὑτῷ ξυγγενές ἐστιν, ἵνα τὸ περὶ τὸ σῶμα καλὸν σμικρόν τι ἡγήσηται εἶναι . μετὰ δὲ τὰ ἐπιτηδεύματα ἐπὶ τὰς ἐπιστήμας ἀγαγεῖν, ἵνα ἴδῃ αὖ ἐπιστημῶν κάλλος, καὶ βλέπων πρὸς",
+      "english": "it shall suffice him for loving and caring, and for bringing forth and soliciting such converse as will tend to the betterment of the young; and that finally he may be constrained to contemplate the beautiful as appearing in our observances and our laws, and to behold it all bound together in kinship and so estimate the body’s beauty as a slight affair. From observances he should be led on to the branches of knowledge, that there also he may behold a province of beauty, and by looking thus on beauty in the mass may escape from the mean, meticulous slavery of a single instance, where he must center all his care,",
+      "greekPhrases": [
+        {
+          "text": "ἔχῃ, ἐξαρκεῖν αὐτῷ καὶ ἐρᾷν καὶ κήδεσθαι καὶ τίκτειν λόγους τοιούτους καὶ ζητεῖν, οἵτινες ποιήσουσι βελτίους τοὺς νέους, ἵνα ἀναγκασθῇ αὖ θεάσασθαι τὸ ἐν τοῖς",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἐπιτηδεύμασι καὶ τοῖς νόμοις καλὸν καὶ τοῦτ᾽ ἰδεῖν ὅτι πᾶν αὐτὸ αὑτῷ ξυγγενές ἐστιν, ἵνα τὸ περὶ τὸ σῶμα καλὸν σμικρόν τι ἡγήσηται εἶναι .",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "μετὰ δὲ τὰ ἐπιτηδεύματα ἐπὶ τὰς ἐπιστήμας ἀγαγεῖν, ἵνα ἴδῃ αὖ ἐπιστημῶν κάλλος, καὶ βλέπων πρὸς",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "it shall suffice him for loving and caring, and for bringing forth and soliciting such converse as will tend to the betterment of the young;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and that finally he may be constrained to contemplate the beautiful as appearing in our observances and our laws,",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and to behold it all bound together in kinship and so estimate the body’s beauty as a slight affair.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "From observances he should be led on to the branches of knowledge, that there also he may behold a province of beauty, and by",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "looking thus on beauty in the mass may escape from the mean, meticulous slavery of a single instance, where he must center all his care,",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "210d",
+      "page": "210",
+      "order": 191,
+      "greek": "πολὺ ἤδη τὸ καλὸν μηκέτι τῷ παρ᾽ ἑνί, ὥσπερ οἰκέτης, ἀγαπῶν παιδαρίου κάλλος ἢ ἀνθρώπου τινός ἢ ἐπιτηδεύματος ἑνός, δουλεύων φαῦλος ᾖ καὶ σμικρολόγος, ἀλλ᾽ ἐπὶ τὸ πολὺ πέλαγος τετραμμένος τοῦ καλοῦ καὶ θεωρῶν πολλοὺς καὶ καλοὺς λόγους καὶ μεγαλοπρεπεῖς τίκτῃ καὶ διανοήματα ἐν φιλοσοφίᾳ ἀφθόνῳ, ἕως ἂν ἐνταῦθα ῥωσθεὶς καὶ αὐξηθεὶς κατίδῃ τινὰ ἐπιστήμην μίαν τοιαύτην, ἥ ἐστι καλοῦ",
+      "english": "like a lackey, upon the beauty of a particular child or man or single observance; and turning rather towards the main ocean of the beautiful may by contemplation of this bring forth in all their splendor many fair fruits of discourse and meditation in a plenteous crop of philosophy; until with the strength and increase there acquired he descries a certain single knowledge connected with a beauty which has yet to be told. And here, I pray you,",
+      "greekPhrases": [
+        {
+          "text": "πολὺ ἤδη τὸ καλὸν μηκέτι τῷ παρ᾽ ἑνί, ὥσπερ οἰκέτης, ἀγαπῶν παιδαρίου κάλλος ἢ ἀνθρώπου τινός ἢ ἐπιτηδεύματος ἑνός, δουλεύων φαῦλος ᾖ καὶ σμικρολόγος, ἀλλ᾽ ἐπὶ τὸ πολὺ πέλαγος τετραμμένος",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "τοῦ καλοῦ καὶ θεωρῶν πολλοὺς καὶ καλοὺς λόγους καὶ μεγαλοπρεπεῖς τίκτῃ καὶ διανοήματα ἐν φιλοσοφίᾳ ἀφθόνῳ, ἕως ἂν ἐνταῦθα ῥωσθεὶς καὶ αὐξηθεὶς κατίδῃ τινὰ ἐπιστήμην μίαν τοιαύτην, ἥ ἐστι καλοῦ",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "like a lackey, upon the beauty of a particular child or man or single observance;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and turning rather towards the main ocean of the beautiful may by contemplation of this bring forth",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "in all their splendor many fair fruits of discourse and meditation in a plenteous crop of philosophy;",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "until with the strength and increase there acquired he descries a certain single knowledge connected with a beauty which has yet to be told.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "And here, I pray you,",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "210e",
+      "page": "210",
+      "order": 192,
+      "greek": "τοιοῦδε. πειρῶ δέ μοι, ἔφη, τὸν νοῦν προσέχειν ὡς οἷόν τε μάλιστα. Ὃς γὰρ ἂν μέχρι ἐνταῦθα πρὸς τὰ ἐρωτικὰ παιδαγωγηθῇ, θεώμενος ἐφεξῆς τε καὶ ὀρθῶς τὰ καλά, πρὸς τέλος ἤδη ἰὼν τῶν ἐρωτικῶν ἐξαίφνης κατόψεταί τι θαυμαστὸν τὴν φύσιν καλόν, τοῦτο ἐκεῖνο, ὦ Σώκρατες, οὗ δὴ ἕνεκεν καὶ οἱ ἔμπροσθεν πάντες πόνοι ἦσαν, πρῶτον μὲν",
+      "english": "said she, give me the very best of your attention. When a man has been thus far tutored in the lore of love, passing from view to view of beautiful things, in the right and regular ascent, suddenly he will have revealed to him, as he draws to the close of his dealings in love, a wondrous vision, beautiful in its nature; and this, Socrates, is the final object of all those previous toils. First of all, it is ever-existent",
+      "greekPhrases": [
+        {
+          "text": "τοιοῦδε. πειρῶ δέ μοι, ἔφη, τὸν νοῦν προσέχειν ὡς οἷόν τε μάλιστα.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Ὃς γὰρ ἂν μέχρι ἐνταῦθα πρὸς τὰ ἐρωτικὰ παιδαγωγηθῇ, θεώμενος ἐφεξῆς τε καὶ ὀρθῶς τὰ καλά, πρὸς τέλος ἤδη ἰὼν τῶν ἐρωτικῶν",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἐξαίφνης κατόψεταί τι θαυμαστὸν τὴν φύσιν καλόν, τοῦτο ἐκεῖνο, ὦ Σώκρατες, οὗ δὴ ἕνεκεν καὶ οἱ ἔμπροσθεν πάντες πόνοι ἦσαν, πρῶτον μὲν",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "said she, give me the very best of your attention.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "When a man has been thus far tutored in the lore of love, passing from view to view of beautiful things, in the right and regular",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ascent, suddenly he will have revealed to him, as he draws to the close of his dealings in love, a wondrous vision, beautiful in its nature;",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "and this, Socrates, is the final object of all those previous toils.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "First of all, it is ever-existent",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "211a",
+      "page": "211",
+      "order": 193,
+      "greek": "ἀεὶ ὂν καὶ οὔτε γιγνόμενον οὔτε ἀπολλύμενον, οὔτε αὐξανόμενον οὔτε φθῖνον, ἔπειτα οὐ τῇ μὲν καλόν, τῇ δ᾽ αἰσχρόν, οὐδὲ τοτὲ μέν, τοτὲ δὲ οὔ, οὐδὲ πρὸς μὲν τὸ καλόν, πρὸς δὲ τὸ αἰσχρόν . οὐδ᾽ ἔνθα μὲν καλόν, ἔνθα δὲ αἰσχρόν, ὡς τισὶ μὲν ὂν καλόν, τισὶ δὲ αἰσχρόν· οὐδ᾽ αὖ φαντασθήσεται αὐτῷ τὸ καλὸν οἷον πρόσωπόν τι οὐδὲ χεῖρες οὐδὲ ἄλλο οὐδὲν ὧν σῶμα μετέχει, οὐδέ τις λόγος οὐδέ τις ἐπιστήμη, οὐδέ που ὂν ἐν ἑτέρῳ τινι, οἷον ἐν ζῴῳ ἢ ἐν γῇ ἢ ἐν οὐρανῷ",
+      "english": "and neither comes to be nor perishes, neither waxes nor wanes; next, it is not beautiful in part and in part ugly, nor is it such at such a time and other at another, nor in one respect beautiful and in another ugly, nor so affected by position as to seem beautiful to some and ugly to others. Nor again will our initiate find the beautiful presented to him in the guise of a face or of hands or any other portion of the body, nor as a particular description or piece of knowledge, nor as existing somewhere in another substance, such as an animal or",
+      "greekPhrases": [
+        {
+          "text": "ἀεὶ ὂν καὶ οὔτε γιγνόμενον οὔτε ἀπολλύμενον, οὔτε αὐξανόμενον οὔτε φθῖνον, ἔπειτα οὐ τῇ μὲν καλόν, τῇ",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "δ᾽ αἰσχρόν, οὐδὲ τοτὲ μέν, τοτὲ δὲ οὔ, οὐδὲ πρὸς μὲν τὸ καλόν, πρὸς δὲ τὸ αἰσχρόν .",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "οὐδ᾽ ἔνθα μὲν καλόν, ἔνθα δὲ αἰσχρόν, ὡς τισὶ μὲν ὂν καλόν, τισὶ δὲ αἰσχρόν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "οὐδ᾽ αὖ φαντασθήσεται αὐτῷ τὸ καλὸν οἷον πρόσωπόν τι οὐδὲ χεῖρες οὐδὲ ἄλλο οὐδὲν ὧν σῶμα μετέχει, οὐδέ τις",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "λόγος οὐδέ τις ἐπιστήμη, οὐδέ που ὂν ἐν ἑτέρῳ τινι, οἷον ἐν ζῴῳ ἢ ἐν γῇ ἢ ἐν οὐρανῷ",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and neither comes to be nor perishes, neither waxes nor wanes;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "next, it is not beautiful in part and in part ugly, nor is it such at such a time and other at another,",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "nor in one respect beautiful and in another ugly, nor so affected by position as to seem beautiful to some and ugly to others.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Nor again will our initiate find the beautiful presented to him in the guise of a face or of hands or any other portion",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "of the body, nor as a particular description or piece of knowledge, nor as existing somewhere in another substance, such as an animal or",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211b",
+      "page": "211",
+      "order": 194,
+      "greek": "ἢ ἔν τῳ ἄλλῳ, ἀλλ᾽ αὐτὸ καθ᾽ αὑτὸ μεθ᾽ αὑτοῦ μονοειδὲς ἀεὶ ὄν, τὰ δὲ ἄλλα πάντα καλὰ ἐκείνου μετέχοντα τρόπον τινὰ τοιοῦτον, οἷον γιγνομένων τε τῶν ἄλλων καὶ ἀπολλυμένων μηδὲν ἐκεῖνο μήτε τι πλέον μήτε ἔλαττον γίγνεσθαι μηδὲ πάσχειν μηδέν , ὅταν δή τις ἀπὸ τῶνδε διὰ τὸ ὀρθῶς παιδεραστεῖν ἐπανιὼν ἐκεῖνο τὸ καλὸν ἄρχηται καθορᾶν, σχεδὸν ἄν τι ἅπτοιτο τοῦ τέλους. τοῦτο γὰρ δή ἐστι τὸ ὀρθῶς ἐπὶ",
+      "english": "the earth or sky or any other thing; but existing ever in singularity of form independent by itself, while all the multitude of beautiful things partake of it in such wise that, though all of them are coming to be and perishing, it grows neither greater nor less, and is affected by nothing. So when a man by the right method of boy-loving ascends from these particulars and begins to descry that beauty, he is almost able to lay hold of the final secret. Such is the right approach",
+      "greekPhrases": [
+        {
+          "text": "ἢ ἔν τῳ ἄλλῳ, ἀλλ᾽ αὐτὸ καθ᾽ αὑτὸ μεθ᾽ αὑτοῦ μονοειδὲς ἀεὶ ὄν, τὰ δὲ ἄλλα πάντα καλὰ ἐκείνου μετέχοντα τρόπον τινὰ τοιοῦτον, οἷον γιγνομένων τε τῶν ἄλλων καὶ ἀπολλυμένων μηδὲν",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἐκεῖνο μήτε τι πλέον μήτε ἔλαττον γίγνεσθαι μηδὲ πάσχειν μηδέν , ὅταν δή τις ἀπὸ τῶνδε διὰ τὸ ὀρθῶς παιδεραστεῖν ἐπανιὼν ἐκεῖνο τὸ καλὸν ἄρχηται καθορᾶν, σχεδὸν ἄν τι ἅπτοιτο τοῦ τέλους.",
+          "mapsTo": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "text": "τοῦτο γὰρ δή ἐστι τὸ ὀρθῶς ἐπὶ",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "the earth or sky or any other thing;",
+          "mapsTo": []
+        },
+        {
+          "text": "but existing ever in singularity of form independent by itself, while all the multitude of beautiful things partake of it in such",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "wise that, though all of them are coming to be and perishing, it grows neither greater nor less, and is affected by nothing.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "So when a man by the right method of boy-loving ascends from these particulars and",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "begins to descry that beauty, he is almost able to lay hold of the final secret.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Such is the right approach",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211c",
+      "page": "211",
+      "order": 195,
+      "greek": "τὰ ἐρωτικὰ ἰέναι ἢ ὑπ᾽ ἄλλου ἄγεσθαι, ἀρχόμενον ἀπὸ τῶνδε τῶν καλῶν ἐκείνου ἕνεκα τοῦ καλοῦ ἀεὶ ἐπανιέναι, ὥσπερ ἐπαναβαθμοῖς χρώμενον, ἀπὸ ἑνὸς ἐπὶ δύο καὶ ἀπὸ δυοῖν ἐπὶ πάντα τὰ καλὰ σώματα, καὶ ἀπὸ τῶν καλῶν σωμάτων ἐπὶ τὰ καλὰ ἐπιτηδεύματα, καὶ ἀπὸ τῶν καλῶν ἐπιτηδευμάτων ἐπὶ τὰ καλὰ μαθήματα, καὶ ἀπὸ τῶν μαθημάτων ἐπ᾽ ἐκεῖνο τὸ μάθημα τελευτήσῃ, ὅ ἐστιν οὐκ ἄλλου ἢ αὐτοῦ ἐκείνου τοῦ καλοῦ μάθημα, καὶ γνῷ αὐτὸ τελευτῶν ὃ ἔστι",
+      "english": "or induction to love-matters. Beginning from obvious beauties he must for the sake of that highest beauty be ever climbing aloft, as on the rungs of a ladder, from one to two, and from two to all beautiful bodies; from personal beauty he proceeds to beautiful observances, from observance to beautiful learning, and from learning at last to that particular study which is concerned with the beautiful itself and that alone; so that in the end he comes to know",
+      "greekPhrases": [
+        {
+          "text": "τὰ ἐρωτικὰ ἰέναι ἢ ὑπ᾽ ἄλλου ἄγεσθαι, ἀρχόμενον ἀπὸ τῶνδε τῶν καλῶν ἐκείνου ἕνεκα τοῦ καλοῦ ἀεὶ ἐπανιέναι, ὥσπερ ἐπαναβαθμοῖς χρώμενον, ἀπὸ ἑνὸς ἐπὶ δύο καὶ ἀπὸ δυοῖν ἐπὶ πάντα τὰ καλὰ σώματα, καὶ ἀπὸ τῶν καλῶν σωμάτων",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἐπὶ τὰ καλὰ ἐπιτηδεύματα, καὶ ἀπὸ τῶν καλῶν ἐπιτηδευμάτων ἐπὶ τὰ καλὰ μαθήματα, καὶ ἀπὸ τῶν μαθημάτων ἐπ᾽ ἐκεῖνο τὸ μάθημα τελευτήσῃ, ὅ ἐστιν οὐκ ἄλλου ἢ αὐτοῦ ἐκείνου τοῦ καλοῦ μάθημα, καὶ γνῷ αὐτὸ τελευτῶν ὃ ἔστι",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "or induction to love-matters.",
+          "mapsTo": []
+        },
+        {
+          "text": "Beginning from obvious beauties he must for the sake of that highest beauty be ever climbing aloft,",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "as on the rungs of a ladder, from one to two, and from two to all beautiful bodies;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "from personal beauty he proceeds to beautiful observances, from observance to beautiful learning, and from learning",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "at last to that particular study which is concerned with the beautiful itself and that alone;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "so that in the end he comes to know",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "211d",
+      "page": "211",
+      "order": 196,
+      "greek": "καλόν. ἐνταῦθα τοῦ βίου, ὦ φίλε Σώκρατες, ἔφη ἡ Μαντινικὴ ξένη, εἴπερ που ἄλλοθι, βιωτὸν ἀνθρώπῳ, θεωμένῳ αὐτὸ τὸ καλόν. ὃ ἐάν ποτε ἴδῃς, οὐ κατὰ χρυσίον τε καὶ ἐσθῆτα καὶ τοὺς καλοὺς παῖδάς τε καὶ νεανίσκους δόξει σοι εἶναι, οὓς νῦν ὁρῶν ἐκπέπληξαι καὶ ἕτοιμος εἶ καὶ σὺ καὶ ἄλλοι πολλοί, ὁρῶντες τὰ παιδικὰ καὶ ξυνόντες ἀεὶ αὐτοῖς, εἴ πως οἷόν τ᾽ ἦν, μήτ᾽ ἐσθίειν μήτε πίνειν, ἀλλὰ θεᾶσθαι μόνον καὶ συνεῖναι. τί δῆτα, ἔφη, οἰόμεθα, εἴ τῳ γένοιτο",
+      "english": "the very essence of beauty. In that state of life above all others, my dear Socrates, said the Mantinean woman, a man finds it truly worth while to live, as he contemplates essential beauty. This, when once beheld, will outshine your gold and your vesture, your beautiful boys and striplings, whose aspect now so astounds you and makes you and many another, at the sight and constant society of your darlings, ready to do without either food or drink if that were any way possible, and only gaze upon them and have their company.",
+      "greekPhrases": [
+        {
+          "text": "καλόν. ἐνταῦθα τοῦ βίου, ὦ φίλε Σώκρατες, ἔφη ἡ Μαντινικὴ ξένη, εἴπερ που ἄλλοθι, βιωτὸν ἀνθρώπῳ, θεωμένῳ αὐτὸ τὸ καλόν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ὃ ἐάν ποτε ἴδῃς, οὐ κατὰ χρυσίον τε καὶ ἐσθῆτα καὶ τοὺς καλοὺς παῖδάς τε καὶ νεανίσκους δόξει σοι εἶναι, οὓς νῦν ὁρῶν ἐκπέπληξαι καὶ ἕτοιμος",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "εἶ καὶ σὺ καὶ ἄλλοι πολλοί, ὁρῶντες τὰ παιδικὰ καὶ ξυνόντες ἀεὶ αὐτοῖς, εἴ πως οἷόν τ᾽ ἦν, μήτ᾽ ἐσθίειν μήτε πίνειν, ἀλλὰ θεᾶσθαι μόνον καὶ συνεῖναι.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "τί δῆτα, ἔφη, οἰόμεθα, εἴ τῳ γένοιτο",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "the very essence of beauty.",
+          "mapsTo": []
+        },
+        {
+          "text": "In that state of life above all others, my dear Socrates, said the Mantinean",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "woman, a man finds it truly worth while to live, as he contemplates essential beauty.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "This, when once beheld, will outshine your gold and your vesture, your beautiful boys and striplings, whose aspect now so astounds you and makes you and many another, at the",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "sight and constant society of your darlings, ready to do without either food or drink if that were any way possible, and only gaze upon them and have their company.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211e",
+      "page": "211",
+      "order": 197,
+      "greek": "αὐτὸ τὸ καλὸν ἰδεῖν εἰλικρινές, καθαρόν, ἄμικτον, ἀλλὰ μὴ ἀνάπλεων σαρκῶν τε ἀνθρωπίνων καὶ χρωμάτων καὶ ἄλλης πολλῆς φλυαρίας θνητῆς, ἀλλ᾽ αὐτὸ τὸ θεῖον καλὸν δύναιτο μονοειδὲς κατιδεῖν; ἆρ᾽ οἴει, ἔφη, φαῦλον βίον",
+      "english": "But tell me, what would happen if one of you had the fortune to look upon essential beauty entire, pure and unalloyed; not infected with the flesh and color of humanity, and ever so much more of mortal trash? What if he could behold the divine beauty itself, in its unique form?",
+      "greekPhrases": [
+        {
+          "text": "αὐτὸ τὸ καλὸν ἰδεῖν εἰλικρινές, καθαρόν, ἄμικτον, ἀλλὰ μὴ ἀνάπλεων σαρκῶν τε ἀνθρωπίνων καὶ χρωμάτων καὶ ἄλλης πολλῆς φλυαρίας θνητῆς, ἀλλ᾽ αὐτὸ τὸ θεῖον καλὸν δύναιτο μονοειδὲς κατιδεῖν;",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἆρ᾽ οἴει, ἔφη, φαῦλον βίον",
+          "mapsTo": [
+            2
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "But tell me, what would happen if one of you had the fortune to look upon essential beauty entire, pure and unalloyed;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "not infected with the flesh and color of humanity, and ever so much more of mortal trash?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "What if he could behold the divine beauty itself, in its unique form?",
+          "mapsTo": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "212a",
+      "page": "212",
+      "order": 198,
+      "greek": "γίγνεσθαι ἐκεῖσε βλέποντος ἀνθρώπου καὶ ἐκεῖνο ᾧ δεῖ θεωμένου καὶ ξυνόντος αὐτῷ; ἢ οὐκ ἐνθυμῇ, ἔφη, ὅτι ἐνταῦθα αὐτῷ μοναχοῦ γενήσεται, ὁρῶντι ᾧ ὁρατὸν τὸ καλόν, τίκτειν οὐκ εἴδωλα ἀρετῆς, ἅτε οὐκ εἰδώλου ἐφαπτομένῳ, ἀλλὰ ἀληθῆ, ἅτε τοῦ ἀληθοῦς ἐφαπτομένῳ· τεκόντι δὲ ἀρετὴν ἀληθῆ καὶ θρεψαμένῳ ὑπάρχει θεοφιλῆ γενέσθαι, καὶ εἴπέρ τῳ ἄλλῳ ἀνθρώπων ἀθανάτῳ καὶ ἐκείνῳ;",
+      "english": "Do you call it a pitiful life for a man to lead—looking that way, observing that vision by the proper means, and having it ever with him? Do but consider, she said, that there only will it befall him, as he sees the beautiful through that which makes it visible, to breed not illusions but true examples of virtue, since his contact is not with illusion but with truth. So when he has begotten a true virtue and has reared it up he is destined to win the friendship of Heaven; he, above all men, is immortal.",
+      "greekPhrases": [
+        {
+          "text": "γίγνεσθαι ἐκεῖσε βλέποντος ἀνθρώπου καὶ ἐκεῖνο ᾧ δεῖ θεωμένου καὶ ξυνόντος αὐτῷ;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἢ οὐκ ἐνθυμῇ, ἔφη, ὅτι ἐνταῦθα αὐτῷ μοναχοῦ γενήσεται, ὁρῶντι ᾧ ὁρατὸν τὸ καλόν, τίκτειν οὐκ εἴδωλα ἀρετῆς, ἅτε οὐκ εἰδώλου ἐφαπτομένῳ, ἀλλὰ ἀληθῆ, ἅτε τοῦ ἀληθοῦς ἐφαπτομένῳ·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "τεκόντι δὲ ἀρετὴν ἀληθῆ καὶ θρεψαμένῳ ὑπάρχει θεοφιλῆ γενέσθαι, καὶ εἴπέρ τῳ ἄλλῳ ἀνθρώπων ἀθανάτῳ καὶ ἐκείνῳ;",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Do you call it a pitiful life for a man to lead—looking that way, observing that vision by the proper means, and having it ever with him?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Do but consider, she said, that there only will it befall him, as he sees the beautiful through that which makes",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "it visible, to breed not illusions but true examples of virtue, since his contact is not with illusion but with truth.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "So when he has begotten a true virtue and has reared it up he is destined to win the friendship of Heaven;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "he, above all men, is immortal.",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "212b",
+      "page": "212",
+      "order": 199,
+      "greek": "— Ταῦτα δή, ὦ Φαῖδρέ τε καὶ οἱ ἄλλοι, ἔφη μὲν Διοτίμα, πέπεισμαι δ᾽ ἐγώ· πεπεισμένος δὲ πειρῶμαι καὶ τοὺς ἄλλους πείθειν ὅτι τούτου τοῦ κτήματος τῇ ἀνθρωπείᾳ φύσει συνεργὸν ἀμείνω Ἔρωτος οὐκ ἄν τις ῥᾳδίως λάβοι. διὸ δὴ ἔγωγέ φημι χρῆναι πάντα ἄνδρα τὸν Ἔρωτα τιμᾷν, καὶ αὐτὸς τιμῶ τὰ ἐρωτικὰ καὶ διαφερόντως ἀσκῶ, καὶ τοῖς ἄλλοις παρακελεύομαι, καὶ νῦν τε καὶ ἀεὶ ἐγκωμιάζω τὴν δύναμιν καὶ ἀνδρείαν τοῦ Ἔρωτος καθ᾽ ὅσον οἷός τ᾽ εἰμί. τοῦτον",
+      "english": "This, Phaedrus and you others, is what Diotima told me, and I am persuaded of it; in which persuasion I pursue my neighbors, to persuade them in turn that towards this acquisition the best helper that our human nature can hope to find is Love. Wherefore I tell you now that every man should honor Love, as I myself do honor all love-matters with especial devotion, and exhort all other men to do the same; both now and always do I glorify Love’s power and valor",
+      "greekPhrases": [
+        {
+          "text": "— Ταῦτα δή, ὦ Φαῖδρέ τε καὶ οἱ ἄλλοι, ἔφη μὲν Διοτίμα, πέπεισμαι δ᾽ ἐγώ·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "πεπεισμένος δὲ πειρῶμαι καὶ τοὺς ἄλλους πείθειν ὅτι τούτου τοῦ κτήματος τῇ ἀνθρωπείᾳ φύσει συνεργὸν ἀμείνω Ἔρωτος οὐκ ἄν τις ῥᾳδίως λάβοι.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "διὸ δὴ ἔγωγέ φημι χρῆναι πάντα ἄνδρα τὸν Ἔρωτα τιμᾷν, καὶ αὐτὸς τιμῶ τὰ ἐρωτικὰ καὶ διαφερόντως ἀσκῶ, καὶ",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "τοῖς ἄλλοις παρακελεύομαι, καὶ νῦν τε καὶ ἀεὶ ἐγκωμιάζω τὴν δύναμιν καὶ ἀνδρείαν τοῦ Ἔρωτος καθ᾽ ὅσον οἷός τ᾽ εἰμί. τοῦτον",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "This, Phaedrus and you others, is what Diotima told me, and I am persuaded of it;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "in which persuasion I pursue my neighbors, to persuade them in turn that towards",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "this acquisition the best helper that our human nature can hope to find is Love.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Wherefore I tell you now that every man should honor Love, as I myself do",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "honor all love-matters with especial devotion, and exhort all other men to do the same;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "both now and always do I glorify Love’s power and valor",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "212c",
+      "page": "212",
+      "order": 200,
+      "greek": "οὖν τὸν λόγον, ὦ Φαῖδρε, εἰ μὲν βούλει, ὡς ἐγκώμιον εἰς Ἔρωτα νόμισον εἰρῆσθαι, εἰ δέ, ὅτι καὶ ὅπῃ χαίρεις ὀνομάζων, τοῦτο ὀνόμαζε. Εἰπόντος δὲ ταῦτα τοῦ Σωκράτους τοὺς μὲν ἐπαινεῖν, τὸν δὲ Ἀριστοφάνη λέγειν τι ἐπιχειρεῖν, ὅτι ἐμνήσθη αὐτοῦ λέγων ὁ Σωκράτης περὶ τοῦ λόγου· καὶ ἐξαίφνης τὴν αὔλειον θύραν κρουομένην πολὺν ψόφον παρασχεῖν ὡς κωμαστῶν, καὶ αὐλητρίδος φωνὴν ἀκούειν. τὸν οὖν Ἀγάθωνα, Παῖδες, φάναι,",
+      "english": "as far as I am able. So I ask you, Phaedrus, to be so good as to consider this account as a eulogy bestowed on Love, or else to call it by any name that pleases your fancy. After Socrates had thus spoken, there was applause from all the company except Aristophanes, who was beginning to remark on the allusion which Socrates’ speech had made to his own; when suddenly there was a knocking at the outer door, which had a noisy sound like that of revellers, and they heard notes of a flute-girl. Go and see to it,",
+      "greekPhrases": [
+        {
+          "text": "οὖν τὸν λόγον, ὦ Φαῖδρε, εἰ μὲν βούλει, ὡς ἐγκώμιον εἰς Ἔρωτα νόμισον εἰρῆσθαι, εἰ δέ, ὅτι καὶ ὅπῃ χαίρεις ὀνομάζων, τοῦτο ὀνόμαζε.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Εἰπόντος δὲ ταῦτα τοῦ Σωκράτους τοὺς μὲν ἐπαινεῖν, τὸν δὲ Ἀριστοφάνη λέγειν τι ἐπιχειρεῖν, ὅτι ἐμνήσθη αὐτοῦ λέγων ὁ Σωκράτης περὶ τοῦ λόγου·",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "καὶ ἐξαίφνης τὴν αὔλειον θύραν κρουομένην πολὺν ψόφον παρασχεῖν ὡς κωμαστῶν, καὶ αὐλητρίδος φωνὴν ἀκούειν.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "τὸν οὖν Ἀγάθωνα, Παῖδες, φάναι,",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "as far as I am able.",
+          "mapsTo": []
+        },
+        {
+          "text": "So I ask you, Phaedrus, to be so good as to consider this account as a",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "eulogy bestowed on Love, or else to call it by any name that pleases your fancy.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "After Socrates had thus spoken, there was applause from all the company except Aristophanes, who",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "was beginning to remark on the allusion which Socrates’ speech had made to his own;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "when suddenly there was a knocking at the outer door, which had a noisy sound like that of revellers, and they heard notes of a flute-girl.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Go and see to it,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "212d",
+      "page": "212",
+      "order": 201,
+      "greek": "οὐ σκέψεσθε; καὶ ἐὰν μέν τις τῶν ἐπιτηδείων ᾖ, καλεῖτε· εἰ δὲ μή, λέγετε ὅτι οὐ πίνομεν ἀλλ᾽ ἀναπαυόμεθα ἤδη. καὶ οὐ πολὺ ὕστερον Ἀλκιβιάδου τὴν φωνὴν ἀκούειν ἐν τῇ αὐλῇ σφόδρα μεθύοντος καὶ μέγα βοῶντος, ἐρωτῶντος ὅπου Ἀγάθων καὶ κελεύοντος ἄγειν παρ᾽ Ἀγάθωνα. ἄγειν οὖν αὐτὸν παρὰ σφᾶς τήν τε αὐλητρίδα ὑπολαβοῦσαν καὶ ἄλλους τινὰς τῶν ἀκολούθων, καὶ ἐπιστῆναι ἐπὶ τὰς θύρας",
+      "english": "said Agathon to the servants; and if it be one of our intimates, invite him in: otherwise, say we are not drinking, but just about to retire. A few moments after, they heard the voice of Alcibiades in the forecourt, very drunken and bawling loud, to know where Agathon was, and bidding them bring him to Agathon. So he was brought into the company by the flute-girl and some others of his people supporting him: he stood at the door,",
+      "greekPhrases": [
+        {
+          "text": "οὐ σκέψεσθε; καὶ ἐὰν μέν τις τῶν ἐπιτηδείων ᾖ, καλεῖτε·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἰ δὲ μή, λέγετε ὅτι οὐ πίνομεν ἀλλ᾽ ἀναπαυόμεθα ἤδη.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ οὐ πολὺ ὕστερον Ἀλκιβιάδου τὴν φωνὴν ἀκούειν ἐν τῇ αὐλῇ σφόδρα μεθύοντος καὶ μέγα βοῶντος, ἐρωτῶντος ὅπου Ἀγάθων καὶ κελεύοντος ἄγειν παρ᾽ Ἀγάθωνα.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "ἄγειν οὖν αὐτὸν παρὰ σφᾶς τήν τε αὐλητρίδα ὑπολαβοῦσαν καὶ ἄλλους τινὰς τῶν ἀκολούθων, καὶ ἐπιστῆναι ἐπὶ τὰς θύρας",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "said Agathon to the servants;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and if it be one of our intimates, invite him in:",
+          "mapsTo": []
+        },
+        {
+          "text": "otherwise, say we are not drinking, but just about to retire.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "A few moments after, they heard the voice of Alcibiades in the forecourt, very drunken",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and bawling loud, to know where Agathon was, and bidding them bring him to Agathon.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So he was brought into the company by the flute-girl and some others of his people supporting him:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "he stood at the door,",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "212e",
+      "page": "212",
+      "order": 202,
+      "greek": "ἐστεφανωμένον αὐτὸν κιττοῦ τέ τινι στεφάνῳ δασεῖ καὶ ἴων, καὶ ταινίας ἔχοντα ἐπὶ τῆς κεφαλῆς πάνυ πολλάς, καὶ εἰπεῖν· Ἄνδρες, χαίρετε· μεθύοντα ἄνδρα πάνυ σφόδρα δέξεσθε συμπότην, ἢ ἀπίωμεν ἀναδήσαντες μόνον Ἀγάθωνα, ἐφ᾽ ᾧπερ ἤλθομεν; ἐγὼ γάρ τοι, φάναι, χθὲς μὲν οὐχ οἷός τ᾽ ἐγενόμην ἀφικέσθαι, νῦν δὲ ἥκω ἐπὶ τῇ κεφαλῇ ἔχων τὰς ταινίας, ἵνα ἀπὸ τῆς ἐμῆς κεφαλῆς τὴν τοῦ σοφωτάτου καὶ καλλίστου κεφαλὴν ἀνειπὼν οὑτωσὶ ἀναδήσω· ἆρα καταγελάσεσθέ μου ὡς μεθύοντος; ἐγὼ δέ, κἂν ὑμεῖς",
+      "english": "crowned with a bushy wreath of ivy and violets, and wearing a great array of ribands on his head. Good evening, sirs, he said; will you admit to your drinking a fellow very far gone in liquor, or shall we simply set a wreath on Agathon—which indeed is what we came for—and so away? I tell you, sir, I was hindered from getting to you yesterday; but now I am here with these ribands on my head, so that I can pull them off mine and twine them about the head of the cleverest, the handsomest, if I may speak the—see, like this! Ah, you would laugh at me because I am drunk?",
+      "greekPhrases": [
+        {
+          "text": "ἐστεφανωμένον αὐτὸν κιττοῦ τέ τινι στεφάνῳ δασεῖ καὶ ἴων, καὶ ταινίας ἔχοντα ἐπὶ τῆς κεφαλῆς πάνυ πολλάς, καὶ εἰπεῖν· Ἄνδρες, χαίρετε·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "μεθύοντα ἄνδρα πάνυ σφόδρα δέξεσθε συμπότην, ἢ ἀπίωμεν ἀναδήσαντες μόνον Ἀγάθωνα, ἐφ᾽ ᾧπερ ἤλθομεν;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἐγὼ γάρ τοι, φάναι, χθὲς μὲν οὐχ οἷός τ᾽ ἐγενόμην ἀφικέσθαι, νῦν δὲ ἥκω ἐπὶ τῇ κεφαλῇ",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἔχων τὰς ταινίας, ἵνα ἀπὸ τῆς ἐμῆς κεφαλῆς τὴν τοῦ σοφωτάτου καὶ καλλίστου κεφαλὴν ἀνειπὼν οὑτωσὶ ἀναδήσω·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ἆρα καταγελάσεσθέ μου ὡς μεθύοντος;",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "ἐγὼ δέ, κἂν ὑμεῖς",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "crowned with a bushy wreath of ivy and violets, and wearing a great array of ribands on his head.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Good evening, sirs, he said;",
+          "mapsTo": []
+        },
+        {
+          "text": "will you admit to your drinking a fellow very far gone in liquor, or shall",
+          "mapsTo": []
+        },
+        {
+          "text": "we simply set a wreath on Agathon—which indeed is what we came for—and so away?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I tell you, sir, I was hindered from getting to you yesterday;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but now I am here with these ribands on my head, so that I can pull them off",
+          "mapsTo": []
+        },
+        {
+          "text": "mine and twine them about the head of the cleverest, the handsomest, if I may speak the—see, like this!",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ah, you would laugh at me because I am drunk?",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "213a",
+      "page": "213",
+      "order": 203,
+      "greek": "γελᾶτε, ὅμως εὖ οἶδ᾽ ὅτι ἀληθῆ λέγω. ἀλλά μοι λέγετε αὐτόθεν, ἐπὶ ῥητοῖς εἰσίω ἢ μή; συμπίεσθε ἢ οὔ; πάντας οὖν ἀναθορυβῆσαι καὶ κελεύειν εἰσιέναι καὶ κατακλίνεσθαι, καὶ τὸν Ἀγάθωνα καλεῖν αὐτόν. καὶ τὸν ἰέναι ἀγόμενον ὑπὸ τῶν ἀνθρώπων, καὶ περιαιρούμενον ἅμα τὰς ταινίας ὡς ἀναδήσοντα, ἐπίπροσθε τῶν ὀφθαλμῶν ἔχοντα οὐ κατιδεῖν τὸν Σωκράτη, ἀλλὰ καθίζεσθαι παρὰ τὸν Ἀγάθωνα",
+      "english": "Well, for my part, laugh as you may, I am sure I am speaking the truth. Come, tell me straight out, am I to enter on the terms stated or not? Will you take a cup with me or no? At this they all boisterously acclaimed him, bidding him enter and take a seat, and Agathon also invited him. So he came along with the assistance of his people and while unwinding the ribands for his purpose of wreathing his friend he so held them before his eyes that he failed to notice Socrates, and actually took a seat next to Agathon,",
+      "greekPhrases": [
+        {
+          "text": "γελᾶτε, ὅμως εὖ οἶδ᾽ ὅτι ἀληθῆ λέγω.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀλλά μοι λέγετε αὐτόθεν, ἐπὶ ῥητοῖς εἰσίω ἢ μή; συμπίεσθε ἢ οὔ;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "πάντας οὖν ἀναθορυβῆσαι καὶ κελεύειν εἰσιέναι καὶ κατακλίνεσθαι, καὶ τὸν Ἀγάθωνα καλεῖν αὐτόν.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ τὸν ἰέναι ἀγόμενον ὑπὸ τῶν ἀνθρώπων, καὶ περιαιρούμενον ἅμα τὰς ταινίας ὡς ἀναδήσοντα, ἐπίπροσθε τῶν ὀφθαλμῶν ἔχοντα οὐ κατιδεῖν τὸν Σωκράτη, ἀλλὰ καθίζεσθαι παρὰ τὸν Ἀγάθωνα",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Well, for my part, laugh as you may, I am sure I am speaking the truth.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Come, tell me straight out, am I to enter on the terms stated or not?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Will you take a cup with me or no?",
+          "mapsTo": []
+        },
+        {
+          "text": "At this they all boisterously acclaimed him, bidding him enter and take a seat, and Agathon also invited him.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "So he came along with the assistance of his people and while unwinding the ribands for his purpose of wreathing his",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "friend he so held them before his eyes that he failed to notice Socrates, and actually took a seat next to Agathon,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "213b",
+      "page": "213",
+      "order": 204,
+      "greek": "ἐν μέσῳ Σωκράτους τε καὶ ἐκείνου· παραχωρῆσαι γὰρ τὸν Σωκράτη ὡς ἐκεῖνον καθίζειν. παρακαθεζόμενον δὲ αὐτὸν ἀσπάζεσθαί τε τὸν Ἀγάθωνα καὶ ἀναδεῖν. εἰπεῖν οὖν τὸν Ἀγάθωνα· Ὑπολύετε, παῖδες, Ἀλκιβιάδην, ἵνα ἐκ τρίτων κατακέηται. Πάνυ γε, εἰπεῖν τὸν Ἀλκιβιάδην· ἀλλὰ τίς ἡμῖν ὅδε τρίτος συμπότης; καὶ ἅμα μεταστρεφόμενον αὐτὸν ὁρᾶν τὸν Σωκράτη, ἰδόντα δὲ ἀναπηδῆσαι καὶ εἰπεῖν· Ὦ Ἡράκλεις, τουτὶ τί ἦν; Σωκράτης οὗτος; ἐλλοχῶν αὖ με ἐνταῦθα κατέκεισο,",
+      "english": "between Socrates and him: for Socrates had moved up when he caught sight of Alcibiades. So there he sat, and he saluted Agathon and began to twine his head. Then Agathon said to the servants, Take off Alcibiades’ shoes, so that he can recline here with us two. By all means, said Alcibiades; but who is our third at table? With that he turned about and saw Socrates, and the same moment leapt up and cried, Save us, what a surprise! Socrates here! So it was to lie in wait for me again that you were sitting there—",
+      "greekPhrases": [
+        {
+          "text": "ἐν μέσῳ Σωκράτους τε καὶ ἐκείνου·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "παραχωρῆσαι γὰρ τὸν Σωκράτη ὡς ἐκεῖνον καθίζειν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "παρακαθεζόμενον δὲ αὐτὸν ἀσπάζεσθαί τε τὸν Ἀγάθωνα καὶ ἀναδεῖν.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "εἰπεῖν οὖν τὸν Ἀγάθωνα·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ὑπολύετε, παῖδες, Ἀλκιβιάδην, ἵνα ἐκ τρίτων κατακέηται.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Πάνυ γε, εἰπεῖν τὸν Ἀλκιβιάδην·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἀλλὰ τίς ἡμῖν ὅδε τρίτος συμπότης;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "καὶ ἅμα μεταστρεφόμενον αὐτὸν ὁρᾶν τὸν Σωκράτη, ἰδόντα δὲ ἀναπηδῆσαι καὶ εἰπεῖν·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "Ὦ Ἡράκλεις, τουτὶ τί ἦν; Σωκράτης οὗτος;",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "ἐλλοχῶν αὖ με ἐνταῦθα κατέκεισο,",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "between Socrates and him:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for Socrates had moved up when he caught sight of Alcibiades.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "So there he sat, and he saluted Agathon and began to twine his head.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Then Agathon said to the servants, Take off Alcibiades’ shoes, so that he can recline here with us two.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "By all means, said Alcibiades;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "but who is our third at table?",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "With that he turned about and saw Socrates, and the same moment leapt up and cried, Save us, what a surprise! Socrates here!",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "So it was to lie in wait for me again that you were sitting there—",
+          "mapsTo": [
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "213c",
+      "page": "213",
+      "order": 205,
+      "greek": "ὥσπερ εἰώθεις ἐξαίφνης ἀναφαίνεσθαι ὅπου ἐγὼ ᾤμην ἥκιστά σε ἔσεσθαι. καὶ νῦν τί ἥκεις; καὶ τί αὖ ἐνταῦθα κατεκλίνης; ὡς οὐ παρὰ Ἀριστοφάνει οὐδὲ εἴ τις ἄλλος γελοῖος ἔστι τε καὶ βούλεται, ἀλλὰ διεμηχανήσω ὅπως παρὰ τῷ καλλίστῳ τῶν ἔνδον κατακείσει; καὶ τὸν Σωκράτη· Ἀγάθων, φάναι, ὅρα εἴ μοι ἐπαμύνεις· ὡς ἐμοὶ ὁ τούτου ἔρως τοῦ ἀνθρώπου οὐ φαῦλον πρᾶγμα γέγονεν. ἀπ᾽ ἐκείνου γὰρ τοῦ χρόνου, ἀφ᾽ οὗ τούτου",
+      "english": "your old trick of turning up on a sudden where least I expected you! Well, what are you after now? Tell me, I say, why you took a seat here and not by Aristophanes or some one else who is absurd and means to be? Why did you intrigue to get a seat beside the handsomest person in the room? Then Socrates said, Agathon, do your best to protect me, for I have found my love for this fellow no trifling affair. From the time when I fell in love with him I have not had a moment’s liberty",
+      "greekPhrases": [
+        {
+          "text": "ὥσπερ εἰώθεις ἐξαίφνης ἀναφαίνεσθαι ὅπου ἐγὼ ᾤμην ἥκιστά σε ἔσεσθαι.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ νῦν τί ἥκεις;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ τί αὖ ἐνταῦθα κατεκλίνης;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὡς οὐ παρὰ Ἀριστοφάνει οὐδὲ εἴ τις ἄλλος γελοῖος ἔστι τε καὶ βούλεται, ἀλλὰ διεμηχανήσω ὅπως παρὰ τῷ καλλίστῳ τῶν ἔνδον κατακείσει; καὶ τὸν Σωκράτη·",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Ἀγάθων, φάναι, ὅρα εἴ μοι ἐπαμύνεις·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ὡς ἐμοὶ ὁ τούτου ἔρως τοῦ ἀνθρώπου οὐ φαῦλον πρᾶγμα γέγονεν.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἀπ᾽ ἐκείνου γὰρ τοῦ χρόνου, ἀφ᾽ οὗ τούτου",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "your old trick of turning up on a sudden where least I expected you!",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Well, what are you after now?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Tell me, I say, why you took a seat here and not by Aristophanes or some one else who is absurd and means to be?",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Why did you intrigue to get a seat beside the handsomest person in the room?",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Then Socrates said, Agathon, do your best to protect me, for I have found my love for this fellow no trifling affair.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "From the time when I fell in love with him I have not had a moment’s liberty",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "213d",
+      "page": "213",
+      "order": 206,
+      "greek": "ἠράσθην, οὐκέτι ἔξεστίν μοι οὔτε προσβλέψαι οὔτε διαλεχθῆναι καλῷ οὐδ᾽ ἑνί, ἢ οὑτοσὶ ζηλοτυπῶν με καὶ φθονῶν θαυμαστὰ ἐργάζεται καὶ λοιδορεῖταί τε καὶ τὼ χεῖρε μόγις ἀπέχεται. ὅρα οὖν μή τι καὶ νῦν ἐργάσηται, ἀλλὰ διάλλαξον ἡμᾶς, ἢ ἐὰν ἐπιχειρῇ βιάζεσθαι, ἐπάμυνε, ὡς ἐγὼ τὴν τούτου μανίαν τε καὶ φιλεραστίαν πάνυ ὀῤῥωδῶ. Ἀλλ᾽ οὐκ ἔστι, φάναι τὸν Ἀλκιβιάδην, ἐμοὶ καὶ σοὶ διαλλαγή. ἀλλὰ τούτων μὲν εἰσαῦθις σε τιμωρήσομαι· νῦν",
+      "english": "either to look upon or converse with a single handsome person, but the fellow flies into a spiteful jealousy which makes him treat me in a monstrous fashion, girding at me and hardly keeping his hands to himself. So take care that he does no mischief now: pray reconcile us; or if he sets about using force, protect me, for I shudder with alarm at his amorous frenzy. No, said Alcibiades; no reconcilement for you and me. I will have my revenge on you for this another time: for the present, Agathon, give me some of your ribands,",
+      "greekPhrases": [
+        {
+          "text": "ἠράσθην, οὐκέτι ἔξεστίν μοι οὔτε προσβλέψαι οὔτε διαλεχθῆναι καλῷ οὐδ᾽ ἑνί, ἢ οὑτοσὶ ζηλοτυπῶν με καὶ φθονῶν θαυμαστὰ ἐργάζεται καὶ λοιδορεῖταί τε καὶ τὼ χεῖρε μόγις ἀπέχεται.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ὅρα οὖν μή τι καὶ νῦν ἐργάσηται, ἀλλὰ διάλλαξον ἡμᾶς, ἢ ἐὰν ἐπιχειρῇ βιάζεσθαι, ἐπάμυνε, ὡς ἐγὼ τὴν τούτου μανίαν τε καὶ φιλεραστίαν πάνυ ὀῤῥωδῶ.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Ἀλλ᾽ οὐκ ἔστι, φάναι τὸν Ἀλκιβιάδην, ἐμοὶ καὶ σοὶ διαλλαγή.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἀλλὰ τούτων μὲν εἰσαῦθις σε τιμωρήσομαι· νῦν",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "either to look upon or converse with a single handsome person, but the fellow flies into a spiteful jealousy",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "which makes him treat me in a monstrous fashion, girding at me and hardly keeping his hands to himself.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "So take care that he does no mischief now: pray reconcile us;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "or if he sets about using force, protect me, for I shudder with alarm at his amorous frenzy. No, said Alcibiades;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "no reconcilement for you and me.",
+          "mapsTo": []
+        },
+        {
+          "text": "I will have my revenge on you for this another time:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "for the present, Agathon, give me some of your ribands,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "213e",
+      "page": "213",
+      "order": 207,
+      "greek": "δέ μοι, Ἀγάθων, φάναι, μετάδος τῶν ταινιῶν, ἵνα ἀναδήσωμεν καὶ τὴν τούτου ταυτηνὶ τὴν θαυμαστὴν κεφαλήν, καὶ μή μοι μέμφηται ὅτι σὲ μὲν ἀνέδησα, αὐτὸν δὲ νικῶντα ἐν λόγοις πάντας ἀνθρώπους, οὐ μόνον πρῴην ὥσπερ σύ, ἀλλ᾽ ἀεί, ἔπειτα οὐκ ἀνέδησα. καὶ ἅμ᾽ αὐτὸν λαβόντα τῶν ταινιῶν ἀναδεῖν τὸν Σωκράτη καὶ κατακλίνεσθαι. Ἐπειδὴ δὲ κατεκλίνη, εἰπεῖν· Εἶεν δή, ἄνδρες· δοκεῖτε γάρ μοι νήφειν. οὐκ ἐπιτρεπτέον ὑμῖν, ἀλλὰ ποτέον· ὡμολόγηται γὰρ ταῦθ᾽ ἡμῖν. ἄρχοντα οὖν αἱροῦμαι τῆς πόσεως, ἕως ἂν ὑμεῖς ἱκανῶς πίητε, ἐμαυτόν. ἀλλὰ φερέτω, Ἀγάθων, εἴ τι ἔστιν ἔκπωμα μέγα. μᾶλλον δὲ οὐδὲν δεῖ, ἀλλὰ φέρε, παῖ, φάναι, τὸν ψυκτῆρα ἐκεῖνον, ἰδόντα αὐτὸν",
+      "english": "that I may also deck this person’s head, this astonishing head. He shall not reproach me with having made a garland for you and then, though he conquers every one in discourse—not once in a while, like you the other day, but always—bestowing none upon him. So saying he took some of the ribands and, after decking the head of Socrates, resumed his seat. Reclining there, he proceeded: Now then, gentlemen, you look sober: I cannot allow this; you must drink, and fulfil our agreement. So I appoint as president of this bout, till you have had a reasonable drink—myself. Agathon, let the boy bring me as large a goblet as you have. Ah well, do not trouble, he said; boy, bring me that cooler there, —",
+      "greekPhrases": [
+        {
+          "text": "δέ μοι, Ἀγάθων, φάναι, μετάδος τῶν ταινιῶν, ἵνα ἀναδήσωμεν καὶ τὴν τούτου ταυτηνὶ τὴν θαυμαστὴν κεφαλήν, καὶ μή μοι μέμφηται",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ὅτι σὲ μὲν ἀνέδησα, αὐτὸν δὲ νικῶντα ἐν λόγοις πάντας ἀνθρώπους, οὐ μόνον πρῴην ὥσπερ σύ, ἀλλ᾽ ἀεί, ἔπειτα οὐκ ἀνέδησα.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ ἅμ᾽ αὐτὸν λαβόντα τῶν ταινιῶν ἀναδεῖν τὸν Σωκράτη καὶ κατακλίνεσθαι.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ἐπειδὴ δὲ κατεκλίνη, εἰπεῖν· Εἶεν δή, ἄνδρες·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "δοκεῖτε γάρ μοι νήφειν.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "οὐκ ἐπιτρεπτέον ὑμῖν, ἀλλὰ ποτέον·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ὡμολόγηται γὰρ ταῦθ᾽ ἡμῖν.",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "ἄρχοντα οὖν αἱροῦμαι τῆς πόσεως, ἕως ἂν ὑμεῖς ἱκανῶς πίητε, ἐμαυτόν.",
+          "mapsTo": [
+            8
+          ]
+        },
+        {
+          "text": "ἀλλὰ φερέτω, Ἀγάθων, εἴ τι ἔστιν ἔκπωμα μέγα.",
+          "mapsTo": [
+            9
+          ]
+        },
+        {
+          "text": "μᾶλλον δὲ οὐδὲν δεῖ, ἀλλὰ φέρε, παῖ, φάναι, τὸν ψυκτῆρα ἐκεῖνον, ἰδόντα αὐτὸν",
+          "mapsTo": [
+            10
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "that I may also deck this person’s head, this astonishing head.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "He shall not reproach me with having made a garland for you and then, though he conquers",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "every one in discourse—not once in a while, like you the other day, but always—bestowing none upon him.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "So saying he took some of the ribands and, after decking the head of Socrates, resumed his seat.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Reclining there, he proceeded:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Now then, gentlemen, you look sober:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "I cannot allow this;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "you must drink, and fulfil our agreement.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "So I appoint as president of this bout, till you have had a reasonable drink—myself.",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "Agathon, let the boy bring me as large a goblet as you have.",
+          "mapsTo": [
+            8
+          ]
+        },
+        {
+          "text": "Ah well, do not trouble, he said;",
+          "mapsTo": [
+            9
+          ]
+        },
+        {
+          "text": "boy, bring me that cooler there, —",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "214a",
+      "page": "214",
+      "order": 208,
+      "greek": "πλέον ἢ ὀκτὼ κοτύλας χωροῦντα. τοῦτον ἐμπλησάμενον πρῶτον μὲν αὐτὸν ἐκπιεῖν, ἔπειτα τῷ Σωκράτει κελεύειν ἐγχεῖν καὶ ἅμα εἰπεῖν· Πρὸς μὲν Σωκράτη, ὦ ἄνδρες, τὸ σόφισμά μοι οὐδέν· ὁπόσον γὰρ ἂν κελεύῃ τις, τοσοῦτον ἐκπιὼν οὐδὲν μᾶλλον μή ποτε μεθυσθῇ. τὸν μὲν οὖν Σωκράτη ἐγχέαντος τοῦ παιδὸς πίνειν· τὸν δ᾽ Ἐρυξίμαχον· Πῶς οὖν, φάναι, ὦ Ἀλκιβιάδη, ποιοῦμεν;",
+      "english": "for he saw it would hold a good half-gallon and more. This he got filled to the brim, and after quaffing it off himself bade them fill up for Socrates, saying, Against Socrates, sirs, my crafty plan is as nought. However large the bumper you order him, he will quaff it all off and never get tipsy with it. Socrates drank as soon as the boy had filled: but What procedure is this, Alcibiades? asked Eryximachus. Are we to have nothing to say",
+      "greekPhrases": [
+        {
+          "text": "πλέον ἢ ὀκτὼ κοτύλας χωροῦντα.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τοῦτον ἐμπλησάμενον πρῶτον μὲν αὐτὸν ἐκπιεῖν, ἔπειτα τῷ Σωκράτει κελεύειν ἐγχεῖν καὶ ἅμα εἰπεῖν·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Πρὸς μὲν Σωκράτη, ὦ ἄνδρες, τὸ σόφισμά μοι οὐδέν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὁπόσον γὰρ ἂν κελεύῃ τις, τοσοῦτον ἐκπιὼν οὐδὲν μᾶλλον μή ποτε μεθυσθῇ.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "τὸν μὲν οὖν Σωκράτη ἐγχέαντος τοῦ παιδὸς πίνειν· τὸν δ᾽ Ἐρυξίμαχον·",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Πῶς οὖν, φάναι, ὦ Ἀλκιβιάδη, ποιοῦμεν;",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "for he saw it would hold a good half-gallon and more.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "This he got filled to the brim, and after quaffing it off himself bade",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "them fill up for Socrates, saying, Against Socrates, sirs, my crafty plan is as nought.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "However large the bumper you order him, he will quaff it all off and never get tipsy with it.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Socrates drank as soon as the boy had filled:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "but What procedure is this, Alcibiades? asked Eryximachus.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Are we to have nothing to say",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "214b",
+      "page": "214",
+      "order": 209,
+      "greek": "οὕτως οὔτε τι λέγομεν ἐπὶ τῇ κύλικι οὔτε τι ᾄδομεν, ἀλλ᾽ ἀτεχνῶς ὥσπερ οἱ διψῶντες πιόμεθα; τὸν οὖν Ἀλκιβιάδην εἰπεῖν· Ὦ Ἐρυξίμαχε, βέλτιστε βελτίστου πατρὸς καὶ σωφρονεστάτου, χαῖρε. Καὶ γὰρ σύ, φάναι τὸν Ἐρυξίμαχον· ἀλλὰ τί ποιῶμεν; Ὅ τι ἂν σὺ κελεύῃς. δεῖ γάρ σοι πείθεσθαι· ''ἰητρὸς γὰρ ἀνὴρ πολλῶν ἀντάξιος ἄλλων·'' ἐπίταττε οὖν ὅτι βούλει. Ἄκουσον δή, εἰπεῖν τὸν Ἐρυξίμαχον. ἡμῖν πρὶν σὲ εἰσελθεῖν ἔδοξε χρῆναι ἐπὶ δεξιὰ ἕκαστον ἐν μέρει λόγον",
+      "english": "or sing over the cup? Are we going to drink just like any thirsty folk? To this Alcibiades answered: Ha, Eryximachus, of noblest, soberest sire most noble son ; all hail! And the same to you, said Eryximachus: but what are we to do? Whatever you command, for we are bound to obey you: One learned leech is worth the multitude. So prescribe what you please. Then listen, said Eryximachus. We resolved, before your arrival, that each in order from left to right should make the finest speech he could upon Love,",
+      "greekPhrases": [
+        {
+          "text": "οὕτως οὔτε τι λέγομεν ἐπὶ τῇ κύλικι οὔτε τι ᾄδομεν, ἀλλ᾽ ἀτεχνῶς ὥσπερ οἱ διψῶντες πιόμεθα;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τὸν οὖν Ἀλκιβιάδην εἰπεῖν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ὦ Ἐρυξίμαχε, βέλτιστε βελτίστου πατρὸς καὶ σωφρονεστάτου, χαῖρε.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Καὶ γὰρ σύ, φάναι τὸν Ἐρυξίμαχον· ἀλλὰ τί ποιῶμεν;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Ὅ τι ἂν σὺ κελεύῃς.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "δεῖ γάρ σοι πείθεσθαι·",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "''ἰητρὸς γὰρ ἀνὴρ πολλῶν ἀντάξιος ἄλλων·'' ἐπίταττε οὖν ὅτι βούλει.",
+          "mapsTo": [
+            8
+          ]
+        },
+        {
+          "text": "Ἄκουσον δή, εἰπεῖν τὸν Ἐρυξίμαχον.",
+          "mapsTo": [
+            10
+          ]
+        },
+        {
+          "text": "ἡμῖν πρὶν σὲ εἰσελθεῖν ἔδοξε χρῆναι ἐπὶ δεξιὰ ἕκαστον ἐν μέρει λόγον",
+          "mapsTo": [
+            10
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "or sing over the cup?",
+          "mapsTo": []
+        },
+        {
+          "text": "Are we going to drink just like any thirsty folk?",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "To this Alcibiades answered:",
+          "mapsTo": []
+        },
+        {
+          "text": "Ha, Eryximachus, of noblest, soberest sire most noble son ; all hail!",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "And the same to you, said Eryximachus:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but what are we to do?",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Whatever you command, for we are bound to obey you:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "One learned leech is worth the multitude.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "So prescribe what you please.",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "Then listen, said Eryximachus.",
+          "mapsTo": []
+        },
+        {
+          "text": "We resolved, before your arrival, that each in order from left to right should make the finest speech he could upon Love,",
+          "mapsTo": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "214c",
+      "page": "214",
+      "order": 210,
+      "greek": "περὶ Ἔρωτος εἰπεῖν ὡς δύναιτο κάλλιστον, καὶ ἐγκωμιάσαι. οἱ μὲν οὖν ἄλλοι πάντες ἡμεῖς εἰρήκαμεν· σὺ δ᾽ ἐπειδὴ οὐκ εἴρηκας καὶ ἐκπέπωκας, δίκαιος εἰ εἰπεῖν, εἰπὼν δὲ ἐπιτάξαι Σωκράτει ὅ τι ἂν βούλῃ, καὶ τοῦτον τῷ ἐπὶ δεξιὰ καὶ οὕτω τοὺς ἄλλους. Ἀλλά, φάναι, ὦ Ἐρυξίμαχε, τὸν Ἀλκιβιάδην, καλῶς μὲν λέγεις, μεθύοντα δὲ ἄνδρα παρὰ νηφόντων λόγους παραβάλλειν μὴ οὐκ ἐξ ἴσου ᾖ. καὶ ἅμα, ὦ μακάριε, πείθει τί",
+      "english": "and glorify his name. Now all of us here have spoken; so you, since you have made no speech and have drained the cup, must do your duty and speak. This done, you shall prescribe what you like for Socrates, and he for his neighbor on the right, and so on with the rest. Very good, Eryximachus, said Alcibiades; but to pit a drunken man against sober tongues is hardly fair.",
+      "greekPhrases": [
+        {
+          "text": "περὶ Ἔρωτος εἰπεῖν ὡς δύναιτο κάλλιστον, καὶ ἐγκωμιάσαι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οἱ μὲν οὖν ἄλλοι πάντες ἡμεῖς εἰρήκαμεν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "σὺ δ᾽ ἐπειδὴ οὐκ εἴρηκας καὶ ἐκπέπωκας, δίκαιος εἰ εἰπεῖν, εἰπὼν δὲ ἐπιτάξαι Σωκράτει ὅ τι ἂν βούλῃ, καὶ τοῦτον τῷ ἐπὶ δεξιὰ καὶ οὕτω τοὺς ἄλλους.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Ἀλλά, φάναι, ὦ Ἐρυξίμαχε, τὸν Ἀλκιβιάδην, καλῶς μὲν λέγεις, μεθύοντα δὲ ἄνδρα παρὰ νηφόντων λόγους παραβάλλειν μὴ οὐκ ἐξ ἴσου ᾖ.",
+          "mapsTo": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "καὶ ἅμα, ὦ μακάριε, πείθει τί",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and glorify his name.",
+          "mapsTo": []
+        },
+        {
+          "text": "Now all of us here have spoken;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "so you, since you have made no speech and have drained the cup, must do your duty and speak.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "This done, you shall prescribe what you like for Socrates, and he for his neighbor on the right, and so on with the rest.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Very good, Eryximachus, said Alcibiades;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "but to pit a drunken man against sober tongues is hardly fair.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "214d",
+      "page": "214",
+      "order": 211,
+      "greek": "σε Σωκράτης ὧν ἄρτι εἶπεν; ἢ οἶσθα ὅτι τοὐναντίον ἐστὶ πᾶν ἢ ὃ ἔλεγεν; οὗτος γάρ, ἐάν τινα ἐγὼ ἐπαινέσω τούτου παρόντος ἢ θεὸν ἢ ἄνθρωπον ἄλλον ἢ τοῦτον, οὐκ ἀφέξεταί μου τὼ χεῖρε. Οὐκ εὐφημήσεις; φάναι τὸν Σωκράτη. Μὰ τὸν Ποσειδῶ, εἰπεῖν τὸν Ἀλκιβιάδην, μηδὲν λέγε πρὸς ταῦτα, ὡς ἐγὼ οὐδ᾽ ἂν ἕνα ἄλλον ἐπαινέσαιμι σοῦ παρόντος. Ἀλλ᾽ οὕτω ποίει, φάναι τὸν Ἐρυξίμαχον, εἰ βούλει· Σωκράτη ἐπαίνεσον.",
+      "english": "Besides, my gifted friend, you are surely not convinced by anything that Socrates has just told you? You must know the case is quite the contrary of what he was saying. It is he who, if I praise any god in his presence of any person other than himself, will not keep his hands off me. Come, enough of this, said Socrates. On the honor of a gentleman, said Alcibiades, it is no use your protesting, for I could not praise anyone else in your presence. Well, do that if you like, said Eryximachus; praise Socrates. You mean it? said Alcibiades; you think I had better, Eryximachus? Am I to set upon the fellow and have my revenge before you all?",
+      "greekPhrases": [
+        {
+          "text": "σε Σωκράτης ὧν ἄρτι εἶπεν;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἢ οἶσθα ὅτι τοὐναντίον ἐστὶ πᾶν ἢ ὃ ἔλεγεν;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὗτος γάρ, ἐάν τινα ἐγὼ ἐπαινέσω τούτου παρόντος ἢ θεὸν ἢ ἄνθρωπον ἄλλον ἢ τοῦτον, οὐκ ἀφέξεταί μου τὼ χεῖρε. Οὐκ εὐφημήσεις; φάναι τὸν Σωκράτη.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Μὰ τὸν Ποσειδῶ, εἰπεῖν τὸν Ἀλκιβιάδην, μηδὲν λέγε πρὸς ταῦτα, ὡς ἐγὼ οὐδ᾽ ἂν ἕνα ἄλλον ἐπαινέσαιμι σοῦ παρόντος.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "Ἀλλ᾽ οὕτω ποίει, φάναι τὸν Ἐρυξίμαχον, εἰ βούλει· Σωκράτη ἐπαίνεσον.",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Besides, my gifted friend, you are surely not convinced by anything that Socrates has just told you?",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "You must know the case is quite the contrary of what he was saying.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "It is he who, if I praise any god in his presence of any person other than himself, will not keep his hands off me.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Come, enough of this, said Socrates.",
+          "mapsTo": []
+        },
+        {
+          "text": "On the honor of a gentleman, said Alcibiades, it is no use your protesting, for I could not praise anyone else in your presence.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Well, do that if you like, said Eryximachus; praise Socrates. You mean it? said Alcibiades;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "you think I had better, Eryximachus?",
+          "mapsTo": []
+        },
+        {
+          "text": "Am I to set upon the fellow and have my revenge before you all?",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "214e",
+      "page": "214",
+      "order": 212,
+      "greek": "Πῶς λέγεις; εἰπεῖν τὸν Ἀλκιβιάδην· δοκεῖ χρῆναι, ὦ Ἐρυξίμαχε; ἐπιθῶμαι τῷ ἀνδρὶ καὶ τιμωρήσωμαι ὑμῶν ἐναντίον; Οὗτος, φάναι τὸν Σωκράτη, τί ἐν νῷ ἔχεις; ἐπὶ τὰ γελοιότερά με ἐπαινέσαι; ἢ τί ποιήσεις; Τἀληθῆ ἐρῶ. ἀλλ᾽ ὅρα εἰ παρίης. Ἀλλὰ μέντοι, φάναι, τά γε ἀληθῆ παρίημι καὶ κελεύω λέγειν. Οὐκ ἂν φθάνοιμι, εἰπεῖν τὸν Ἀλκιβιάδην. καὶ μέντοι οὑτωσὶ ποίησον. ἐάν τι μὴ ἀληθὲς λέγω, μεταξὺ ἐπιλαβοῦ, ἂν βούλῃ, καὶ εἰπὲ ὅτι τοῦτο ψεύδομαι· ἑκὼν γὰρ εἶναι οὐδὲν",
+      "english": "Here, said Socrates; what are you about,—to make fun of me with your praises, or what? I shall speak the truth; now, will you permit me? Ah well, so long as it is the truth, I permit you and command you to speak. You shall hear it this moment, said Alcibiades; but there is something you must do. If I say anything that is false,",
+      "greekPhrases": [
+        {
+          "text": "Πῶς λέγεις; εἰπεῖν τὸν Ἀλκιβιάδην·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "δοκεῖ χρῆναι, ὦ Ἐρυξίμαχε;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐπιθῶμαι τῷ ἀνδρὶ καὶ τιμωρήσωμαι ὑμῶν ἐναντίον;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Οὗτος, φάναι τὸν Σωκράτη, τί ἐν νῷ ἔχεις;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐπὶ τὰ γελοιότερά με ἐπαινέσαι; ἢ τί ποιήσεις; Τἀληθῆ ἐρῶ.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ὅρα εἰ παρίης.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ἀλλὰ μέντοι, φάναι, τά γε ἀληθῆ παρίημι καὶ κελεύω λέγειν.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Οὐκ ἂν φθάνοιμι, εἰπεῖν τὸν Ἀλκιβιάδην.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "καὶ μέντοι οὑτωσὶ ποίησον.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἐάν τι μὴ ἀληθὲς λέγω, μεταξὺ ἐπιλαβοῦ, ἂν βούλῃ, καὶ εἰπὲ ὅτι τοῦτο ψεύδομαι·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἑκὼν γὰρ εἶναι οὐδὲν",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Here, said Socrates; what are you about,—to make fun of me with your praises, or what?",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "I shall speak the truth;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "now, will you permit me?",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Ah well, so long as it is the truth, I permit you and command you to speak.",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "You shall hear it this moment, said Alcibiades;",
+          "mapsTo": [
+            7,
+            8
+          ]
+        },
+        {
+          "text": "but there is something you must do.",
+          "mapsTo": [
+            9
+          ]
+        },
+        {
+          "text": "If I say anything that is false,",
+          "mapsTo": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "215a",
+      "page": "215",
+      "order": 213,
+      "greek": "ψεύσομαι. ἐὰν μέντοι ἀναμιμνῃσκόμενος ἄλλο ἄλλοθεν λέγω, μηδὲν θαυμάσῃς· οὐ γάρ τι ῥᾴδιον τὴν σὴν ἀτοπίαν ὧδ᾽ ἔχοντι εὐπόρως καὶ ἐφεξῆς καταριθμῆσαι. Σωκράτη δ᾽ ἐγὼ ἐπαινεῖν, ὦ ἄνδρες, οὕτως ἐπιχειρήσω, δι᾽ εἰκόνων. οὗτος μὲν οὖν ἴσως οἰήσεται ἐπὶ τὰ γελοιότερα, ἔσται δ᾽ ἡ εἰκὼν τοῦ ἀληθοῦς ἕνεκα, οὐ τοῦ γελοίου. φημὶ γὰρ δὴ ὁμοιότατον αὐτὸν εἶναι τοῖς σιληνοῖς τούτοις τοῖς",
+      "english": "have the goodness to take me up short and say that there I am lying; for I will not lie if I can help it. Still, you are not to be surprised if I tell my reminiscences at haphazard; it is anything but easy for a man in my condition to give a fluent and regular enumeration of your oddities. The way I shall take, gentlemen, in my praise of Socrates, is by similitudes. Probably he will think I do this for derision; but I choose my similitude for the sake of truth, not of ridicule. For I say",
+      "greekPhrases": [
+        {
+          "text": "ψεύσομαι. ἐὰν μέντοι ἀναμιμνῃσκόμενος ἄλλο ἄλλοθεν λέγω, μηδὲν θαυμάσῃς·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὐ γάρ τι ῥᾴδιον τὴν σὴν ἀτοπίαν ὧδ᾽ ἔχοντι εὐπόρως καὶ ἐφεξῆς καταριθμῆσαι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Σωκράτη δ᾽ ἐγὼ ἐπαινεῖν, ὦ ἄνδρες, οὕτως ἐπιχειρήσω, δι᾽ εἰκόνων.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "οὗτος μὲν οὖν ἴσως οἰήσεται ἐπὶ τὰ γελοιότερα, ἔσται δ᾽ ἡ εἰκὼν τοῦ ἀληθοῦς ἕνεκα, οὐ τοῦ γελοίου.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "φημὶ γὰρ δὴ ὁμοιότατον αὐτὸν εἶναι τοῖς σιληνοῖς τούτοις τοῖς",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "have the goodness to take me up short and say that there I am lying;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for I will not lie if I can help it.",
+          "mapsTo": []
+        },
+        {
+          "text": "Still, you are not to be surprised if I tell my reminiscences at haphazard;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "it is anything but easy for a man in my condition to give a fluent and regular enumeration of your oddities.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "The way I shall take, gentlemen, in my praise of Socrates, is by similitudes.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Probably he will think I do this for derision;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "but I choose my similitude for the sake of truth, not of ridicule. For I say",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "215b",
+      "page": "215",
+      "order": 214,
+      "greek": "ἐν τοῖς ἑρμογλυφείοις καθημένοις, οὕστινας ἐργάζονται οἱ δημιουργοὶ σύριγγας ἢ αὐλοὺς ἔχοντας, οἳ διχάδε διοιχθέντες φαίνονται ἔνδοθεν ἀγάλματα ἔχοντες θεῶν. καὶ φημὶ αὖ ἐοικέναι αὐτὸν τῷ σατύρῳ τῷ Μαρσύᾳ. ὅτι μὲν οὖν τό γε εἶδος ὅμοιος εἶ τούτοις, ὦ Σώκρατες, οὐδ᾽ ἄν αὐτὸς δή που ἀμφισβητήσαις· ὡς δὲ καὶ τἆλλα ἔοικας, μετὰ τοῦτο ἄκουε. ὑβριστὴς εἶ· ἢ οὔ; ἐὰν γὰρ μὴ ὁμολογῇς, μάρτυρας παρέξομαι. ἀλλ᾽ οὐκ αὐλητής; πολύ γε θαυμασιώτερος ἐκείνου·",
+      "english": "he is likest to the Silenus-figures that sit in the statuaries’ shops; those, I mean, which our craftsmen make with pipes or flutes in their hands: when their two halves are pulled open, they are found to contain images of gods. And I further suggest that he resembles the satyr Marsyas. Now, as to your likeness, Socrates, to these in figure, I do not suppose even you yourself will dispute it; but I have next to tell you that you are like them in every other respect. You are a fleering fellow, eh? If you will not confess it, I have witnesses at hand. Are you not a piper?",
+      "greekPhrases": [
+        {
+          "text": "ἐν τοῖς ἑρμογλυφείοις καθημένοις, οὕστινας ἐργάζονται οἱ δημιουργοὶ σύριγγας ἢ αὐλοὺς ἔχοντας, οἳ διχάδε διοιχθέντες φαίνονται ἔνδοθεν ἀγάλματα ἔχοντες θεῶν.",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "καὶ φημὶ αὖ ἐοικέναι αὐτὸν τῷ σατύρῳ τῷ Μαρσύᾳ.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ὅτι μὲν οὖν τό γε εἶδος ὅμοιος εἶ τούτοις, ὦ Σώκρατες, οὐδ᾽ ἄν αὐτὸς δή που ἀμφισβητήσαις·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ὡς δὲ καὶ τἆλλα ἔοικας, μετὰ τοῦτο ἄκουε. ὑβριστὴς εἶ· ἢ οὔ;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἐὰν γὰρ μὴ ὁμολογῇς, μάρτυρας παρέξομαι. ἀλλ᾽ οὐκ αὐλητής;",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "πολύ γε θαυμασιώτερος ἐκείνου·",
+          "mapsTo": [
+            8
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "he is likest to the Silenus-figures that sit in the statuaries’ shops;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "those, I mean, which our craftsmen make with pipes or flutes in their hands:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "when their two halves are pulled open, they are found to contain images of gods.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "And I further suggest that he resembles the satyr Marsyas.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Now, as to your likeness, Socrates, to these in figure, I do not suppose even you yourself will dispute it;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but I have next to tell you that you are like them in every other respect.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "You are a fleering fellow, eh?",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "If you will not confess it, I have witnesses at hand.",
+          "mapsTo": []
+        },
+        {
+          "text": "Are you not a piper?",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "215c",
+      "page": "215",
+      "order": 215,
+      "greek": "ὁ μέν γε δι᾽ ὀργάνων ἐκήλει τοὺς ἀνθρώπους τῇ ἀπὸ τοῦ στόματος δυνάμει, καὶ ἔτι νυνὶ ὃς ἂν τὰ ἐκείνου αὐλῇ· ἃ γὰρ Ὄλυμπος ηὔλει, Μαρσύου λέγω, τούτου διδάξαντος· τὰ οὖν ἐκείνου ἐάν τε ἀγαθὸς αὐλητὴς αὐλῇ ἐάν τε φαύλη αὐλητρίς, μόνα κατέχεσθαι ποιεῖ καὶ δηλοῖ τοὺς τῶν θεῶν τε καὶ τελετῶν δεομένους διὰ τὸ θεῖα εἶναι. σὺ δ᾽ ἐκείνου τοσοῦτον μόνον διαφέρεις, ὅτι ἄνευ ὀργάνων ψιλοῖς λόγοις ταὐτὸν",
+      "english": "Why, yes, and a far more marvellous one than the satyr. His lips indeed had power to entrance mankind by means of instruments; a thing still possible today for anyone who can pipe his tunes: for the music of Olympus ’ flute belonged, I may tell you, to Marsyas his teacher. So that if anyone, whether a fine flute-player or paltry flute-girl, can but flute his tunes, they have no equal for exciting a ravishment, and will indicate by the divinity that is in them who are apt recipients of the deities and their sanctifications. You differ from him in one point only—that you produce the same effect with simple prose unaided by instruments. For example, when we hear any other person—",
+      "greekPhrases": [
+        {
+          "text": "ὁ μέν γε δι᾽ ὀργάνων ἐκήλει τοὺς ἀνθρώπους τῇ ἀπὸ τοῦ στόματος δυνάμει, καὶ ἔτι νυνὶ ὃς ἂν τὰ ἐκείνου αὐλῇ·",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἃ γὰρ Ὄλυμπος ηὔλει, Μαρσύου λέγω, τούτου διδάξαντος·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "τὰ οὖν ἐκείνου ἐάν τε ἀγαθὸς αὐλητὴς αὐλῇ ἐάν τε φαύλη αὐλητρίς, μόνα κατέχεσθαι ποιεῖ καὶ δηλοῖ τοὺς τῶν θεῶν τε καὶ τελετῶν δεομένους διὰ τὸ θεῖα εἶναι.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "σὺ δ᾽ ἐκείνου τοσοῦτον μόνον διαφέρεις, ὅτι ἄνευ ὀργάνων ψιλοῖς λόγοις ταὐτὸν",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Why, yes, and a far more marvellous one than the satyr.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "His lips indeed had power to entrance mankind by means of instruments;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "a thing still possible today for anyone who can pipe his tunes:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for the music of Olympus ’ flute belonged, I may tell you, to Marsyas his teacher.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "So that if anyone, whether a fine flute-player or paltry flute-girl, can but flute his tunes, they have no equal for exciting",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "a ravishment, and will indicate by the divinity that is in them who are apt recipients of the deities and their sanctifications.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "You differ from him in one point only—that you produce the same effect with simple prose unaided by instruments.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "For example, when we hear any other person—",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "215d",
+      "page": "215",
+      "order": 216,
+      "greek": "τοῦτο ποιεῖς. ἡμεῖς γοῦν ὅταν μέν του ἄλλου ἀκούωμεν λέγοντος καὶ πάνυ ἀγαθοῦ ῥήτορος ἄλλους λόγους, οὐδὲν μέλει ὡς ἔπος εἰπεῖν οὐδενί· ἐπειδὰν δὲ σοῦ τις ἀκούῃ ἢ τῶν σῶν λόγων ἄλλου λέγοντος, κἂν πάνυ φαῦλος ᾖ ὁ λέγων, ἐάν τε γυνὴ ἀκούῃ ἐάν τε ἀνὴρ ἐάν τε μειράκιον, ἐκπεπληγμένοι ἐσμὲν καὶ κατεχόμεθα. ἐγὼ γοῦν, ὦ ἄνδρες, εἰ μὴ ἔμελλον κομιδῇ δόξειν μεθύειν, εἶπον ὀμόσας ἂν ὑμῖν οἷα δὴ πέπονθα αὐτὸς ὑπὸ τῶν τούτου λόγων καὶ πάσχω ἔτι καὶ",
+      "english": "quite an excellent orator, perhaps—pronouncing one of the usual discourses, no one, I venture to say, cares a jot; but so soon as we hear you, or your discourses in the mouth of another,—though such person be ever so poor a speaker, and whether the hearer be a woman or a man or a youngster—we are all astounded and entranced. As for myself, gentlemen, were it not that I might appear to be absolutely tipsy, I would have affirmed on oath all the strange effects I personally have felt from his words, and still feel even now. For when I hear him",
+      "greekPhrases": [
+        {
+          "text": "τοῦτο ποιεῖς. ἡμεῖς γοῦν ὅταν μέν του ἄλλου ἀκούωμεν λέγοντος καὶ πάνυ ἀγαθοῦ ῥήτορος ἄλλους λόγους, οὐδὲν μέλει ὡς ἔπος εἰπεῖν οὐδενί·",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἐπειδὰν δὲ σοῦ τις ἀκούῃ ἢ τῶν σῶν λόγων ἄλλου λέγοντος, κἂν πάνυ φαῦλος ᾖ",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ὁ λέγων, ἐάν τε γυνὴ ἀκούῃ ἐάν τε ἀνὴρ ἐάν τε μειράκιον, ἐκπεπληγμένοι ἐσμὲν καὶ κατεχόμεθα.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ἐγὼ γοῦν, ὦ ἄνδρες, εἰ μὴ ἔμελλον κομιδῇ δόξειν μεθύειν, εἶπον ὀμόσας ἂν ὑμῖν οἷα δὴ πέπονθα αὐτὸς ὑπὸ τῶν τούτου λόγων καὶ πάσχω ἔτι καὶ",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "quite an excellent orator, perhaps—pronouncing one of the usual discourses, no one, I venture to say, cares a jot;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "but so soon as we hear you, or your discourses in the mouth of another,—though such person be ever so",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "poor a speaker, and whether the hearer be a woman or a man or a youngster—we are all astounded and entranced.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "As for myself, gentlemen, were it not that I might appear to be absolutely tipsy, I would have",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "affirmed on oath all the strange effects I personally have felt from his words, and still feel even now.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "For when I hear him",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "215e",
+      "page": "215",
+      "order": 217,
+      "greek": "νυνί. ὅταν γὰρ ἀκούω, πολύ μοι μᾶλλον ἢ τῶν κορυβαντιώντων ἥ τε καρδία πηδᾷ καὶ δάκρυα ἐκχεῖται ὑπὸ τῶν λόγων τῶν τούτου, ὁρῶ δὲ καὶ ἄλλους παμπόλλους τὰ αὐτὰ πάσχοντας . Περικλέους δὲ ἀκούων καὶ ἄλλων ἀγαθῶν ῥητόρων εὖ μὲν ἡγούμην λέγειν, τοιοῦτον δ᾽ οὐδὲν ἔπασχον, οὐδ᾽ ἐτεθορύβητό μου ἡ ψυχὴ οὐδ᾽ ἠγανάκτει ὡς ἀνδραποδωδῶς διακειμένου· ἀλλ᾽ ὑπὸ τουτουῒ τοῦ Μαρσύου πολλάκις δὴ",
+      "english": "I am worse than any wild fanatic; I find my heart leaping and my tears gushing forth at the sound of his speech, and I see great numbers of other people having the same experience. When I listened to Pericles and other skilled orators I thought them eloquent, but I never felt anything like this; my spirit was not left in a tumult and had not to complain of my being in the condition of a common slave: whereas the influence of our Marsyas here has often thrown me into such a state",
+      "greekPhrases": [
+        {
+          "text": "νυνί. ὅταν γὰρ ἀκούω, πολύ μοι μᾶλλον ἢ τῶν κορυβαντιώντων ἥ τε καρδία πηδᾷ καὶ δάκρυα",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐκχεῖται ὑπὸ τῶν λόγων τῶν τούτου, ὁρῶ δὲ καὶ ἄλλους παμπόλλους τὰ αὐτὰ πάσχοντας .",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Περικλέους δὲ ἀκούων καὶ ἄλλων ἀγαθῶν ῥητόρων εὖ μὲν ἡγούμην λέγειν, τοιοῦτον δ᾽ οὐδὲν ἔπασχον, οὐδ᾽ ἐτεθορύβητό μου ἡ ψυχὴ οὐδ᾽ ἠγανάκτει ὡς ἀνδραποδωδῶς διακειμένου·",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ὑπὸ τουτουῒ τοῦ Μαρσύου πολλάκις δὴ",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "I am worse than any wild fanatic;",
+          "mapsTo": []
+        },
+        {
+          "text": "I find my heart leaping and my tears gushing forth at the sound of his speech, and I see great numbers of other people having the same experience.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "When I listened to Pericles and other skilled orators I thought them eloquent, but I never felt anything like this;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "my spirit was not left in a tumult and had not to complain of my being in the condition of a common slave:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "whereas the influence of our Marsyas here has often thrown me into such a state",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "216a",
+      "page": "216",
+      "order": 218,
+      "greek": "οὕτω διετέθην ὥστε μοι δόξαι μὴ βιωτὸν εἶναι ἔχοντι ὡς ἔχω. καὶ ταῦτα, ὦ Σώκρατες, οὐκ ἐρεῖς ὡς οὐκ ἀληθῆ. καὶ ἔτι γε νῦν ξύνοιδ᾽ ἐμαυτῷ ὅτι εἰ ἐθέλοιμι παρέχειν τὰ ὦτα, οὐκ ἂν καρτερήσαιμι ἀλλὰ ταὐτὰ ἂν πάσχοιμι· ἀναγκάζει γάρ με ὁμολογεῖν ὅτι πολλοῦ ἐνδεὴς ὢν αὐτὸς ἔτι ἐμαυτοῦ μὲν ἀμελῶ, τὰ δ᾽ Ἀθηναίων πράττω. βίᾳ οὖν ὥσπερ ἀπὸ τῶν Σειρήνων ἐπισχόμενος τὰ ὦτα οἴχομαι φεύγων, ἵνα μὴ αὐτοῦ καθήμενος παρὰ τούτῳ καταγηράσω. πέπονθα δὲ",
+      "english": "that I thought my life not worth living on these terms. In all this, Socrates, there is nothing that you can call untrue. Even now I am still conscious that if I consented to lend him my ear, I could not resist him, but would have the same feeling again. For he compels me to admit that, sorely deficient as I am, I neglect myself while I attend to the affairs of Athens . So I withhold my ears perforce as from the Sirens, and make off as fast as I can, for fear I should go on sitting beside him till old age was upon me.",
+      "greekPhrases": [
+        {
+          "text": "οὕτω διετέθην ὥστε μοι δόξαι μὴ βιωτὸν εἶναι ἔχοντι ὡς ἔχω.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ ταῦτα, ὦ Σώκρατες, οὐκ ἐρεῖς ὡς οὐκ ἀληθῆ.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ ἔτι γε νῦν ξύνοιδ᾽ ἐμαυτῷ ὅτι εἰ ἐθέλοιμι παρέχειν τὰ ὦτα, οὐκ ἂν καρτερήσαιμι ἀλλὰ ταὐτὰ ἂν πάσχοιμι·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἀναγκάζει γάρ με ὁμολογεῖν ὅτι πολλοῦ ἐνδεὴς ὢν αὐτὸς ἔτι ἐμαυτοῦ μὲν ἀμελῶ, τὰ δ᾽ Ἀθηναίων πράττω.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "βίᾳ οὖν ὥσπερ ἀπὸ τῶν Σειρήνων ἐπισχόμενος τὰ ὦτα οἴχομαι φεύγων, ἵνα μὴ αὐτοῦ καθήμενος παρὰ τούτῳ καταγηράσω. πέπονθα δὲ",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "that I thought my life not worth living on these terms.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "In all this, Socrates, there is nothing that you can call untrue.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Even now I am still conscious that if I consented to lend him my ear, I could not resist him, but would have the same feeling again.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "For he compels me to admit that, sorely deficient as I am, I neglect myself while I attend to the affairs of Athens .",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "So I withhold my ears perforce as from the Sirens, and make off as fast as",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "I can, for fear I should go on sitting beside him till old age was upon me.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "216b",
+      "page": "216",
+      "order": 219,
+      "greek": "πρὸς τοῦτον μόνον ἀνθρώπων, ὃ οὐκ ἄν τις οἴοιτο ἐν ἐμοὶ ἐνεῖναι, τὸ αἰσχύνεσθαι ὁντινοῦν· ἐγὼ δὲ τοῦτον μόνον αἰσχύνομαι. ξύνοιδα γὰρ ἐμαυτῷ ἀντιλέγειν μὲν οὐ δυναμένῳ ὡς οὐ δεῖ ποιεῖν ἃ οὗτος κελεύει, ἐπειδὰν δὲ ἀπέλθω, ἡττημένῳ τῆς τιμῆς τῆς ὑπὸ τῶν πολλῶν. δραπετεύω οὖν αὐτὸν καὶ φεύγω, καὶ ὅταν ἴδω, αἰσχύνομαι τὰ ὡμολογημένα.",
+      "english": "And there is one experience I have in presence of this man alone, such as nobody would expect in me; and that is, to be made to feel ashamed; he alone can make me feel it. For he brings home to me that I cannot disown the duty of doing what he bids me, but that as soon as I turn from his company I fall a victim to the favors of the crowd. So I take a runaway’s leave of him and flee away;",
+      "greekPhrases": [
+        {
+          "text": "πρὸς τοῦτον μόνον ἀνθρώπων, ὃ οὐκ ἄν τις οἴοιτο ἐν ἐμοὶ ἐνεῖναι, τὸ αἰσχύνεσθαι ὁντινοῦν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐγὼ δὲ τοῦτον μόνον αἰσχύνομαι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ξύνοιδα γὰρ ἐμαυτῷ ἀντιλέγειν μὲν οὐ δυναμένῳ ὡς οὐ δεῖ ποιεῖν ἃ οὗτος κελεύει, ἐπειδὰν δὲ ἀπέλθω, ἡττημένῳ τῆς τιμῆς τῆς ὑπὸ τῶν πολλῶν.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "δραπετεύω οὖν αὐτὸν καὶ φεύγω, καὶ ὅταν ἴδω, αἰσχύνομαι τὰ ὡμολογημένα.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "And there is one experience I have in presence of this man alone, such as nobody would expect in me;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and that is, to be made to feel ashamed;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "he alone can make me feel it.",
+          "mapsTo": []
+        },
+        {
+          "text": "For he brings home to me that I cannot disown the duty of doing what he bids me, but",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "that as soon as I turn from his company I fall a victim to the favors of the crowd.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "So I take a runaway’s leave of him and flee away;",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "216c",
+      "page": "216",
+      "order": 220,
+      "greek": "καὶ πολλάκις μὲν ἡδέως ἂν ἴδοιμι αὐτὸν μὴ ὄντα ἐν ἀνθρώποις· εἰ δ᾽ αὖ τοῦτο γένοιτο, εὖ οἶδα ὅτι πολὺ μεῖζον ἂν ἀχθοίμην, ὥστε οὐκ ἔχω ὅ τι χρήσωμαι τούτῳ τῷ ἀνθρώπῳ. Καὶ ὑπὸ μὲν δὴ τῶν αὐλημάτων καὶ ἐγὼ καὶ ἄλλοι πολλοὶ τοιαῦτα πεπόνθασιν ὑπὸ τοῦδε τοῦ σατύρου· ἄλλα δὲ ἐμοῦ ἀκούσατε ὡς ὅμοιός τ᾽ ἐστὶν οἷς ἐγὼ εἴκασα αὐτὸν καὶ τὴν δύναμιν ὡς θαυμασίαν ἔχει. εὖ γὰρ ἴστε ὅτι οὐδεὶς ὑμῶν",
+      "english": "when I see him again I think of those former admissions, and am ashamed. Often I could wish he had vanished from this world; yet again, should this befall, I am sure I should be more distressed than ever; so I cannot tell what to do with the fellow at all. Such then is the effect that our satyr can work upon me and many another with his piping; but let me tell you how like he is in other respects to the figures of my comparison, and what a wondrous power he wields. I assure you, not one of you knows him;",
+      "greekPhrases": [
+        {
+          "text": "καὶ πολλάκις μὲν ἡδέως ἂν ἴδοιμι αὐτὸν μὴ ὄντα ἐν ἀνθρώποις·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "εἰ δ᾽ αὖ τοῦτο γένοιτο, εὖ οἶδα ὅτι πολὺ μεῖζον ἂν ἀχθοίμην, ὥστε οὐκ ἔχω ὅ τι χρήσωμαι τούτῳ τῷ ἀνθρώπῳ.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Καὶ ὑπὸ μὲν δὴ τῶν αὐλημάτων καὶ ἐγὼ καὶ ἄλλοι πολλοὶ τοιαῦτα πεπόνθασιν ὑπὸ τοῦδε τοῦ σατύρου·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἄλλα δὲ ἐμοῦ ἀκούσατε ὡς ὅμοιός τ᾽ ἐστὶν οἷς ἐγὼ εἴκασα αὐτὸν καὶ τὴν δύναμιν ὡς θαυμασίαν ἔχει.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "εὖ γὰρ ἴστε ὅτι οὐδεὶς ὑμῶν",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "when I see him again I think of those former admissions, and am ashamed.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Often I could wish he had vanished from this world;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "yet again, should this befall, I am sure I should be more distressed than ever;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "so I cannot tell what to do with the fellow at all.",
+          "mapsTo": []
+        },
+        {
+          "text": "Such then is the effect that our satyr can work upon me and many another with his piping;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but let me tell you how like he is in other respects to the figures of my comparison, and what a wondrous power he wields.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "I assure you, not one of you knows him;",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "216d",
+      "page": "216",
+      "order": 221,
+      "greek": "τοῦτον γιγνώσκει· ἀλλὰ ἐγὼ δηλώσω, ἐπείπερ ἠρξάμην. ὁρᾶτε γὰρ ὅτι Σωκράτης ἐρωτικῶς διάκειται τῶν καλῶν καὶ ἀεὶ περὶ τούτους ἐστὶ καὶ ἐκπέπληκται, καὶ αὖ ἀγνοεῖ πάντα καὶ οὐδὲν οἶδεν. ὡς τὸ σχῆμα αὐτοῦ . τοῦτο οὐ σιληνῶδες; σφόδρα γε. τοῦτο γὰρ οὗτος ἔξωθεν περιβέβληται, ὥσπερ ὁ γεγλυμμένος σιληνός· ἔνδοθεν δὲ ἀνοιχθεὶς πόσης οἴεσθε γέμει, ὦ ἄνδρες συμπόται, σωφροσύνης; ἴστε ὅτι οὔτε εἴ τις καλός ἐστι μέλει αὐτῷ οὐδέν, ἀλλὰ καταφρονεῖ τοσοῦτον",
+      "english": "well, I shall reveal him, now that I have begun. Observe how Socrates is amorously inclined to handsome persons; with these he is always busy and enraptured. Again, he is utterly stupid and ignorant, as he affects. Is not this like a Silenus? Exactly. It is an outward casing he wears, similarly to the sculptured Silenus. But if you opened his inside, you cannot imagine how full he is, good cup-companions, of sobriety. I tell you, all the beauty a man may have is nothing to him; he despises it",
+      "greekPhrases": [
+        {
+          "text": "τοῦτον γιγνώσκει· ἀλλὰ ἐγὼ δηλώσω, ἐπείπερ ἠρξάμην.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ὁρᾶτε γὰρ ὅτι Σωκράτης ἐρωτικῶς διάκειται τῶν καλῶν καὶ ἀεὶ περὶ τούτους ἐστὶ καὶ ἐκπέπληκται, καὶ αὖ ἀγνοεῖ πάντα καὶ οὐδὲν οἶδεν.",
+          "mapsTo": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ὡς τὸ σχῆμα αὐτοῦ . τοῦτο οὐ σιληνῶδες; σφόδρα γε.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "τοῦτο γὰρ οὗτος ἔξωθεν περιβέβληται, ὥσπερ ὁ γεγλυμμένος σιληνός·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἔνδοθεν δὲ ἀνοιχθεὶς πόσης οἴεσθε γέμει, ὦ ἄνδρες συμπόται, σωφροσύνης;",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "ἴστε ὅτι οὔτε εἴ τις καλός ἐστι μέλει αὐτῷ οὐδέν, ἀλλὰ καταφρονεῖ τοσοῦτον",
+          "mapsTo": [
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "well, I shall reveal him, now that I have begun.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Observe how Socrates is amorously inclined to handsome persons;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "with these he is always busy and enraptured.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Again, he is utterly stupid and ignorant, as he affects.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Is not this like a Silenus? Exactly.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "It is an outward casing he wears, similarly to the sculptured Silenus.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "But if you opened his inside, you cannot imagine how full he is, good cup-companions, of sobriety.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "I tell you, all the beauty a man may have is nothing to him; he despises it",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "216e",
+      "page": "216",
+      "order": 222,
+      "greek": "ὅσον οὐδ᾽ ἂν εἷς οἰηθείη, οὔτ᾽ εἴ τις πλούσιος, οὔτ᾽ εἰ ἄλλην τινὰ τιμὴν ἔχων τῶν ὑπὸ πλήθους μακαριζομένων· ἡγεῖται δὲ πάντα ταῦτα τὰ κτήματα οὐδενὸς ἄξια καὶ ἡμᾶς οὐδὲν εἶναι , λέγω ὑμῖν , εἰρωνευόμενος δὲ καὶ παίζων πάντα τὸν βίον πρὸς τοὺς ἀνθρώπους διατελεῖ. σπουδάσαντος δὲ αὐτοῦ καὶ ἀνοιχθέντος οὐκ οἶδα εἴ τις ἑώρακε τὰ ἐντὸς ἀγάλματα· ἀλλ᾽ ἐγὼ ἤδη ποτ᾽ εἶδον, καί μοι ἔδοξεν οὕτω θεῖα καὶ",
+      "english": "more than any of you can believe; nor does wealth attract him, nor any sort of honor that is the envied prize of the crowd. All these possessions he counts as nothing worth, and all of us as nothing, I assure you; he spends his whole life in chaffing and making game of his fellow-men. Whether anyone else has caught him in a serious moment and opened him, and seen the images inside, I know not; but I saw them one day, and thought them so",
+      "greekPhrases": [
+        {
+          "text": "ὅσον οὐδ᾽ ἂν εἷς οἰηθείη, οὔτ᾽ εἴ τις πλούσιος, οὔτ᾽ εἰ ἄλλην τινὰ τιμὴν ἔχων τῶν ὑπὸ πλήθους μακαριζομένων·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἡγεῖται δὲ πάντα ταῦτα τὰ κτήματα οὐδενὸς ἄξια καὶ ἡμᾶς οὐδὲν εἶναι , λέγω ὑμῖν , εἰρωνευόμενος δὲ καὶ παίζων πάντα τὸν βίον πρὸς τοὺς ἀνθρώπους διατελεῖ.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "σπουδάσαντος δὲ αὐτοῦ καὶ ἀνοιχθέντος οὐκ οἶδα εἴ τις ἑώρακε τὰ ἐντὸς ἀγάλματα·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ ἐγὼ ἤδη ποτ᾽ εἶδον, καί μοι ἔδοξεν οὕτω θεῖα καὶ",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "more than any of you can believe;",
+          "mapsTo": []
+        },
+        {
+          "text": "nor does wealth attract him, nor any sort of honor that is the envied prize of the crowd.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "All these possessions he counts as nothing worth, and all of us as nothing, I assure you;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "he spends his whole life in chaffing and making game of his fellow-men.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Whether anyone else has caught him in a serious moment and opened him, and seen the images inside, I know not;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but I saw them one day, and thought them so",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "217a",
+      "page": "217",
+      "order": 223,
+      "greek": "χρυσᾶ εἶναι καὶ πάγκαλα καὶ θαυμαστά, ὥστε ποιητέον εἶναι ἔμβραχυ ὅ τι κελεύοι Σωκράτης. ἡγούμενος δὲ αὐτὸν ἐσπουδακέναι ἐπὶ τῇ ἐμῇ ὥρᾳ ἕρμαιον ἡγησάμην εἶναι καὶ εὐτύχημα ἐμὸν θαυμαστόν, ὡς ὑπάρχον μοι χαρισαμένῳ Σωκράτει πάντ᾽ ἀκοῦσαι ὅσα περ οὗτος ᾔδει· ἐφρόνουν γὰρ δὴ ἐπὶ τῇ ὥρᾳ θαυμάσιον ὅσον. ταῦτα οὖν διανοηθείς, πρὸ τοῦ οὐκ εἰωθὼς ἄνευ ἀκολούθου μόνος μετ᾽ αὐτοῦ γίγνεσθαι, τότε ἀποπέμπων",
+      "english": "divine and golden, so perfectly fair and wondrous, that I simply had to do as Socrates bade me. And believing he had a serious affection for my youthful bloom, I supposed I had here a godsend and a rare stroke of luck, thinking myself free at any time by gratifying his desires to hear all that our Socrates knew; for I was enormously proud of my youthful charms. So with this design",
+      "greekPhrases": [
+        {
+          "text": "χρυσᾶ εἶναι καὶ πάγκαλα καὶ θαυμαστά, ὥστε ποιητέον εἶναι ἔμβραχυ ὅ τι κελεύοι Σωκράτης.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἡγούμενος δὲ αὐτὸν ἐσπουδακέναι ἐπὶ τῇ ἐμῇ ὥρᾳ ἕρμαιον ἡγησάμην εἶναι καὶ εὐτύχημα ἐμὸν θαυμαστόν, ὡς ὑπάρχον μοι χαρισαμένῳ Σωκράτει πάντ᾽ ἀκοῦσαι ὅσα περ οὗτος ᾔδει·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἐφρόνουν γὰρ δὴ ἐπὶ τῇ ὥρᾳ θαυμάσιον ὅσον.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ταῦτα οὖν διανοηθείς, πρὸ τοῦ οὐκ εἰωθὼς ἄνευ ἀκολούθου μόνος μετ᾽ αὐτοῦ γίγνεσθαι, τότε ἀποπέμπων",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "divine and golden, so perfectly fair and wondrous, that I simply had to do as Socrates bade me.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "And believing he had a serious affection for my youthful bloom, I supposed I had here a godsend and a",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "rare stroke of luck, thinking myself free at any time by gratifying his desires to hear all that our Socrates knew;",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "for I was enormously proud of my youthful charms.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "So with this design",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "217b",
+      "page": "217",
+      "order": 224,
+      "greek": "τὸν ἀκόλουθον μόνος συνεγιγνόμην . δεῖ γὰρ πρὸς ὑμᾶς πάντα τἀληθῆ εἰπεῖν· ἀλλὰ προσέχετε τὸν νοῦν, καὶ εἰ ψεύδομαι, Σώκρατες, ἐξέλεγχε . συνεγιγνόμην γάρ, ὦ ἄνδρες, μόνος μόνῳ, καὶ ᾤμην αὐτίκα διαλέξεσθαι αὐτόν μοι ἅπερ ἂν ἐραστὴς παιδικοῖς ἐν ἐρημίᾳ διαλεχθείη, καὶ ἔχαιρον. τούτων δ᾽ οὐ μάλα ἐγίγνετο οὐδέν, ἀλλ᾽ ὥσπερ εἰώθει διαλεχθεὶς ἄν μοι καὶ συνημερεύσας ᾤχετο ἀπιών. μετὰ ταῦτα ξυγγυμνάζεσθαι",
+      "english": "I dismissed the attendant whom till then I invariably brought to my meetings with Socrates, and I would go and meet him alone: I am to tell you the whole truth; you must all mark my words, and, Socrates, you shall refute me if I lie. Yes, gentlemen, I went and met him, and the two of us would be alone; and I thought he would seize the chance of talking to me as a lover does to his dear one in private, and I was glad. But nothing of the sort occurred at all: he would merely converse with me in his usual manner, and when he had spent the day with me he would leave me and go his way. After that I proposed he should go with me to the trainer’s,",
+      "greekPhrases": [
+        {
+          "text": "τὸν ἀκόλουθον μόνος συνεγιγνόμην .",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "δεῖ γὰρ πρὸς ὑμᾶς πάντα τἀληθῆ εἰπεῖν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀλλὰ προσέχετε τὸν νοῦν, καὶ εἰ ψεύδομαι, Σώκρατες, ἐξέλεγχε .",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "συνεγιγνόμην γάρ, ὦ ἄνδρες, μόνος μόνῳ, καὶ ᾤμην αὐτίκα διαλέξεσθαι αὐτόν μοι ἅπερ ἂν ἐραστὴς παιδικοῖς ἐν ἐρημίᾳ διαλεχθείη, καὶ ἔχαιρον.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "τούτων δ᾽ οὐ μάλα ἐγίγνετο οὐδέν, ἀλλ᾽ ὥσπερ εἰώθει διαλεχθεὶς ἄν μοι καὶ συνημερεύσας ᾤχετο ἀπιών. μετὰ ταῦτα ξυγγυμνάζεσθαι",
+          "mapsTo": [
+            6,
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "I dismissed the attendant whom till then I invariably brought to my meetings with Socrates, and I would go and meet him alone:",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "I am to tell you the whole truth;",
+          "mapsTo": []
+        },
+        {
+          "text": "you must all mark my words, and, Socrates, you shall refute me if I lie.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Yes, gentlemen, I went and met him, and the two of us would be alone;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "and I thought he would seize the chance of talking to me as a lover does to his dear one in private, and I was glad.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "But nothing of the sort occurred at all:",
+          "mapsTo": []
+        },
+        {
+          "text": "he would merely converse with me in his usual manner, and when he had spent the day with me he would leave me and go his way.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "After that I proposed he should go with me to the trainer’s,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "217c",
+      "page": "217",
+      "order": 225,
+      "greek": "προὐκαλούμην αὐτὸν καὶ συνεγυμναζόμην, ὥς τι ἐνταῦθα περανῶν. συνεγυμνάζετο οὖν μοι καὶ προσεπάλαιεν πολλάκις οὐδενὸς παρόντος· καὶ τί δεῖ λέγειν; οὐδὲν γάρ μοι πλέον ἦν. ἐπειδὴ δὲ οὐδαμῇ ταύτῃ ἤνυτον, ἔδοξέ μοι ἐπιθετέον εἶναι τῷ ἀνδρὶ κατὰ τὸ καρτερὸν καὶ οὐκ ἀνετέον, ἐπειδήπερ ἐνεκεχειρήκη, ἀλλὰ ἰστέον ἤδη τί ἐστι τὸ πρᾶγμα. προκαλοῦμαι δὴ αὐτὸν πρὸς τὸ συνδειπνεῖν, ἀτεχνῶς ὥσπερ ἐραστὴς παιδικοῖς ἐπιβουλεύων. καί μοι οὐδὲ τοῦτο ταχὺ",
+      "english": "and I trained with him, expecting to gain my point there. So he trained and wrestled with me many a time when no one was there. The same story! I got no further with the affair. Then, as I made no progress that way, I resolved to charge full tilt at the man, and not to throw up the contest once I had entered upon it: I felt I must clear up the situation. Accordingly I invited him to dine with me, for all the world",
+      "greekPhrases": [
+        {
+          "text": "προὐκαλούμην αὐτὸν καὶ συνεγυμναζόμην, ὥς τι ἐνταῦθα περανῶν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "συνεγυμνάζετο οὖν μοι καὶ προσεπάλαιεν πολλάκις οὐδενὸς παρόντος·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ τί δεῖ λέγειν;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οὐδὲν γάρ μοι πλέον ἦν.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐπειδὴ δὲ οὐδαμῇ ταύτῃ ἤνυτον, ἔδοξέ μοι ἐπιθετέον εἶναι τῷ ἀνδρὶ κατὰ τὸ καρτερὸν καὶ οὐκ ἀνετέον, ἐπειδήπερ ἐνεκεχειρήκη, ἀλλὰ ἰστέον ἤδη τί ἐστι τὸ πρᾶγμα.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "προκαλοῦμαι δὴ αὐτὸν πρὸς τὸ συνδειπνεῖν, ἀτεχνῶς ὥσπερ ἐραστὴς παιδικοῖς ἐπιβουλεύων.",
+          "mapsTo": [
+            5,
+            6
+          ]
+        },
+        {
+          "text": "καί μοι οὐδὲ τοῦτο ταχὺ",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and I trained with him, expecting to gain my point there.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "So he trained and wrestled with me many a time when no one was there. The same story!",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "I got no further with the affair.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Then, as I made no progress that way, I resolved to charge full tilt at",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "the man, and not to throw up the contest once I had entered upon it:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "I felt I must clear up the situation.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Accordingly I invited him to dine with me, for all the world",
+          "mapsTo": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "217d",
+      "page": "217",
+      "order": 226,
+      "greek": "ὑπήκουσεν, ὅμως δ᾽ οὖν χρόνῳ ἐπείσθη. ἐπειδὴ δὲ ἀφίκετο τὸ πρῶτον, δειπνήσας ἀπιέναι ἐβούλετο. καὶ τότε μὲν αἰσχυνόμενος ἀφῆκα αὐτόν· αὖθις δ᾽ ἐπιβουλεύσας, ἐπειδὴ ἐδεδειπνήκει , διελεγόμην πόῤῥω τῶν νυκτῶν, καὶ ἐπειδὴ ἐβούλετο ἀπιέναι, σκηπτόμενος ὅτι ὀψὲ εἴη, προσηνάγκασα αὐτὸν μένειν. ἀνεπαύετο οὖν ἐν τῇ ἐχομένῃ ἐμοῦ κλίνῃ, ἐν ᾗπερ ἐδείπνει, καὶ οὐδεὶς ἐν τῷ οἰκήματι ἄλλος καθηῦδεν ἢ",
+      "english": "like a lover scheming to ensnare his favorite. Even this he was backward to accept; however, he was eventually persuaded. The first time he came, he wanted to leave as soon as he had dined. On that occasion I was ashamed and let him go. The second time I devised a scheme: when we had dined I went on talking with him far into the night, and when he wanted to go I made a pretext of the lateness of the hour and constrained him to stay. So he sought repose on the couch next to me, on which he had been sitting at dinner, and no one was sleeping in the room but ourselves.",
+      "greekPhrases": [
+        {
+          "text": "ὑπήκουσεν, ὅμως δ᾽ οὖν χρόνῳ ἐπείσθη.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐπειδὴ δὲ ἀφίκετο τὸ πρῶτον, δειπνήσας ἀπιέναι ἐβούλετο.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ τότε μὲν αἰσχυνόμενος ἀφῆκα αὐτόν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "αὖθις δ᾽ ἐπιβουλεύσας, ἐπειδὴ ἐδεδειπνήκει , διελεγόμην πόῤῥω τῶν νυκτῶν, καὶ ἐπειδὴ ἐβούλετο ἀπιέναι, σκηπτόμενος ὅτι ὀψὲ εἴη, προσηνάγκασα αὐτὸν μένειν.",
+          "mapsTo": [
+            6,
+            7
+          ]
+        },
+        {
+          "text": "ἀνεπαύετο οὖν ἐν τῇ ἐχομένῃ ἐμοῦ κλίνῃ, ἐν ᾗπερ ἐδείπνει, καὶ οὐδεὶς ἐν τῷ οἰκήματι ἄλλος καθηῦδεν ἢ",
+          "mapsTo": [
+            8
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "like a lover scheming to ensnare his favorite.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Even this he was backward to accept;",
+          "mapsTo": []
+        },
+        {
+          "text": "however, he was eventually persuaded.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "The first time he came, he wanted to leave as soon as he had dined.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "On that occasion I was ashamed and let him go.",
+          "mapsTo": []
+        },
+        {
+          "text": "The second time I devised a scheme:",
+          "mapsTo": []
+        },
+        {
+          "text": "when we had dined I went on talking with him far into the night, and when he",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "wanted to go I made a pretext of the lateness of the hour and constrained him to stay.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "So he sought repose on the couch next to me, on which he had been sitting at dinner, and no one was sleeping in the room but ourselves.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "217e",
+      "page": "217",
+      "order": 227,
+      "greek": "ἡμεῖς. μέχρι μὲν οὖν δὴ δεῦρο τοῦ λόγου καλῶς ἂν ἔχοι καὶ πρὸς ὁντινοῦν λέγειν· τὸ δ᾽ ἐντεῦθεν οὐκ ἄν μου ἠκούσατε λέγοντος, εἰ μὴ πρῶτον μέν, τὸ λεγόμενον, οἶνος ( ἄνευ τε παίδων καὶ μετὰ παίδων ) ἦν ἀληθής, ἔπειτα ἀφανίσαι Σωκράτους ἔργον ὑπερήφανον εἰς ἔπαινον ἐλθόντα ἄδικόν μοι φαίνεται. ἔτι δὲ τὸ τοῦ δηχθέντος ὑπὸ τοῦ ἔχεως πάθος κἀμὲ ἔχει. φασὶ γάρ πού τινα τοῦτο παθόντα οὐκ ἐθέλειν λέγειν οἷον ἦν πλὴν τοῖς δεδηγμένοις, ὡς μόνοις γνωσομένοις",
+      "english": "Now up to this point my tale could fairly be told to anybody; but from here onwards I would not have continued in your hearing were it not, in the first place, that wine, as the saying goes, whether you couple children with it or no, is truthful ; and in the second, I consider it dishonest, when I have started on the praise of Socrates, to hide his deed of lofty disdain. Besides, I share the plight of the man who was bitten by the snake: you know it is related of one in such a plight that he refused",
+      "greekPhrases": [
+        {
+          "text": "ἡμεῖς. μέχρι μὲν οὖν δὴ δεῦρο τοῦ λόγου καλῶς ἂν ἔχοι καὶ πρὸς ὁντινοῦν λέγειν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "τὸ δ᾽ ἐντεῦθεν οὐκ ἄν μου ἠκούσατε λέγοντος, εἰ μὴ πρῶτον μέν, τὸ λεγόμενον, οἶνος ( ἄνευ τε",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "παίδων καὶ μετὰ παίδων ) ἦν ἀληθής, ἔπειτα ἀφανίσαι Σωκράτους ἔργον ὑπερήφανον εἰς ἔπαινον ἐλθόντα ἄδικόν μοι φαίνεται.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ἔτι δὲ τὸ τοῦ δηχθέντος ὑπὸ τοῦ ἔχεως πάθος κἀμὲ ἔχει.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "φασὶ γάρ πού τινα τοῦτο παθόντα οὐκ ἐθέλειν λέγειν οἷον ἦν πλὴν τοῖς δεδηγμένοις, ὡς μόνοις γνωσομένοις",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Now up to this point my tale could fairly be told to anybody;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "but from here onwards I would not have continued in your hearing were it not, in the first",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "place, that wine, as the saying goes, whether you couple children with it or no, is truthful ;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and in the second, I consider it dishonest, when I have started on the praise of Socrates, to hide his deed of lofty disdain.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Besides, I share the plight of the man who was bitten by the snake:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "you know it is related of one in such a plight that he refused",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "218a",
+      "page": "218",
+      "order": 228,
+      "greek": "τε καὶ συγγνωσομένοις εἰ πᾶν ἐτόλμα δρᾷν τε καὶ λέγειν ὑπὸ τῆς ὀδύνης. ἐγὼ οὖν δεδηγμένος τε ὑπὸ ἀλγεινοτέρου καὶ τὸ ἀλγεινότατον ὧν ἄν τις δηχθείη — τὴν καρδίαν ἢ ψυχὴν γὰρ ἢ ὅ τι δεῖ αὐτὸ ὀνομάσαι πληγείς τε καὶ δηχθεὶς ὑπὸ τῶν ἐν φιλοσοφίᾳ λόγων, οἳ ἔχονται ἐχίδνης ἀγριώτερον, νέου ψυχῆς μὴ ἀφυοῦς ὅταν λάβωνται, καὶ ποιοῦσι δρᾷν τε καὶ λέγειν ὁτιοῦν — καὶ ὁρῶν αὖ Φαίδρους, Ἀγάθωνας,",
+      "english": "to describe his sensations to any but persons who had been bitten themselves, since they alone would understand him and stand up for him if he should give way to wild words and actions in his agony. Now I have been bitten by a more painful creature, in the most painful way that one can be bitten: in my heart, or my soul, or whatever one is to call it, I am stricken and stung by his philosophic discourses, which adhere more fiercely than any adder when once they lay hold of a young and not ungifted soul, and force it to do or say whatever they will; I have only to look around me, and there is a Phaedrus, an Agathon, an Eryximachus,",
+      "greekPhrases": [
+        {
+          "text": "τε καὶ συγγνωσομένοις εἰ πᾶν ἐτόλμα δρᾷν τε καὶ λέγειν ὑπὸ τῆς ὀδύνης.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐγὼ οὖν δεδηγμένος τε ὑπὸ ἀλγεινοτέρου καὶ τὸ ἀλγεινότατον ὧν ἄν τις δηχθείη — τὴν καρδίαν ἢ ψυχὴν γὰρ ἢ ὅ τι δεῖ αὐτὸ ὀνομάσαι πληγείς τε καὶ",
+          "mapsTo": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "text": "δηχθεὶς ὑπὸ τῶν ἐν φιλοσοφίᾳ λόγων, οἳ ἔχονται ἐχίδνης ἀγριώτερον, νέου ψυχῆς μὴ ἀφυοῦς ὅταν λάβωνται, καὶ ποιοῦσι δρᾷν τε καὶ λέγειν ὁτιοῦν — καὶ ὁρῶν αὖ Φαίδρους, Ἀγάθωνας,",
+          "mapsTo": [
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "to describe his sensations to any but persons who had been bitten themselves, since they alone would understand",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "him and stand up for him if he should give way to wild words and actions in his agony.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Now I have been bitten by a more painful creature, in the most painful way that one can be bitten:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "in my heart, or my soul, or whatever one is to call it, I am stricken and stung by his philosophic discourses, which adhere more",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "fiercely than any adder when once they lay hold of a young and not ungifted soul, and force it to do or say whatever they will;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "I have only to look around me, and there is a Phaedrus, an Agathon, an Eryximachus,",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "218b",
+      "page": "218",
+      "order": 229,
+      "greek": "Ἐρυξιμάχους, Παυσανίας, Ἀριστοδήμους τε καὶ Ἀριστοφάνας — Σωκράτη δὲ αὐτὸν τί δεῖ λέγειν, καὶ ὅσοι ἄλλοι; πάντες γὰρ κεκοινωνήκατε τῆς φιλοσόφου μανίας τε καὶ βακχείας· διὸ πάντες ἀκούσεσθε· συγγνώσεσθε γὰρ τοῖς τε τότε πραχθεῖσι καὶ τοῖς νῦν λεγομένοις· οἱ δὲ οἰκέται, καὶ εἴ τις ἄλλος ἐστὶν βέβηλός τε καὶ ἄγροικος, πύλας πάνυ μεγάλας τοῖς ὠσὶν ἐπίθεσθε. Ἐπειδὴ γὰρ οὖν, ὦ ἄνδρες, ὅ τε λύχνος ἀπεσβήκει καὶ",
+      "english": "a Pausanias, an Aristodemus, and an Aristophanes—I need not mention Socrates himself—and all the rest of them; every one of you has had his share of philosophic frenzy and transport, so all of you shall hear. You shall stand up alike for what then was done and for what now is spoken. But the domestics, and all else profane and clownish, must clap the heaviest of doors upon their ears. Well, gentlemen, when the lamp had been put out",
+      "greekPhrases": [
+        {
+          "text": "Ἐρυξιμάχους, Παυσανίας, Ἀριστοδήμους τε καὶ Ἀριστοφάνας — Σωκράτη δὲ αὐτὸν τί δεῖ λέγειν, καὶ ὅσοι ἄλλοι;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "πάντες γὰρ κεκοινωνήκατε τῆς φιλοσόφου μανίας τε καὶ βακχείας· διὸ πάντες ἀκούσεσθε·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "συγγνώσεσθε γὰρ τοῖς τε τότε πραχθεῖσι καὶ τοῖς νῦν λεγομένοις·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "οἱ δὲ οἰκέται, καὶ εἴ τις ἄλλος ἐστὶν βέβηλός τε καὶ ἄγροικος, πύλας πάνυ μεγάλας τοῖς ὠσὶν ἐπίθεσθε.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ἐπειδὴ γὰρ οὖν, ὦ ἄνδρες, ὅ τε λύχνος ἀπεσβήκει καὶ",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "a Pausanias, an Aristodemus, and an Aristophanes—I need not mention Socrates himself—and all the rest of them;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "every one of you has had his share of philosophic frenzy and transport, so all of you shall hear.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "You shall stand up alike for what then was done and for what now is spoken.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "But the domestics, and all else profane and clownish, must clap the heaviest of doors upon their ears.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Well, gentlemen, when the lamp had been put out",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "218c",
+      "page": "218",
+      "order": 230,
+      "greek": "οἱ παῖδες ἔξω ἦσαν, ἔδοξέ μοι χρῆναι μηδὲν ποικίλλειν πρὸς αὐτόν, ἀλλ᾽ ἐλευθέρως εἰπεῖν ἅ μοι ἐδόκει· καὶ εἶπον κινήσας αὐτόν, Σώκρατες, καθεύδεις; Οὐ δῆτα, ἦ δ᾽ ὅς. Οἶσθα οὖν ἅ μοι δέδοκται; Τί μάλιστα, ἔφη. Σὺ ἐμοὶ δοκεῖς, ἦν δ᾽ ἐγώ, ἐμοῦ ἐραστὴς ἄξιος γεγονέναι μόνος, καί μοι φαίνει ὀκνεῖν μνησθῆναι πρός με· ἐγὼ δὲ οὑτωσὶ ἔχω· πάνυ ἀνόητον ἡγοῦμαι εἶναι σοὶ μὴ οὐ καὶ τοῦτο χαρίζεσθαι καὶ εἴ τι ἄλλο ἢ τῆς οὐσίας τῆς ἐμῆς",
+      "english": "and the servants had withdrawn, I determined not to mince matters with him, but to speak out freely what I intended. So I shook him and said, Socrates, are you asleep? Why, no, he replied. Let me tell you what I have decided. What is the matter? he asked. I consider, I replied, that you are the only worthy lover I have had, and it looks to me as if you were shy of mentioning it to me. My position is this: I count it sheer folly not to gratify you in this as in any other need you may have",
+      "greekPhrases": [
+        {
+          "text": "οἱ παῖδες ἔξω ἦσαν, ἔδοξέ μοι χρῆναι μηδὲν ποικίλλειν πρὸς αὐτόν, ἀλλ᾽ ἐλευθέρως εἰπεῖν ἅ μοι ἐδόκει·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ εἶπον κινήσας αὐτόν, Σώκρατες, καθεύδεις;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Οὐ δῆτα, ἦ δ᾽ ὅς.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Οἶσθα οὖν ἅ μοι δέδοκται; Τί μάλιστα, ἔφη.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Σὺ ἐμοὶ δοκεῖς, ἦν δ᾽ ἐγώ, ἐμοῦ ἐραστὴς ἄξιος γεγονέναι μόνος, καί μοι φαίνει ὀκνεῖν μνησθῆναι πρός με·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ἐγὼ δὲ οὑτωσὶ ἔχω·",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "πάνυ ἀνόητον ἡγοῦμαι εἶναι σοὶ μὴ οὐ καὶ τοῦτο χαρίζεσθαι καὶ εἴ τι ἄλλο ἢ τῆς οὐσίας τῆς ἐμῆς",
+          "mapsTo": [
+            8
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and the servants had withdrawn, I determined not to mince matters with him, but to speak out freely what I intended.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "So I shook him and said, Socrates, are you asleep?",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Why, no, he replied.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Let me tell you what I have decided.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "What is the matter? he asked.",
+          "mapsTo": []
+        },
+        {
+          "text": "I consider, I replied, that you are the only worthy lover I have had,",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "and it looks to me as if you were shy of mentioning it to me.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "My position is this:",
+          "mapsTo": []
+        },
+        {
+          "text": "I count it sheer folly not to gratify you in this as in any other need you may have",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "218d",
+      "page": "218",
+      "order": 231,
+      "greek": "δέοιο ἢ τῶν φίλων τῶν ἐμῶν. ἐμοὶ μὲν γὰρ οὐδέν ἐστι πρεσβύτερον τοῦ ὡς ὅ τι βέλτιστον ἐμὲ γενέσθαι, τούτου δὲ οἶμαί μοι συλλήπτορα οὐδένα κυριώτερον εἶναι σοῦ. ἐγὼ δὴ τοιούτῳ ἀνδρὶ πολὺ μᾶλλον ἂν μὴ χαριζόμενος αἰσχυνοίμην τοὺς φρονίμους, ἢ χαριζόμενος τούς τε πολλοὺς καὶ ἄφρονας. καὶ οὗτος ἀκούσας μάλα εἰρωνικῶς καὶ σφόδρα ἑαυτοῦ τε καὶ εἰωθότως ἔλεξεν· Ὦ φίλε Ἀλκιβιάδη, κινδυνεύεις τῷ ὄντι οὐ φαῦλος εἶναι, εἴπερ ἀληθῆ τυγχάνει ὄντα ἃ λέγεις",
+      "english": "of either my property or that of my friends. To me nothing is more important than the attainment of the highest possible excellence, and in this aim I believe I can find no abler ally than you. So I should feel a far worse shame before sensible people for not gratifying such a friend than I should before the senseless multitude for gratifying him. When he heard this, he put on that innocent air which habit has made so characteristic of him, and remarked: My dear Alcibiades, I daresay you are not really a dolt, if what you say of me is the actual truth,",
+      "greekPhrases": [
+        {
+          "text": "δέοιο ἢ τῶν φίλων τῶν ἐμῶν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐμοὶ μὲν γὰρ οὐδέν ἐστι πρεσβύτερον τοῦ ὡς ὅ τι βέλτιστον ἐμὲ γενέσθαι, τούτου δὲ οἶμαί μοι συλλήπτορα οὐδένα κυριώτερον εἶναι σοῦ.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἐγὼ δὴ τοιούτῳ ἀνδρὶ πολὺ μᾶλλον ἂν μὴ χαριζόμενος αἰσχυνοίμην τοὺς φρονίμους, ἢ χαριζόμενος τούς τε πολλοὺς καὶ ἄφρονας.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ οὗτος ἀκούσας μάλα εἰρωνικῶς καὶ σφόδρα ἑαυτοῦ τε καὶ εἰωθότως ἔλεξεν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Ὦ φίλε Ἀλκιβιάδη, κινδυνεύεις τῷ ὄντι οὐ φαῦλος εἶναι, εἴπερ ἀληθῆ τυγχάνει ὄντα ἃ λέγεις",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "of either my property or that of my friends.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "To me nothing is more important than the attainment of the highest possible excellence, and in this aim I believe I can find no abler ally than you.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "So I should feel a far worse shame before sensible people for not gratifying such a friend than I should before the senseless multitude for gratifying him.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "When he heard this, he put on that innocent air which habit has made so characteristic of him, and remarked:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "My dear Alcibiades, I daresay you are not really a dolt, if what you say of me is the actual truth,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "218e",
+      "page": "218",
+      "order": 232,
+      "greek": "περὶ ἐμοῦ, καί τις ἔστ᾽ ἐν ἐμοὶ δύναμις δι᾽ ἧς ἂν σὺ γένοιο ἀμείνων· ἀμήχανόν τοι κάλλος ὁρῴης ἂν ἐν ἐμοὶ καὶ τῆς παρὰ σοὶ εὐμορφίας πάμπολυ διαφέρον. εἰ δὴ καθορῶν αὐτὸ κοινώσασθαί τέ μοι ἐπιχειρεῖς καὶ ἀλλάξασθαι κάλλος ἀντὶ κάλλους, οὐκ ὀλίγῳ μου πλεονεκτεῖν διανοεῖ, ἀλλ᾽ ἀντὶ δόξης ἀλήθειαν καλῶν κτᾶσθαι ἐπιχειρεῖς καὶ τῷ",
+      "english": "and there is a certain power in me that could help you to be better; for then what a stupendous beauty you must see in me, vastly superior to your comeliness! And if on espying this you are trying for a mutual exchange of beauty for beauty, it is no slight advantage you are counting on—you are trying to get genuine in return for reputed beauties,",
+      "greekPhrases": [
+        {
+          "text": "περὶ ἐμοῦ, καί τις ἔστ᾽ ἐν ἐμοὶ δύναμις δι᾽ ἧς ἂν σὺ γένοιο ἀμείνων·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀμήχανόν τοι κάλλος ὁρῴης ἂν ἐν ἐμοὶ καὶ τῆς παρὰ σοὶ εὐμορφίας πάμπολυ διαφέρον.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "εἰ δὴ καθορῶν αὐτὸ κοινώσασθαί τέ μοι ἐπιχειρεῖς καὶ ἀλλάξασθαι κάλλος ἀντὶ κάλλους, οὐκ ὀλίγῳ μου πλεονεκτεῖν διανοεῖ, ἀλλ᾽ ἀντὶ δόξης ἀλήθειαν καλῶν κτᾶσθαι ἐπιχειρεῖς καὶ τῷ",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and there is a certain power in me that could help you to be better;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for then what a stupendous beauty you must see in me, vastly superior to your comeliness!",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "And if on espying this you are trying for a mutual exchange of beauty for beauty, it",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "is no slight advantage you are counting on—you are trying to get genuine in return for reputed beauties,",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "219a",
+      "page": "219",
+      "order": 233,
+      "greek": "ὄντι “ χρύσεα χαλκείων „ διαμείβεσθαι νοεῖς. ἀλλ᾽, ὦ μακάριε, ἄμεινον σκόπει, μή σε λανθάνω οὐδὲν ὤν. ἥ τοι τῆς διανοίας ὄψις ἄρχεται ὀξὺ βλέπειν ὅταν ἡ τῶν ὀμμάτων τῆς ἀκμῆς λήγειν ἐπιχειρῇ· σὺ δὲ τούτων ἔτι πόῤῥω. κἀγὼ ἀκούσας· Τὰ μὲν παρ᾽ ἐμοῦ, ἔφην, ταῦτά ἐστιν, ὧν οὐδὲν ἄλλως εἴρηται ἢ ὡς διανοοῦμαι· σὺ δὲ αὐτὸς οὕτω βουλεύου ὅτι σοί τε ἄριστον καὶ ἐμοὶ ἡγεῖ. Ἀλλ᾽, ἔφη, τοῦτό γ᾽ εὖ λέγεις· ἐν γὰρ τῷ ἐπιόντι χρόνῳ",
+      "english": "and in fact are designing to fetch off the old bargain of gold for bronze. But be more wary, my gifted friend: you may be deceived and I may be worthless. Remember, the intellectual sight begins to be keen when the visual is entering on its wane; but you are a long way yet from that time. To this I answered: You have heard what I had to say; not a word differed from the feeling in my mind: it is for you now to consider what you judge to be best for you and me. Ah, there you speak to some purpose, he said: for in the days that are to come",
+      "greekPhrases": [
+        {
+          "text": "ὄντι “ χρύσεα χαλκείων „ διαμείβεσθαι νοεῖς.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἀλλ᾽, ὦ μακάριε, ἄμεινον σκόπει, μή σε λανθάνω οὐδὲν ὤν.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἥ τοι τῆς διανοίας ὄψις ἄρχεται ὀξὺ βλέπειν ὅταν ἡ τῶν ὀμμάτων τῆς ἀκμῆς λήγειν ἐπιχειρῇ·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "σὺ δὲ τούτων ἔτι πόῤῥω. κἀγὼ ἀκούσας·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Τὰ μὲν παρ᾽ ἐμοῦ, ἔφην, ταῦτά ἐστιν, ὧν οὐδὲν ἄλλως εἴρηται ἢ ὡς διανοοῦμαι·",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "σὺ δὲ αὐτὸς οὕτω βουλεύου ὅτι σοί τε ἄριστον καὶ ἐμοὶ ἡγεῖ.",
+          "mapsTo": [
+            8
+          ]
+        },
+        {
+          "text": "Ἀλλ᾽, ἔφη, τοῦτό γ᾽ εὖ λέγεις·",
+          "mapsTo": [
+            9
+          ]
+        },
+        {
+          "text": "ἐν γὰρ τῷ ἐπιόντι χρόνῳ",
+          "mapsTo": [
+            10
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and in fact are designing to fetch off the old bargain of gold for bronze.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "But be more wary, my gifted friend:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "you may be deceived and I may be worthless.",
+          "mapsTo": []
+        },
+        {
+          "text": "Remember, the intellectual sight begins to be keen when the visual is entering on its wane;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "but you are a long way yet from that time.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "To this I answered:",
+          "mapsTo": []
+        },
+        {
+          "text": "You have heard what I had to say;",
+          "mapsTo": []
+        },
+        {
+          "text": "not a word differed from the feeling in my mind:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "it is for you now to consider what you judge to be best for you and me.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Ah, there you speak to some purpose, he said:",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "for in the days that are to come",
+          "mapsTo": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "219b",
+      "page": "219",
+      "order": 234,
+      "greek": "βουλευόμενοι πράξομεν ὃ ἂν φαίνηται νῷν περί τε τούτων καὶ περὶ τῶν ἄλλων ἄριστον. ἐγὼ μὲν δὴ ταῦτα ἀκούσας τε καὶ εἰπών, καὶ ἀφεὶς ὥσπερ βέλη, τετρῶσθαι αὐτὸν ᾤμην· καὶ ἀναστάς γε, οὐδ᾽ ἐπιτρέψας τούτῳ εἰπεῖν οὐδὲν ἔτι, ἀμφιέσας τὸ ἱμάτιον τὸ ἐμαυτοῦ τοῦτον — καὶ γὰρ ἦν χειμών — ὑπὸ τὸν τρίβωνα κατακλινεὶς τὸν τούτου, περιβαλὼν τὼ χεῖρε τούτῳ τῷ",
+      "english": "we shall consider and do what appears to be best for the two of us in this and our other affairs. Well, after I had exchanged these words with him and, as it were, let fly my shafts, I fancied he felt the wound: so up I got, and without suffering the man to say a word more I wrapped my own coat about him—it was winter-time; drew myself under his cloak, so;",
+      "greekPhrases": [
+        {
+          "text": "βουλευόμενοι πράξομεν ὃ ἂν φαίνηται νῷν περί τε τούτων καὶ περὶ τῶν ἄλλων ἄριστον.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐγὼ μὲν δὴ ταῦτα ἀκούσας τε καὶ εἰπών, καὶ ἀφεὶς ὥσπερ βέλη, τετρῶσθαι αὐτὸν ᾤμην·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ ἀναστάς γε, οὐδ᾽ ἐπιτρέψας τούτῳ εἰπεῖν οὐδὲν ἔτι, ἀμφιέσας τὸ ἱμάτιον τὸ ἐμαυτοῦ τοῦτον —",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "καὶ γὰρ ἦν χειμών — ὑπὸ τὸν τρίβωνα κατακλινεὶς τὸν τούτου, περιβαλὼν τὼ χεῖρε τούτῳ τῷ",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "we shall consider and do what appears to be best for the two of us in this and our other affairs.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Well, after I had exchanged these words with him and, as it were, let fly my shafts, I fancied he felt the wound:",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "so up I got, and without suffering the man to say a word more I wrapped my own coat about him—it was winter-time;",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "drew myself under his cloak, so;",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "219c",
+      "page": "219",
+      "order": 235,
+      "greek": "δαιμονίῳ ὡς ἀληθῶς καὶ θαυμαστῷ, κατεκείμην τὴν νύκτα ὅλην. καὶ οὐδὲ ταῦτα αὖ, ὦ Σώκρατες, ἐρεῖς ὅτι ψεύδομαι. ποιήσαντος δὲ δὴ ταῦτα ἐμοῦ οὗτος τοσοῦτον περιεγένετό τε καὶ κατεφρόνησεν καὶ κατεγέλασεν τῆς ἐμῆς ὥρας καὶ ὕβρισεν· καὶ περὶ ἐκεῖνό γε ᾤμην τὶ εἶναι, ὦ ἄνδρες δικασταί· δικασταὶ γάρ ἐστε τῆς Σωκράτους ὑπερηφανίας . εὖ γὰρ ἴστε μὰ θεούς, μὰ θεάς, οὐδὲν περιττότερον καταδεδαρθηκὼς",
+      "english": "wound my arms about this truly spiritual and miraculous creature; and lay thus all the night long. Here too, Socrates, you are unable to give me the lie. When I had done all this, he showed such superiority and contempt, laughing my youthful charms to scorn, and flouting the very thing on which I prided myself, gentlemen of the jury—for you are here to try Socrates for his lofty disdain: you may be sure, by gods—and goddesses—that when I arose I had in no more particular sense slept a night",
+      "greekPhrases": [
+        {
+          "text": "δαιμονίῳ ὡς ἀληθῶς καὶ θαυμαστῷ, κατεκείμην τὴν νύκτα ὅλην.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ οὐδὲ ταῦτα αὖ, ὦ Σώκρατες, ἐρεῖς ὅτι ψεύδομαι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ποιήσαντος δὲ δὴ ταῦτα ἐμοῦ οὗτος τοσοῦτον περιεγένετό τε καὶ κατεφρόνησεν καὶ κατεγέλασεν τῆς ἐμῆς ὥρας καὶ ὕβρισεν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ περὶ ἐκεῖνό γε ᾤμην τὶ εἶναι, ὦ ἄνδρες δικασταί·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "δικασταὶ γάρ ἐστε τῆς Σωκράτους ὑπερηφανίας .",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "εὖ γὰρ ἴστε μὰ θεούς, μὰ θεάς, οὐδὲν περιττότερον καταδεδαρθηκὼς",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "wound my arms about this truly spiritual and miraculous creature;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and lay thus all the night long.",
+          "mapsTo": []
+        },
+        {
+          "text": "Here too, Socrates, you are unable to give me the lie.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "When I had done all this, he showed such superiority and contempt, laughing my youthful charms to scorn, and flouting the",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "very thing on which I prided myself, gentlemen of the jury—for you are here to try Socrates for his lofty disdain:",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "you may be sure, by gods—and goddesses—that when I arose I had in no more particular sense slept a night",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "219d",
+      "page": "219",
+      "order": 236,
+      "greek": "ἀνέστην μετὰ Σωκράτους, ἢ εἰ μετὰ πατρὸς καθηῦδον ἢ ἀδελφοῦ πρεσβυτέρου. Τὸ δὴ μετὰ τοῦτο τίνα οἴεσθέ με διάνοιαν ἔχειν, ἡγούμενον μὲν ἠτιμάσθαι, ἀγάμενον δὲ τὴν τούτου φύσιν τε καὶ σωφροσύνην καὶ ἀνδρείαν, ἐντετυχηκότα ἀνθρώπῳ τοιούτῳ οἵῳ ἐγὼ οὐκ ἂν ᾤμην ποτ᾽ ἐντυχεῖν εἰς φρόνησιν καὶ εἰς καρτερίαν; ὥστε οὔθ᾽ ὅπως οὖν ὀργιζοίμην εἶχον καὶ ἀποστερηθείην τῆς τούτου συνουσίας, οὔθ ᾽ ὅπῃ προσαγαγοίμην",
+      "english": "with Socrates than if it had been with my father or my elder brother. After that, you can imagine what a state of mind I was in, feeling myself affronted, yet marvelling at the sobriety and integrity of his nature: for I had lighted on a man such as I never would have dreamt of meeting—so sensible and so resolute. Hence I could find neither a reason for being angry and depriving myself of his society nor a ready means",
+      "greekPhrases": [
+        {
+          "text": "ἀνέστην μετὰ Σωκράτους, ἢ εἰ μετὰ πατρὸς καθηῦδον ἢ ἀδελφοῦ πρεσβυτέρου.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Τὸ δὴ μετὰ τοῦτο τίνα οἴεσθέ με διάνοιαν ἔχειν, ἡγούμενον μὲν ἠτιμάσθαι, ἀγάμενον δὲ τὴν τούτου φύσιν τε",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "καὶ σωφροσύνην καὶ ἀνδρείαν, ἐντετυχηκότα ἀνθρώπῳ τοιούτῳ οἵῳ ἐγὼ οὐκ ἂν ᾤμην ποτ᾽ ἐντυχεῖν εἰς φρόνησιν καὶ εἰς καρτερίαν;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὥστε οὔθ᾽ ὅπως οὖν ὀργιζοίμην εἶχον καὶ ἀποστερηθείην τῆς τούτου συνουσίας, οὔθ ᾽ ὅπῃ προσαγαγοίμην",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "with Socrates than if it had been with my father or my elder brother.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "After that, you can imagine what a state of mind I was in, feeling myself affronted, yet marvelling at the sobriety and integrity of his nature:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "for I had lighted on a man such as I never would have dreamt of meeting—so sensible and so resolute.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Hence I could find neither a reason for being angry and depriving myself of his society nor a ready means",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "219e",
+      "page": "219",
+      "order": 237,
+      "greek": "αὐτὸν εὐπόρουν. εὖ γὰρ ᾔδη ὅτι χρήμασί γε πολὺ μᾶλλον ἄτρωτος ἦν πανταχῇ ἢ σιδήρῳ ὁ Αἴας, ᾧ τε ᾤμην αὐτὸν μόνῳ ἁλώσεσθαι, διεπεφεύγει με. ἠπόρουν δή, καταδεδουλωμένος τε ὑπὸ τοῦ ἀνθρώπου ὡς οὐδεὶς ὑπ᾽ οὐδενὸς ἄλλου περιῇα. ταῦτά τε γάρ μοι ἅπαντα προὐγεγόνει, καὶ μετὰ ταῦτα στρατεία ἡμῖν εἰς Ποτείδαιαν ἐγένετο κοινὴ καὶ συνεσιτοῦμεν ἐκεῖ. πρῶτον μὲν οὖν τοῖς πόνοις οὐ μόνον ἐμοῦ περιῆν, ἀλλὰ καὶ τῶν ἄλλων ἁπάντων . ὁπότ᾽ ἀναγκασθεῖμεν ἀποληφθέντες που, οἷα δὴ ἐπὶ στρατείας,",
+      "english": "of enticing him. For I was well aware that he was far more proof against money on every side than Ajax against a spear; and in what I thought was my sole means of catching him he had eluded me. So I was at a loss, and wandered about in the most abject thraldom to this man that ever was known. Now all this, you know, had already happened to me when we later went on a campaign together to Potidaea ; and there we were messmates. Well, first of all, he surpassed not me only but every one else in bearing hardships; whenever we were cut off in some place",
+      "greekPhrases": [
+        {
+          "text": "αὐτὸν εὐπόρουν. εὖ γὰρ ᾔδη ὅτι χρήμασί γε πολὺ μᾶλλον ἄτρωτος ἦν πανταχῇ ἢ σιδήρῳ ὁ Αἴας, ᾧ τε ᾤμην αὐτὸν μόνῳ ἁλώσεσθαι, διεπεφεύγει με.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἠπόρουν δή, καταδεδουλωμένος τε ὑπὸ τοῦ ἀνθρώπου ὡς οὐδεὶς ὑπ᾽ οὐδενὸς ἄλλου περιῇα.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ταῦτά τε γάρ μοι ἅπαντα προὐγεγόνει, καὶ μετὰ ταῦτα στρατεία ἡμῖν εἰς Ποτείδαιαν ἐγένετο κοινὴ καὶ συνεσιτοῦμεν ἐκεῖ.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "πρῶτον μὲν οὖν τοῖς πόνοις οὐ μόνον ἐμοῦ περιῆν, ἀλλὰ καὶ τῶν ἄλλων ἁπάντων .",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "ὁπότ᾽ ἀναγκασθεῖμεν ἀποληφθέντες που, οἷα δὴ ἐπὶ στρατείας,",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "of enticing him. For I was well aware that he was far more proof against money on every side than Ajax against a spear;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and in what I thought was my sole means of catching him he had eluded me.",
+          "mapsTo": []
+        },
+        {
+          "text": "So I was at a loss, and wandered about in the most abject thraldom to this man that ever was known.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Now all this, you know, had already happened to me when we later went on a campaign together to Potidaea ;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and there we were messmates.",
+          "mapsTo": []
+        },
+        {
+          "text": "Well, first of all, he surpassed not me only but every one else in bearing hardships;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "whenever we were cut off in some place",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "220a",
+      "page": "220",
+      "order": 238,
+      "greek": "ἀσιτεῖν, οὐδὲν ἦσαν οἱ ἄλλοι πρὸς τὸ καρτερεῖν· ἔν τ᾽ αὖ ταῖς εὐωχίαις μόνος ἀπολαύειν οἷός τ᾽ ἦν τά τ᾽ ἄλλα καὶ πίνειν οὐκ ἐθέλων, ὁπότε ἀναγκασθείη, πάντας ἐκράτει, καὶ ὃ πάντων θαυμαστότατον, Σωκράτη μεθύοντα οὐδεὶς πώποτε ἑώρακεν ἀνθρώπων. τούτου μὲν οὖν μοι δοκεῖ καὶ αὐτίκα ὁ ἔλεγχος ἔσεσθαι. πρὸς δὲ αὖ τὰς τοῦ χειμῶνος καρτερήσεις — δεινοὶ γὰρ αὐτόθι χειμῶνες — θαυμάσια εἰργάζετο τά τε",
+      "english": "and were compelled, as often in campaigns, to go without food, the rest of us were nowhere in point of endurance. Then again, when we had plenty of good cheer, he alone could enjoy it to the full, and though unwilling to drink, when once overruled he used to beat us all; and, most surprising of all, no man has ever yet seen Socrates drunk. Of this power I expect we shall have a good test in a moment. But it was in his endurance of winter—",
+      "greekPhrases": [
+        {
+          "text": "ἀσιτεῖν, οὐδὲν ἦσαν οἱ ἄλλοι πρὸς τὸ καρτερεῖν·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἔν τ᾽ αὖ ταῖς εὐωχίαις μόνος ἀπολαύειν οἷός τ᾽ ἦν τά τ᾽ ἄλλα καὶ πίνειν",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὐκ ἐθέλων, ὁπότε ἀναγκασθείη, πάντας ἐκράτει, καὶ ὃ πάντων θαυμαστότατον, Σωκράτη μεθύοντα οὐδεὶς πώποτε ἑώρακεν ἀνθρώπων.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "τούτου μὲν οὖν μοι δοκεῖ καὶ αὐτίκα ὁ ἔλεγχος ἔσεσθαι.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "πρὸς δὲ αὖ τὰς τοῦ χειμῶνος καρτερήσεις — δεινοὶ γὰρ αὐτόθι χειμῶνες — θαυμάσια εἰργάζετο τά τε",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and were compelled, as often in campaigns, to go without food, the rest of us were nowhere in point of endurance.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Then again, when we had plenty of good cheer, he alone could enjoy it to",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "the full, and though unwilling to drink, when once overruled he used to beat us all;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and, most surprising of all, no man has ever yet seen Socrates drunk.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Of this power I expect we shall have a good test in a moment.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "But it was in his endurance of winter—",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "220b",
+      "page": "220",
+      "order": 239,
+      "greek": "ἄλλα, καί ποτε ὄντος πάγου οἵου δεινοτάτου, καὶ πάντων ἢ οὐκ ἐξιόντων ἔνδοθεν, ἢ εἴ τις ἐξίοι, ἠμφιεσμένων τε θαυμαστὰ δὴ ὅσα καὶ ὑποδεδεμένων καὶ ἐνειλιγμένων τοὺς πόδας εἰς πίλους καὶ ἀρνακίδας, οὗτος δ᾽ ἐν τούτοις ἐξῄει ἔχων ἱμάτιον μὲν τοιοῦτον οἷόνπερ καὶ πρότερον εἰώθει φορεῖν, ἀνυπόδητος δὲ διὰ τοῦ κρυστάλλου ῥᾷον ἐπορεύετο ἢ οἱ ἄλλοι ὑποδεδεμένοι, οἱ δὲ στρατιῶται ὑπέβλεπον",
+      "english": "in those parts the winters are awful—that I remember, among his many marvellous feats, how once there came a frost about as awful as can be: we all preferred not to stir abroad, or if any of us did, we wrapped ourselves up with prodigious care, and after putting on our shoes we muffled up our feet with felt and little fleeces. But he walked out in that weather, clad in just such a coat as he was always wont to wear, and he made his way more easily over the ice unshod than the rest of us did in our shoes. The soldiers looked askance at him, thinking that he despised them.",
+      "greekPhrases": [
+        {
+          "text": "ἄλλα, καί ποτε ὄντος πάγου οἵου δεινοτάτου, καὶ πάντων ἢ οὐκ ἐξιόντων ἔνδοθεν, ἢ εἴ τις ἐξίοι, ἠμφιεσμένων τε θαυμαστὰ δὴ ὅσα καὶ ὑποδεδεμένων καὶ ἐνειλιγμένων τοὺς πόδας εἰς πίλους",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "καὶ ἀρνακίδας, οὗτος δ᾽ ἐν τούτοις ἐξῄει ἔχων ἱμάτιον μὲν τοιοῦτον οἷόνπερ καὶ πρότερον εἰώθει φορεῖν, ἀνυπόδητος δὲ διὰ τοῦ κρυστάλλου ῥᾷον ἐπορεύετο ἢ οἱ ἄλλοι ὑποδεδεμένοι, οἱ δὲ στρατιῶται ὑπέβλεπον",
+          "mapsTo": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "in those parts the winters are awful—that I remember, among his many marvellous feats, how once there came a frost about as awful as can be:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "we all preferred not to stir abroad, or if any of us did, we wrapped ourselves up with",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "prodigious care, and after putting on our shoes we muffled up our feet with felt and little fleeces.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "But he walked out in that weather, clad in just such a coat as he was always wont to wear,",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and he made his way more easily over the ice unshod than the rest of us did in our shoes.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "The soldiers looked askance at him, thinking that he despised them.",
+          "mapsTo": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "220c",
+      "page": "220",
+      "order": 240,
+      "greek": "αὐτὸν ὡς καταφρονοῦντα σφῶν. Καὶ ταῦτα μὲν δὴ ταῦτα· ''οἷον δ᾽ αὖ τόδ᾽ ἔρεξε καὶ ἔτλη καρτερὸς ἀνὴρ'' ἐκεῖ ποτε ἐπὶ στρατείας, ἄξιον ἀκοῦσαι. ξυννοήσας γὰρ αὐτόθι ἕωθέν τι εἱστήκει σκοπῶν, καὶ ἐπειδὴ οὐ προυχώρει αὐτῷ, οὐκ ἀνίει ἀλλὰ εἱστήκει ζητῶν. καὶ ἤδη ἦν μεσημβρία, καὶ ἅνθρωποι ᾐσθάνοντο, καὶ θαυμάζοντες ἄλλος ἄλλῳ ἔλεγεν , ὅτι Σωκράτης ἐξ ἑωθινοῦ φροντίζων τι ἕστηκε. τελευτῶντες δέ τινες τῶν Ἰώνων, ἐπειδὴ ἑσπέρα ἦν, δειπνήσαντες , καὶ",
+      "english": "So much for that: but next, the valiant deed our strong-souled hero dared on service there one day, is well worth hearing. Immersed in some problem at dawn, he stood in the same spot considering it; and when he found it a tough one, he would not give it up but stood there trying. The time drew on to midday, and the men began to notice him, and said to one another in wonder: Socrates has been standing there in a study ever since dawn! The end of it was that in the evening some of the Ionians after they had supped—",
+      "greekPhrases": [
+        {
+          "text": "αὐτὸν ὡς καταφρονοῦντα σφῶν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Καὶ ταῦτα μὲν δὴ ταῦτα·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "''οἷον δ᾽ αὖ τόδ᾽ ἔρεξε καὶ ἔτλη καρτερὸς ἀνὴρ'' ἐκεῖ ποτε ἐπὶ στρατείας, ἄξιον ἀκοῦσαι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ξυννοήσας γὰρ αὐτόθι ἕωθέν τι εἱστήκει σκοπῶν, καὶ ἐπειδὴ οὐ προυχώρει αὐτῷ, οὐκ ἀνίει ἀλλὰ εἱστήκει ζητῶν.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ ἤδη ἦν μεσημβρία, καὶ ἅνθρωποι ᾐσθάνοντο, καὶ θαυμάζοντες ἄλλος ἄλλῳ ἔλεγεν , ὅτι Σωκράτης ἐξ ἑωθινοῦ φροντίζων τι ἕστηκε.",
+          "mapsTo": [
+            4,
+            5
+          ]
+        },
+        {
+          "text": "τελευτῶντες δέ τινες τῶν Ἰώνων, ἐπειδὴ ἑσπέρα ἦν, δειπνήσαντες , καὶ",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "So much for that:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "but next, the valiant deed our strong-souled hero dared on service there one day, is well worth hearing.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Immersed in some problem at dawn, he stood in the same spot considering it;",
+          "mapsTo": []
+        },
+        {
+          "text": "and when he found it a tough one, he would not give it up but stood there trying.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "The time drew on to midday, and the men began to notice him, and said to one another in wonder:",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Socrates has been standing there in a study ever since dawn!",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "The end of it was that in the evening some of the Ionians after they had supped—",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "220d",
+      "page": "220",
+      "order": 241,
+      "greek": "γὰρ θέρος τότε γ᾽ ἦν , χαμεύνια ἐξενεγκάμενοι ἅμα μὲν ἐν τῷ ψύχει καθηῦδον, ἅμα δ᾽ ἐφύλαττον αὐτὸν εἰ καὶ τὴν νύκτα ἑστήξοι. ὁ δὲ εἱστήκει μέχρι ἕως ἐγένετο καὶ ἥλιος ἀνέσχεν· ἔπειτα ᾤχετ᾽ ἀπιὼν προσευξάμενος τῷ ἡλίῳ. εἰ δὲ βούλεσθε ἐν ταῖς μάχαις· τοῦτο γὰρ δὴ δίκαιόν γε αὐτῷ ἀποδοῦναι· ὅτε γὰρ ἡ μάχη ἦν ἐξ ἧς ἐμοὶ καὶ τἀριστεῖα ἔδοσαν οἱ στρατηγοί, οὐδεὶς ἄλλος ἐμὲ ἔσωσεν",
+      "english": "this time it was summer—brought out their mattresses and rugs and took their sleep in the cool; thus they waited to see if he would go on standing all night too. He stood till dawn came and the sun rose; then walked away, after offering a prayer to the Sun. Then, if you care to hear of him in battle—for there also he must have his due—on the day of the fight in which I gained my prize for valor from our commanders,",
+      "greekPhrases": [
+        {
+          "text": "γὰρ θέρος τότε γ᾽ ἦν , χαμεύνια ἐξενεγκάμενοι ἅμα μὲν ἐν τῷ ψύχει καθηῦδον, ἅμα δ᾽ ἐφύλαττον αὐτὸν εἰ καὶ τὴν νύκτα ἑστήξοι.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ὁ δὲ εἱστήκει μέχρι ἕως ἐγένετο καὶ ἥλιος ἀνέσχεν·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἔπειτα ᾤχετ᾽ ἀπιὼν προσευξάμενος τῷ ἡλίῳ.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "εἰ δὲ βούλεσθε ἐν ταῖς μάχαις·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "τοῦτο γὰρ δὴ δίκαιόν γε αὐτῷ ἀποδοῦναι·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "ὅτε γὰρ ἡ μάχη ἦν ἐξ ἧς ἐμοὶ καὶ τἀριστεῖα ἔδοσαν οἱ στρατηγοί, οὐδεὶς ἄλλος ἐμὲ ἔσωσεν",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "this time it was summer—brought out their mattresses and rugs and took their sleep in the cool;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "thus they waited to see if he would go on standing all night too.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "He stood till dawn came and the sun rose;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "then walked away, after offering a prayer to the Sun.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Then, if you care to hear of him in battle—for there also he must have his",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "due—on the day of the fight in which I gained my prize for valor from our commanders,",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "220e",
+      "page": "220",
+      "order": 242,
+      "greek": "ἀνθρώπων ἢ οὗτος, τετρωμένον οὐκ ἐθέλων ἀπολιπεῖν, ἀλλὰ συνδιέσωσε καὶ τὰ ὅπλα καὶ αὐτὸν ἐμέ. καὶ ἐγὼ μέν, ὦ Σώκρατες, καὶ τότε ἐκέλευον σοὶ διδόναι τἀριστεῖα τοὺς στρατηγούς, καὶ τοῦτό γέ μοι οὔτε μέμψῃ οὔτε ἐρεῖς ὅτι ψεύδομαι· ἀλλὰ γὰρ τῶν στρατηγῶν πρὸς τὸ ἐμὸν ἀξίωμα ἀποβλεπόντων καὶ βουλομένων ἐμοὶ διδόναι τἀριστεῖα, αὐτὸς προθυμότερος ἐγένου τῶν στρατηγῶν ἐμὲ λαβεῖν ἢ σαυτόν. ἔτι τοίνυν, ὦ ἄνδρες, ἄξιον ἦν θεάσασθαι Σωκράτη, ὅτε ἀπὸ Δηλίου",
+      "english": "it was he, out of the whole army, who saved my life: I was wounded, and he would not forsake me, but helped me to save both my armor and myself. I lost no time, Socrates, in urging the generals to award the prize for valor to you; and here I think you will neither rebuke me nor give me the lie. For when the generals, out of regard for my consequence, were inclined to award the prize to me, you outdid them in urging that I should have it rather than you. And further let me tell you, gentlemen,",
+      "greekPhrases": [
+        {
+          "text": "ἀνθρώπων ἢ οὗτος, τετρωμένον οὐκ ἐθέλων ἀπολιπεῖν, ἀλλὰ συνδιέσωσε καὶ τὰ ὅπλα καὶ αὐτὸν ἐμέ.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "καὶ ἐγὼ μέν, ὦ Σώκρατες, καὶ τότε ἐκέλευον σοὶ διδόναι τἀριστεῖα τοὺς στρατηγούς, καὶ τοῦτό γέ μοι οὔτε μέμψῃ οὔτε ἐρεῖς ὅτι ψεύδομαι·",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἀλλὰ γὰρ τῶν στρατηγῶν πρὸς τὸ ἐμὸν ἀξίωμα ἀποβλεπόντων καὶ βουλομένων ἐμοὶ διδόναι τἀριστεῖα, αὐτὸς προθυμότερος ἐγένου τῶν στρατηγῶν ἐμὲ λαβεῖν ἢ σαυτόν.",
+          "mapsTo": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "text": "ἔτι τοίνυν, ὦ ἄνδρες, ἄξιον ἦν θεάσασθαι Σωκράτη, ὅτε ἀπὸ Δηλίου",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "it was he, out of the whole army, who saved my life:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "I was wounded, and he would not forsake me, but helped me to save both my armor and myself.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "I lost no time, Socrates, in urging the generals to award the prize for valor to you;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and here I think you will neither rebuke me nor give me the lie.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "For when the generals, out of regard for my consequence, were inclined to award the",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "prize to me, you outdid them in urging that I should have it rather than you.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "And further let me tell you, gentlemen,",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "221a",
+      "page": "221",
+      "order": 243,
+      "greek": "φυγῇ ἀνεχώρει τὸ στρατόπεδον· ἔτυχον γὰρ παραγενόμενος ἵππον ἔχων, οὗτος δὲ ὅπλα. ἀνεχώρει οὖν ἐσκεδασμένων ἤδη τῶν ἀνθρώπων οὗτός τε ἅμα καὶ Λάχης· καὶ ἐγὼ περιτυγχάνω, καὶ ἰδὼν εὐθὺς παρακελεύομαί τε αὐτοῖς θαῤῥεῖν, καὶ ἔλεγον ὅτι οὐκ ἀπολείψω αὐτώ. ἐνταῦθα δὴ καὶ κάλλιον ἐθεασάμην Σωκράτη ἢ ἐν Ποτειδαίᾳ . αὐτὸς γὰρ ἧττον ἐν φόβῳ ἦ διὰ τὸ ἐφ᾽ ἵππου εἶναι· πρῶτον μὲν ὅσον περιῆν",
+      "english": "what a notable figure he made when the army was retiring in flight from Delium : I happened to be there on horseback, while he marched under arms. The troops were in utter disorder, and he was retreating along with Laches, when I chanced to come up with them and, as soon as I saw them, passed them the word to have no fear, saying I would not abandon them. Here, indeed, I had an even finer view of Socrates than at Potidaea—for personally I had less reason for alarm, as I was mounted; and I noticed, first, how far he outdid Laches in collectedness,",
+      "greekPhrases": [
+        {
+          "text": "φυγῇ ἀνεχώρει τὸ στρατόπεδον·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἔτυχον γὰρ παραγενόμενος ἵππον ἔχων, οὗτος δὲ ὅπλα.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἀνεχώρει οὖν ἐσκεδασμένων ἤδη τῶν ἀνθρώπων οὗτός τε ἅμα καὶ Λάχης·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "καὶ ἐγὼ περιτυγχάνω, καὶ ἰδὼν εὐθὺς παρακελεύομαί τε αὐτοῖς θαῤῥεῖν, καὶ ἔλεγον ὅτι οὐκ ἀπολείψω αὐτώ.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "ἐνταῦθα δὴ καὶ κάλλιον ἐθεασάμην Σωκράτη ἢ ἐν Ποτειδαίᾳ .",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "αὐτὸς γὰρ ἧττον ἐν φόβῳ ἦ διὰ τὸ ἐφ᾽ ἵππου εἶναι·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "πρῶτον μὲν ὅσον περιῆν",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "what a notable figure he made when the army was retiring in flight from Delium :",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "I happened to be there on horseback, while he marched under arms.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "The troops were in utter disorder, and he was retreating along with Laches, when I chanced to come up with them",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "and, as soon as I saw them, passed them the word to have no fear, saying I would not abandon them.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Here, indeed, I had an even finer view of Socrates than at Potidaea—for personally I had less reason for alarm, as I was mounted;",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "and I noticed, first, how far he outdid Laches in collectedness,",
+          "mapsTo": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "221b",
+      "page": "221",
+      "order": 244,
+      "greek": "Λάχητος τῷ ἔμφρων εἶναι· ἔπειτα ἔμοιγ᾽ ἐδόκει, ὦ Ἀριστόφανες, τὸ σὸν δὴ τοῦτο, καὶ ἐκεῖ διαπορεύεσθαι ὥσπερ καὶ ἐνθάδε, “ βρενθυόμενος καὶ τὠφθαλμὼ παραβάλλων „ , ἠρέμα παρασκοπῶν καὶ τοὺς φιλίους καὶ τοὺς πολεμίους, δῆλος ὢν παντὶ καὶ πάνυ πόῤῥωθεν ὅτι εἴ τις ἅψεται τούτου τοῦ ἀνδρός, μάλα ἐῤῥωμένως ἀμυνεῖται. διὸ καὶ ἀσφαλῶς ἀπῄει καὶ οὗτος καὶ ὁ ἑταῖρος· σχεδὸν γάρ τι τῶν οὕτω διακειμένων ἐν τῷ πολέμῳ οὐδὲ ἅπτονται, ἀλλὰ τοὺς προτροπάδην",
+      "english": "and next I felt—to use a phrase of yours, Aristophanes—how there he stepped along, as his wont is in our streets, strutting like a proud marsh-goose, with ever a side-long glance, turning a calm sidelong look on friend and foe alike, and convincing anyone even from afar that whoever cares to touch this person will find he can put up a stout enough defence. The result was that both he and his comrade got away unscathed: for, as a rule, people will not lay a finger on those",
+      "greekPhrases": [
+        {
+          "text": "Λάχητος τῷ ἔμφρων εἶναι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἔπειτα ἔμοιγ᾽ ἐδόκει, ὦ Ἀριστόφανες, τὸ σὸν δὴ τοῦτο, καὶ ἐκεῖ διαπορεύεσθαι ὥσπερ καὶ ἐνθάδε, “ βρενθυόμενος καὶ τὠφθαλμὼ παραβάλλων „ , ἠρέμα",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "παρασκοπῶν καὶ τοὺς φιλίους καὶ τοὺς πολεμίους, δῆλος ὢν παντὶ καὶ πάνυ πόῤῥωθεν ὅτι εἴ τις ἅψεται τούτου τοῦ ἀνδρός, μάλα ἐῤῥωμένως ἀμυνεῖται.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "διὸ καὶ ἀσφαλῶς ἀπῄει καὶ οὗτος καὶ ὁ ἑταῖρος·",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "σχεδὸν γάρ τι τῶν οὕτω διακειμένων ἐν τῷ πολέμῳ οὐδὲ ἅπτονται, ἀλλὰ τοὺς προτροπάδην",
+          "mapsTo": [
+            3
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "and next I felt—to use a phrase of yours, Aristophanes—how there he stepped along, as his wont is in our streets, strutting like a proud marsh-goose, with ever a side-long glance, turning",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "a calm sidelong look on friend and foe alike, and convincing anyone even from afar that whoever cares to touch this person will find he can put up a stout enough defence.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "The result was that both he and his comrade got away unscathed:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "for, as a rule, people will not lay a finger on those",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "221c",
+      "page": "221",
+      "order": 245,
+      "greek": "φεύγοντας διώκουσιν. πολλὰ μὲν οὖν ἄν τις καὶ ἄλλα ἔχοι Σωκράτη ἐπαινέσαι καὶ θαυμάσια· ἀλλὰ τῶν μὲν ἄλλων ἐπιτηδευμάτων τάχ᾽ ἄν τις καὶ περὶ ἄλλου τοιαῦτα εἴποι, τὸ δὲ μηδενὶ ἀνθρώπων ὅμοιον εἶναι, μήτε τῶν παλαιῶν μήτε τῶν νῦν ὄντων, τοῦτο ἄξιον παντὸς θαύματος. οἷος γὰρ Ἀχιλλεὺς ἐγένετο, ἀπεικάσειεν ἄν τις καὶ Βρασίδαν καὶ ἄλλους, καὶ οἷος αὖ Περικλῆς, καὶ Νέστορα καὶ Ἀντήνορα , εἰσὶ δὲ καὶ ἕτεροι·",
+      "english": "who show this disposition in war; it is men flying in headlong rout that they pursue. There are many more quite wonderful things that one could find to praise in Socrates: but although there would probably be as much to say about any other one of his habits, I select his unlikeness to anybody else, whether in the ancient or in the modern world, as calling for our greatest wonder. You may take the character of Achilles and see his parallel in Brasidas or others; you may couple",
+      "greekPhrases": [
+        {
+          "text": "φεύγοντας διώκουσιν. πολλὰ μὲν οὖν ἄν τις καὶ ἄλλα ἔχοι Σωκράτη ἐπαινέσαι καὶ θαυμάσια·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἀλλὰ τῶν μὲν ἄλλων ἐπιτηδευμάτων τάχ᾽ ἄν τις καὶ περὶ ἄλλου τοιαῦτα εἴποι, τὸ δὲ",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "μηδενὶ ἀνθρώπων ὅμοιον εἶναι, μήτε τῶν παλαιῶν μήτε τῶν νῦν ὄντων, τοῦτο ἄξιον παντὸς θαύματος.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "οἷος γὰρ Ἀχιλλεὺς ἐγένετο, ἀπεικάσειεν ἄν τις καὶ Βρασίδαν καὶ ἄλλους, καὶ οἷος αὖ Περικλῆς, καὶ Νέστορα καὶ Ἀντήνορα , εἰσὶ δὲ καὶ ἕτεροι·",
+          "mapsTo": [
+            4,
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "who show this disposition in war;",
+          "mapsTo": []
+        },
+        {
+          "text": "it is men flying in headlong rout that they pursue.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "There are many more quite wonderful things that one could find to praise in Socrates:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "but although there would probably be as much to say about any other one of his habits, I select",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "his unlikeness to anybody else, whether in the ancient or in the modern world, as calling for our greatest wonder.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "You may take the character of Achilles and see his parallel in Brasidas or others; you may couple",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "221d",
+      "page": "221",
+      "order": 246,
+      "greek": "καὶ τοὺς ἄλλους κατὰ ταὔτ᾽ ἄν τις ἀπεικάζοι· οἷος δὲ οὑτοσὶ γέγονε τὴν ἀτοπίαν ἅνθρωπος, καὶ αὐτὸς καὶ οἱ λόγοι αὐτοῦ, οὐδ᾽ ἐγγὺς ἂν εὕροι τις ζητῶν, οὔτε τῶν νῦν οὔτε τῶν παλαιῶν, εἰ μὴ ἄρα εἰ οἷς ἐγὼ λέγω ἀπεικάζοι τις αὐτόν, ἀνθρώπων μὲν μηδενί, τοῖς δὲ σιληνοῖς καὶ σατύροις, αὐτὸν καὶ τοὺς λόγους. Καὶ γὰρ οὖν καὶ τοῦτο ἐν τοῖς πρώτοις παρέλιπον, ὅτι καὶ οἱ λόγοι αὐτοῦ ὁμοιότατοί εἰσι τοῖς σιληνοῖς τοῖς διοιγομένοις.",
+      "english": "Nestor, Antenor, or others I might mention, with Pericles; and in the same order you may liken most great men; but with the odd qualities of this person, both in himself and in his conversation, you would not come anywhere near finding a comparison if you searched either among men of our day or among those of the past, unless perhaps you borrowed my words and matched him, not with any human being, but with the Silenuses and satyrs, in his person and his speech. For there is a point I omitted when I began—how his talk most of all resembles the Silenuses",
+      "greekPhrases": [
+        {
+          "text": "καὶ τοὺς ἄλλους κατὰ ταὔτ᾽ ἄν τις ἀπεικάζοι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οἷος δὲ οὑτοσὶ γέγονε τὴν ἀτοπίαν ἅνθρωπος, καὶ αὐτὸς καὶ οἱ λόγοι αὐτοῦ, οὐδ᾽ ἐγγὺς ἂν εὕροι τις ζητῶν, οὔτε τῶν νῦν οὔτε",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "τῶν παλαιῶν, εἰ μὴ ἄρα εἰ οἷς ἐγὼ λέγω ἀπεικάζοι τις αὐτόν, ἀνθρώπων μὲν μηδενί, τοῖς δὲ σιληνοῖς καὶ σατύροις, αὐτὸν καὶ τοὺς λόγους.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Καὶ γὰρ οὖν καὶ τοῦτο ἐν τοῖς πρώτοις παρέλιπον, ὅτι καὶ οἱ λόγοι αὐτοῦ ὁμοιότατοί εἰσι τοῖς σιληνοῖς τοῖς διοιγομένοις.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "Nestor, Antenor, or others I might mention, with Pericles;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and in the same order you may liken most great men;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "but with the odd qualities of this person, both in himself and in his conversation, you would not come anywhere near finding a comparison if you searched either among men of our",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "day or among those of the past, unless perhaps you borrowed my words and matched him, not with any human being, but with the Silenuses and satyrs, in his person and his speech.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "For there is a point I omitted when I began—how his talk most of all resembles the Silenuses",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "221e",
+      "page": "221",
+      "order": 247,
+      "greek": "εἰ γὰρ ἐθέλοι τις τῶν Σωκράτους ἀκούειν λόγων, φανεῖεν ἂν πάνυ γελοῖοι τὸ πρῶτον· τοιαῦτα καὶ ὀνόματα καὶ ῥήματα ἔξωθεν περιαμπέχονται, σατύρου δή τινα ὑβριστοῦ δοράν. ὄνους γὰρ κανθηλίους λέγει καὶ χαλκέας τινὰς καὶ σκυτοτόμους καὶ βυρσοδέψας, καὶ ἀεὶ διὰ τῶν αὐτῶν τὰ αὐτὰ φαίνεται λέγειν, ὥστε ἄπειρος καὶ ἀνόητος ἄνθρωπος",
+      "english": "that are made to open. If you chose to listen to Socrates’ discourses you would feel them at first to be quite ridiculous; on the outside they are clothed with such absurd words and phrases—all, of course, the gift of a mocking satyr. His talk is of pack-asses, smiths, cobblers, and tanners, and he seems always to be using the same terms for the same things; so that anyone inexpert and thoughtless might laugh his speeches to scorn.",
+      "greekPhrases": [
+        {
+          "text": "εἰ γὰρ ἐθέλοι τις τῶν Σωκράτους ἀκούειν λόγων, φανεῖεν ἂν πάνυ γελοῖοι τὸ πρῶτον·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τοιαῦτα καὶ ὀνόματα καὶ ῥήματα ἔξωθεν περιαμπέχονται, σατύρου δή τινα ὑβριστοῦ δοράν.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ὄνους γὰρ κανθηλίους λέγει καὶ χαλκέας τινὰς καὶ σκυτοτόμους καὶ βυρσοδέψας, καὶ ἀεὶ διὰ τῶν αὐτῶν τὰ αὐτὰ φαίνεται λέγειν, ὥστε ἄπειρος καὶ ἀνόητος ἄνθρωπος",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "that are made to open.",
+          "mapsTo": []
+        },
+        {
+          "text": "If you chose to listen to Socrates’ discourses you would feel them at first to be quite ridiculous;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "on the outside they are clothed with such absurd words and phrases—all, of course, the gift of a mocking satyr.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "His talk is of pack-asses, smiths, cobblers, and tanners, and he seems always to be using the same terms for the same things;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "so that anyone inexpert and thoughtless might laugh his speeches to scorn.",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "222a",
+      "page": "222",
+      "order": 248,
+      "greek": "πᾶς ἂν τῶν λόγων καταγελάσειεν. διοιγομένους δὲ ἰδὼν ἄν τις καὶ ἐντὸς αὐτῶν γιγνόμενος πρῶτον μὲν νοῦν ἔχοντας ἔνδον μόνους εὑρήσει τῶν λόγων, ἔπειτα θειοτάτους καὶ πλεῖστα ἀγάλματ᾽ ἀρετῆς ἐν αὑτοῖς ἔχοντας καὶ ἐπὶ πλεῖστον τείνοντας, μᾶλλον δὲ ἐπὶ πᾶν ὅσον προσήκει σκοπεῖν τῷ μέλλοντι καλῷ κἀγαθῷ ἔσεσθαι. ταῦτ᾽ ἐστίν, ὦ ἄνδρες, ἃ ἐγὼ Σωκράτη ἐπαινῶ· καὶ αὖ ἃ μέμφομαι συμμείξας ὑμῖν εἶπον ἅ με ὕβρισε. καὶ μέντοι",
+      "english": "But when these are opened, and you obtain a fresh view of them by getting inside, first of all you will discover that they are the only speeches which have any sense in them; and secondly, that none are so divine, so rich in images of virtue, so largely—nay, so completely—intent on all things proper for the study of such as would attain both grace and worth. This, gentlemen, is the praise I give to Socrates: at the same time, I have seasoned it with a little fault-finding, and have told you his rude behavior towards me.",
+      "greekPhrases": [
+        {
+          "text": "πᾶς ἂν τῶν λόγων καταγελάσειεν.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "διοιγομένους δὲ ἰδὼν ἄν τις καὶ ἐντὸς αὐτῶν γιγνόμενος πρῶτον μὲν νοῦν ἔχοντας ἔνδον μόνους εὑρήσει τῶν λόγων, ἔπειτα θειοτάτους καὶ",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "πλεῖστα ἀγάλματ᾽ ἀρετῆς ἐν αὑτοῖς ἔχοντας καὶ ἐπὶ πλεῖστον τείνοντας, μᾶλλον δὲ ἐπὶ πᾶν ὅσον προσήκει σκοπεῖν τῷ μέλλοντι καλῷ κἀγαθῷ ἔσεσθαι.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "ταῦτ᾽ ἐστίν, ὦ ἄνδρες, ἃ ἐγὼ Σωκράτη ἐπαινῶ·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "καὶ αὖ ἃ μέμφομαι συμμείξας ὑμῖν εἶπον ἅ με ὕβρισε. καὶ μέντοι",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "But when these are opened, and you obtain a fresh view of them by getting inside, first",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "of all you will discover that they are the only speeches which have any sense in them;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and secondly, that none are so divine, so rich in images of virtue, so largely—nay, so",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "completely—intent on all things proper for the study of such as would attain both grace and worth.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "This, gentlemen, is the praise I give to Socrates:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "at the same time, I have seasoned it with a little fault-finding, and have told you his rude behavior towards me.",
+          "mapsTo": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "222b",
+      "page": "222",
+      "order": 249,
+      "greek": "οὐκ ἐμὲ μόνον ταῦτα πεποίηκεν, ἀλλὰ καὶ Χαρμίδην τὸν Γλαύκωνος καὶ Εὐθύδημον τὸν Διοκλέους καὶ ἄλλους πάνυ πολλούς, οὓς οὗτος ἐξαπατῶν ὡς ἐραστὴς παιδικὰ μᾶλλον αὐτὸς καθίσταται ἀντ᾽ ἐραστοῦ. ἃ δὴ καὶ σοὶ λέγω, ὦ Ἀγάθων, μὴ ἐξαπατᾶσθαι ὑπὸ τούτου, ἀλλ᾽ ἀπὸ τῶν ἡμετέρων παθημάτων γνόντα εὐλαβηθῆναι, καὶ μὴ κατὰ τὴν παροιμίαν ὥσπερ νήπιον παθόντα γνῶναι.",
+      "english": "However, I am not the only person he has treated thus: there are Charmides, son of Glaucon, Euthydemus, son of Diocles, and any number of others who have found his way of loving so deceitful that he might rather be their favorite than their lover. I tell you this, Agathon, to save you from his deceit, that by laying our sad experiences to heart you may be on your guard and escape learning by your own pain, like the loon in the adage.",
+      "greekPhrases": [
+        {
+          "text": "οὐκ ἐμὲ μόνον ταῦτα πεποίηκεν, ἀλλὰ καὶ Χαρμίδην τὸν Γλαύκωνος καὶ Εὐθύδημον τὸν Διοκλέους",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "καὶ ἄλλους πάνυ πολλούς, οὓς οὗτος ἐξαπατῶν ὡς ἐραστὴς παιδικὰ μᾶλλον αὐτὸς καθίσταται ἀντ᾽ ἐραστοῦ.",
+          "mapsTo": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "ἃ δὴ καὶ σοὶ λέγω, ὦ Ἀγάθων, μὴ ἐξαπατᾶσθαι ὑπὸ τούτου, ἀλλ᾽ ἀπὸ τῶν ἡμετέρων παθημάτων γνόντα εὐλαβηθῆναι, καὶ μὴ κατὰ τὴν παροιμίαν ὥσπερ νήπιον παθόντα γνῶναι.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "However, I am not the only person he has treated thus:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "there are Charmides, son of Glaucon, Euthydemus, son of Diocles, and any number of others who have",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "found his way of loving so deceitful that he might rather be their favorite than their lover.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I tell you this, Agathon, to save you from his deceit, that by laying our sad experiences to heart",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "you may be on your guard and escape learning by your own pain, like the loon in the adage.",
+          "mapsTo": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "222c",
+      "page": "222",
+      "order": 250,
+      "greek": "Εἰπόντος δὴ ταῦτα τοῦ Ἀλκιβιάδου γέλωτα γενέσθαι ἐπὶ τῇ παῤῥησίᾳ αὐτοῦ, ὅτι ἐδόκει ἔτι ἐρωτικῶς ἔχειν τοῦ Σωκράτους. τὸν οὖν Σωκράτη· Νήφειν μοι δοκεῖς, φάναι, ὦ Ἀλκιβιάδη. οὐ γὰρ ἄν ποτε οὕτω κομψῶς κύκλῳ περιβαλλόμενος ἀφανίσαι ἐνεχείρεις οὗ ἕνεκα ταῦτα πάντα εἴρηκας, καὶ ὡς ἐν παρέργῳ δὴ λέγων ἐπὶ τελευτῆς αὐτὸ ἔθηκας, ὡς οὐ πάντα τούτου ἕνεκα εἰρηκώς, τοῦ ἐμὲ καὶ",
+      "english": "When Alcibiades had thus spoken, there was some laughter at his frankness, which showed him still amorously inclined to Socrates; who then remarked: I believe you are sober, Alcibiades; else you would never have enfolded yourself so charmingly all about, trying to screen from sight your object in all this talk, nor would have put it in as a mere incident at the end. The true object of all you have said",
+      "greekPhrases": [
+        {
+          "text": "Εἰπόντος δὴ ταῦτα τοῦ Ἀλκιβιάδου γέλωτα γενέσθαι ἐπὶ τῇ παῤῥησίᾳ αὐτοῦ, ὅτι ἐδόκει ἔτι ἐρωτικῶς ἔχειν τοῦ Σωκράτους. τὸν οὖν Σωκράτη·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Νήφειν μοι δοκεῖς, φάναι, ὦ Ἀλκιβιάδη.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οὐ γὰρ ἄν ποτε οὕτω κομψῶς κύκλῳ περιβαλλόμενος ἀφανίσαι ἐνεχείρεις οὗ ἕνεκα ταῦτα πάντα εἴρηκας, καὶ ὡς",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ἐν παρέργῳ δὴ λέγων ἐπὶ τελευτῆς αὐτὸ ἔθηκας, ὡς οὐ πάντα τούτου ἕνεκα εἰρηκώς, τοῦ ἐμὲ καὶ",
+          "mapsTo": [
+            3,
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "When Alcibiades had thus spoken, there was some laughter at his frankness, which showed him still amorously inclined to Socrates; who then remarked:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "I believe you are sober, Alcibiades;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "else you would never have enfolded yourself so charmingly all about, trying to screen from sight your",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "object in all this talk, nor would have put it in as a mere incident at the end.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "The true object of all you have said",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "222d",
+      "page": "222",
+      "order": 251,
+      "greek": "Ἀγάθωνα διαβάλλειν, οἰόμενος δεῖν ἐμὲ μὲν σοῦ ἐρᾷν καὶ μηδενὸς ἄλλου, Ἀγάθωνα δὲ ὑπὸ σοῦ ἐρᾶσθαι καὶ μηδ᾽ ὑφ᾽ ἑνὸς ἄλλου. ἀλλ᾽ οὐκ ἔλαθες, ἀλλὰ τὸ σατυρικόν σου δρᾶμα τοῦτο καὶ σιληνικὸν κατάδηλον ἐγένετο. ἀλλ᾽, ὦ φίλε Ἀγάθων, μηδὲν πλέον αὐτῷ γένηται, ἀλλὰ παρασκευάζου ὅπως ἐμὲ καὶ σὲ μηδεὶς διαβάλῃ. τὸν οὖν Ἀγάθωνα εἰπεῖν· Καὶ μήν, ὦ Σώκρατες, κινδυνεύεις",
+      "english": "was to stir up a quarrel between me and Agathon: for you think you must keep me as your undivided lover, and Agathon as the undivided object of your love. But now you are detected: your Satyric or Silenic play-scene is all shown up. Dear Agathon, do not let the plot succeed, but take measures to prevent anyone from setting you and me at odds.",
+      "greekPhrases": [
+        {
+          "text": "Ἀγάθωνα διαβάλλειν, οἰόμενος δεῖν ἐμὲ μὲν σοῦ ἐρᾷν καὶ μηδενὸς ἄλλου, Ἀγάθωνα δὲ ὑπὸ σοῦ ἐρᾶσθαι καὶ μηδ᾽ ὑφ᾽ ἑνὸς ἄλλου.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ οὐκ ἔλαθες, ἀλλὰ τὸ σατυρικόν σου δρᾶμα τοῦτο καὶ σιληνικὸν κατάδηλον ἐγένετο.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "ἀλλ᾽, ὦ φίλε Ἀγάθων, μηδὲν πλέον αὐτῷ γένηται, ἀλλὰ παρασκευάζου ὅπως ἐμὲ καὶ σὲ μηδεὶς διαβάλῃ.",
+          "mapsTo": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "τὸν οὖν Ἀγάθωνα εἰπεῖν·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Καὶ μήν, ὦ Σώκρατες, κινδυνεύεις",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "was to stir up a quarrel between me and Agathon:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for you think you must keep me as your undivided lover, and Agathon as the undivided object of your love.",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "But now you are detected:",
+          "mapsTo": []
+        },
+        {
+          "text": "your Satyric or Silenic play-scene is all shown up.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Dear Agathon, do not let the plot succeed, but take measures to prevent anyone from setting you and me at odds.",
+          "mapsTo": [
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "222e",
+      "page": "222",
+      "order": 252,
+      "greek": "ἀληθῆ λέγειν. τεκμαίρομαι δὲ καὶ ὡς κατεκλίνη ἐν μέσῳ ἐμοῦ τε καὶ σοῦ, ἵνα χωρὶς ἡμᾶς διαλάβῃ· οὐδὲν οὖν πλέον αὐτῷ ἔσται, ἀλλ᾽ ἐγὼ παρὰ σὲ ἐλθὼν κατακλινήσομαι. Πάνυ γε, φάναι τὸν Σωκράτη, δεῦρο ὑποκάτω ἐμοῦ κατακλίνου. Ὦ Ζεῦ, εἰπεῖν τὸν Ἀλκιβιάδην, οἷα αὖ πάσχω ὑπὸ τοῦ ἀνθρώπου. οἴεταί μου δεῖν πανταχῇ περιεῖναι. ἀλλ᾽ εἰ μή τι ἄλλο, ὦ θαυμάσιε, ἐν μέσῳ ἡμῶν ἔα Ἀγάθωνα κατακεῖσθαι. Ἀλλ᾽ ἀδύνατον, φάναι τὸν Σωκράτη. σὺ μὲν γὰρ ἐμὲ ἐπῄνεσας, δεῖ δὲ ἐμὲ αὖ τὸν ἐπὶ δεξιὰ ἐπαινεῖν. ἐὰν οὖν ὑπὸ σοὶ κατακλινῇ Ἀγάθων, οὐ δή που ἐμὲ πάλιν ἐπαινέσεται, πρὶν ὑπ᾽ ἐμοῦ μᾶλλον ἐπαινεθῆναι . ἀλλ᾽ ἔασον,",
+      "english": "To which Agathon replied: Do you know, Socrates, I fancy you have hit on the truth. Besides, I take his sitting down between us two as an obvious attempt to draw us apart. See, he shall not gain his point: I will come and sit by your side. By all means, said Socrates; here is a place for you beyond me. Good God! said Alcibiades, here’s the fellow at me again. He has set his heart on having the better of me every way. But at least, you surprising person, do allow Agathon to sit between us. That cannot be, said Socrates: you have praised me, and so it behoves me to praise my neighbor on the right. Thus if Agathon sits beyond you, he must surely be praising me again, before receiving his due praises from me. So let him be, my good soul, and",
+      "greekPhrases": [
+        {
+          "text": "ἀληθῆ λέγειν. τεκμαίρομαι δὲ καὶ ὡς κατεκλίνη ἐν μέσῳ ἐμοῦ τε καὶ σοῦ, ἵνα χωρὶς ἡμᾶς διαλάβῃ·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "οὐδὲν οὖν πλέον αὐτῷ ἔσται, ἀλλ᾽ ἐγὼ παρὰ σὲ ἐλθὼν κατακλινήσομαι.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "Πάνυ γε, φάναι τὸν Σωκράτη, δεῦρο ὑποκάτω ἐμοῦ κατακλίνου.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Ὦ Ζεῦ, εἰπεῖν τὸν Ἀλκιβιάδην, οἷα αὖ πάσχω ὑπὸ τοῦ ἀνθρώπου.",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "οἴεταί μου δεῖν πανταχῇ περιεῖναι.",
+          "mapsTo": [
+            8
+          ]
+        },
+        {
+          "text": "ἀλλ᾽ εἰ μή τι ἄλλο, ὦ θαυμάσιε, ἐν μέσῳ ἡμῶν ἔα Ἀγάθωνα κατακεῖσθαι.",
+          "mapsTo": [
+            9
+          ]
+        },
+        {
+          "text": "Ἀλλ᾽ ἀδύνατον, φάναι τὸν Σωκράτη.",
+          "mapsTo": [
+            10
+          ]
+        },
+        {
+          "text": "σὺ μὲν γὰρ ἐμὲ ἐπῄνεσας, δεῖ δὲ ἐμὲ αὖ τὸν ἐπὶ δεξιὰ ἐπαινεῖν.",
+          "mapsTo": [
+            11
+          ]
+        },
+        {
+          "text": "ἐὰν οὖν ὑπὸ σοὶ κατακλινῇ Ἀγάθων, οὐ δή που ἐμὲ πάλιν ἐπαινέσεται, πρὶν ὑπ᾽ ἐμοῦ μᾶλλον ἐπαινεθῆναι . ἀλλ᾽ ἔασον,",
+          "mapsTo": [
+            12
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "To which Agathon replied:",
+          "mapsTo": []
+        },
+        {
+          "text": "Do you know, Socrates, I fancy you have hit on the truth.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "Besides, I take his sitting down between us two as an obvious attempt to draw us apart.",
+          "mapsTo": []
+        },
+        {
+          "text": "See, he shall not gain his point:",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "I will come and sit by your side.",
+          "mapsTo": []
+        },
+        {
+          "text": "By all means, said Socrates;",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "here is a place for you beyond me. Good God!",
+          "mapsTo": []
+        },
+        {
+          "text": "said Alcibiades, here’s the fellow at me again.",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "He has set his heart on having the better of me every way.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "But at least, you surprising person, do allow Agathon to sit between us.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "That cannot be, said Socrates:",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "you have praised me, and so it behoves me to praise my neighbor on the right.",
+          "mapsTo": [
+            7
+          ]
+        },
+        {
+          "text": "Thus if Agathon sits beyond you, he must surely be praising me again, before receiving his due praises from me.",
+          "mapsTo": [
+            8
+          ]
+        },
+        {
+          "text": "So let him be, my good soul, and",
+          "mapsTo": []
+        }
+      ]
+    },
+    {
+      "id": "223a",
+      "page": "223",
+      "order": 253,
+      "greek": "ὦ δαιμόνιε, καὶ μὴ φθονήσῃς τῷ μειρακίῳ ὑπ᾽ ἐμοῦ ἐπαινεθῆναι· καὶ γὰρ πάνυ ἐπιθυμῶ αὐτὸν ἐγκωμιάσαι. Ἰοὺ ἰοὺ, φάναι τὸν Ἀγάθωνα, Ἀλκιβιάδη, οὐκ ἔσθ᾽ ὅπως ἂν ἐνθάδε μείναιμι, ἀλλὰ παντὸς μᾶλλον μεταναστήσομαι, ἵνα ὑπὸ Σωκράτους ἐπαινεθῶ. Ταῦτα ἐκεῖνα, φάναι τὸν Ἀλκιβιάδην, τὰ εἰωθότα· Σωκράτους παρόντος τῶν καλῶν μεταλαβεῖν ἀδύνατον ἄλλῳ. καὶ νῦν ὡς εὐπόρως καὶ πιθανὸν λόγον ηὗρεν, ὥστε παρ᾽ ἑαυτῷ τουτονὶ κατακεῖσθαι.",
+      "english": "do not grudge the lad those praises of mine: for I am most eager to pronounce his eulogy. Ha, ha! Alcibiades, said Agathon; there can be no question of my staying here: I shall jump up and at once, if that will make Socrates praise me. There you are, said Alcibiades; just as usual: when Socrates is present, nobody else has a chance with the handsome ones. You see how resourceful he was in devising a plausible reason why our young friend should sit beside him.",
+      "greekPhrases": [
+        {
+          "text": "ὦ δαιμόνιε, καὶ μὴ φθονήσῃς τῷ μειρακίῳ ὑπ᾽ ἐμοῦ ἐπαινεθῆναι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "καὶ γὰρ πάνυ ἐπιθυμῶ αὐτὸν ἐγκωμιάσαι.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "Ἰοὺ ἰοὺ, φάναι τὸν Ἀγάθωνα, Ἀλκιβιάδη, οὐκ ἔσθ᾽ ὅπως ἂν ἐνθάδε μείναιμι, ἀλλὰ παντὸς μᾶλλον μεταναστήσομαι, ἵνα ὑπὸ Σωκράτους ἐπαινεθῶ.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "Ταῦτα ἐκεῖνα, φάναι τὸν Ἀλκιβιάδην, τὰ εἰωθότα·",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "Σωκράτους παρόντος τῶν καλῶν μεταλαβεῖν ἀδύνατον ἄλλῳ.",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "καὶ νῦν ὡς εὐπόρως καὶ πιθανὸν λόγον ηὗρεν, ὥστε παρ᾽ ἑαυτῷ τουτονὶ κατακεῖσθαι.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "do not grudge the lad those praises of mine:",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "for I am most eager to pronounce his eulogy. Ha, ha! Alcibiades, said Agathon;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "there can be no question of my staying here:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "I shall jump up and at once, if that will make Socrates praise me.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "There you are, said Alcibiades; just as usual:",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "when Socrates is present, nobody else has a chance with the handsome ones.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "You see how resourceful he was in devising a plausible reason why our young friend should sit beside him.",
+          "mapsTo": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "223b",
+      "page": "223",
+      "order": 254,
+      "greek": "Τὸν μὲν οὖν Ἀγάθωνα ὡς κατακεισόμενον παρὰ τῷ Σωκράτει ἀνίστασθαι· ἐξαίφνης δὲ κωμαστὰς ἥκειν παμπόλλους ἐπὶ τὰς θύρας, καὶ ἐπιτυχόντας ἀνεῳγμέναις ἐξιόντος τινὸς εἰς τὸ ἄντικρυς πορεύεσθαι παρὰ σφᾶς καὶ κατακλίνεσθαι, καὶ θορύβου μεστὰ πάντα εἶναι, καὶ οὐκέτι ἐν κόσμῳ οὐδενὶ ἀναγκάζεσθαι πίνειν πάμπολυν οἶνον. τὸν μὲν οὖν Ἐρυξίμαχον καὶ τὸν Φαῖδρον καὶ ἄλλους τινὰς ἔφη ὁ Ἀριστόδημος οἴχεσθαι ἀπιόντας, ἓ δὲ ὕπνον λαβεῖν,",
+      "english": "So Agathon was getting up in order to seat himself by Socrates, when suddenly a great crowd of revellers arrived at the door, which they found just opened for some one who was going out. They marched straight into the party and seated themselves: the whole place was in an uproar and, losing all order, they were forced to drink a vast amount of wine. Then, as Aristodemus related, Eryximachus, Phaedrus, and some others took their leave and departed;",
+      "greekPhrases": [
+        {
+          "text": "Τὸν μὲν οὖν Ἀγάθωνα ὡς κατακεισόμενον παρὰ τῷ Σωκράτει ἀνίστασθαι·",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "ἐξαίφνης δὲ κωμαστὰς ἥκειν παμπόλλους ἐπὶ τὰς θύρας, καὶ ἐπιτυχόντας ἀνεῳγμέναις ἐξιόντος τινὸς εἰς τὸ ἄντικρυς πορεύεσθαι",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "παρὰ σφᾶς καὶ κατακλίνεσθαι, καὶ θορύβου μεστὰ πάντα εἶναι, καὶ οὐκέτι ἐν κόσμῳ οὐδενὶ ἀναγκάζεσθαι πίνειν πάμπολυν οἶνον.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "τὸν μὲν οὖν Ἐρυξίμαχον καὶ τὸν Φαῖδρον καὶ ἄλλους τινὰς ἔφη ὁ Ἀριστόδημος οἴχεσθαι ἀπιόντας, ἓ δὲ ὕπνον λαβεῖν,",
+          "mapsTo": [
+            4
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "So Agathon was getting up in order to seat himself by Socrates, when suddenly a great crowd",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "of revellers arrived at the door, which they found just opened for some one who was going out.",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "They marched straight into the party and seated themselves:",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "the whole place was in an uproar and, losing all order, they were forced to drink a vast amount of wine.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "Then, as Aristodemus related, Eryximachus, Phaedrus, and some others took their leave and departed;",
+          "mapsTo": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "223c",
+      "page": "223",
+      "order": 255,
+      "greek": "καὶ καταδαρθεῖν πάνυ πολύ, ἅτε μακρῶν τῶν νυκτῶν οὐσῶν, ἐξεγρέσθαι δὲ πρὸς ἡμέραν ἤδη ἀλεκτρυόνων ᾀδόντων, ἐξεγρόμενος δὲ ἰδεῖν τοὺς μὲν ἄλλους καθεύδοντας καὶ οἰχομένους, Ἀγάθωνα δὲ καὶ Ἀριστοφάνη καὶ Σωκράτη ἔτι μόνους ἐγρηγορέναι καὶ πίνειν ἐκ φιάλης μεγάλης ἐπὶ δεξιά. τὸν οὖν Σωκράτη αὐτοῖς διαλέγεσθαι· καὶ τὰ μὲν ἄλλα ὁ",
+      "english": "while he himself fell asleep, and slumbered a great while, for the nights were long. He awoke towards dawn, as the cocks were crowing; and immediately he saw that all the company were either sleeping or gone, except Agathon, Aristophanes, and Socrates, who alone remained awake and were drinking out of a large vessel, from left to right; and Socrates was arguing with them. As to most of the talk, Aristodemus had no recollection,",
+      "greekPhrases": [
+        {
+          "text": "καὶ καταδαρθεῖν πάνυ πολύ, ἅτε μακρῶν τῶν νυκτῶν οὐσῶν, ἐξεγρέσθαι δὲ πρὸς ἡμέραν ἤδη ἀλεκτρυόνων ᾀδόντων, ἐξεγρόμενος δὲ ἰδεῖν τοὺς",
+          "mapsTo": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "text": "μὲν ἄλλους καθεύδοντας καὶ οἰχομένους, Ἀγάθωνα δὲ καὶ Ἀριστοφάνη καὶ Σωκράτη ἔτι μόνους ἐγρηγορέναι καὶ πίνειν ἐκ φιάλης μεγάλης ἐπὶ δεξιά.",
+          "mapsTo": [
+            2,
+            3
+          ]
+        },
+        {
+          "text": "τὸν οὖν Σωκράτη αὐτοῖς διαλέγεσθαι·",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "καὶ τὰ μὲν ἄλλα ὁ",
+          "mapsTo": [
+            5
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "while he himself fell asleep, and slumbered a great while, for the nights were long.",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "He awoke towards dawn, as the cocks were crowing;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "and immediately he saw that all the company were either sleeping or gone, except Agathon, Aristophanes, and",
+          "mapsTo": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "Socrates, who alone remained awake and were drinking out of a large vessel, from left to right;",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "and Socrates was arguing with them.",
+          "mapsTo": []
+        },
+        {
+          "text": "As to most of the talk, Aristodemus had no recollection,",
+          "mapsTo": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "223d",
+      "page": "223",
+      "order": 256,
+      "greek": "Ἀριστόδημος οὐκ ἔφη μεμνῆσθαι τῶν λόγων . οὔτε γὰρ ἐξ ἀρχῆς παραγενέσθαι ὑπονυστάζειν τε· τὸ μέντοι κεφάλαιον, ἔφη, προσαναγκάζειν τὸν Σωκράτη ὁμολογεῖν αὐτοὺς τοῦ αὐτοῦ ἀνδρὸς εἶναι κωμῳδίαν καὶ τραγῳδίαν ἐπίστασθαι ποιεῖν, καὶ τὸν τέχνῃ τραγῳδοποιὸν ὄντα κωμῳδοποιὸν εἶναι. ταῦτα δὴ ἀναγκαζομένους αὐτοὺς καὶ οὐ σφόδρα ἑπομένους νυστάζειν· καὶ πρότερον μὲν καταδαρθεῖν τὸν Ἀριστοφάνη, ἤδη δὲ ἡμέρας γιγνομένης τὸν Ἀγάθωνα. τὸν οὖν Σωκράτη, κατακοιμίσαντ᾽ ἐκείνους, ἀναστάντα ἀπιέναι, καὶ ἓ ὥσπερ εἰώθει ἕπεσθαι, καὶ ἐλθόντα εἰς Λύκειον, ἀπονιψάμενον, ὥσπερ ἄλλοτε τὴν ἄλλην ἡμέραν διατρίβειν, καὶ οὕτω διατρίψαντα εἰς ἑσπέραν οἴκοι ἀναπαύεσθαι.",
+      "english": "for he had missed the beginning and was also rather drowsy; but the substance of it was, he said, that Socrates was driving them to the admission that the same man could have the knowledge required for writing comedy and tragedy—that the fully skilled tragedian could be a comedian as well. While they were being driven to this, and were but feebly following it, they began to nod; first Aristophanes dropped into a slumber, and then, as day began to dawn, Agathon also. When Socrates had seen them comfortable, he rose and went away,—followed in the usual manner by my friend; on arriving at the Lyceum, he washed himself, and then spent the rest of the day in his ordinary fashion; and so, when the day was done, he went home for the evening and reposed.",
+      "greekPhrases": [
+        {
+          "text": "Ἀριστόδημος οὐκ ἔφη μεμνῆσθαι τῶν λόγων .",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "οὔτε γὰρ ἐξ ἀρχῆς παραγενέσθαι ὑπονυστάζειν τε·",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "τὸ μέντοι κεφάλαιον, ἔφη, προσαναγκάζειν τὸν Σωκράτη ὁμολογεῖν αὐτοὺς τοῦ αὐτοῦ ἀνδρὸς εἶναι κωμῳδίαν καὶ τραγῳδίαν ἐπίστασθαι ποιεῖν, καὶ τὸν τέχνῃ τραγῳδοποιὸν ὄντα κωμῳδοποιὸν εἶναι.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "ταῦτα δὴ ἀναγκαζομένους αὐτοὺς καὶ οὐ σφόδρα ἑπομένους νυστάζειν·",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "καὶ πρότερον μὲν καταδαρθεῖν τὸν Ἀριστοφάνη, ἤδη δὲ ἡμέρας γιγνομένης τὸν Ἀγάθωνα.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "τὸν οὖν Σωκράτη, κατακοιμίσαντ᾽ ἐκείνους, ἀναστάντα ἀπιέναι, καὶ ἓ ὥσπερ εἰώθει ἕπεσθαι, καὶ ἐλθόντα εἰς",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "Λύκειον, ἀπονιψάμενον, ὥσπερ ἄλλοτε τὴν ἄλλην ἡμέραν διατρίβειν, καὶ οὕτω διατρίψαντα εἰς ἑσπέραν οἴκοι ἀναπαύεσθαι.",
+          "mapsTo": [
+            6,
+            7
+          ]
+        }
+      ],
+      "englishPhrases": [
+        {
+          "text": "for he had missed the beginning and was also rather drowsy;",
+          "mapsTo": [
+            0
+          ]
+        },
+        {
+          "text": "but the substance of it was, he said, that Socrates was driving them to the admission that the same man",
+          "mapsTo": [
+            1
+          ]
+        },
+        {
+          "text": "could have the knowledge required for writing comedy and tragedy—that the fully skilled tragedian could be a comedian as well.",
+          "mapsTo": [
+            2
+          ]
+        },
+        {
+          "text": "While they were being driven to this, and were but feebly following it, they began to nod;",
+          "mapsTo": [
+            3
+          ]
+        },
+        {
+          "text": "first Aristophanes dropped into a slumber, and then, as day began to dawn, Agathon also.",
+          "mapsTo": [
+            4
+          ]
+        },
+        {
+          "text": "When Socrates had seen them comfortable, he rose and went away,—followed in the usual manner by my friend;",
+          "mapsTo": [
+            5
+          ]
+        },
+        {
+          "text": "on arriving at the Lyceum, he washed himself, and then spent the rest of the day in his ordinary fashion;",
+          "mapsTo": [
+            6
+          ]
+        },
+        {
+          "text": "and so, when the day was done, he went home for the evening and reposed.",
+          "mapsTo": [
+            6
+          ]
+        }
+      ]
+    }
+  ]
+};
