@@ -10,7 +10,36 @@ const greekLanguage = {
 
 const languageList = [greekLanguage, ...data.meta.languages];
 const defaultSelectedLanguages = ["gr", "en"];
+const STORAGE_KEY = "plato-symposium-reader-state";
 
+function readStoredState() {
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+function sanitizeSelectedLanguages(value) {
+  if (!Array.isArray(value)) {
+    return defaultSelectedLanguages.filter((id) => languageList.some((lang) => lang.id === id));
+  }
+
+  const sanitized = languageList
+    .map((lang) => lang.id)
+    .filter((id) => value.includes(id));
+
+  return sanitized.length
+    ? sanitized
+    : defaultSelectedLanguages.filter((id) => languageList.some((lang) => lang.id === id));
+}
+
+function sanitizeCurrentPage(value) {
+  return pageIds.includes(value) ? value : data.pages[0]?.id ?? "172";
+}
+
+const storedState = readStoredState();
 const state = {
   currentPage: data.pages[0]?.id ?? "172",
   selectedLanguages: defaultSelectedLanguages.filter((id) => languageList.some((lang) => lang.id === id)),
@@ -36,6 +65,23 @@ const sectionsByPage = new Map(data.pages.map((page) => [page.id, page.sectionId
 const sectionById = new Map(data.sections.map((section) => [section.id, section]));
 const pageIds = data.pages.map((page) => page.id);
 const languageById = new Map(languageList.map((lang) => [lang.id, lang]));
+
+state.currentPage = sanitizeCurrentPage(storedState?.currentPage);
+state.selectedLanguages = sanitizeSelectedLanguages(storedState?.selectedLanguages);
+
+function persistState() {
+  try {
+    window.localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({
+        currentPage: state.currentPage,
+        selectedLanguages: state.selectedLanguages,
+      }),
+    );
+  } catch {
+    // ignore storage failures
+  }
+}
 
 function orderedSelectedLanguages() {
   return languageList.filter((lang) => state.selectedLanguages.includes(lang.id));
@@ -214,13 +260,15 @@ function renderSection(section) {
 function toggleLanguage(langId) {
   const isSelected = state.selectedLanguages.includes(langId);
   if (isSelected) {
-    if (state.selectedLanguages.length === 1) return;
+    if (state.selectedLanguages.length === 1) return false;
     state.selectedLanguages = state.selectedLanguages.filter((id) => id !== langId);
   } else {
     state.selectedLanguages = languageList
       .map((lang) => lang.id)
       .filter((id) => state.selectedLanguages.includes(id) || id === langId);
   }
+  persistState();
+  return true;
 }
 
 function renderTranslationSelector() {
@@ -234,7 +282,8 @@ function renderTranslationSelector() {
     button.title = `${lang.label} — ${lang.note}`;
     button.setAttribute("aria-pressed", state.selectedLanguages.includes(lang.id) ? "true" : "false");
     button.addEventListener("click", () => {
-      toggleLanguage(lang.id);
+      const changed = toggleLanguage(lang.id);
+      if (!changed) return;
       clearHighlightState();
       render();
     });
@@ -252,6 +301,7 @@ function renderPageList() {
     button.dataset.page = pageId;
     button.addEventListener("click", () => {
       state.currentPage = pageId;
+      persistState();
       clearHighlightState();
       renderPageList();
       if (state.query.trim()) {
@@ -331,6 +381,7 @@ prevPageEl.addEventListener("click", () => {
   const index = pageIds.indexOf(state.currentPage);
   if (index > 0) {
     state.currentPage = pageIds[index - 1];
+    persistState();
     clearHighlightState();
     renderPageList();
     updatePageButtons();
@@ -347,6 +398,7 @@ nextPageEl.addEventListener("click", () => {
   const index = pageIds.indexOf(state.currentPage);
   if (index >= 0 && index < pageIds.length - 1) {
     state.currentPage = pageIds[index + 1];
+    persistState();
     clearHighlightState();
     renderPageList();
     updatePageButtons();
@@ -421,4 +473,23 @@ sectionsEl.addEventListener("click", (event) => {
   highlightPhrase(phrase);
 });
 
+window.addEventListener("storage", (event) => {
+  if (event.key !== STORAGE_KEY || !event.newValue) return;
+
+  try {
+    const incoming = JSON.parse(event.newValue);
+    state.currentPage = sanitizeCurrentPage(incoming.currentPage);
+    state.selectedLanguages = sanitizeSelectedLanguages(incoming.selectedLanguages);
+    clearHighlightState();
+    render();
+    if (!state.query.trim()) {
+      requestAnimationFrame(() => scrollToPage(state.currentPage));
+    }
+  } catch {
+    // ignore malformed storage updates
+  }
+});
+
+persistState();
 render();
+requestAnimationFrame(() => scrollToPage(state.currentPage));
