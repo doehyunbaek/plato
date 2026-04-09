@@ -5,7 +5,8 @@ This repository mixes original app code with reused source texts.
 ## File-level overview
 
 - `index.html`, `styles.css`, `app.js`, `scripts/build_data.py`: MIT-licensed original code.
-- `data/symposium.json`, `data/symposium-data.js`: mixed-content data files built from third-party texts plus new normalization/alignment metadata.
+- `data/symposium.json`, `data/symposium-data.js`: mixed-content data files built from third-party texts plus new normalization/alignment metadata and generated German/Korean/Japanese translations.
+- `data/translation-cache.json`: build cache for generated translations.
 
 ## Greek text
 
@@ -40,6 +41,16 @@ Copyright note used here:
 - The 1925 translation is treated as public domain in the United States.
 - If you deploy or redistribute outside the United States, verify local copyright status before reuse.
 
+## Machine-generated translations
+
+This repository also includes German, Korean, and Japanese translations generated during the build step.
+
+- Source for generation: the Lamb English translation described above.
+- Build method: phrase-by-phrase machine translation using an online translation service endpoint from within `scripts/build_data.py`.
+- These translations are provided as convenience reading aids only.
+- They may contain inaccuracies, awkward phrasing, or interpretation errors.
+- If you regenerate them yourself, you are responsible for checking any service terms that apply at build time.
+
 ## New material added in this repository
 
 New material includes:
@@ -48,7 +59,8 @@ New material includes:
 - build scripts,
 - source cleanup/normalization,
 - sectioning metadata,
-- approximate phrase-level Greek↔English alignment metadata.
+- approximate phrase-level Greek↔English alignment metadata,
+- generated German/Korean/Japanese phrase-level translations derived from the English source.
 
 Because the alignment metadata is distributed together with and derived in part from the CC BY-SA Greek text, the generated data files should be reused conservatively under CC BY-SA 4.0 or later.
 

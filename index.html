@@ -10,16 +10,22 @@
     <div class="app-shell">
       <aside class="sidebar">
         <div class="sidebar-header">
-          <p class="eyebrow">Bilingual Plato</p>
+          <p class="eyebrow">Multilingual Plato</p>
           <h1>Symposium</h1>
           <p class="sidebar-copy">
-            Read Plato side by side in Greek and English, organized by Stephanus reference.
+            Read Plato side by side in Greek and English, German, Korean, or Japanese, organized by Stephanus reference.
           </p>
         </div>
 
         <div class="sidebar-controls">
-          <label class="search-label" for="search-input">Search Greek, English, or Stephanus</label>
-          <input id="search-input" type="search" placeholder="e.g. 210a, ἔρως, love" />
+          <label class="search-label" for="translation-select">Translation language</label>
+          <div id="translation-select" class="translation-select" aria-label="Translation language"></div>
+          <p id="translation-summary" class="search-summary"></p>
+        </div>
+
+        <div class="sidebar-controls">
+          <label class="search-label" for="search-input">Search Greek, translation text, or Stephanus</label>
+          <input id="search-input" type="search" placeholder="e.g. 210a, ἔρως, love, 사랑, 愛" />
           <p id="search-summary" class="search-summary"></p>
         </div>
 
@@ -37,10 +43,10 @@
         <details class="sidebar-details" open>
           <summary>How to use</summary>
           <ul>
-            <li>Choose a Stephanus page from the left.</li>
+            <li>Choose a translation language, then pick a Stephanus page.</li>
             <li>Hover a phrase to highlight the approximate matching phrase on the other side.</li>
             <li>Click a phrase to lock the highlight; click again to clear it.</li>
-            <li>Use search to find passages across the whole dialogue.</li>
+            <li>Use search to find passages across Greek and all loaded translations.</li>
           </ul>
         </details>
       </aside>
@@ -59,8 +65,8 @@
         </header>
 
         <section class="info-banner">
-          <p>
-            Greek text from Greek Wikisource. English translation from W. R. M. Lamb (1925). Phrase alignment is approximate and intended as a reading aid.
+          <p id="info-banner-copy">
+            Greek text from Greek Wikisource. English translation from W. R. M. Lamb (1925). German, Korean, and Japanese are machine-generated from the English source. Phrase alignment is approximate and intended as a reading aid.
           </p>
         </section>
 
@@ -79,6 +85,9 @@
               <p>
                 English source: <a href="https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0059/tlg011/tlg0059.tlg011.perseus-eng2.xml" target="_blank" rel="noreferrer">PerseusDL TEI</a>,
                 Plato, <em>Symposium</em>, trans. W. R. M. Lamb (1925). Treated here as public domain in the United States; verify local copyright status before wider redistribution outside the U.S.
+              </p>
+              <p>
+                German, Korean, and Japanese texts in this app are machine-generated during the build step from the Lamb English source and are provided as convenience translations only.
               </p>
               <p>
                 This app normalizes whitespace, splits the texts into Stephanus sections, and adds approximate phrase-level alignment metadata. See <a href="COPYRIGHT.md">COPYRIGHT.md</a> for details.

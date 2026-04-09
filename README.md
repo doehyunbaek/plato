@@ -4,10 +4,10 @@ A client-side web app for reading Plato's *Symposium* in Greek and English.
 
 ## Features
 
-- Greek/English side-by-side layout
+- Greek side-by-side with English, German, Korean, or Japanese
 - Navigation by Stephanus page
 - Approximate phrase-level hover alignment
-- Client-side search
+- Client-side search across Greek and all loaded translations
 - Static files only
 
 ## Run locally
@@ -23,3 +23,8 @@ python3 scripts/build_data.py
 ## Sources and copyright
 
 See `COPYRIGHT.md`.
+
+## Translation note
+
+- English uses the public-domain W. R. M. Lamb translation.
+- German, Korean, and Japanese are machine-generated from the English source during `scripts/build_data.py` and should be treated as convenience translations.

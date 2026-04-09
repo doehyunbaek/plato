@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import hashlib
 import json
 import re
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import OrderedDict
@@ -14,8 +16,39 @@ GREEK_PAGE_URL = "https://el.wikisource.org/wiki/%CE%A3%CF%85%CE%BC%CF%80%CF%8C%
 GREEK_HISTORY_URL = "https://el.wikisource.org/w/index.php?title=%CE%A3%CF%85%CE%BC%CF%80%CF%8C%CF%83%CE%B9%CE%BF%CE%BD_(%CE%A0%CE%BB%CE%AC%CF%84%CF%89%CE%BD)&action=history"
 ENGLISH_SOURCE_URL = "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0059/tlg011/tlg0059.tlg011.perseus-eng2.xml"
 ENGLISH_WORK_URL = "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0059/tlg011/tlg0059.tlg011.perseus-eng2.xml"
+GOOGLE_TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&dt=t"
 OUTPUT_JSON = Path("data/symposium.json")
 OUTPUT_JS = Path("data/symposium-data.js")
+TRANSLATION_CACHE = Path("data/translation-cache.json")
+
+TARGET_LANGUAGES = OrderedDict(
+    {
+        "en": {
+            "label": "English",
+            "nativeLabel": "English",
+            "type": "source",
+            "note": "Public-domain translation by W. R. M. Lamb (1925).",
+        },
+        "de": {
+            "label": "German",
+            "nativeLabel": "Deutsch",
+            "type": "machine-generated",
+            "note": "Machine-generated from the Lamb English translation during the build step.",
+        },
+        "ko": {
+            "label": "Korean",
+            "nativeLabel": "한국어",
+            "type": "machine-generated",
+            "note": "Machine-generated from the Lamb English translation during the build step.",
+        },
+        "ja": {
+            "label": "Japanese",
+            "nativeLabel": "日本語",
+            "type": "machine-generated",
+            "note": "Machine-generated from the Lamb English translation during the build step.",
+        },
+    }
+)
 
 NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 STRONG_BREAK = re.compile(r"(?<=[\.;:!?·])\s+")
@@ -210,6 +243,72 @@ def build_phrase_alignment(greek_text: str, english_text: str) -> tuple[list[dic
     return greek_phrase_data, english_phrase_data
 
 
+def load_translation_cache() -> dict:
+    if TRANSLATION_CACHE.exists():
+        return json.loads(TRANSLATION_CACHE.read_text())
+    return {}
+
+
+def save_translation_cache(cache: dict) -> None:
+    TRANSLATION_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    TRANSLATION_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n")
+
+
+def cache_key(text: str, target_lang: str) -> str:
+    return hashlib.sha1(f"{target_lang}\u241f{text}".encode("utf-8")).hexdigest()
+
+
+def google_translate_text(text: str, target_lang: str) -> str:
+    query = urllib.parse.urlencode({"tl": target_lang, "q": text})
+    url = f"{GOOGLE_TRANSLATE_URL}&{query}"
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    raw = urllib.request.urlopen(request).read().decode("utf-8")
+    payload = json.loads(raw)
+    return "".join(part[0] for part in payload[0])
+
+
+def translate_lines(lines: list[str], target_lang: str, cache: dict) -> list[str]:
+    if target_lang == "en":
+        return lines
+
+    joined = "\n".join(lines)
+    joined_key = cache_key(joined, target_lang)
+
+    if joined_key in cache:
+        translated = cache[joined_key]
+    else:
+        translated = google_translate_text(joined, target_lang)
+        cache[joined_key] = translated
+
+    split_lines = translated.split("\n")
+    if len(split_lines) == len(lines):
+        return [normalize_whitespace(line) for line in split_lines]
+
+    output = []
+    for line in lines:
+        line_key = cache_key(line, target_lang)
+        if line_key in cache:
+            translated_line = cache[line_key]
+        else:
+            translated_line = google_translate_text(line, target_lang)
+            cache[line_key] = translated_line
+        output.append(normalize_whitespace(translated_line))
+    return output
+
+
+def translation_phrase_data(english_phrases: list[dict], target_lang: str, cache: dict) -> dict:
+    source_lines = [phrase["text"] for phrase in english_phrases]
+    translated_lines = translate_lines(source_lines, target_lang, cache)
+    translated_phrases = [
+        {"text": translated_lines[index], "mapsTo": phrase["mapsTo"]}
+        for index, phrase in enumerate(english_phrases)
+    ]
+    return {
+        "text": normalize_whitespace(" ".join(translated_lines)),
+        "phrases": translated_phrases,
+    }
+
+
 def page_id(section_id: str) -> str:
     return re.match(r"\d+", section_id).group(0)  # type: ignore[union-attr]
 
@@ -221,22 +320,34 @@ def build_dataset() -> dict:
     if list(greek_sections.keys()) != list(english_sections.keys()):
         raise RuntimeError("Greek and English section ids do not match")
 
+    cache = load_translation_cache()
     sections = []
+
     for order, section_id in enumerate(greek_sections.keys()):
         greek_text = greek_sections[section_id]
         english_text = english_sections[section_id]
         greek_phrases, english_phrases = build_phrase_alignment(greek_text, english_text)
+
+        translations = OrderedDict()
+        translations["en"] = {
+            "text": english_text,
+            "phrases": english_phrases,
+        }
+        for lang in ("de", "ko", "ja"):
+            translations[lang] = translation_phrase_data(english_phrases, lang, cache)
+
         sections.append(
             {
                 "id": section_id,
                 "page": page_id(section_id),
                 "order": order,
                 "greek": greek_text,
-                "english": english_text,
                 "greekPhrases": greek_phrases,
-                "englishPhrases": english_phrases,
+                "translations": translations,
             }
         )
+
+    save_translation_cache(cache)
 
     pages = OrderedDict()
     for section in sections:
@@ -245,13 +356,18 @@ def build_dataset() -> dict:
     return {
         "meta": {
             "title": "Plato — Symposium",
-            "subtitle": "Greek from Greek Wikisource; English translation from W. R. M. Lamb (1925)",
+            "subtitle": "Greek from Greek Wikisource; English source translation from W. R. M. Lamb (1925); German, Korean, and Japanese generated client-side data from the English source.",
             "builtAt": str(date.today()),
             "alignmentNote": "Phrase alignment is approximate and order-preserving. It is intended as a reading aid, not as a formal interlinear translation.",
+            "translationNote": "German, Korean, and Japanese texts were machine-generated from the Lamb English translation on a phrase-by-phrase basis during the build step. They are convenience translations and may be inaccurate or stylistically uneven.",
             "modifications": [
                 "Normalized whitespace and removed source markup.",
                 "Split both texts into Stephanus sections (172a–223d).",
                 "Added approximate phrase-level alignment metadata for hover highlighting.",
+                "Generated German, Korean, and Japanese phrase-level translations from the English source for multilingual reading.",
+            ],
+            "languages": [
+                {"id": lang_id, **details} for lang_id, details in TARGET_LANGUAGES.items()
             ],
             "greekSource": {
                 "label": "Greek Wikisource — Συμπόσιον (Πλάτων)",
@@ -269,6 +385,11 @@ def build_dataset() -> dict:
                 "edition": "Plato in Twelve Volumes, Vol. 3 (1925)",
                 "rightsNote": "Treated here as a public-domain English translation in the United States. Check local copyright law before wider redistribution outside the U.S.",
             },
+            "generatedTranslations": {
+                "langs": ["de", "ko", "ja"],
+                "method": "Machine-generated at build time from the English source using an online translation service endpoint.",
+                "rightsNote": "Treat these generated texts conservatively as derivative repository data bundled with the CC BY-SA Greek source and related alignment metadata.",
+            },
         },
         "pages": [{"id": key, "sectionIds": value} for key, value in pages.items()],
         "sections": sections,
@@ -284,6 +405,7 @@ def main() -> None:
     )
     print(f"Wrote {OUTPUT_JSON}")
     print(f"Wrote {OUTPUT_JS}")
+    print(f"Wrote {TRANSLATION_CACHE}")
 
 
 if __name__ == "__main__":

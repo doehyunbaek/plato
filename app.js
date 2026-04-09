@@ -1,7 +1,11 @@
 const data = window.SYMPOSIUM_DATA;
 
+const languageList = data.meta.languages;
+const defaultLanguage = languageList.find((lang) => lang.id === "en")?.id ?? languageList[0]?.id ?? "en";
+
 const state = {
   currentPage: data.pages[0]?.id ?? "172",
+  currentLanguage: defaultLanguage,
   query: "",
   locked: null,
 };
@@ -12,6 +16,9 @@ const viewTitleEl = document.getElementById("view-title");
 const viewSubtitleEl = document.getElementById("view-subtitle");
 const searchInputEl = document.getElementById("search-input");
 const searchSummaryEl = document.getElementById("search-summary");
+const translationSelectEl = document.getElementById("translation-select");
+const translationSummaryEl = document.getElementById("translation-summary");
+const infoBannerCopyEl = document.getElementById("info-banner-copy");
 const prevPageEl = document.getElementById("prev-page");
 const nextPageEl = document.getElementById("next-page");
 const clearSearchEl = document.getElementById("clear-search");
@@ -20,9 +27,18 @@ const clearHighlightEl = document.getElementById("clear-highlight");
 const sectionsByPage = new Map(data.pages.map((page) => [page.id, page.sectionIds]));
 const sectionById = new Map(data.sections.map((section) => [section.id, section]));
 const pageIds = data.pages.map((page) => page.id);
+const languageById = new Map(languageList.map((lang) => [lang.id, lang]));
+
+function currentLanguageMeta() {
+  return languageById.get(state.currentLanguage) ?? languageList[0];
+}
+
+function translationForSection(section, langId = state.currentLanguage) {
+  return section.translations[langId];
+}
 
 function normalizeForSearch(value) {
-  return value
+  return String(value)
     .normalize("NFD")
     .replace(/\p{M}/gu, "")
     .toLowerCase();
@@ -32,9 +48,13 @@ function matchesQuery(section, query) {
   if (!query) return true;
   const q = normalizeForSearch(query.trim());
   if (!q) return true;
-  return [section.id, section.greek, section.english].some((value) =>
-    normalizeForSearch(value).includes(q),
-  );
+
+  const values = [section.id, section.greek];
+  for (const lang of languageList) {
+    values.push(section.translations[lang.id].text);
+  }
+
+  return values.some((value) => normalizeForSearch(value).includes(q));
 }
 
 function currentSections() {
@@ -70,7 +90,7 @@ function highlightPhrase(phraseEl) {
 
   phraseEl.classList.add("is-active");
 
-  const oppositeSide = side === "greek" ? "english" : "greek";
+  const oppositeSide = side === "greek" ? "translation" : "greek";
   mapsTo.forEach((index) => {
     const linked = sectionsEl.querySelector(
       `.phrase[data-section-id="${sectionId}"][data-side="${oppositeSide}"][data-index="${index}"]`,
@@ -91,7 +111,7 @@ function phraseSpan(text, sectionId, side, index, mapsTo) {
   return span;
 }
 
-function renderColumn(title, side, phrases, sectionId) {
+function renderColumn(title, sideClass, sideKey, phrases, sectionId) {
   const column = document.createElement("section");
   column.className = "column";
 
@@ -99,10 +119,10 @@ function renderColumn(title, side, phrases, sectionId) {
   heading.textContent = title;
 
   const text = document.createElement("p");
-  text.className = `text-block ${side}`;
+  text.className = `text-block ${sideClass}`;
 
   phrases.forEach((phrase, index) => {
-    text.appendChild(phraseSpan(phrase.text, sectionId, side, index, phrase.mapsTo));
+    text.appendChild(phraseSpan(phrase.text, sectionId, sideKey, index, phrase.mapsTo));
   });
 
   column.append(heading, text);
@@ -126,15 +146,35 @@ function renderSection(section) {
 
   header.append(title, badge);
 
+  const selectedLanguage = currentLanguageMeta();
+  const translation = translationForSection(section);
+
   const columns = document.createElement("div");
   columns.className = "columns";
   columns.append(
-    renderColumn("Greek", "greek", section.greekPhrases, section.id),
-    renderColumn("English", "english", section.englishPhrases, section.id),
+    renderColumn("Greek", "greek", "greek", section.greekPhrases, section.id),
+    renderColumn(selectedLanguage.nativeLabel, "english", "translation", translation.phrases, section.id),
   );
 
   card.append(header, columns);
   return card;
+}
+
+function renderTranslationSelector() {
+  translationSelectEl.innerHTML = "";
+  languageList.forEach((lang) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `translation-button${lang.id === state.currentLanguage ? " active" : ""}`;
+    button.textContent = lang.nativeLabel;
+    button.title = `${lang.label} — ${lang.note}`;
+    button.addEventListener("click", () => {
+      state.currentLanguage = lang.id;
+      clearHighlightState();
+      render();
+    });
+    translationSelectEl.appendChild(button);
+  });
 }
 
 function renderPageList() {
@@ -157,17 +197,27 @@ function renderPageList() {
 }
 
 function renderSummary(sections) {
+  const selectedLanguage = currentLanguageMeta();
+  translationSummaryEl.textContent = `${selectedLanguage.nativeLabel}: ${selectedLanguage.note}`;
+
   if (state.query.trim()) {
     viewTitleEl.textContent = `Search results for “${state.query.trim()}”`;
-    viewSubtitleEl.textContent = `${sections.length} matching section${sections.length === 1 ? "" : "s"} across the dialogue.`;
+    viewSubtitleEl.textContent = `${sections.length} matching section${sections.length === 1 ? "" : "s"} across Greek and all translations.`;
     searchSummaryEl.textContent = `${sections.length} result${sections.length === 1 ? "" : "s"}`;
   } else {
     const ids = sections.map((section) => section.id);
     viewTitleEl.textContent = `Stephanus ${state.currentPage}`;
     viewSubtitleEl.textContent = ids.length
-      ? `Showing ${ids.join(", ")}. Hover phrases for approximate cross-language alignment.`
+      ? `Showing ${ids.join(", ")} in Greek + ${selectedLanguage.label}. Hover phrases for approximate cross-language alignment.`
       : "No sections available for this page.";
     searchSummaryEl.textContent = data.meta.alignmentNote;
+  }
+
+  const base = "Greek text from Greek Wikisource. English translation from W. R. M. Lamb (1925).";
+  if (state.currentLanguage === "en") {
+    infoBannerCopyEl.textContent = `${base} Phrase alignment is approximate and intended as a reading aid.`;
+  } else {
+    infoBannerCopyEl.textContent = `${base} ${selectedLanguage.label} is machine-generated from the English source. Phrase alignment is approximate and intended as a reading aid.`;
   }
 }
 
@@ -194,6 +244,7 @@ function updatePageButtons() {
 }
 
 function render() {
+  renderTranslationSelector();
   renderPageList();
   renderSections();
   updatePageButtons();
