@@ -4,7 +4,7 @@ A client-side web app for reading Plato's *Symposium* in Greek and English.
 
 ## Features
 
-- Greek side-by-side with English, German, Korean, or Japanese
+- Multi-select languages shown side by side, including Greek, English, German, Korean, and Japanese
 - Entire dialogue rendered at once by default
 - Stephanus page jump navigation
 - Approximate phrase-level hover alignment

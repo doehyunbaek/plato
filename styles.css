@@ -276,7 +276,7 @@ a {
 
 .columns {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--column-count, 2), minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -299,12 +299,22 @@ a {
   line-height: 1.85;
 }
 
-.text-block.greek {
+.text-block.lang-gr {
   font-family: "Palatino Linotype", "Iowan Old Style", "Noto Serif", Georgia, serif;
 }
 
-.text-block.english {
+.text-block.lang-en,
+.text-block.lang-de {
   font-family: "Iowan Old Style", Georgia, serif;
+}
+
+.text-block.lang-ko {
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  word-break: keep-all;
+}
+
+.text-block.lang-ja {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
 }
 
 .phrase {

@@ -1,11 +1,19 @@
 const data = window.SYMPOSIUM_DATA;
 
-const languageList = data.meta.languages;
-const defaultLanguage = languageList.find((lang) => lang.id === "en")?.id ?? languageList[0]?.id ?? "en";
+const greekLanguage = {
+  id: "gr",
+  label: "Greek",
+  nativeLabel: "Ελληνικά",
+  type: "source",
+  note: "Greek source text from Greek Wikisource.",
+};
+
+const languageList = [greekLanguage, ...data.meta.languages];
+const defaultSelectedLanguages = ["gr", "en"];
 
 const state = {
   currentPage: data.pages[0]?.id ?? "172",
-  currentLanguage: defaultLanguage,
+  selectedLanguages: defaultSelectedLanguages.filter((id) => languageList.some((lang) => lang.id === id)),
   query: "",
   locked: null,
 };
@@ -29,11 +37,17 @@ const sectionById = new Map(data.sections.map((section) => [section.id, section]
 const pageIds = data.pages.map((page) => page.id);
 const languageById = new Map(languageList.map((lang) => [lang.id, lang]));
 
-function currentLanguageMeta() {
-  return languageById.get(state.currentLanguage) ?? languageList[0];
+function orderedSelectedLanguages() {
+  return languageList.filter((lang) => state.selectedLanguages.includes(lang.id));
 }
 
-function translationForSection(section, langId = state.currentLanguage) {
+function languageContent(section, langId) {
+  if (langId === "gr") {
+    return {
+      text: section.greek,
+      phrases: section.greekPhrases,
+    };
+  }
   return section.translations[langId];
 }
 
@@ -49,9 +63,9 @@ function matchesQuery(section, query) {
   const q = normalizeForSearch(query.trim());
   if (!q) return true;
 
-  const values = [section.id, section.greek];
-  for (const lang of languageList) {
-    values.push(section.translations[lang.id].text);
+  const values = [section.id];
+  for (const lang of orderedSelectedLanguages()) {
+    values.push(languageContent(section, lang.id).text);
   }
 
   return values.some((value) => normalizeForSearch(value).includes(q));
@@ -95,7 +109,8 @@ function highlightPhrase(phraseEl) {
   if (!phraseEl) return;
 
   const sectionId = phraseEl.dataset.sectionId;
-  const side = phraseEl.dataset.side;
+  const lang = phraseEl.dataset.lang;
+  const index = Number(phraseEl.dataset.index);
   const mapsTo = (phraseEl.dataset.mapsTo || "")
     .split(",")
     .filter(Boolean)
@@ -103,20 +118,42 @@ function highlightPhrase(phraseEl) {
 
   phraseEl.classList.add("is-active");
 
-  const oppositeSide = side === "greek" ? "translation" : "greek";
-  mapsTo.forEach((index) => {
-    const linked = sectionsEl.querySelector(
-      `.phrase[data-section-id="${sectionId}"][data-side="${oppositeSide}"][data-index="${index}"]`,
+  const selected = orderedSelectedLanguages().map((entry) => entry.id);
+
+  if (lang === "gr") {
+    for (const otherLang of selected) {
+      if (otherLang === "gr") continue;
+      mapsTo.forEach((mappedIndex) => {
+        const linked = sectionsEl.querySelector(
+          `.phrase[data-section-id="${sectionId}"][data-lang="${otherLang}"][data-index="${mappedIndex}"]`,
+        );
+        if (linked) linked.classList.add("is-linked");
+      });
+    }
+    return;
+  }
+
+  mapsTo.forEach((mappedIndex) => {
+    const greekPhrase = sectionsEl.querySelector(
+      `.phrase[data-section-id="${sectionId}"][data-lang="gr"][data-index="${mappedIndex}"]`,
     );
-    if (linked) linked.classList.add("is-linked");
+    if (greekPhrase) greekPhrase.classList.add("is-linked");
   });
+
+  for (const otherLang of selected) {
+    if (otherLang === "gr" || otherLang === lang) continue;
+    const sibling = sectionsEl.querySelector(
+      `.phrase[data-section-id="${sectionId}"][data-lang="${otherLang}"][data-index="${index}"]`,
+    );
+    if (sibling) sibling.classList.add("is-linked");
+  }
 }
 
-function phraseSpan(text, sectionId, side, index, mapsTo) {
+function phraseSpan(text, sectionId, langId, index, mapsTo) {
   const span = document.createElement("span");
   span.className = "phrase";
   span.dataset.sectionId = sectionId;
-  span.dataset.side = side;
+  span.dataset.lang = langId;
   span.dataset.index = String(index);
   span.dataset.mapsTo = mapsTo.join(",");
   span.tabIndex = 0;
@@ -124,18 +161,20 @@ function phraseSpan(text, sectionId, side, index, mapsTo) {
   return span;
 }
 
-function renderColumn(title, sideClass, sideKey, phrases, sectionId) {
+function renderColumn(language, section) {
+  const content = languageContent(section, language.id);
+
   const column = document.createElement("section");
   column.className = "column";
 
   const heading = document.createElement("h4");
-  heading.textContent = title;
+  heading.textContent = language.nativeLabel;
 
   const text = document.createElement("p");
-  text.className = `text-block ${sideClass}`;
+  text.className = `text-block lang-${language.id}`;
 
-  phrases.forEach((phrase, index) => {
-    text.appendChild(phraseSpan(phrase.text, sectionId, sideKey, index, phrase.mapsTo));
+  content.phrases.forEach((phrase, index) => {
+    text.appendChild(phraseSpan(phrase.text, section.id, language.id, index, phrase.mapsTo));
   });
 
   column.append(heading, text);
@@ -159,30 +198,43 @@ function renderSection(section) {
 
   header.append(title, badge);
 
-  const selectedLanguage = currentLanguageMeta();
-  const translation = translationForSection(section);
-
+  const selected = orderedSelectedLanguages();
   const columns = document.createElement("div");
   columns.className = "columns";
-  columns.append(
-    renderColumn("Greek", "greek", "greek", section.greekPhrases, section.id),
-    renderColumn(selectedLanguage.nativeLabel, "english", "translation", translation.phrases, section.id),
-  );
+  columns.style.setProperty("--column-count", String(Math.max(selected.length, 1)));
+
+  selected.forEach((language) => {
+    columns.appendChild(renderColumn(language, section));
+  });
 
   card.append(header, columns);
   return card;
 }
 
+function toggleLanguage(langId) {
+  const isSelected = state.selectedLanguages.includes(langId);
+  if (isSelected) {
+    if (state.selectedLanguages.length === 1) return;
+    state.selectedLanguages = state.selectedLanguages.filter((id) => id !== langId);
+  } else {
+    state.selectedLanguages = languageList
+      .map((lang) => lang.id)
+      .filter((id) => state.selectedLanguages.includes(id) || id === langId);
+  }
+}
+
 function renderTranslationSelector() {
   translationSelectEl.innerHTML = "";
+
   languageList.forEach((lang) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = `translation-button${lang.id === state.currentLanguage ? " active" : ""}`;
+    button.className = `translation-button${state.selectedLanguages.includes(lang.id) ? " active" : ""}`;
     button.textContent = lang.nativeLabel;
     button.title = `${lang.label} — ${lang.note}`;
+    button.setAttribute("aria-pressed", state.selectedLanguages.includes(lang.id) ? "true" : "false");
     button.addEventListener("click", () => {
-      state.currentLanguage = lang.id;
+      toggleLanguage(lang.id);
       clearHighlightState();
       render();
     });
@@ -215,24 +267,28 @@ function renderPageList() {
 }
 
 function renderSummary(sections) {
-  const selectedLanguage = currentLanguageMeta();
-  translationSummaryEl.textContent = `${selectedLanguage.nativeLabel}: ${selectedLanguage.note}`;
+  const selected = orderedSelectedLanguages();
+  const names = selected.map((lang) => lang.nativeLabel).join(" · ");
+  const machineLanguages = selected.filter((lang) => lang.type === "machine-generated");
+
+  translationSummaryEl.textContent = `Selected: ${names}`;
 
   if (state.query.trim()) {
     viewTitleEl.textContent = `Search results for “${state.query.trim()}”`;
-    viewSubtitleEl.textContent = `${sections.length} matching section${sections.length === 1 ? "" : "s"} across Greek and all translations.`;
+    viewSubtitleEl.textContent = `${sections.length} matching section${sections.length === 1 ? "" : "s"} across the currently displayed languages.`;
     searchSummaryEl.textContent = `${sections.length} result${sections.length === 1 ? "" : "s"}`;
   } else {
     viewTitleEl.textContent = "Entire dialogue";
-    viewSubtitleEl.textContent = `Showing all Stephanus sections in Greek + ${selectedLanguage.label}. Use the page buttons to jump within the text.`;
+    viewSubtitleEl.textContent = `Showing all Stephanus sections side by side in ${names}. Use the page buttons to jump within the text.`;
     searchSummaryEl.textContent = data.meta.alignmentNote;
   }
 
   const base = "Greek text from Greek Wikisource. English translation from W. R. M. Lamb (1925).";
-  if (state.currentLanguage === "en") {
+  if (!machineLanguages.length) {
     infoBannerCopyEl.textContent = `${base} Phrase alignment is approximate and intended as a reading aid.`;
   } else {
-    infoBannerCopyEl.textContent = `${base} ${selectedLanguage.label} is machine-generated from the English source. Phrase alignment is approximate and intended as a reading aid.`;
+    const machineNames = machineLanguages.map((lang) => lang.label).join(", ");
+    infoBannerCopyEl.textContent = `${base} ${machineNames} ${machineLanguages.length === 1 ? "is" : "are"} machine-generated from the English source. Phrase alignment is approximate and intended as a reading aid.`;
   }
 }
 
@@ -349,7 +405,7 @@ sectionsEl.addEventListener("click", (event) => {
   const sameLocked =
     state.locked &&
     state.locked.sectionId === phrase.dataset.sectionId &&
-    state.locked.side === phrase.dataset.side &&
+    state.locked.lang === phrase.dataset.lang &&
     state.locked.index === phrase.dataset.index;
 
   if (sameLocked) {
@@ -359,7 +415,7 @@ sectionsEl.addEventListener("click", (event) => {
 
   state.locked = {
     sectionId: phrase.dataset.sectionId,
-    side: phrase.dataset.side,
+    lang: phrase.dataset.lang,
     index: phrase.dataset.index,
   };
   highlightPhrase(phrase);
